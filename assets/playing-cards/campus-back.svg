@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="560" viewBox="0 0 400 560">
+<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#e4d9b6" stroke-width="1" opacity=".25"/></pattern><pattern id="paper" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 2h4M4 6h3" stroke="#183f3d" opacity=".15"/></pattern><g id="leaf"><path d="M0 0q-22-20-18-37Q-1-28 0 0M0-3q24-12 23-29Q5-29 0-3" fill="#d9c890"/></g></defs>
+<rect x="1" y="1" width="398" height="558" rx="22" fill="#fff9e9" stroke="#8e7857" stroke-width="2"/>
+<rect x="16" y="16" width="368" height="528" rx="15" fill="#315a55"/>
+<rect x="16" y="16" width="368" height="528" rx="15" fill="url(#grid)"/>
+<rect x="16" y="16" width="368" height="528" rx="15" fill="url(#paper)"/>
+<rect x="28" y="28" width="344" height="504" rx="9" fill="none" stroke="#d9c890" stroke-width="2"/>
+<rect x="36" y="36" width="328" height="488" rx="5" fill="none" stroke="#d9c890" stroke-width=".8"/>
+<g fill="none" stroke="#d9c890" stroke-width="2"><path d="m200 73 114 207-114 207L86 280Z"/><path d="m200 87 106 193-106 193L94 280Z"/></g>
+<circle cx="200" cy="280" r="74" fill="#315a55" stroke="#d9c890" stroke-width="2"/>
+<circle cx="200" cy="280" r="66" fill="none" stroke="#d9c890"/>
+<g stroke="#e7dab2" stroke-width="2" fill="#315a55"><path d="M149 248q28-12 51 6 24-18 51-6v64q-28-10-51 7-23-17-51-7Z"/><path d="M200 254v65M158 260q18-6 33 5M158 272q18-6 33 5M158 284q18-6 33 5M158 296q18-6 33 5M209 265q16-11 33-5M209 277q16-11 33-5M209 289q16-11 33-5M209 301q16-11 33-5"/></g>
+<use href="#leaf" transform="translate(74 99) rotate(-25)"/><use href="#leaf" transform="translate(326 461) rotate(155)"/>
+<use href="#leaf" transform="translate(326 99) rotate(25)"/><use href="#leaf" transform="translate(74 461) rotate(205)"/>
+</svg>

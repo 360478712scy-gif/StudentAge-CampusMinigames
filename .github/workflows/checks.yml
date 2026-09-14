@@ -1,0 +1,25 @@
+name: Rules and updater checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9
+        with:
+          dotnet-version: '10.0.x'
+      - name: Build Windows update helper
+        run: dotnet build updater/Helper/Updater.csproj -c Release
+      - name: Run independent rule and update tests
+        run: |
+          dotnet run --project tests/EngineTests.csproj
+          dotnet run --project shared/tests/SharedTests.csproj
+          dotnet run --project shared/second-tests/SecondTests.csproj
+          dotnet run --project integration/tests/GomokuTests.csproj
+          dotnet run --project bubble/tests/BubbleTests.csproj
+          dotnet run --project retro/tests/RetroTests.csproj
+          dotnet run --project mahjong/tests/MahjongTests.csproj
+          dotnet run --project integration/tuning-tests/TuningTests.csproj
+          dotnet run --project updater/tests/UpdateTests.csproj

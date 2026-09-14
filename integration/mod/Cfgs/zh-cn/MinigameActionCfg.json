@@ -1,0 +1,769 @@
+{
+  "910101": {
+    "id": 910101,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910102": {
+    "id": 910102,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910103": {
+    "id": 910103,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910104": {
+    "id": 910104,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910105": {
+    "id": 910105,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910201": {
+    "id": 910201,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910202": {
+    "id": 910202,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910203": {
+    "id": 910203,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910204": {
+    "id": 910204,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910205": {
+    "id": 910205,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910301": {
+    "id": 910301,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910302": {
+    "id": 910302,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910303": {
+    "id": 910303,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910304": {
+    "id": 910304,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910305": {
+    "id": 910305,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910401": {
+    "id": 910401,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910402": {
+    "id": 910402,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910403": {
+    "id": 910403,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910404": {
+    "id": 910404,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910405": {
+    "id": 910405,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910501": {
+    "id": 910501,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910502": {
+    "id": 910502,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910503": {
+    "id": 910503,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910504": {
+    "id": 910504,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910505": {
+    "id": 910505,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910601": {
+    "id": 910601,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910602": {
+    "id": 910602,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910603": {
+    "id": 910603,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910604": {
+    "id": 910604,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910605": {
+    "id": 910605,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910701": {
+    "id": 910701,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910702": {
+    "id": 910702,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910703": {
+    "id": 910703,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910704": {
+    "id": 910704,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910705": {
+    "id": 910705,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910801": {
+    "id": 910801,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910802": {
+    "id": 910802,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910803": {
+    "id": 910803,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910804": {
+    "id": 910804,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910805": {
+    "id": 910805,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "910901": {
+    "id": 910901,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "910902": {
+    "id": 910902,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "910903": {
+    "id": 910903,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "910904": {
+    "id": 910904,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "910905": {
+    "id": 910905,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "911001": {
+    "id": 911001,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "911002": {
+    "id": 911002,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "911003": {
+    "id": 911003,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "911004": {
+    "id": 911004,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "911005": {
+    "id": 911005,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  },
+  "911006": {
+    "id": 911006,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      6
+    ]
+  },
+  "911007": {
+    "id": 911007,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      7
+    ]
+  },
+  "911008": {
+    "id": 911008,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      8
+    ]
+  },
+  "911101": {
+    "id": 911101,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "911201": {
+    "id": 911201,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      1
+    ]
+  },
+  "911202": {
+    "id": 911202,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      2
+    ]
+  },
+  "911203": {
+    "id": 911203,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      3
+    ]
+  },
+  "911204": {
+    "id": 911204,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      4
+    ]
+  },
+  "911205": {
+    "id": 911205,
+    "needRelation": 3,
+    "cost": 4.0,
+    "startTalk": 0,
+    "winTalk": 0,
+    "loseTalk": 0,
+    "effect": [],
+    "mode": 0,
+    "parms": [
+      5
+    ]
+  }
+}

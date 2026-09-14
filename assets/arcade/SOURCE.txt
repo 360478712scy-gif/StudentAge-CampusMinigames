@@ -1,0 +1,1 @@
+Original project SVG/PNG illustrations: snake-head, snake-body, candy, maze-pupil, maze-guard. Render with tools/render-arcade.cjs. Created for the StudentAge campus minigame plugin; no original game or third-party character sprites are included here.

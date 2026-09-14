@@ -1,0 +1,6 @@
+Card fronts: Adrian Kennard via letele/playing-cards, CC0-1.0.
+https://github.com/letele/playing-cards
+https://www.me.uk/cards/
+54 SVG fronts rasterized to 400 x 560. Original campus back: campus-back.svg.
+
+0.6.0: supersampled, soft grey print border, 420×588 RGBA with transparent gutters around the 400×560 printed area; mipmaps/trilinear filtering in runtime.

@@ -1,0 +1,213 @@
+[
+  {
+    "file": "assets/music/9101.mp3",
+    "title": "UNO Ubisoft PC — Classic Main Game B Basic LP",
+    "source": "https://downloads.khinsider.com/game-soundtracks/album/uno-ps4-switch-windows-xbox-one-gamerip-2017/1-03.%2520Mus%2520Classic%2520Main%2520Game%2520B%2520Basic%2520LP.mp3",
+    "url": "https://jetta.vgmtreasurechest.com/soundtracks/uno-ps4-switch-windows-xbox-one-gamerip-2017/yrtvkfvjgz/1-03.%20Mus%20Classic%20Main%20Game%20B%20Basic%20LP.mp3",
+    "sha256": "9a468de22c0ac0e97fac4eb5f119f2bc53e9df87d107c04e2df15dd97417253e",
+    "bytes": 4092308
+  },
+  {
+    "file": "assets/music/9112.mp3",
+    "title": "雀魂 — Lobby（默认大厅）",
+    "source": "https://downloads.khinsider.com/game-soundtracks/album/mahjong-soul-jantama-android-ios-mobile-gamerip-2018/24.%2520Lobby.mp3",
+    "url": "https://lambda.vgmtreasurechest.com/soundtracks/mahjong-soul-jantama-android-ios-mobile-gamerip-2018/radnhwkj/24.%20Lobby.mp3",
+    "sha256": "a05c66b4df940ff18fc0adeba2f60f52950edd7631e42e9f0779f12ecb64a352",
+    "bytes": 1761790
+  },
+  {
+    "file": "assets/music/919901.mp3",
+    "title": "Pokémon Red — Pokémon Center",
+    "source": "https://www.zophar.net/music/gameboy-gbs/pokemon-red",
+    "url": "https://fi.zophar.net/soundfiles/gameboy-gbs/pokemon-red/05%20Pokemon%20Center.mp3",
+    "sha256": "d0c262d0683c17cba431a95d07aed04962c4b4b19662c3272c601c10ac2e2f9e",
+    "bytes": 7204850
+  },
+  {
+    "file": "assets/music/9107.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/bgm/bgm_normal.mp3",
+    "sha256": "70942be455fab364e3359d62d7bf8b540ffec061844a619622ebee639f4950c1",
+    "bytes": 244759
+  },
+  {
+    "file": "assets/card-audio/bomb.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/effects/bomb.mp3",
+    "sha256": "713804e927326dce9eefe1a67344ef890af25e8814914e8045a0596dfa5e2e96",
+    "bytes": 12791
+  },
+  {
+    "file": "assets/card-audio/plane.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/effects/plane.mp3",
+    "sha256": "78f957db801cdc3a0965e422e467137dfbdb7c1ae7736a8812cdd57dd20fcd94",
+    "bytes": 13836
+  },
+  {
+    "file": "assets/card-audio/straight.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/effects/straight.mp3",
+    "sha256": "dcfcc99e4d1b3de6200a7c2240071c5df5e73f48808fb172900045ef1aa5e393",
+    "bytes": 11328
+  },
+  {
+    "file": "assets/card-audio/deal.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/effects/deal.mp3",
+    "sha256": "c222333e0a8ab49c8f12b79987e2749c9b34524d1f2c8fc5fc39704f158bda98",
+    "bytes": 31181
+  },
+  {
+    "file": "assets/card-audio/play.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/effects/play.mp3",
+    "sha256": "51c267f2c02e8d9983c02dc99c8304a17b3e2a632972f2cc7d0541b7c4209af3",
+    "bytes": 4641
+  },
+  {
+    "file": "assets/card-audio/voice-bomb.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_bomb.mp3",
+    "sha256": "a890260a67b0cb8e3805b1579648449bece7e8589224e60d16f972ecb8d77457",
+    "bytes": 3988
+  },
+  {
+    "file": "assets/card-audio/voice-rocket.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_rocket.mp3",
+    "sha256": "3cb855ff7e62e6ef73e042e09aa08735d4305ee67a6c8b044102234de9a34782",
+    "bytes": 5869
+  },
+  {
+    "file": "assets/card-audio/voice-plane.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_plane.mp3",
+    "sha256": "f2217fe3ea37faa732f72f74d9d0ed2afe0bd7b204fa66451be3a24cf5218785",
+    "bytes": 6339
+  },
+  {
+    "file": "assets/card-audio/voice-straight.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_straight.mp3",
+    "sha256": "d2bda7cdcd41dd40b0285fa9721ee24f64a2b2bfc2edf4d08c27c11afa10b036",
+    "bytes": 6026
+  },
+  {
+    "file": "assets/card-audio/voice-pairstraight.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_pairstraight.mp3",
+    "sha256": "2dd0a5b0223cd2bf0193d892867d1eff7d8774f7dba5865e16b6eafb282d2a56",
+    "bytes": 4145
+  },
+  {
+    "file": "assets/card-audio/voice-trio_pair.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_trio_pair.mp3",
+    "sha256": "33582d541e0a93c5c0b79164b81659a2c94d8a9501cf127045215c1c2da6e469",
+    "bytes": 7437
+  },
+  {
+    "file": "assets/card-audio/voice-trio_single.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_trio_single.mp3",
+    "sha256": "0be861c2ec610af9767bbe10260883dccd6b691248d42015d601784d00b0568b",
+    "bytes": 5869
+  },
+  {
+    "file": "assets/card-audio/voice-four_two.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_four_two.mp3",
+    "sha256": "448d6650af5074fac26b669e99e2068dc92a178eadf12c0e8c74adf924db887c",
+    "bytes": 4615
+  },
+  {
+    "file": "assets/card-audio/voice-four_twopair.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/type/type_four_twopair.mp3",
+    "sha256": "64f4e4cc9aff49f138f3b551838feb2834b938041dc15863c395a3f15106408d",
+    "bytes": 8377
+  },
+  {
+    "file": "assets/card-audio/voice-pass.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/HEAD/internal/sound/gaming/voices/female/pass/pass_buyao.mp3",
+    "sha256": "f41b66643d55d1f09ecf2727b14c4447447d87ec115946e2449fdfdb4f21ef33",
+    "bytes": 4772
+  },
+  {
+    "file": "assets/card-audio/voice-bid0.mp3",
+    "url": "https://raw.githubusercontent.com/svzdev/doudizhu/HEAD/client/public/assets/audio/f_score_0.mp3",
+    "sha256": "6ab71f8d93f543de37ab205eb8b163c80fe51ded51b583cf1255b1c2cef1c58e",
+    "bytes": 12480
+  },
+  {
+    "file": "assets/card-audio/voice-bid1.mp3",
+    "url": "https://raw.githubusercontent.com/svzdev/doudizhu/HEAD/client/public/assets/audio/f_score_1.mp3",
+    "sha256": "33820ab33eaea0c24c06b1fb723e2ad0425bd08d07849726b2477af63087bea2",
+    "bytes": 5856
+  },
+  {
+    "file": "assets/card-audio/voice-bid2.mp3",
+    "url": "https://raw.githubusercontent.com/svzdev/doudizhu/HEAD/client/public/assets/audio/f_score_2.mp3",
+    "sha256": "0a4777177e7b5c30d243e5d7332623585d40ff2e49fcce38fe0f3bbfe6e7095e",
+    "bytes": 6240
+  },
+  {
+    "file": "assets/card-audio/voice-bid3.mp3",
+    "url": "https://raw.githubusercontent.com/svzdev/doudizhu/HEAD/client/public/assets/audio/f_score_3.mp3",
+    "sha256": "1bae5e093b693600aa7d49967b44032cab293a0f800e29908d3b92f2643142c4",
+    "bytes": 5856
+  },
+  {
+    "file": "retro/assets/audio/mario/bgm.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/01-main-theme-overworld.mp3",
+    "sha256": "99590f33c0c01d7e9af10b45c12959b36f0c325f7e07b042029339db851b7027"
+  },
+  {
+    "file": "retro/assets/audio/mario/underground.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/02-underworld.mp3",
+    "sha256": "336997bccfe12ed34cd4d3805127bb39f3b91fd7658b5dd5613981ccdc4e4305"
+  },
+  {
+    "file": "retro/assets/audio/mario/water.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/03-underwater.mp3",
+    "sha256": "1387ad7e7052daed5d80d3dffe4315fc9978f8670d009729e1ac60cc17c954db"
+  },
+  {
+    "file": "retro/assets/audio/mario/castle.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/04-castle.mp3",
+    "sha256": "1603d46cb751bb0b682531c252b296a0ef6b536ce2466fa67551c8b058a156bb"
+  },
+  {
+    "file": "retro/assets/audio/contra/bgm.wav",
+    "url": "https://github.com/RanZelong/Contra-Unity/blob/b8a4430c3ea007101971aaf4443c1366ccc33d4a/Assets/Data/Sound/BGM.wav",
+    "sha256": "a376db29f731a5123b8b6105081dbb832654079222af28688be9bfca9826dc01"
+  },
+  {
+    "file": "assets/card-audio/slide.ogg",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "archiveFile": "Audio/card-slide-1.ogg",
+    "license": "CC0",
+    "sha256": "006cf9822d15d7063f8899e56041f41646df30adb6fbd8b974ee5d5420012690"
+  },
+  {
+    "file": "assets/card-audio/slap.ogg",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "archiveFile": "Audio/card-place-2.ogg",
+    "license": "CC0",
+    "sha256": "903d5050718595e87864dd755643b476ab1a5533080dcc2dddc72570d33ba9f8"
+  },
+  {
+    "file": "assets/card-audio/shuffle.ogg",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "archiveFile": "Audio/card-shuffle.ogg",
+    "license": "CC0",
+    "sha256": "96c84883a30845ede723a4cf2e8369e9837e7dd4e0d4eb0212b0a7ed21b0f544"
+  },
+  {
+    "file": "assets/card-audio/tile-draw.ogg",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "archiveFile": "Audio/chip-lay-1.ogg",
+    "license": "CC0",
+    "sha256": "4b2111252ccb64eed67f171e061053849cfbb29873536c03948646f244a3905c"
+  },
+  {
+    "file": "assets/card-audio/tile-place.ogg",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "archiveFile": "Audio/chip-lay-3.ogg",
+    "license": "CC0",
+    "sha256": "bf24ebb417b6279568800dffdb0205d3ec8854c7efe179e8964755a6341727aa"
+  },
+  {
+    "file": "assets/card-audio/tile-meld.ogg",
+    "url": "https://kenney.nl/assets/casino-audio",
+    "archiveFile": "Audio/chips-collide-1.ogg",
+    "license": "CC0",
+    "sha256": "f41b3d106360fc68ebc061a211d4265b4cb5fa1fbe86e4d57d3673510e2c3784"
+  }
+]

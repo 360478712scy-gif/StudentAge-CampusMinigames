@@ -1,0 +1,1 @@
+Badge illustrations: original procedural 64px pixel art, 80px ultimate badge. Audio: existing smb-clone reference, Assets/Sounds/06-level-complete.mp3 and 07-castle-complete.mp3. Ultimate sequence layers the castle completion fanfare with timed local sparkle and impact voices.

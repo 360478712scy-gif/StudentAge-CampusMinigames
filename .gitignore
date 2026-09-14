@@ -1,0 +1,14 @@
+bin/
+obj/
+dist/
+lib/
+qa/
+qa-game/
+research/
+.project-memory/
+__pycache__/
+.DS_Store
+*.save
+*.log
+.env
+.env.*
