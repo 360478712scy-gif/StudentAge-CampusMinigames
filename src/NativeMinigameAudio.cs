@@ -34,6 +34,9 @@ namespace StudentAge.CampusUno
             tableEffects=gameObject.AddComponent<AudioSource>();tableEffects.playOnAwake=false;Bind(tableEffects);string folder=Path.Combine(root,"CardAudio");if(!Directory.Exists(folder))yield break;
             foreach(string file in Directory.GetFiles(folder)){string ext=Path.GetExtension(file).ToLowerInvariant();if(ext!=".ogg"&&ext!=".mp3")continue;string key=Path.GetFileNameWithoutExtension(file);if(id!=9107&&(key.StartsWith("voice-")||ext==".mp3"))continue;using(var request=UnityWebRequestMultimedia.GetAudioClip(new Uri(file).AbsoluteUri,ext==".ogg"?AudioType.OGGVORBIS:AudioType.MPEG)){yield return request.SendWebRequest();if(!active)yield break;if(request.result==UnityWebRequest.Result.Success)clips[key]=DownloadHandlerAudioClip.GetContent(request);}}
         }
+        public float PlayResultMusic(string key){AudioClip clip;if(!active||!clips.TryGetValue(key,out clip)||localMusic==null)return 0;
+            UpdateMusicFade();musicFading=gainControlled=musicSuspended=false;musicGain=1;if(tableEffects!=null)tableEffects.Stop();localMusic.Stop();localMusic.loop=false;localMusic.clip=clip;localMusic.volume=localMusicVolume;localMusic.Play();localMusicStarted=true;LastEffect=key;return clip.length;
+        }
         public void SetMusicPaused(bool value)=>FadeMusicPaused(value,0);
         // Use unscaled time: award screens pause world time, not the music envelope.
         public void FadeMusicPaused(bool value,float seconds)

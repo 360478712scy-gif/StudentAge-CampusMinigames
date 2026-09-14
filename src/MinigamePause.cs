@@ -30,14 +30,15 @@ public sealed class MinigamePause:MonoBehaviour {
         var border=sheet.gameObject.AddComponent<Outline>();border.effectColor=mario?new Color(1,.7f,.25f):new Color(.7f,.85f,.5f);border.effectDistance=new Vector2(5,-5);
         Label(sheet,mario?"MARIO 操作说明":"CONTRA 操作说明",240,35,780,72,42);
         GuideSprite(sheet,mario?"mario-mario/small_mario_stand":"contra-player/player_0",120,50);
-        GuideRow(sheet,175,"W A S D",mario?"方向键也可移动；向上攀藤":"方向键也可移动和瞄准");
-        GuideRow(sheet,280,"Z / 空格",mario?"跳跃；按住更久跳得更高":"跳跃；下加跳跃穿过单向平台");
-        GuideRow(sheet,385,"X / SHIFT",mario?"按住加速；火焰形态发射火球":"按住连续射击，可向八个方向开火");
-        GuideRow(sheet,490,"S / ↓",mario?"长大后下蹲；进入可用的水管":"原地卧倒，避开敌人的子弹");
-        Label(sheet,mario?"手柄：方向移动  A跳跃  X加速":"手柄：方向瞄准  A跳跃  X射击",30,595,1140,44,24);
+        GuideRow(sheet,145,"W A S D",mario?"方向键也可移动；S下蹲或进入水管":"方向键也可移动和瞄准；S卧倒");
+        GuideRow(sheet,235,"J / Z / 空格",mario?"A键跳跃；按住更久跳得更高":"A键跳跃；下加跳跃穿过单向平台");
+        GuideRow(sheet,325,"K / X / SHIFT",mario?"B键加速；火焰形态发射火球":"B键射击；支持八个方向");
+        GuideRow(sheet,415,"U / I",mario?"U连续跳跃；I加速和连发火球":"U连续跳跃；I连续射击");
+        GuideRow(sheet,505,"1 / 2", "1开始或暂停；2打开操作说明");
+        Label(sheet,mario?"手柄：方向移动  A跳跃  X加速":"手柄：方向瞄准  A跳跃  X射击",30,605,1140,40,24);
         Button(sheet,"GuideBack","返回暂停",450,660,300,60,CloseGuide);
     }
-    void GuideRow(Transform p,float y,string key,string caption){var r=Rect(p,"PixelKey",55,y,290,74);r.gameObject.AddComponent<Image>().color=new Color(.28f,.30f,.35f);var edge=r.gameObject.AddComponent<Outline>();edge.effectColor=new Color(.7f,.72f,.75f);edge.effectDistance=new Vector2(3,-3);Label(r,key,0,0,290,74,28);Label(p,caption,365,y,800,74,28);}
+    void GuideRow(Transform p,float y,string key,string caption){var r=Rect(p,"PixelKey",55,y,290,74);r.gameObject.AddComponent<Image>().color=new Color(.28f,.30f,.35f);var edge=r.gameObject.AddComponent<Outline>();edge.effectColor=new Color(.7f,.72f,.75f);edge.effectDistance=new Vector2(3,-3);Label(r,key,0,0,290,74,Math.Min(28,(int)(270f*14/(key.Length*12+2))));Label(p,caption,365,y,800,74,28);}
     void GuideSprite(Transform p,string name,float x,float y){
         string root=Path.Combine(BepInEx.Paths.PluginPath,"StudentAgeCampusMinigames","Retro");
         if(guideAtlas==null){guideAtlas=new Texture2D(2,2,TextureFormat.RGBA32,false);ImageConversion.LoadImage(guideAtlas,File.ReadAllBytes(Path.Combine(root,"atlas.png")));guideAtlas.filterMode=FilterMode.Point;}
@@ -49,7 +50,9 @@ public sealed class MinigamePause:MonoBehaviour {
     public void Resume(){if(!PlayClock.Paused)return;PlayClock.SetPaused(false);guide=null;if(menu!=null){menu.SetActive(false);Destroy(menu);menu=null;}foreach(var s in sounds)if(s!=null)s.UnPause();sounds.Clear();}
     void PauseAudio(){if(owner!=null)foreach(var s in owner.GetComponents<AudioSource>())if(s!=null&&s.isPlaying&&!sounds.Contains(s)){sounds.Add(s);s.Pause();}if(AudioMgr.Ins!=null){var s=AudioMgr.Ins.GetChannel(AudioMgrEx.CHANNEL_BGM).source;if(s!=null&&s.isPlaying&&!sounds.Contains(s)){sounds.Add(s);s.Pause();}}}
     void Skip(){if(Current!=this||skipUsed||skip==null||owner==null||ready==null||!ready())return;skipUsed=true;Choose(skip);}
-    void Update(){bool available=owner!=null&&ready!=null&&ready();if(!available){if(PlayClock.Paused)Resume();return;}var k=Keyboard.current;if(k!=null&&k.f6Key.wasPressedThisFrame){Skip();return;}if(k!=null&&k.escapeKey.wasPressedThisFrame)Toggle();if(PlayClock.Paused)PauseAudio();}
+    void Update(){bool available=owner!=null&&ready!=null&&ready();if(!available){if(PlayClock.Paused)Resume();return;}var k=Keyboard.current;if(k!=null&&k.f6Key.wasPressedThisFrame){Skip();return;}if(k!=null&&k.escapeKey.wasPressedThisFrame)Toggle();
+        else if(theme!=""&&k!=null&&k.digit1Key.wasPressedThisFrame){if(PlayClock.Paused)Resume();else Pause();}
+        else if(theme!=""&&k!=null&&k.digit2Key.wasPressedThisFrame){if(!PlayClock.Paused)Pause();if(menu!=null)ShowGuide();}if(PlayClock.Paused)PauseAudio();}
     public void Dispose(){if(Current==this){Resume();Current=null;}if(ui!=null){ui.SetActive(false);Destroy(ui);}Destroy(this);}
     void OnDestroy(){if(Current==this){Resume();Current=null;}if(ui!=null)Destroy(ui);if(fontAtlas!=null)Destroy(fontAtlas);if(guideAtlas!=null)Destroy(guideAtlas);}
     static RectTransform Rect(Transform p,string name,float x,float y,float w,float h){var o=new GameObject(name,typeof(RectTransform));o.transform.SetParent(p,false);var r=(RectTransform)o.transform;r.anchorMin=r.anchorMax=r.pivot=new Vector2(0,1);r.anchoredPosition=new Vector2(x,-y);r.sizeDelta=new Vector2(w,h);return r;}

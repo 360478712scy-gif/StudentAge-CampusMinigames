@@ -17,7 +17,7 @@ namespace StudentAge.Retro
         float age,intro=0,death,finish,grace,star,fireDelay,pipeDelay,checkpoint;int facing=1,sub;bool flagging;
         float clock,jumpBuffer,coyote,jumpMinimum;public float CameraX{get;private set;}public Body Player{get;private set;}
         public int Size{get;private set;}public int Lives{get;private set;}=Tuning.Int("Mario","Lives");public int Score{get;private set;}public int Coins{get;private set;}
-        public bool Won{get;private set;}public bool Lost{get;private set;}public string MapName=>map.name;public int Palette=>map.palette;public bool IsWater=>map.water;public bool InTransition=>death>0||finish>0;
+        public bool Won{get;private set;}public bool Lost{get;private set;}public string MapName=>map.name;public int Palette=>map.palette;public bool IsWater=>map.water;public bool InTransition=>intro>0||death>0||finish>0;public bool StarActive=>star>0;
         public Queue<string> Sounds{get;}=new Queue<string>();public IReadOnlyList<Body> Actors=>actors;
         public MarioGame(MarioData data,int selectedStage)
         {
@@ -92,7 +92,7 @@ namespace StudentAge.Retro
             {
                 string kind=item==null?"coin":item.kind;
                 if(kind=="manycoins"||kind=="coin")
-                {Coins++;Score+=200;Sound("coin");particles.Add(new Body("coin",x*16+4,y*16-8){VY=-140,Timer=.5f});}
+                {Coins++;Score+=200;Sound("coin");particles.Add(new Body("coin",x*16,y*16-8){VY=-140,Timer=.5f});}
                 else if(kind=="vine")actors.Add(new Body("vine",x*16,y*16-64){H=64,W=16,Extra=item.a});
                 else{if(kind=="mushroom"&&Size>0)kind="flower";actors.Add(new Body(kind,x*16,y*16-16){VX=kind=="flower"?0:45,VY=kind=="star"?-150:0,Timer=.35f,Active=true});Sound("powerup-appear");}
                 int count;hits.TryGetValue(i,out count);hits[i]=count+1;
@@ -182,13 +182,13 @@ namespace StudentAge.Retro
             if(k=="mushroom"||k=="flower"||k=="star"||k=="oneup")
             {b.Dead=true;Score+=1000;if(k=="oneup"){Lives++;Sound("oneup");}else if(k=="star"){star=Tuning.Get("Mario","StarSeconds");Sound("star");}else{if(Size==0){Player.Y-=16;Player.H=32;}Size=k=="flower"?2:Math.Max(1,Size);grace=.5f;Sound("powerup");}return;}
             if(star>0){b.Dead=true;Score+=200;Sound("kick");return;}
-            bool stomp=Player.VY>=0&&oldBottom<=b.Y+10&&k!="plant"&&k!="bowser";
+            bool stomp=Player.VY>0&&oldBottom<=b.Y+4&&k!="plant"&&k!="bowser";
             if(stomp){Player.Y=b.Y-Player.H;Player.VY=-180;Score+=100;Sound("stomp");if(k.StartsWith("koopa")){if(k.Contains("flying")){b.Kind="koopa";}else if(b.State==0){b.State=1;b.Y+=b.H-14;b.H=14;b.VX=0;}else{b.State=b.State==2?1:2;b.VX=b.State==2?facing*190:0;}}else b.Dead=true;}
-            else if(k.StartsWith("koopa")&&b.State==1){b.State=2;b.VX=Player.X<b.X?190:-190;b.X+=Math.Sign(b.VX)*8;Sound("kick");}
+            else if(k.StartsWith("koopa")&&b.State==1){b.State=2;b.VX=Player.X<b.X?190:-190;b.X=b.VX>0?Player.Right+.5f:Player.X-b.W-.5f;Sound("kick");}
             else Hurt();
         }
         void Hurt(){if(grace>0||star>0||death>0||finish>0)return;if(Size>0){Size=0;Player.Y+=Player.H-16;Player.H=16;grace=Tuning.Get("Mario","HurtGraceSeconds");Sound("pipe");}else Die();}
-        void Die(){if(death>0||finish>0)return;Lives--;death=.01f;Player.VY=-240;Sound("dead");}
+        void Die(){if(death>0||finish>0)return;Lives--;star=grace=0;death=.01f;Player.VY=-240;Sound("dead");}
         public void Draw(IRetroCanvas c)
         {
             c.Clear(map.background==1?0x5c94fcU:0x000000U);
@@ -214,11 +214,12 @@ namespace StudentAge.Retro
                 if(sprite!=null)c.Sprite(sprite,b.X-CameraX,b.Y,b.VX>0&&IsEnemy(b));
             }
             foreach(var b in projectiles)c.Sprite(b.Kind=="fireball"?"mario-fx/fireball-0":b.Kind=="hammer"?"mario-fx/hammer-"+((int)(age*10)%4):b.Kind=="bullet"?"mario-fx/bulletbill-0":"mario-fx/fire-0",b.X-CameraX,b.Y,b.VX>0);
-            foreach(var b in particles)if(b.Kind=="coin")c.Sprite("mario-fx/coin-0",b.X-CameraX,b.Y);else c.Rect(b.X-CameraX,b.Y,4,4,0xc84c0c);
+            foreach(var b in particles)if(b.Kind=="coin")c.Sprite("mario-fx/coin-"+((int)(age*10)%4),b.X-CameraX,b.Y);else c.Rect(b.X-CameraX,b.Y,4,4,0xc84c0c);
             if(grace<=0||(int)(age*16)%2==0)
             {
                 string prefix=Size==0?"small":Size==1?"big":"fire";string pose=death>0?"die":flagging&&finish<1.1?"climb_1":!Player.Ground?"jump":Player.H==16&&Size>0?"crouch":Math.Abs(Player.VX)<3?"stand":"run_"+((int)(age*12)%3+1);
-                c.Sprite("mario-mario/"+prefix+"_mario_"+pose,Player.X-2-CameraX,Player.Bottom-(Size>0?32:16),facing<0);
+                string sprite="mario-mario/"+prefix+"_mario_"+pose;float x=Player.X-2-CameraX,y=Player.Bottom-(Size>0?32:16);
+                if(star>0&&c is IRetroPaletteCanvas palette)palette.SpritePalette(sprite,x,y,facing<0,1+(int)(age*12)%3);else c.Sprite(sprite,x,y,facing<0);
             }
             c.Text("mario",16,8);c.Text(Score.ToString("000000"),16,16);c.Text("x"+Coins.ToString("00"),96,16);c.Text("world",144,8);c.Text(data.selected[stage],152,16);c.Text("time",208,8);c.Text(((int)Math.Max(0,clock)).ToString("000"),216,16);
         }

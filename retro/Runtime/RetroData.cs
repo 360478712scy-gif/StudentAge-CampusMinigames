@@ -20,6 +20,7 @@ namespace StudentAge.Retro
         void Rect(float x,float y,int w,int h,uint color);
         void Text(string text,int x,int y);
     }
+    public interface IRetroPaletteCanvas { void SpritePalette(string name,float x,float y,bool flip,int palette); }
     public interface IRetroGame
     {
         bool Won{get;} bool Lost{get;}

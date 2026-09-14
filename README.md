@@ -8,6 +8,8 @@
 
 必须保留 `CampusUno` 和 `StudentAgeCampusMinigames` 两个插件目录及资源。`ModAuthorTemplate` 仅供剧情 Mod 作者接入，不是普通玩家必须安装的部分。
 
+当前版本 **0.9.4**：修复马里奥金币切片、龟壳碰撞与死亡后无敌残留；补齐星星变色/配乐、死亡和通关音效。马里奥与魂斗罗增加 J/K、U/I 连发及 1/2 按键；斗地主增加专用胜利音乐。
+
 ## 内容
 
 UNO、五子棋、课间泡泡、换盒寻物、算24点、俄罗斯方块、斗地主、贪吃蛇、吃豆人、超级马里奥、魂斗罗、麻将。马里奥提供八关，魂斗罗目前提供丛林一关，其余各五阶段。
@@ -23,7 +25,7 @@ UNO、五子棋、课间泡泡、换盒寻物、算24点、俄罗斯方块、斗
 
 ## 自动更新
 
-**0.9.2及更早版本先手动安装一次0.9.3。** 从0.9.3起默认后台检查并下载新版，正常退出游戏后自动替换，下次启动生效。更新包同时包含两个插件和资源，带大小与SHA256校验、备份及替换失败回滚，保留存档和BepInEx配置。
+**0.9.2及更早版本先手动安装一次最新完整包。** 从0.9.3起默认后台检查并下载新版，正常退出游戏后自动替换，下次启动生效。更新包同时包含两个插件和资源，带大小与SHA256校验、备份及替换失败回滚，保留存档和BepInEx配置。
 
 开关位于 `studio.studentage.campusuno.cfg` 的 `[Updates]`，设 `Enabled = false` 可关闭后续检查。网络不可用时继续使用已安装版本。详情与维护者发布流程见 [自动更新说明](updater/AUTO_UPDATE.md)。
 
@@ -33,8 +35,8 @@ UNO、五子棋、课间泡泡、换盒寻物、算24点、俄罗斯方块、斗
 
 ```sh
 python build.py --game "游戏目录" --bepinex "BepInEx/core目录"
-python integration/build.py --game "游戏目录" --up "EC2BUnofficialPatch.dll" --bepinex "BepInEx/core目录" --out dist/up-integration-0.9.3
-python tools/prepare_minigames_release.py --staging dist/up-integration-0.9.3
+python integration/build.py --game "游戏目录" --up "EC2BUnofficialPatch.dll" --bepinex "BepInEx/core目录" --out dist/up-integration-0.9.4
+python tools/prepare_minigames_release.py --staging dist/up-integration-0.9.4
 ```
 
 更新助手针对 .NET Framework 4.7.2 构建，通过NuGet引用程序集即可在macOS或Linux编译。Windows需对应.NET Framework运行时；CrossOver需可运行.NET Framework程序的Bottle。

@@ -65,3 +65,6 @@ See BepInEx/plugins/StudentAgeCampusMinigames/Music/音频来源.md and sources.
 
 ## 0.9.2 badge collection
 Badge pixel art is original procedural artwork in nds/tools/make_badges.py: twelve individual silhouettes at 64px and an 80px winged handheld ultimate badge. Mario-inspired characters and game motifs retain their original owners' rights. Award fanfares reuse the existing local smb-clone reference sounds 06-level-complete.mp3 and 07-castle-complete.mp3, copied as Nds/Badges/badge-win.mp3 and badge-ultimate.mp3. Nintendo retains the underlying music rights; the existing local-preview scope applies. Award audio uses only those two Mario victory clips; the earlier synthesized rising tone and additional impact have been removed. Pixel text rasterizes local system glyphs without bundling fonts.
+
+## 0.9.4 audio additions
+Mario Starman, death and level-complete audio use the same pinned SMB-clone source listed above (05-starman.mp3, 08-you-re-dead.mp3, 06-level-complete.mp3). Landlord victory uses internal/sound/gaming/effects/win.mp3 from palemoky/fight-the-landlord commit 6a2b07bd71a21e0c564277a235846e7f3cf589b1. File URLs and hashes are recorded in assets/music/sources.json; original audio ownership is unchanged.

@@ -46,3 +46,5 @@ Unity工程：`另行提供的 student-age-minigames-unity 工程`，使用Unity
 八关结算采用临近终点局面；魂斗罗采用接近击破的关底局面。检查不能替代八关从头到尾人工通关，也不证明Windows原生或真实用户角色Mod已经验收。部分敌人/机关行为、碰撞参数、动画节拍、武器效果仍需对原作调整；没有完成一比一还原或双人模式。没有复制原作完整背景音乐。
 
 开发命令：`python3 retro/sync_unity.py` 同步编辑器工程；`dotnet run --project retro/tests/RetroTests.csproj` 检查规则。来源转换需要Pillow和PyYAML。
+
+0.9.4 输入：WASD或方向键移动，J/Z/空格为A跳跃，K/X/Shift为B加速/射击，U为A连发、I为B连发。1开始/暂停/继续，2打开像素操作说明；Esc保留暂停与返回。星星音乐随无敌状态切换；死亡清空无敌，死亡音效播完后恢复普通配乐。金币帧尺寸为16×16。

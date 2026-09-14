@@ -48,7 +48,8 @@ namespace StudentAge.CampusMinigames
         void ShowGuide(){if(Started||guide!=null)return;guide=IllustratedGuide.Show(Root,gameId,()=>guide=null);}
         protected abstract void BuildPlay();protected abstract void StartGame();protected virtual void Tick(){}
         protected virtual void Update(){if(Closed)return;if(!Session.IsActive){Close(false,false);return;}if(PlayClock.Paused)return;Fit();if(Started&&!Ending)Tick();}
-        protected void Finish(bool win){if(Ending||Closed)return;Ending=true;NativeMinigameResult.Show(win?Outcome.Win:Outcome.Lose,CanvasObject,oldScale,()=>Close(true,true,win));}
+        protected void Finish(bool win){if(Ending||Closed)return;Ending=true;float until=PlayClock.Now+(win&&gameId==9107&&music!=null?music.PlayResultMusic("landlord-win"):0);NativeMinigameResult.Show(win?Outcome.Win:Outcome.Lose,CanvasObject,oldScale,()=>{if(PlayClock.Now<until)StartCoroutine(CloseAfterResultMusic(until,win));else Close(true,true,win);});}
+        IEnumerator CloseAfterResultMusic(float until,bool win){while(!Closed&&PlayClock.Now<until)yield return null;if(!Closed)Close(true,true,win);}
         void Close(bool settle,bool notify,bool win=false){if(Closed)return;Closed=true;pause?.Dispose();StopAllCoroutines();if(CanvasObject!=null){CanvasObject.SetActive(false);Destroy(CanvasObject);}if(locked){locked=false;Time.timeScale=oldScale;Control.ToggleActionMap(true);}if(music!=null)music.Close();Plugin.ReleaseExternal();try{if(notify){if(settle)Session.Finish(win?Outcome.Win:Outcome.Lose);else Session.Cancel();}}finally{Destroy(gameObject);}}
         protected virtual void OnDestroy(){if(!Closed)Close(false,true);foreach(var obj in Owned)if(obj!=null)Destroy(obj);foreach(var clip in clips.Values)Destroy(clip);}
         protected void Sfx(string key,float volume=.35f){AudioClip clip;if(clips.TryGetValue(key,out clip))audioSource.PlayOneShot(clip,volume);}

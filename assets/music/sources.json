@@ -209,5 +209,26 @@
     "archiveFile": "Audio/chips-collide-1.ogg",
     "license": "CC0",
     "sha256": "f41b3d106360fc68ebc061a211d4265b4cb5fa1fbe86e4d57d3673510e2c3784"
+  },
+  {
+    "file": "retro/assets/audio/mario/star.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/05-starman.mp3",
+    "sha256": "736096b2954e3f75740d2e665946c7245df97a2c3d2a6147bd555b0e05f3546c"
+  },
+  {
+    "file": "retro/assets/audio/mario/dead.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/08-you-re-dead.mp3",
+    "sha256": "2d8b83ac9ddc63184fa9bdba790185a49bd7e7f3b66cef2f719fe903192e6dea"
+  },
+  {
+    "file": "retro/assets/audio/mario/complete.mp3",
+    "url": "https://github.com/linhdvu14/SMB-clone/blob/df8b1036c61c3a1e3230859acc889f97db6e9df3/Assets/Sounds/06-level-complete.mp3",
+    "sha256": "48416f357eacb27e43ce0443a2f782ba4a0a08872038818559891a7edb19d349"
+  },
+  {
+    "file": "assets/card-audio/landlord-win.mp3",
+    "url": "https://raw.githubusercontent.com/palemoky/fight-the-landlord/6a2b07bd71a21e0c564277a235846e7f3cf589b1/internal/sound/gaming/effects/win.mp3",
+    "title": "斗地主胜利音乐（与现有斗地主音频同源）",
+    "sha256": "9cbde4e46fcff3979384d3adc86ed47a2c469c76af26a3b2c9b30407fcb2abd6"
   }
 ]
