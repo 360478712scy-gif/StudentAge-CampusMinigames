@@ -8,7 +8,9 @@
 
 必须保留 `CampusUno` 和 `StudentAgeCampusMinigames` 两个插件目录及资源。`ModAuthorTemplate` 仅供剧情 Mod 作者接入，不是普通玩家必须安装的部分。
 
-当前版本 **0.9.4**：修复马里奥金币切片、龟壳碰撞与死亡后无敌残留；补齐星星变色/配乐、死亡和通关音效。马里奥与魂斗罗增加 J/K、U/I 连发及 1/2 按键；斗地主增加专用胜利音乐。
+新增 **0.10.0 三国杀试玩版**：2003年起购买三国杀，35名标风与神武将、人物三关、胜利集卡。男女路线的可收集卡牌范围一致；每游戏回合限一局，失败下回合重试，输赢均增加10好感。详见 [三国杀说明](sanguosha/README.md) 与 [角色武将分配](sanguosha/角色武将分配.md)。试玩发布不替换正式版本的自动更新入口。
+
+当前正式版本 **0.9.4**：修复马里奥金币切片、龟壳碰撞与死亡后无敌残留；补齐星星变色/配乐、死亡和通关音效。马里奥与魂斗罗增加 J/K、U/I 连发及 1/2 按键；斗地主增加专用胜利音乐。
 
 ## 内容
 
@@ -35,8 +37,8 @@ UNO、五子棋、课间泡泡、换盒寻物、算24点、俄罗斯方块、斗
 
 ```sh
 python build.py --game "游戏目录" --bepinex "BepInEx/core目录"
-python integration/build.py --game "游戏目录" --up "EC2BUnofficialPatch.dll" --bepinex "BepInEx/core目录" --out dist/up-integration-0.9.4
-python tools/prepare_minigames_release.py --staging dist/up-integration-0.9.4
+python integration/build.py --game "游戏目录" --up "EC2BUnofficialPatch.dll" --bepinex "BepInEx/core目录" --out dist/up-integration-0.10.0
+python tools/prepare_minigames_release.py --staging dist/up-integration-0.10.0
 ```
 
 更新助手针对 .NET Framework 4.7.2 构建，通过NuGet引用程序集即可在macOS或Linux编译。Windows需对应.NET Framework运行时；CrossOver需可运行.NET Framework程序的Bottle。

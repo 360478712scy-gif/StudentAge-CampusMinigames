@@ -68,3 +68,7 @@ Badge pixel art is original procedural artwork in nds/tools/make_badges.py: twel
 
 ## 0.9.4 audio additions
 Mario Starman, death and level-complete audio use the same pinned SMB-clone source listed above (05-starman.mp3, 08-you-re-dead.mp3, 06-level-complete.mp3). Landlord victory uses internal/sound/gaming/effects/win.mp3 from palemoky/fight-the-landlord commit 6a2b07bd71a21e0c564277a235846e7f3cf589b1. File URLs and hashes are recorded in assets/music/sources.json; original audio ownership is unchanged.
+
+## 三国杀原版资源 / QSanguosha-v2
+
+三国杀卡牌插画、武将卡面和声音的相关权利归原作者及三国杀权利人。此模块使用 Mogara/QSanguosha-v2（固定版本 e8768851bd8054db9fd1b63cd6f1feca813590d7）公开收录的资源；来源文件与SHA256见 `assets/sanguosha/sources.json`。保留上游 `LICENSE`、`GPLv3` 与 `MCFR` 声明；原文件随资源打包。本模块的C#规则引擎独立实现，不包含上游C++引擎。资源不受本项目代码许可重新授权。

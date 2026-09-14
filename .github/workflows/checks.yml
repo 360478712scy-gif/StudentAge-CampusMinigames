@@ -23,3 +23,4 @@ jobs:
           dotnet run --project mahjong/tests/MahjongTests.csproj
           dotnet run --project integration/tuning-tests/TuningTests.csproj
           dotnet run --project updater/tests/UpdateTests.csproj
+          dotnet run --project sanguosha/tests/Sanguosha.Tests.csproj

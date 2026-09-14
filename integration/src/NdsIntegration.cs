@@ -3,7 +3,7 @@ namespace StudentAge.CampusMinigames{
 [BepInPlugin("studio.studentage.nds","NDS掌机",CampusVersion.Value)][BepInDependency("studio.studentage.campusuno")][BepInDependency("sa.EC2B.UnofficialPatch")]
 public sealed class NdsPlugin:BaseUnityPlugin{
  Harmony harmony;float next;void Awake(){harmony=new Harmony("studio.studentage.nds");harmony.PatchAll(typeof(NdsPlugin).Assembly);}
- void Update(){if(Keyboard.current!=null&&Keyboard.current.f8Key.wasPressedThisFrame)NdsConsole.OpenFromTitle();if(Time.unscaledTime<next)return;next=Time.unscaledTime+1;NdsIntegration.Register();}
+ void Update(){if(Keyboard.current!=null&&Keyboard.current.f8Key.wasPressedThisFrame)NdsConsole.OpenFromTitle();if(Time.unscaledTime<next)return;next=Time.unscaledTime+1;NdsIntegration.Register();SanguoshaIntegration.Register();}
  void OnDestroy(){NdsConsole.Invalidate();NdsBadgeAssets.Clear();harmony?.UnpatchSelf();}
 }
 public static class NdsIntegration{
