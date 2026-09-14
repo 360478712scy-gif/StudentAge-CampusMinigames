@@ -38,6 +38,6 @@ CheckIntervalHours = 6
 
 ## 验证
 
-`dotnet run --project updater/tests/UpdateTests.csproj` 检查版本、清单、路径边界、摘要、双插件替换、保留其他Mod、备份与失败回滚。独立助手在 .NET Framework 4.7.2 构建，并已在 CrossOver 中验证等待父进程退出后再安装。Windows 原生环境仍需独立验收。
+`dotnet run --project updater/tests/UpdateTests.csproj` 检查版本、清单、路径边界、摘要、双插件替换、保留其他Mod、备份与失败回滚。独立助手在 .NET Framework 4.7.2 构建，并已在 CrossOver 中验证等待父进程退出后再安装。并已在隔离Unity游戏中使用公开Release验证HTTPS下载、清单与摘要、等待游戏退出、191个插件及资源文件安装和备份。首次发布的模拟升级只在QA插件中将相等版本视为新版，发行版仍只接受更高版本。Windows 原生环境仍需独立验收。
 
 协议参考：[GitHub Release 附件](https://docs.github.com/en/rest/releases/assets)、[最新 Release 下载链接](https://docs.github.com/en/repositories/releasing-projects-on-github/linking-to-releases)。
