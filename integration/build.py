@@ -1,7 +1,8 @@
 from pathlib import Path
-import argparse,subprocess,hashlib,json,shutil,zipfile
+import argparse,subprocess,hashlib,json,shutil,zipfile,re
 root=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser();p.add_argument('--bepinex',type=Path,default=root/'lib/BepInEx-5.4.23.5/BepInEx/core');p.add_argument('--up',type=Path,required=True);p.add_argument('--game',type=Path,default=root/'qa-game');p.add_argument('--out',type=Path,default=root/'dist/up-integration-0.9.3');args=p.parse_args()
+version=re.search(r'const string Value="([0-9.]+)"',(root/'src/CampusAutoUpdate.cs').read_text()).group(1)
+p=argparse.ArgumentParser();p.add_argument('--bepinex',type=Path,default=root/'lib/BepInEx-5.4.23.5/BepInEx/core');p.add_argument('--up',type=Path,required=True);p.add_argument('--game',type=Path,default=root/'qa-game');p.add_argument('--out',type=Path,default=root/('dist/up-integration-'+version));args=p.parse_args()
 subprocess.run(['python3',str(root/'build.py'),'--game',str(args.game),'--bepinex',str(args.bepinex)],check=True)
 managed=args.game/'StudentAge_Data/Managed';core=args.bepinex
 dotnet=shutil.which('dotnet') or '/usr/local/share/dotnet/dotnet';sdk=subprocess.check_output([dotnet,'--list-sdks'],text=True).strip().splitlines()[-1];compiler=Path(sdk.split('[')[1].rstrip(']'))/sdk.split()[0]/'Roslyn/bincore/csc.dll'
@@ -33,6 +34,6 @@ shutil.copytree(root/'integration/config',out/'配置示例',dirs_exist_ok=True)
 shutil.copy2(root/'mahjong/README.md',out/'课间麻将说明.md')
 shutil.copy2(root/'nds/README.md',out/'NDS掌机说明.md')
 shutil.copy2(root/'THIRD_PARTY_NOTICES.md',out/'THIRD_PARTY_NOTICES.md')
-manifest={'version':'0.9.3','upReferenceSHA256':hashlib.sha256(args.up.read_bytes()).hexdigest(),'gameAssemblySHA256':hashlib.sha256((managed/'Assembly-CSharp.dll').read_bytes()).hexdigest(),'files':{str(f.relative_to(out)):hashlib.sha256(f.read_bytes()).hexdigest() for f in out.rglob('*') if f.is_file() and f.name!='manifest.json'}}
+manifest={'version':version,'upReferenceSHA256':hashlib.sha256(args.up.read_bytes()).hexdigest(),'gameAssemblySHA256':hashlib.sha256((managed/'Assembly-CSharp.dll').read_bytes()).hexdigest(),'files':{str(f.relative_to(out)):hashlib.sha256(f.read_bytes()).hexdigest() for f in out.rglob('*') if f.is_file() and f.name!='manifest.json'}}
 (out/'manifest.json').write_text(json.dumps(manifest,indent=2))
 print(ext/'CampusMinigames.UP.dll')

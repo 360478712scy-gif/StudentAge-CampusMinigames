@@ -6,8 +6,10 @@ import subprocess
 import shutil
 import hashlib
 import json
+import re
 
 ROOT = Path(__file__).resolve().parent
+VERSION = re.search(r'const string Value="([0-9.]+)"', (ROOT / 'src/CampusAutoUpdate.cs').read_text()).group(1)
 DEFAULT_GAME = Path.home() / 'Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/StudentAge'
 p = argparse.ArgumentParser()
 p.add_argument('--game', type=Path, default=DEFAULT_GAME)
@@ -31,6 +33,6 @@ cmd += ['-resource:' + str(ROOT / 'assets/classroom-desk.png') + ',CampusUno.Des
 cmd += ['-resource:'+str(ROOT/'updater/Helper/bin/Release/net472/CampusMinigames.Updater.exe')+',CampusMinigames.Updater']
 cmd += [str(f) for f in sorted((ROOT / 'src').glob('*.cs'))]+[str(f) for f in (ROOT/'updater/Core').glob('*.cs')]
 subprocess.run(cmd, check=True)
-manifest = {'pluginVersion': '0.9.3', 'gameAssemblySHA256': hashlib.sha256((managed / 'Assembly-CSharp.dll').read_bytes()).hexdigest(), 'pluginSHA256': hashlib.sha256((out / 'CampusUno.dll').read_bytes()).hexdigest(), 'bepinex': '5.4.23.5', 'validation': 'Compilation only; see QA report for runtime evidence.'}
+manifest = {'pluginVersion': VERSION, 'gameAssemblySHA256': hashlib.sha256((managed / 'Assembly-CSharp.dll').read_bytes()).hexdigest(), 'pluginSHA256': hashlib.sha256((out / 'CampusUno.dll').read_bytes()).hexdigest(), 'bepinex': '5.4.23.5', 'validation': 'Compilation only; see QA report for runtime evidence.'}
 (ROOT / 'dist/build-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
 print('Built', out / 'CampusUno.dll')
