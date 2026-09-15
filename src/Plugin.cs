@@ -15,19 +15,13 @@ namespace StudentAge.CampusUno
     [BepInDependency("sa.EC2B.UnofficialPatch", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
     {
-        internal static Plugin Instance;
-        internal ConfigEntry<int> GameId;
-        internal ConfigEntry<float> TrustCost;
-        internal ConfigEntry<int> Relation;
-        internal UnoTable Table;
-        internal bool Pending;
-        internal int Generation;
-        internal int ErrorCount;
+        internal static CampusRuntime Instance;
         public static bool UpPresent { get { return AppDomain.CurrentDomain.GetAssemblies().Any(a=>a.GetType("EC2BUnofficialPatch.Features.Mechanics.Minigames.ICustomMinigame",false)!=null); } }
         static Action externalAbort;
         public static bool IsBusy { get { return Busy; } }
         public static bool AcquireExternal(Action abort) { if(Instance==null || Busy)return false;externalAbort=abort;return true; }
         public static void ReleaseExternal() { externalAbort=null; }
+        internal static void AbortExternal() { var abort=externalAbort;externalAbort=null;abort?.Invoke(); }
         public static void InvalidateExternal(IUnoSession session) { if(Instance!=null&&Instance.Table!=null&&ReferenceEquals(Instance.Table.Session,session))Instance.Table.Invalidate(); }
         public static bool OpenExternal(string npcName,IUnoSession session)=>OpenExternal(npcName,session,false);
         public static bool OpenExternal(string npcName,IUnoSession session,bool autoBegin) {
@@ -36,12 +30,34 @@ namespace StudentAge.CampusUno
             catch{Instance.Abort();throw;}
         }
         internal static bool Busy { get { return Instance != null && (Instance.Pending || Instance.Table != null || externalAbort != null); } }
+        void Awake()
+        {
+            if (Instance != null) return;
+            var host = new GameObject("CampusMinigames_RuntimeHost") { hideFlags = HideFlags.HideAndDontSave };
+            UnityEngine.Object.DontDestroyOnLoad(host);
+            var runtime = host.AddComponent<CampusRuntime>();
+            try { runtime.Initialize(Config, Logger); }
+            catch { UnityEngine.Object.Destroy(host); throw; }
+        }
+    }
+
+    internal sealed class CampusRuntime : MonoBehaviour
+    {
+        internal ConfigEntry<int> GameId;
+        internal ConfigEntry<float> TrustCost;
+        internal ConfigEntry<int> Relation;
+        internal UnoTable Table;
+        internal bool Pending;
+        internal int Generation;
+        internal int ErrorCount;
+        ConfigFile Config;
+        BepInEx.Logging.ManualLogSource Logger;
         Harmony harmony;CampusAutoUpdate updater;
         float nextRegister;
         bool warned;
-        void Awake()
+        internal void Initialize(ConfigFile config, BepInEx.Logging.ManualLogSource logger)
         {
-            Instance = this;
+            Config = config; Logger = logger; Plugin.Instance = this;
             MinigameConfig.Load();
             UnityEngine.Object.DontDestroyOnLoad(gameObject);
             GameId = Config.Bind("Social", "GameId", 9101, new ConfigDescription("PersonGrowCfg.minigame 的绑定编号；须避开其他模组占用。", new AcceptableValueRange<int>(1000, 10000000)));
@@ -67,7 +83,7 @@ namespace StudentAge.CampusUno
         internal void EnsureConfigs()
         {
             if (Cfg.MinigameCfgMap == null || Cfg.MinigameActionCfgMap == null) return;
-            if(UpPresent){ExternalMetadata.Register();NativeSkin.Load();return;}
+            if(Plugin.UpPresent){ExternalMetadata.Register();NativeSkin.Load();return;}
             int id = GameId.Value, stage = id * 100 + 1;
             if (!Cfg.MinigameCfgMap.ContainsKey(id))
                 Cfg.MinigameCfgMap[id] = new MinigameCfg { id = id, name = "课间 UNO", tips = "同色、同数字或同功能出牌。率先出完手牌获胜！", bgm = 8 };
@@ -83,7 +99,7 @@ namespace StudentAge.CampusUno
         }
         internal bool OpenSocial(int npcId, int bgId)
         {
-            if (Busy) return false;
+            if (Plugin.Busy) return false;
             EnsureConfigs();
             SocialSession session;
             try { session = new SocialSession(this, npcId); if (!session.Validate()) return false; }
@@ -111,17 +127,17 @@ namespace StudentAge.CampusUno
         internal void Abort()
         {
             Generation++; Pending = false;
-            var abort=externalAbort;externalAbort=null;if(abort!=null)abort();
+            Plugin.AbortExternal();
             if (Table != null) Table.Abort();
         }
         internal void LogError(Exception e) { ErrorCount++; Logger.LogError(e); }
         internal void Log(string message) { Logger.LogInfo(message); }
-        void OnDestroy() { Logger.LogInfo("UNO lifecycle Destroy"); updater?.Stop(); Abort(); if (harmony != null) harmony.UnpatchSelf(); if (Instance == this) Instance = null; }
+        void OnDestroy() { Logger.LogInfo("UNO lifecycle Destroy"); updater?.Stop(); Abort(); if (harmony != null) harmony.UnpatchSelf(); if (Plugin.Instance == this) Plugin.Instance = null; }
     }
 
     internal sealed class SocialSession : IUnoSession, ICardSeatSession
     {
-        readonly Plugin plugin;
+        readonly CampusRuntime plugin;
         readonly TheEntity.Role player, npc;
         readonly int gameId, generation;
         readonly MinigameActionCfg cfg;
@@ -131,7 +147,7 @@ namespace StudentAge.CampusUno
         public string Name { get { return npc.Name; } }
         public int StartTalk { get { return cfg.startTalk; } }
         public float Cost { get { return cfg.cost; } }
-        public SocialSession(Plugin owner, int npcId)
+        public SocialSession(CampusRuntime owner, int npcId)
         {
             plugin = owner; generation = owner.Generation; gameId = owner.GameId.Value;
             player = Singleton<RoleMgr>.Ins.GetRole(); npc = Singleton<RoleMgr>.Ins.GetRole(npcId);

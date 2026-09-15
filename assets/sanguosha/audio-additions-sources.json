@@ -1,0 +1,69 @@
+{
+  "scope": "Local review of original Sanguosha voices, no synthesized dialogue.",
+  "files": [
+    {
+      "file": "audio/game-start.ogg",
+      "source": "https://raw.githubusercontent.com/diandian157/decadeUI/30dbc8911ea9d27cf674c9be50e8abd663e8a8f0/audio/game_start.mp3",
+      "sourceSha256": "303da63c91e77646012d0fff970e2d1056ded7b9ee3118a7a5518c6ae649a0cf",
+      "sha256": "6bfd0219a63bd4ff5bc9796754a504fb398be44d96c9ae357d716584d214b8f0"
+    },
+    {
+      "file": "audio/card-place.ogg",
+      "source": "https://raw.githubusercontent.com/diandian157/decadeUI/30dbc8911ea9d27cf674c9be50e8abd663e8a8f0/audio/GameShowCard.mp3",
+      "sourceSha256": "23acedaecb304e35e11c08e284493ea47c99d21986f48f478ee5be828bb56b54",
+      "sha256": "0fef84d862e701fa72b1647c0dcdda7ff74b39b8e31b4b8d6159d21e8f416011"
+    },
+    {
+      "file": "audio/recover-effect.ogg",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/runtime/voice/spell/armor_baiyinshizi_heal.mp3",
+      "sourceSha256": "445566c6363aa067dd7195617648d194adc10ce2b2ce84122280545b5537c11a",
+      "sha256": "aa25d47ac5fd2851ac45d91cd764effbea59615667c340138575e06cbfc955ef"
+    },
+    {
+      "file": "audio/first-blood.ogg",
+      "source": "https://www.bilibili.com/video/BV1ag411p7nB/",
+      "uploader": "Notify_",
+      "segment": [
+        0,
+        4
+      ],
+      "sha256": "e281071cf02a2f221c2de2fe3039ac8397f3c9644f12aa785e95b92e66beff41"
+    },
+    {
+      "file": "audio/male-wine.ogg",
+      "source": "https://raw.githubusercontent.com/libnoname/noname/038545e6b354469ca594a4c1f80d5518be141256/apps/core/audio/card/male/jiu.mp3",
+      "note": "MP3 payload; existing audio loader sniffs format",
+      "sha256": "0b60dad8a36adab839fd483fb810c8c55f270b68e38db099db37e3e6c9946a2b"
+    },
+    {
+      "file": "audio/female-wine.ogg",
+      "source": "https://raw.githubusercontent.com/libnoname/noname/038545e6b354469ca594a4c1f80d5518be141256/apps/core/audio/card/female/jiu.mp3",
+      "note": "MP3 payload; existing audio loader sniffs format",
+      "sha256": "e51bf99e4c6a8d5dab5570c29d2581e6fdac5bbe1534c5de425f46c03d14f53d"
+    },
+    {
+      "file": "audio/male-supply_shortage.ogg",
+      "source": "https://raw.githubusercontent.com/libnoname/noname/038545e6b354469ca594a4c1f80d5518be141256/apps/core/audio/card/male/bingliang.mp3",
+      "note": "MP3 payload; loader sniffs format",
+      "sha256": "474e0b2f5903f1ec3deae9a863f8b77aeb26df9e200241f818912175b0ebbc32"
+    },
+    {
+      "file": "audio/female-supply_shortage.ogg",
+      "source": "https://raw.githubusercontent.com/libnoname/noname/038545e6b354469ca594a4c1f80d5518be141256/apps/core/audio/card/female/bingliang.mp3",
+      "note": "MP3 payload; loader sniffs format",
+      "sha256": "4e94413716127b6585a36a16cbf5b991fddaf6d09cd6b35eefcc77924855c155"
+    },
+    {
+      "file": "audio/male-drowning.ogg",
+      "source": "https://raw.githubusercontent.com/libnoname/noname/038545e6b354469ca594a4c1f80d5518be141256/apps/core/audio/card/male/shuiyanqijunx.mp3",
+      "note": "MP3 payload; loader sniffs format",
+      "sha256": "dea961b05d5011c5d1ebad03c52a5cdf98adf2d7eafd3e513c8a9db5b4f13648"
+    },
+    {
+      "file": "audio/female-drowning.ogg",
+      "source": "https://raw.githubusercontent.com/libnoname/noname/038545e6b354469ca594a4c1f80d5518be141256/apps/core/audio/card/female/shuiyanqijunx.mp3",
+      "note": "MP3 payload; loader sniffs format",
+      "sha256": "de0c8f58169a4e3c4a5832d82e91f648b19b1cba772c2f98ecdd161da0fcd9df"
+    }
+  ]
+}

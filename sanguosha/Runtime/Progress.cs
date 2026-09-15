@@ -2,27 +2,41 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 namespace StudentAge.Sanguosha {
- // The explicitly paired routes share the SAME three generals, not merely similar difficulty.
  public static class Encounters {
-  static readonly string[][] sets={
-   new[]{"ganning","zhangliao","sunquan"},
-   new[]{"liubei","sunshangxiang","huatuo"},
-   new[]{"zhouyu","simayi","zhugeliang"},
-   new[]{"huangzhong","guanyu","zhoutai"},
-   new[]{"xiaoqiao","daqiao","zhenji"},
-   new[]{"luxun","huangyueying","guojia"},
-   new[]{"machao","zhangfei","weiyan"},
-   new[]{"lvmeng","caoren","xiahoudun"}};
-  static readonly Dictionary<int,int> pairs=new Dictionary<int,int>{{3,0},{101,1},{102,2},{103,3},{204,3},{104,4},{105,5},{202,5},{201,6},{203,7}};
-  public static readonly string[] RewardPool=sets.SelectMany(s=>s).Distinct().ToArray();
-  public static string[] For(int npcId){if(pairs.TryGetValue(npcId,out int n))return (string[])sets[n].Clone();
-   // Fallback uses only the common reward pool. New NPCs cannot create route-exclusive cards.
-   int start=(int)((uint)npcId%sets.Length);return (string[])sets[start].Clone();}
+  static readonly Dictionary<int,string[]> rewards=new Dictionary<int,string[]> {
+   {3,new[]{"ganning","zhangliao","huanggai"}},
+   {101,new[]{"liubei","sunshangxiang","huatuo"}},
+   {102,new[]{"zhouyu","simayi","zhugeliang"}},
+   {103,new[]{"huangzhong","guanyu","zhoutai"}},
+   {104,new[]{"xiaoqiao","daqiao","zhenji"}},
+   {105,new[]{"luxun","huangyueying","guojia"}},
+   {201,new[]{"machao","zhangfei","sunquan"}},
+   {202,new[]{"caocao","diaochan","zhangjiao"}},
+   {203,new[]{"lvmeng","caoren","xiahoudun"}},
+   {204,new[]{"xuchu","xiahouyuan","lvbu"}}
+  };
+  public static readonly string[] RewardPool=rewards.Values.SelectMany(s=>s).ToArray();
+  public static int[] Npcs=>rewards.Keys.ToArray();
+  public static string[] For(int npcId){if(rewards.TryGetValue(npcId,out var cards))return (string[])cards.Clone();
+   // Extra mod characters retain playable opponents; they do not reserve any shop cards.
+   return new[]{"weiyan","yuji","zhaoyun"};}
+  public static bool OnRoute(int init,bool male)=>init==2||init==(male?3:4);
   public static bool Sold(string general)=>general!="zhaoyun"&&!RewardPool.Contains(general);
+  public static bool ShopEligible(string general,IEnumerable<int> available,IEnumerable<int> unfollowed,Progress progress){
+   if(general=="zhaoyun")return false;if(Sold(general))return true;
+   var owner=rewards.First(p=>p.Value.Contains(general));
+   if(!available.Contains(owner.Key)||unfollowed.Contains(owner.Key))return true;
+   // A remapped reward behind an already cleared stage must remain obtainable in old saves.
+   return progress!=null&&Array.IndexOf(owner.Value,general)<progress.Stage(owner.Key);
+  }
   public static int Price(string general)=>general=="shenguanyu"||general=="shenlvmeng"?100:20;
  }
  public sealed class Progress {
   public int Schema=1;public int LastRound=-1;public Dictionary<int,int> Wins=new Dictionary<int,int>();
+  // Export IDs of first-stage stories already shown in this save (victory 12221xx / defeat 12221xx); absent in older records.
+  public List<int> Stories=new List<int>();
+  public bool StoryTold(int evt)=>evt>0&&Stories!=null&&Stories.Contains(evt);
+  public bool MarkStory(int evt){if(evt<=0)return false;if(Stories==null)Stories=new List<int>();if(Stories.Contains(evt))return false;Stories.Add(evt);return true;}
   public int Stage(int npc)=>Wins.TryGetValue(npc,out int n)?Math.Max(0,Math.Min(3,n)):0;
   public bool CanBegin(int npc,int round)=>npc>0&&round!=LastRound&&Stage(npc)<3;
   public bool Reserve(int npc,int round){if(!CanBegin(npc,round))return false;LastRound=round;return true;}

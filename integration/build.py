@@ -36,6 +36,8 @@ shutil.copy2(root/'mahjong/README.md',out/'课间麻将说明.md')
 shutil.copy2(root/'nds/README.md',out/'NDS掌机说明.md')
 shutil.copy2(root/'sanguosha/README.md',out/'三国杀说明.md')
 shutil.copy2(root/'sanguosha/角色武将分配.md',out/'角色武将分配.md')
+shutil.copy2(root/'sanguosha/人物对话配置说明.md',out/'人物对话配置说明.md')
+shutil.copy2(root/'sanguosha/第一关胜利剧情说明.md',out/'第一关胜利剧情说明.md')
 shutil.copy2(root/'THIRD_PARTY_NOTICES.md',out/'THIRD_PARTY_NOTICES.md')
 manifest={'version':version,'upReferenceSHA256':hashlib.sha256(args.up.read_bytes()).hexdigest(),'gameAssemblySHA256':hashlib.sha256((managed/'Assembly-CSharp.dll').read_bytes()).hexdigest(),'files':{str(f.relative_to(out)):hashlib.sha256(f.read_bytes()).hexdigest() for f in out.rglob('*') if f.is_file() and f.name!='manifest.json'}}
 (out/'manifest.json').write_text(json.dumps(manifest,indent=2))

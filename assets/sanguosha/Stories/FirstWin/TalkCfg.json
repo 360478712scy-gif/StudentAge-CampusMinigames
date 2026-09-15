@@ -1,0 +1,4788 @@
+{
+  "1222100001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……真没想到这游戏还挺有门道的。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222100001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222100002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        102,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222100002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "是吧，玩得深入的玩家会去计算技能的期望收益、等效血量之类的~能锻炼数学能力哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222100002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222100003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222100003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我声明一下，这把输了可不是因为数学不行，单纯牌运差而已，哼。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222100003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222100004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        0
+      ],
+      [
+        102,
+        3000,
+        10
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222100004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "是嘛，那运气是均值回归的，要不再来一局，看看你到底是牌运差还是数学水平差？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222100004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222100005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222100005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "得意忘形……我随时奉陪。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222100005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222100006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        102,
+        3000,
+        6
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222100006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "好呢，来就来。（哼哼，上钩了~）",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222100006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210001
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222102001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "嗯，是你赢啦。你刚才那张牌真的好厉害！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222102001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222102002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      105
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        105,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222102002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "承让承让~你打得也不赖嘛，比我想象中厉害很多。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222102002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222102003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222102003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哈哈咱俩就别商业互吹了~对了，有时间可以教教我吗？这个游戏还挺有意思的。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222102003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222102004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      105
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        105,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222102004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "嗯，明天有时间在校门口的奶茶店再下一次吧！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222102004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210201
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        105,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222103001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……我天，我桃呢？我明明记得还有一张啊？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222103001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222103002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        104,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        104,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222103002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "那你这记性可真不怎么样嘿嘿~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222103002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222103003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222103003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……真没有啊，好吧……这局算我大意了，再来再来！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222103003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222103004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        104,
+        3000,
+        6
+      ],
+      [
+        0,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222103004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "那下局再输算什么？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222103004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222103005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222103005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "有道理，我先想好理由……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222103005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222103006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        104,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222103006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "算你牌运好吧，哈哈~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222103006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210301
+    ],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        104,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "啊，我输了……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222104002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        101,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        101,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "你刚才那个技能出得不太对呢，一会儿我跟你说下这个技能的用法吧？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222104003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "好呢，谢谢哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222104004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        101,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "看来光跟可乐打牌还是不太行呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222104005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        101,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……你、跟可乐打三国杀？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222104006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我爸妈经常不在家嘛，在家也不会跟我打这种牌，我就带着卡牌到院子里自己打自己，或者跟可乐打~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222104007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222104007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……可乐的狗生还挺丰富呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222104007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210401
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222101001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "是你赢了，恭喜呀。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222101001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222101002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        103,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        103,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222101002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "你怎么输了还这么开心呀？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222101002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222101003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222101003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [
+      [
+        3,
+        1,
+        320907
+      ]
+    ],
+    "content": "能和你一起打牌玩本身就很开心了，毕竟生活中有很多事比输掉打牌要难受多了。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222101003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222101004
+    ],
+    "nextTalk2": [
+      1222101005
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        103,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222101004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "（动容）阿慈……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222101004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222101005
+    ],
+    "nextTalk2": [],
+    "option": [
+      122210101
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222101005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "要是杰哥每次输急眼了能有你这样的心胸就好了呢哈哈~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222101005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210102
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222105001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哎呀，英明如我居然输了，你真厉害！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222105001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222105002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        201,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222105002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "下次我可以用自己DIY的武将卡跟你打吗？保证不超模~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222105002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222105003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        201,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222105003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "你还会DIY武将卡？手工制作吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222105003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222105004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        8
+      ],
+      [
+        201,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222105004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "某宝上有接定制的，我自己定制过《木叶忍者》和《秦时月明》版本，哪次带你看看？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222105004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222105005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        201,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222105005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "听上去好有意思，有机会给我也看看！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222105005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210501
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222106001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我靠，本大爷居然输了？！不可能，绝对不可能！你是不是藏牌了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222106001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222106002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        3,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        3,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222106002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "别耍赖啦杰哥……你天天虐菜阿伟和华仔，牌技肯定下降了。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222106002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222106003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222106003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "有道理！看来不是我牌技不如人，是那俩货害我牌技下滑！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222106003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222106004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        3,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222106004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……我不是在教你甩锅好吧。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222106004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210601
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "厉害，你赢了，我的卡给你。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        203,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "（摆摆手）不用啦，这几张卡还值点钱呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "之前说好了赢了就给你，我不能反悔。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "程良执意把卡塞给了你，你只得收下。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "对了，你刚才说这卡还值些钱？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "嗯嗯……你不会反悔了吧哈哈~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "不，我在想如果我自己制作一些能不能拿去卖钱。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "说不定能呢，我听说有些卡牌公司能把一张卡卖到几万，也许这确实是个发家致富的路子？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222108009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222108009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "（点点头）这样啊，我回去琢磨琢磨。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222108009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210801
+    ],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222109001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "诶，我这就输了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222109001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222109002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      204
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        204,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        204,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222109002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "对啊，那不然呢……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222109002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222109003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222109003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我算算……我这个回合扣了血，还有上回合……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222109003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222109004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      204
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222109004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "停……别算了，你会算到天黑的！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222109004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210901
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "怎么会……等下？！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        102,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        0,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "牌技不太行嘛小徒弟，要不要为师教你两招？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        102,
+        3000,
+        11
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "再来一局！再来一局你输定了……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        6
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "嗯……求我，不然我回去做题了。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "怎么还得寸进尺……？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "不得寸进尺一下的话这局我不是白赢了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "侥幸赢了一局~真不容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        103,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "不对，到底哪儿出错了呢？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        3
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "别着急啦，我们一起复盘一遍，慢慢来。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [
+      [
+        3,
+        1,
+        320907
+      ]
+    ],
+    "content": "我也只是这次牌运好嘛，下次就不一定了……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111005
+    ],
+    "nextTalk2": [
+      1222111011
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……不对哦阿慈，你本来就很厉害，不只是打牌方面，还有画画、做甜食、手工。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……别这样说，我可没那么好。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        103,
+        3000,
+        4
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "不对，你就是有。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "万一我下次输给你了，我岂不是没有那么厉害了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        103,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "下次赢了我，说明你就很厉害，输给我了你就得听我的——按我说的重复，你就是很厉害。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222111010
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        103,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111010": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……嗯，谢谢，我会记住的。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111010,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211101
+    ],
+    "replace": [],
+    "roleIds": [
+      103
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        103,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222111011": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "再来一局，再来一局说不定就不一样了……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222111011,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211102
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222112001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "赢了！真不容易呢哈哈。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222112001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222112002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      105
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        105,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        105,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222112002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "厉害了，小雅你很会打这个牌诶。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222112002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222112003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        105,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222112003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我爸爸教过我玩，他可喜欢打了，还经常约自己的朋友出门玩。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222112003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222112004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      105
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222112004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "真羡慕你有这么会玩的爸爸诶，我爸对这个一点兴趣都没有。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222112004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222112005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222112005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "但我以前带卡牌回来都被我妈收了，唉……据说我爸以前的卡也被她收了。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222112005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222112006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      105
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222112006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……听着就像家里有个梁老师一样。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222112006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211201
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222113001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哟吼~我赢啦！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222113001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222113002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        104,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        104,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222113002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "没想到小君你还蛮厉害的……甘拜下风。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222113002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222113003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222113003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "什么叫没想到？我看着像不太会玩的吗？我可是张飞呢，打这种三国题材的游戏自然手到擒来啦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222113003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222113004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        104,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222113004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "啊……？为什么是张飞？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222113004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222113005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222113005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "瘦猴给我起外号嘛，笑我皮肤黑，我说张飞就张飞咯，他还没那个本事呢，最多就是个炮灰~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222113005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222113006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      104
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        104,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222113006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……小君你好潇洒哈哈~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222113006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211301
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "总算赢了，真不容易呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        101,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        101,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "作为惩罚……你得……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "怎么还有惩罚……？一开始可没说……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "给卡牌把卡套套好。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "啊？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我做了一些塑料卡套，目前数量不多，但足够把武将卡全部套好呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        101,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "但套上塑料卡套的话，手感就很差了……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "用塑料卡套能好好保存，没有塑封的卡用不了几次边缘就会磨损，磨损了里面的武将是会哭泣的。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "噗，你是说里面那群胡子大叔会哭泣吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114010
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114010": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "为什么不会呢？胡子大叔也是人啊。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114010,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114011
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114011": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "冯馨月上次看一个漫画里面胡子大叔就哭了，在这套卡牌里面好像还有呢，一个是这张吕布，另一个，好像还没有……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114011,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222114012
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      101
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222114012": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……冯馨月看的漫画，总感觉可能不太正经呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222114012,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211401
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "喔，我赢了，中午吃点什么？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        201,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……你赢了也不开心一下吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "开心什么？孟怀安打游戏取得胜利是理所当然的，否则我不就枉为我孟怀安了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        201,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "（救命啊这人真的好自恋……）",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "中午我请客，吃点什么？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        201,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "说到底你还是因为赢了心情好所以才请客吧……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "怎么会？输了我也请，打游戏嘛，一起开心最重要！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "但我输的那一天可能没那么容易到来。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222115010
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      201
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        201,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222115010": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "小尾巴又翘上了，你啊，真是……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222115010,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211502
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "（抱拳）承让承让，度尽劫波兄弟在，相逢一笑泯恩仇，输赢小事，不足挂齿。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        3,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [
+      [
+        1,
+        99,
+        2
+      ]
+    ],
+    "content": "……杰哥这还是你吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116003
+    ],
+    "nextTalk2": [
+      1222116004
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哦？小姐何出此言？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哦？兄台何出此言？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [
+      [
+        1,
+        99,
+        2
+      ]
+    ],
+    "content": "……你不是应该蹬鼻子上脸叫嚣自己天下无敌才华独占八斗吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116006
+    ],
+    "nextTalk2": [
+      1222116007
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "小姐说笑了，梁某向来淡破名利，笑对输赢……后面什么来着？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "兄台说笑了，梁某向来淡破名利，笑对输赢……后面什么来着？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "那字念泊，你终于背不下去了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "话音未落，杰哥拿起放在一边的相机，按下暂停。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116010
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116010": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我去老子终于赢了！哈哈哈哈哈我得发条说说刚才tm一身冷汗……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116010,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116011
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        3,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116011": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "…………真是淡破名利，笑对输赢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116011,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116012
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116012": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我超我没按录像键？！啊？？？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116012,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116013
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        3,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116013": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "呃啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊我怎么给忘了！！！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116013,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222116014
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      3
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222116014": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哈哈哈哈哈活该吧你~",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222116014,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211601
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我居然赢了，今天运气不错。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        203,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "恭喜啦，我得好好复盘一下。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "在你复盘牌局时，程良翻看着卡牌，表情好奇。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我没看过三国，小时候只看过一点连环画，有时挺好奇里面角色的故事的。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我完整看过一些，可以给你讲讲呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "你给程良讲了些三国故事，他听完表情有些动容。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……一个摆摊的也能成功吗。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "谢谢，今天让我有点难忘。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222118009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      203
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222118009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "那双向来平稳的眉心中央掀起了少见的波澜。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222118009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211801
+    ],
+    "replace": [],
+    "roleIds": [],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222119001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我天，我赢了？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222119001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222119002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      204
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        204,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        204,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222119002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "对啊，我血量都归0了。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222119002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222119003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222119003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我是怎么赢的？能不能教教我？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222119003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222119004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      204
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222119004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "啊……？你都赢了，正常来说不应该是你教我吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222119004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222119005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222119005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我只是运气好啦，我看你手上的才是真功夫！有空教下我呗，反正跟你学点总没坏处！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222119005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222119006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      204
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        204,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222119006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "好呢……总觉得有个武将跟你挺像的哈哈。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222119006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211901
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222107001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "是你赢了，你好厉害。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222107001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222107002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        202,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222107002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "承让啦，我觉得我不算什么大胜。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222107002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222107003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222107003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "有空可以教教我吗？我不太懂，但对这个游戏还挺感兴趣的。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222107003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222107004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222107004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "是吗，可我觉得你技术不错呀？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222107004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222107005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222107005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "别恭维我啦，我这是第一次接触呢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222107005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122210701
+    ],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        202,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "输了……唉。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117001,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117002
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        1002,
+        0,
+        1
+      ],
+      [
+        202,
+        1002,
+        0,
+        2
+      ],
+      [
+        0,
+        3007
+      ],
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "别灰心，我其实都没怎么玩过，纯粹运气好而已，你操作比我好多了，下次很容易就能赢。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117003
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "（递过卡牌）我给你一张强力武将卡吧，刚好买了两张，送给你一张。",
+    "effect": [
+      [
+        60,
+        1,
+        920006
+      ]
+    ],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117004
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117004": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "林嘉宇递给你一张武将卡，你接过一看，武将是郭嘉。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117004,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117005
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117005": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "谢谢……诶？你不太玩为什么会有武将卡？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117005,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117006
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        0
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117006": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "啊，你说约我来玩，我路过商店顺路买了张。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117006,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117007
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "那就谢谢啦~还来吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222117008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        1
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222117008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "嗯，再来一局？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222117008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211701
+    ],
+    "replace": [],
+    "roleIds": [
+      202
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110007": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "做题要设置奖励机制，打游戏也需要有。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110007,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110008
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110008": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "那……求你？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110008,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110009
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110009": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "好，但我定的艾宾浩斯记忆法时间到了，先背一会儿英语再说。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110009,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110010
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        102,
+        3000,
+        10
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110010": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "喂？！不是说求你……",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110010,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110011
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        8
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110011": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "我说“求我，不然我回去做题”，但没说求了我就一定答应。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110011,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [
+      1222110012
+    ],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      102
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "1222110012": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……也太赖皮了吧？！",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 1222110012,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [
+      122211001
+    ],
+    "replace": [],
+    "roleIds": [
+      0
+    ],
+    "roleName": null,
+    "roles": [
+      [
+        0,
+        3000,
+        12
+      ]
+    ],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  }
+}

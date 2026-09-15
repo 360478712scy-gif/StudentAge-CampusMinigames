@@ -2,9 +2,13 @@ using System;using System.Collections.Generic;using System.Linq;using System.Ref
 namespace StudentAge.CampusMinigames{
 [BepInPlugin("studio.studentage.nds","NDS掌机",CampusVersion.Value)][BepInDependency("studio.studentage.campusuno")][BepInDependency("sa.EC2B.UnofficialPatch")]
 public sealed class NdsPlugin:BaseUnityPlugin{
- Harmony harmony;float next;void Awake(){harmony=new Harmony("studio.studentage.nds");harmony.PatchAll(typeof(NdsPlugin).Assembly);}
- void Update(){if(Keyboard.current!=null&&Keyboard.current.f8Key.wasPressedThisFrame)NdsConsole.OpenFromTitle();if(Time.unscaledTime<next)return;next=Time.unscaledTime+1;NdsIntegration.Register();SanguoshaIntegration.Register();}
- void OnDestroy(){NdsConsole.Invalidate();NdsBadgeAssets.Clear();harmony?.UnpatchSelf();}
+ void Awake(){if(NdsRuntime.Instance!=null)return;var host=new GameObject("CampusNds_RuntimeHost"){hideFlags=HideFlags.HideAndDontSave};DontDestroyOnLoad(host);host.AddComponent<NdsRuntime>();}
+}
+public sealed class NdsRuntime:MonoBehaviour{
+ public static NdsRuntime Instance{get;private set;}
+ Harmony harmony;float next;void Awake(){Instance=this;harmony=new Harmony("studio.studentage.nds");harmony.PatchAll(typeof(NdsPlugin).Assembly);}
+ void Update(){if(Keyboard.current!=null&&Keyboard.current.f7Key.wasPressedThisFrame)SanguoshaView.OpenTestDirectory();if(Keyboard.current!=null&&Keyboard.current.f8Key.wasPressedThisFrame)NdsConsole.OpenFromTitle();if(Time.unscaledTime<next)return;next=Time.unscaledTime+1;NdsIntegration.Register();SanguoshaIntegration.Register();}
+ void OnDestroy(){if(Instance==this)Instance=null;NdsConsole.Invalidate();NdsBadgeAssets.Clear();harmony?.UnpatchSelf();}
 }
 public static class NdsIntegration{
  // EntryView is also the in-game pause menu, so require the title game state as well.

@@ -1,0 +1,1362 @@
+{
+  "note": "User-selected caise art. Original Sanguosha artwork rights retained; decadeUI upstream license in ../decade/decadeUI-LICENSE.txt. No upscaling, no upstream JS.",
+  "files": [
+    {
+      "file": "art/slash.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/sha.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "459eb1703dff9d5448480ed65b74a940edb98511ff1ea86f671e58471148a5b5"
+    },
+    {
+      "file": "art/jink.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/shan.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "013d0768417ced9761e48013a05af9bb32a4e75273e8afaca1680ce7a63e4b87"
+    },
+    {
+      "file": "art/peach.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/tao.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "af52f88cbab736c01f880957024d78260e61d3f7ded5f3c9db251ca784f82419"
+    },
+    {
+      "file": "art/wine.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/jiu.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "602f571653fbbc1c0cbdeae2c16c9a1c5bf3ccb4d2ebb6d841d9faa2bdbbec39"
+    },
+    {
+      "file": "art/supply_shortage.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/bingliang.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "52993a972b46c7d08826343202767b537cfdb978d9ea3f6bd945cc4a64e94616"
+    },
+    {
+      "file": "art/drowning.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/shuiyanqijun.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "1779bc2d1271462f14ed363f0b2a14742f0474f45ac9345cb9382dd424067a40"
+    },
+    {
+      "file": "art/crossbow.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/zhuge.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "bca6faabd0a5613a0032ca261a86707d30f1832457bd9689773ba62245915652"
+    },
+    {
+      "file": "art/double_sword.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/cixiong.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "7f0fb87256b2e1e3f86d73486c931da7988c28fdfe8ac4906f0fa61d6c15a6b5"
+    },
+    {
+      "file": "art/qinggang_sword.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/qinggang.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "9e8c18001bb51226fc0ba0e246edec8f4bc1d1ef3a61b084948a8ca025d694b3"
+    },
+    {
+      "file": "art/blade.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/qinglong.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "725a1311dcb01ae4f4431875edfadbd61d4ae2e41f7a1f66ba016853f4eb2435"
+    },
+    {
+      "file": "art/spear.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/zhangba.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "a4c4f94c29333b2e247c3a9d618c69871e710c758a3bb55345e895c1cb9c8031"
+    },
+    {
+      "file": "art/axe.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/guanshi.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "929fd8ce80a5ad806a182bae0a8822b3d91a620960a7614c057067b1f18a6b4d"
+    },
+    {
+      "file": "art/halberd.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/fangtian.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "3d62c169002e4b709f4fbc8523f419b819b1fdb7711298ddbbefec60846c5eb1"
+    },
+    {
+      "file": "art/kylin_bow.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/qilin.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "29c776ec0692def8ee8870cc9d48c13beadc735b5e1f4080c85b45dbe3d4ca0f"
+    },
+    {
+      "file": "art/eight_diagram.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/bagua.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "c0587334d364df0d4bacb2502bddba53eed35cf3be783b1d80ca5f41aa6a7de7"
+    },
+    {
+      "file": "art/renwang_shield.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/renwang.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "6e96b33b7ca8ee94ff96114d8679518469d1df42a865d87e3b53e857aa90b35f"
+    },
+    {
+      "file": "art/ice_sword.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/hanbing.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "759fa13fe6990b4c6e7cc819f26ac074160252f745efe8663c409431fc4b2d66"
+    },
+    {
+      "file": "art/jueying.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/jueying.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "c8061c1288dc4f7980712cdd0c965e2e32d71fccef69d017f5036ba55c26b629"
+    },
+    {
+      "file": "art/dilu.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/dilu.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "7ce2227e8caa3baa90538f6ad3affeb5e1be44cf932604a7c7c85c6b98fedbc0"
+    },
+    {
+      "file": "art/zhuahuangfeidian.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/zhuahuang.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "767a38807d42155f6b6e58f2345179dfc7e51cffae80d72590fe7479ca51c672"
+    },
+    {
+      "file": "art/chitu.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/chitu.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "270a2d085fe2c9352d2077b896e1e10f7f9f14de3abbddc641ab9f13c4b69c35"
+    },
+    {
+      "file": "art/dayuan.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/dawan.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "a3200dd6061c04b4090f8ce4a429072ff72781c2a35bd5b2b9253db95a1afb1d"
+    },
+    {
+      "file": "art/zixing.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/zixin.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "7d899c7df811c8949e17fd9557681924facc21e0e961b0e5e766f1da454528b4"
+    },
+    {
+      "file": "art/amazing_grace.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/wugu.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "accbb484e8060d9433b6cd5d551a816d22b2616605bdd09630717e5f4a57863c"
+    },
+    {
+      "file": "art/god_salvation.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/taoyuan.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "a55f024116a26cdbb534d31e05def70dabe13d191319504d62993fe0fc48babe"
+    },
+    {
+      "file": "art/savage_assault.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/nanman.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "14ceeea01f5129a552fb4954478409b08427073660bc8b96e3a161928cf1b931"
+    },
+    {
+      "file": "art/archery_attack.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/wanjian.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "dae9b419325309a0ef8eab0137ba910c36e7b63fc099ed8762e68da5ad63b02b"
+    },
+    {
+      "file": "art/duel.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/juedou.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "a325b2c36ca831a686f9f1201d55cd1429f843f088ea8e844829bff62d8f1b11"
+    },
+    {
+      "file": "art/ex_nihilo.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/wuzhong.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "368b21ed1787a912d66c9a9b363d1adcab41afd7600f2cba18619abf4b2adab5"
+    },
+    {
+      "file": "art/snatch.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/shunshou.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "a49e213d1568d80663da9039c88312b80223feb48aad89195e1d34a6e44788c9"
+    },
+    {
+      "file": "art/dismantlement.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/guohe.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "9345c597def76d7e0ae12cb497b87608aa182f0de9e6b3eb9d917c3dde95144d"
+    },
+    {
+      "file": "art/collateral.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/jiedao.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "ce6b58f6d2e1b20408e47a5807ffaa17b80961e5e3149a3018aaa3733358c907"
+    },
+    {
+      "file": "art/nullification.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/wuxie.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "f43b419be122b61a77135aebdbcd159662d6aeb4b9d3af5144f3978fd282950d"
+    },
+    {
+      "file": "art/indulgence.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/lebu.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "92b249f15c405d573bf8a41353195b265c7c7ab435f1e701d1afd3cbf8bbbf91"
+    },
+    {
+      "file": "art/lightning.webp",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/card-skins/caise/shandian.webp",
+      "nativeSize": [
+        400,
+        555
+      ],
+      "sha256": "744635b1b0797d51b3869750c84230d2e26bb7a53d01f991ceeda2db91812578"
+    },
+    {
+      "file": "faces/amazing_grace-heart-3.png",
+      "composition": "art/amazing_grace.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "5999c978064b0dd82d22fdb2fa58c06286a6eb2afc9ad9b1d1d62a2d5e25c8cd"
+    },
+    {
+      "file": "faces/amazing_grace-heart-4.png",
+      "composition": "art/amazing_grace.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "bf295d9d410e7bc9ab3ff833e8cd80ed59a67d0e85b0f7cbeb33dc18600cb161"
+    },
+    {
+      "file": "faces/archery_attack-heart-1.png",
+      "composition": "art/archery_attack.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "e4ad8e4d375eed52b0ae2551cab678b1e4cc80c1418980813a4bb2c85e1d48df"
+    },
+    {
+      "file": "faces/axe-diamond-5.png",
+      "composition": "art/axe.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "8a364cf2873e27b9ae122b5ebbf22fc749d934331425219190ed226345656603"
+    },
+    {
+      "file": "faces/blade-spade-5.png",
+      "composition": "art/blade.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "084e217e47df22a7a8b1ee7c7eef559dec11b739ebf98d38afb21ca5c41fe4b4"
+    },
+    {
+      "file": "faces/chitu-heart-5.png",
+      "composition": "art/chitu.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "fbdaccfc903a7e4725e8ad682355a56b3d6d9959a2a8db9577f895d7eb8559e8"
+    },
+    {
+      "file": "faces/collateral-club-12.png",
+      "composition": "art/collateral.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "e2c2c5f59a52a5ce08b63f2c8ee1ef5901e486e0540097e8f2aef43de01fb18b"
+    },
+    {
+      "file": "faces/collateral-club-13.png",
+      "composition": "art/collateral.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "9cb31d181f282634d7a3078d06a0e1037d5e14d6a7b4fefb7b03b299030a5261"
+    },
+    {
+      "file": "faces/crossbow-club-1.png",
+      "composition": "art/crossbow.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "242295c201a84f478768d4395a834e30a61c015b81f8451b74378d4d6889f834"
+    },
+    {
+      "file": "faces/crossbow-diamond-1.png",
+      "composition": "art/crossbow.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "f4d7d868ae4c24743ff8201705466863346200e2e1df83c7b4bfa4602c27096a"
+    },
+    {
+      "file": "faces/dayuan-spade-13.png",
+      "composition": "art/dayuan.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "a1d75eacf0079baf93d57ab0fa76f53cfc7b6a0cec9499a00f12601f47a55198"
+    },
+    {
+      "file": "faces/dilu-club-5.png",
+      "composition": "art/dilu.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "965011e7df627b97ec41831c465f8ef0badc21f1901ee70f29be6d0175d77512"
+    },
+    {
+      "file": "faces/dismantlement-club-3.png",
+      "composition": "art/dismantlement.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "dcb719388fa1b1c18fe120382606e0d8a9822fcff610054659d9d862fa6ec3d7"
+    },
+    {
+      "file": "faces/dismantlement-club-4.png",
+      "composition": "art/dismantlement.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "d6bdba5142c71346db2db393bcbc104f03c15db8c6b03ca63ffbf2778e1c45b5"
+    },
+    {
+      "file": "faces/dismantlement-heart-12.png",
+      "composition": "art/dismantlement.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "7926fae40dd715eb323352aa739cf8d5840cf9dd5b1bff6fbd31b24b62e4e43e"
+    },
+    {
+      "file": "faces/dismantlement-spade-12.png",
+      "composition": "art/dismantlement.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "bf4038bd6be4b6481bac1354b2f9c4f864dc926b88101d612b0914e11a261c47"
+    },
+    {
+      "file": "faces/dismantlement-spade-3.png",
+      "composition": "art/dismantlement.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "2015737f042c1ea1295c162909492f792f968bddedcb0d416807d54fb1631941"
+    },
+    {
+      "file": "faces/dismantlement-spade-4.png",
+      "composition": "art/dismantlement.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "5055d03e115394ac0b56423c993dfeaf77b38867dfb308751c8403d4a76a1a5e"
+    },
+    {
+      "file": "faces/double_sword-spade-2.png",
+      "composition": "art/double_sword.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "288d814fe18e9147651219e617fab3754281a5b989f142ce313a85962e987c9e"
+    },
+    {
+      "file": "faces/drowning-club-7.png",
+      "composition": "art/drowning.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "bd13f3cf390aca2a90c7ed1c5bd9037c2a6aff56fcc4f50d7e0833b25af33c77"
+    },
+    {
+      "file": "faces/duel-club-1.png",
+      "composition": "art/duel.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "5473714b1d46a6f9ad6cd6178a797be8c4836eba2ee17fd079f1ea839c79874f"
+    },
+    {
+      "file": "faces/duel-diamond-1.png",
+      "composition": "art/duel.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "ecfc9f7e19adb44543a8cd710f8d07fed0c50bbe07c2378eb3c9c4b695674301"
+    },
+    {
+      "file": "faces/duel-spade-1.png",
+      "composition": "art/duel.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "355aa2e46a74839bb874749c500deb494104ebe9782f13ec4085d41550ba6ae6"
+    },
+    {
+      "file": "faces/eight_diagram-club-2.png",
+      "composition": "art/eight_diagram.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "0d6350dec5d2a2dfab78236f1e88b2f2f4514c74ddc87ec21ed60a977cebf5cc"
+    },
+    {
+      "file": "faces/eight_diagram-spade-2.png",
+      "composition": "art/eight_diagram.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "9d215f8e1adb10c26711e1a17c60ed7faa2f131dbee4e5beb3aadc80ff9d850f"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-11.png",
+      "composition": "art/ex_nihilo.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "8b3d6a0f974f7c53b660a68a4a3c49b41ffa25ac4e7c0292c144c44017bc1b6e"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-7.png",
+      "composition": "art/ex_nihilo.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "b06f915155f526a618492a3c685de2580f79b5e35f79291f0c6645534dd02e53"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-8.png",
+      "composition": "art/ex_nihilo.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "b705aa552fac6b9e443e5a0f16e8f3b903577c34d3fc072fe7f29e3397033346"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-9.png",
+      "composition": "art/ex_nihilo.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "706b2c4faa4e30909108c6ebd2805f6f686646714f52c093ceaefeaab9ea8b7e"
+    },
+    {
+      "file": "faces/god_salvation-heart-1.png",
+      "composition": "art/god_salvation.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "ad0fdb392b38b42b2a1185a4a4a9c53428edea52acacfdba5b17edcd4ff3a903"
+    },
+    {
+      "file": "faces/halberd-diamond-12.png",
+      "composition": "art/halberd.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "2af7224cd338d90001fb7bdb62e2183a6af98075120689d9779f5f10727c5c6d"
+    },
+    {
+      "file": "faces/ice_sword-spade-2.png",
+      "composition": "art/ice_sword.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "02de57b60da6d4c841c8294062430506cc9051f68794b54676747bd4b6cab735"
+    },
+    {
+      "file": "faces/ice_sword-spade-9.png",
+      "composition": "art/ice_sword.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "33a8c41dc010dd161b42a75ae6a40e085e773c44cab5305f41ea2d58a084e287"
+    },
+    {
+      "file": "faces/indulgence-club-6.png",
+      "composition": "art/indulgence.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "9811b0718af47c3d9b508b1b3203d1e8cbc4fa7084b1015a306ec3a942c6d42f"
+    },
+    {
+      "file": "faces/indulgence-heart-6.png",
+      "composition": "art/indulgence.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "b50aa6836308e7ce8ee9ea64b651f14fe4be7187437468b5611d18557744f5c7"
+    },
+    {
+      "file": "faces/indulgence-spade-6.png",
+      "composition": "art/indulgence.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "49cd9ac96e7678bb492a65dcf52b276e73bcd94e18f1edae2dc27932baaced52"
+    },
+    {
+      "file": "faces/jink-diamond-10.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "38bc7c6c47dbf4b94516d95e59e64dc32429e115007c73a5ef5cc6255394b69f"
+    },
+    {
+      "file": "faces/jink-diamond-11.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "4902064c1c4ebe6d863e2eef3ed186c7651935268907b1174c892019c2faf78d"
+    },
+    {
+      "file": "faces/jink-diamond-2.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "cf4ccbfea1f24b96c7a4e1644c040e113d7e5d25a1c4492d3be7d9e8952b62e8"
+    },
+    {
+      "file": "faces/jink-diamond-3.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "bb9ad58d304c7f0ace2931c07dc45668384803e19ef9879d92bdd5dd49dab18c"
+    },
+    {
+      "file": "faces/jink-diamond-4.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "112d23b6e3fdc6d18fdc8c0a868fc5f40b49524b21fc11ace52c71c08a42fb1e"
+    },
+    {
+      "file": "faces/jink-diamond-5.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "7194d3b2450b5d5ef2c14c57a36fb5dfc678a5f5942bc8036687345d7b12a943"
+    },
+    {
+      "file": "faces/jink-diamond-6.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "fad29713c3493977c318cd9993b74160842e1cbdeb403bb39b7a1e7537280e8c"
+    },
+    {
+      "file": "faces/jink-diamond-7.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "8fef8310f016deb512818d043cbce4433f3b7f3befa0ff9b77562a25de641d85"
+    },
+    {
+      "file": "faces/jink-diamond-8.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "ae6618a6628590cb39fb53b7cd4ddd445d24451d6811054f989ef61d78d1514b"
+    },
+    {
+      "file": "faces/jink-diamond-9.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "fb3f5b9bf409697e7d1db810b5acee26c7a1555716be42df6151a1eb68aaad59"
+    },
+    {
+      "file": "faces/jink-heart-13.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "f495969d4bcf6f7fb5a3602235880e68829fa0185306e516674470e6fc185e9f"
+    },
+    {
+      "file": "faces/jink-heart-2.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "7155f6a4c969021903345c2d2f025a6a2b53ddd9942c78cd9824c220f5913c0f"
+    },
+    {
+      "file": "faces/jink-heart-5.png",
+      "composition": "art/jink.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "895af3f2c9f0f35e3fcfb00e175ebfadc348829913c3bd7f6661894389738ded"
+    },
+    {
+      "file": "faces/jueying-spade-5.png",
+      "composition": "art/jueying.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "cad6b32bcbd6c678b88e957ea1696366960471dbf2ddb927e6fd1d109b0f4204"
+    },
+    {
+      "file": "faces/kylin_bow-heart-5.png",
+      "composition": "art/kylin_bow.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "3b4dacddc0b089792460aef3a073c7a08b41c22504a7b2b717be2bbab2b9d39e"
+    },
+    {
+      "file": "faces/lightning-heart-12.png",
+      "composition": "art/lightning.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "8674321444d7bfe949579b01d4b2356f6dc57968f583867020bcc09cac649b52"
+    },
+    {
+      "file": "faces/lightning-spade-1.png",
+      "composition": "art/lightning.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "df57a10c210063ad225bfd600f788dd2cfb61431f2e4800326ba100f13f0dbbc"
+    },
+    {
+      "file": "faces/nullification-club-12.png",
+      "composition": "art/nullification.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "b78a61f0a959ac068cc3f65d8137c205d8d0043234732c02a520aa0aad9d26cc"
+    },
+    {
+      "file": "faces/nullification-club-13.png",
+      "composition": "art/nullification.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "06a00cdbafe1b091f5791b81cb90a5e5862d52a14fa5d356295bdd0e8df889dd"
+    },
+    {
+      "file": "faces/nullification-diamond-12.png",
+      "composition": "art/nullification.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "5a3ef4c2a34f420be081f89bacf77973038ed1d8f66796f518771943b6ff82fd"
+    },
+    {
+      "file": "faces/nullification-heart-13.png",
+      "composition": "art/nullification.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "cd47dc284e7c8c938a7cd8964647b8d4c39525dded9b727df7c86c2de1544036"
+    },
+    {
+      "file": "faces/nullification-spade-11.png",
+      "composition": "art/nullification.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "df131bdda4fe634cc5b1123cb11292a727be72e194a9aab83b26795757d6361f"
+    },
+    {
+      "file": "faces/peach-diamond-12.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "84fe6cfc96db07ca7cab326614293aeafbced967339222849b4f58369ca8ad5d"
+    },
+    {
+      "file": "faces/peach-heart-12.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "b0e8ce9013d7ef2e28fc1783214027c7c2f5a1740ce50a1a1bbcba8bdfd4a83a"
+    },
+    {
+      "file": "faces/peach-heart-3.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "1b10b616ccecc4dbf74ec3f1a8f1df4a16eac4e2a3c656c1d06d268f56950b72"
+    },
+    {
+      "file": "faces/peach-heart-4.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "9a49a44363a15eb80901790fd0acd5cffdd6023f9109a9f8b44a81d156fe84fc"
+    },
+    {
+      "file": "faces/peach-heart-6.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "a1cb4ff2471ce299f442d3d8a3ce9d3d8c34478215c0fcf6a562b4d4baac1463"
+    },
+    {
+      "file": "faces/peach-heart-7.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "c3ea23fa0391cc03db925e2b0c6b30694b786ba35787f5284d952aef12556692"
+    },
+    {
+      "file": "faces/peach-heart-8.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "446d9bbe4d64dfec87cec23e51141485dced92ac1315b244d2ceecb200643662"
+    },
+    {
+      "file": "faces/peach-heart-9.png",
+      "composition": "art/peach.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "6aca21d50acdc8a6fb8fc8babd4ee16087150131de60a6580c9b9de8c571018d"
+    },
+    {
+      "file": "faces/qinggang_sword-spade-6.png",
+      "composition": "art/qinggang_sword.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "d3ba43db6a3835fe3bcb739dc9bf3fe8dbd36f727b8f916f4fb0f2cec543f1c6"
+    },
+    {
+      "file": "faces/renwang_shield-club-2.png",
+      "composition": "art/renwang_shield.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "a628e5dfe5c8860be0e84402a5aed953a6a9b721690940bfde747b97abeee20c"
+    },
+    {
+      "file": "faces/savage_assault-club-7.png",
+      "composition": "art/savage_assault.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "56c810a92713ce0d56fa17e0d12bd2559bd03bc7663a17ab5a6e6ce2060ec97f"
+    },
+    {
+      "file": "faces/savage_assault-spade-13.png",
+      "composition": "art/savage_assault.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "6755c68a5bc6aa659c1485c9b53b9e3da5ce10030cea8869ed6c23f9e04c2b06"
+    },
+    {
+      "file": "faces/savage_assault-spade-7.png",
+      "composition": "art/savage_assault.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "7ff18e4179fe12d9fc28d7dee2c0920eb1a221cad82452d0cedb6f8648bace24"
+    },
+    {
+      "file": "faces/slash-club-10.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "c58c80709c50cca20f91352d1880d8e3e6e71fc6e7dc9989e5135bbc08351019"
+    },
+    {
+      "file": "faces/slash-club-11.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "4dc9f6f0cde6635a2a8ba16f600ba4c9e35fb1aa34ab76c136ff2d3bf1f4f7fb"
+    },
+    {
+      "file": "faces/slash-club-2.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "bda74b32019535868cd784d9b8f3f808b32f1aa2e9985795a19de05647928993"
+    },
+    {
+      "file": "faces/slash-club-3.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "760f40425768834785625ad4d990e7e0ac19da2612ef201d55baeacd8427bf0a"
+    },
+    {
+      "file": "faces/slash-club-4.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "acab49b551def8a503511aa17d3280da4b5245b5fa8ca65e594b1711df9930b9"
+    },
+    {
+      "file": "faces/slash-club-5.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "e1b731cf232d389d8ec730f0b4cf2101da939b737cf4570d57a99301e5ca8039"
+    },
+    {
+      "file": "faces/slash-club-6.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "99665b952ed71d77b653d94324cbab8dc22ffa01601f77585749f3330f0715e1"
+    },
+    {
+      "file": "faces/slash-club-7.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "75f753e5a1b193f2043256e217e82ec29cdf6c089c52d02dfe9e980c3e072d86"
+    },
+    {
+      "file": "faces/slash-club-8.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "7bf700fb230fa76f1b156996074f2316fb002cda23d3459b7cb8c6858516eb55"
+    },
+    {
+      "file": "faces/slash-club-9.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "b65f9206d0e8e87257caa35a82b0959db20cb2b2b0e0fb4b701a5f7d94ca9a51"
+    },
+    {
+      "file": "faces/slash-diamond-10.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "ec78fc4bdff891c5c6afb4432012c0d6d11f6815e7e6d3845ee5277bc60cea97"
+    },
+    {
+      "file": "faces/slash-diamond-13.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "617e9479d82b67e798c1c1b09de4ff6072053c0d1feb696558b48c27262cfc1e"
+    },
+    {
+      "file": "faces/slash-diamond-6.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "78ad6190a46a6515a0f7efdb5c8d8084061165722c8a47787af04d039254e6ca"
+    },
+    {
+      "file": "faces/slash-diamond-7.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "0ca3cd2810847f3e15a2c64afc11ab88a11acf556f409156bcaba4800493e5b7"
+    },
+    {
+      "file": "faces/slash-diamond-8.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "403982f720b48cf4de2235fd9439aba7c95cfee483ab7620a762e2363932027d"
+    },
+    {
+      "file": "faces/slash-diamond-9.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "4f226adc99a069014337c6446cf3e5ca96958dc7b9555a444e76f04c00a7553c"
+    },
+    {
+      "file": "faces/slash-heart-10.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "04aea8dbf7b26e359378524ee8787320b82aa5776f995a77dad3a48235e8788d"
+    },
+    {
+      "file": "faces/slash-heart-11.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "3e2556e1b81e4f855ec76d4636106213833f75d1af51ac0cfc6776b04c8499dd"
+    },
+    {
+      "file": "faces/slash-spade-10.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "926eee4b7169b40281a5f90f0916d135ea2e16deaff05adf13cd057ec189a263"
+    },
+    {
+      "file": "faces/slash-spade-5.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "d45bf22c2804ae4d4e3dc7117eb4712c6996f67e3c0a7a50922b30dec3a2cbd6"
+    },
+    {
+      "file": "faces/slash-spade-7.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "145710a59ba407b4baeff58f8a4e76ac481e01490342fd192dae9aeb530d92f8"
+    },
+    {
+      "file": "faces/slash-spade-8.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "0db7ac0e7bb26bf94091623464e92ceeee583d5b6b965c2381e21843f8e0d295"
+    },
+    {
+      "file": "faces/slash-spade-9.png",
+      "composition": "art/slash.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "ced768b4e24969bad93dc829edf510f0f56b2f329889042fa205bdb257cceb19"
+    },
+    {
+      "file": "faces/snatch-diamond-3.png",
+      "composition": "art/snatch.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "407278d1872148da027d654063da47aac4ef5ff187c4718a70697c6ec729d88b"
+    },
+    {
+      "file": "faces/snatch-diamond-4.png",
+      "composition": "art/snatch.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "2955408df29cb6821bc185227cf44548e30bb58a6d49ab9e19cd480c620d4760"
+    },
+    {
+      "file": "faces/snatch-spade-11.png",
+      "composition": "art/snatch.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "8938c34d914a7c87f64fab348b1475e50cf356a156df53f2743fcae9019ad07b"
+    },
+    {
+      "file": "faces/snatch-spade-3.png",
+      "composition": "art/snatch.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "5edbc2d29867c521413821c811143fa9a74de16db950bedcac19c2e397c1ddec"
+    },
+    {
+      "file": "faces/snatch-spade-4.png",
+      "composition": "art/snatch.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "992c678cec019616b51a62da1e09580879c0e06334d32a86f3a3e3a75bcdefe3"
+    },
+    {
+      "file": "faces/spear-spade-12.png",
+      "composition": "art/spear.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "4aa8ea261b6eb56a5b5c3ee9f55d22e49866185c79ae6400e4d33635f756a276"
+    },
+    {
+      "file": "faces/supply_shortage-club-12.png",
+      "composition": "art/supply_shortage.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "61d29091aa8442801e142e4365e07b8dc780716fb59e3d37a01a30123903e8c2"
+    },
+    {
+      "file": "faces/wine-club-3.png",
+      "composition": "art/wine.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "41705c5e703ea0e4680059291231b100c27aa455f8f135ca47005de7508c8634"
+    },
+    {
+      "file": "faces/wine-club-9.png",
+      "composition": "art/wine.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "df6003821a2fb306d1212d92fbcde8eb4769377ff46ad3ee6f2aed1433bcb116"
+    },
+    {
+      "file": "faces/wine-diamond-9.png",
+      "composition": "art/wine.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "711374c1857265e7f620e03ea1695162b488221282af00e2ef2d8324210e7015"
+    },
+    {
+      "file": "faces/wine-spade-3.png",
+      "composition": "art/wine.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "cd7cd60145b4a05fd2f01e72a589b2af2a82e3e5b9d035abcee47452befaf916"
+    },
+    {
+      "file": "faces/wine-spade-9.png",
+      "composition": "art/wine.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "322f4a810e70b80ab43cba7435090ef61e725152cf04271e2db354908b1b71f1"
+    },
+    {
+      "file": "faces/zhuahuangfeidian-heart-13.png",
+      "composition": "art/zhuahuangfeidian.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "4f8179c3ca4692d268406cf1ab9fc9aadae0e3838912417a07e1382b788c3374"
+    },
+    {
+      "file": "faces/zixing-diamond-13.png",
+      "composition": "art/zixing.webp + native vector suit + Times New Roman rank",
+      "size": [
+        400,
+        555
+      ],
+      "sha256": "d0580afc18e1fac69f657b1fd1b9880b113bf7f200303c912dadcd7d067cabfc"
+    }
+  ]
+}

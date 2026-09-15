@@ -1,0 +1,446 @@
+{
+  "note": "Art remains attributed to original Sanguosha rights holders. Upstream resource licenses retained. No upstream JavaScript/CSS is included.",
+  "files": [
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/border_hp.png",
+      "file": "border_hp.png",
+      "sha256": "c2ed8c1a6753ea232a65cc60efaccfdcc0ef122fb463588fe70a356657a4876c"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/border_hp1.png",
+      "file": "border_hp1.png",
+      "sha256": "473ccd283ccb5cc3f4e3f4de167db62d59a1f48186a596d19bd09f3914a4c324"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/border_camp.png",
+      "file": "border_camp.png",
+      "sha256": "543402b6e7f0feaf174bbaa5c59bf3300ac6a9eed64dacd0116a9e1838dbad38"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/border_camp1.png",
+      "file": "border_camp1.png",
+      "sha256": "20a99c22432979d36525e3300a7be9bbedb65fcfc7452abba12bf2fac5086ec9"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/border_diwen.png",
+      "file": "border_diwen.png",
+      "sha256": "5f5db3e0ffd33e948f1bb815cf4de5e04ef27064843d0b9e62151967512e216a"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/button.png",
+      "file": "button.png",
+      "sha256": "f91f4ac79168ecd81803fe23fb786d74bec6810b7638e0b4d26e29a2caac9478"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/button_normal.png",
+      "file": "button_normal.png",
+      "sha256": "44dc95e3ba9fd568361d105259feaaee9045a25ad35240708f4398d4192a6cee"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/button_disable.png",
+      "file": "button_disable.png",
+      "sha256": "aebb59d95d8bfc85284d29923a72c1246bd97c6b18ce7a5e9349d13e555daf3f"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/card_count.png",
+      "file": "card_count.png",
+      "sha256": "a57a18d9a9f14c833f85f85ae29430b919f8049798b740b64579eec6275ee4c8"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/equip1.png",
+      "file": "equip1.png",
+      "sha256": "2d7cb401947a57f0d468bf731102e83b64550187b7b3c2e5d302dcfb51242156"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/equip2.png",
+      "file": "equip2.png",
+      "sha256": "75c457e7b58a36e9c880f360af040271091b240263ed106483673fb8d2e81cfc"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/equip3.png",
+      "file": "equip3.png",
+      "sha256": "807f913415bbb1728ed79450e02401ffb798dc67d8f9b8c1f6f354179248aeff"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/equip4.png",
+      "file": "equip4.png",
+      "sha256": "a45c3cde91754c2bca074f62f9045f52ad11609986b08b13b613d28b51be556a"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/equipHand.png",
+      "file": "equipHand.png",
+      "sha256": "ef80f540168a0a5f60ddde8c41cdd7871d336f14b5ee5a2ca3adb83c8e71724b"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/name_wei.png",
+      "file": "name_wei.png",
+      "sha256": "76c78644cfcbde5a461de49b2f8703b860ac06fa4a0b616a28c89a47b292cfb4"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/name_shu.png",
+      "file": "name_shu.png",
+      "sha256": "19487d3936b332cf95c4d44c4059b90b0c8aa98c989f7c8c97d1f985de8233ee"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/name_wu.png",
+      "file": "name_wu.png",
+      "sha256": "dfd2929554948ecf710db04ef4796e800ef39d3b01031c0fc3f71732360753cd"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/name_qun.png",
+      "file": "name_qun.png",
+      "sha256": "0596b09d7148a188d9bc0f470dcc7e7adb7c61f86bd996987be1084525720846"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "image/styles/decade/name_shen.png",
+      "file": "name_shen.png",
+      "sha256": "4db1679d3a49c07fced5d0c3fff1a8d293909be6d15653c32561f007292cc40c"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "ui/assets/skill/shizhounian/btnn1.png",
+      "file": "skill1.png",
+      "sha256": "5b6913f266d21aa845400b05ed77dfe26bb9a27fd4a18fc7d2ac133345249408"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/theme/style/hp/image/round1.png",
+      "file": "jade1.png",
+      "sha256": "d526c5e58fd334d75b6169d4e9cb9628c4466978580b0579faefe68d86ab0e7f"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "ui/assets/skill/shizhounian/btnn2.png",
+      "file": "skill2.png",
+      "sha256": "b204faa3b92593257ed7b30d95fa231ac0ce159aafa074b6d12e12fd455791ff"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/theme/style/hp/image/round2.png",
+      "file": "jade2.png",
+      "sha256": "572cfe1b7b38d840ed2237799f9395a3bb9867b9729a189f12128e4027c2c047"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "ui/assets/skill/shizhounian/btnn3.png",
+      "file": "skill3.png",
+      "sha256": "d2961ae6d3d4ca2c61eedb4da2b94af76fa6b4045adb4f7f8b4868d28770df60"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/theme/style/hp/image/round3.png",
+      "file": "jade3.png",
+      "sha256": "63d4c2a544175a47b936637a05f30930bc4ed03b50f075d3df6f8965d67313f5"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "ui/assets/skill/shizhounian/btnn4.png",
+      "file": "skill4.png",
+      "sha256": "375d6249391bb2fd2dd4210bf01724589d40e0007d7ed092944d13d8ca662721"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/theme/style/hp/image/round4.png",
+      "file": "jade4.png",
+      "sha256": "aac3125c191a5edb2b485ef3a665627a52f68d3eae9068cab3bf39eaaf9010a3"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/background/ol_bg.jpg",
+      "file": "table.jpg",
+      "sha256": "93ee17da3114f3c4a7572dcd49adb713cd7340ac7db757208ca389e4e0aadf7b"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/theme/style/card/image/ol.png",
+      "file": "paper.png",
+      "sha256": "554f8e1aa1134d6e8f0409512cf1af8c5a43d3573d92f296de146d68f0d90eee"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/sha.png",
+      "file": "cards/slash.png",
+      "sha256": "1a3f101332ad80eab9598a62650f778745a9b9943cfc71f01b386bbfe0e304e0"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/shan.png",
+      "file": "cards/jink.png",
+      "sha256": "e96d9ff956575f024d75b50ff6b93240983b164b16da445a3d4714b4271ebd8e"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/tao.png",
+      "file": "cards/peach.png",
+      "sha256": "1d5c715381bed1683c1ce898d5c9f80849341459861a0b5dd82d8d2ed41fce7e"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/zhuge.png",
+      "file": "cards/crossbow.png",
+      "sha256": "6425c3b24f721a4b8c92bd42958f6bc6d68d2690eddfc5b56acc56c65528f361"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/cixiong.png",
+      "file": "cards/double_sword.png",
+      "sha256": "4bbe27615cd805dc80f7ffe5f6c132945299e5a511d2d80fca280670239ef9da"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/qinggang.png",
+      "file": "cards/qinggang_sword.png",
+      "sha256": "1b4718e3b520613388c8a0cdb8b54ce99d0074867bdf6d24835bf1aa7956a5f8"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/qinglong.png",
+      "file": "cards/blade.png",
+      "sha256": "0aa190c9e07ead0a6cf070c4d5677bc026cf5e559c5aea44bdbf8b791f3ba735"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/zhangba.png",
+      "file": "cards/spear.png",
+      "sha256": "bcd05c308cde0971d42b99465bb15a116983f83dd38b75dd52340bcb9c84e247"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/guanshi.png",
+      "file": "cards/axe.png",
+      "sha256": "06b42bc82443cb8211ba7b5ea005fa8e71f70b615350c8961b4dad10292b8cb3"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/fangtian.png",
+      "file": "cards/halberd.png",
+      "sha256": "7844f56ad19af52e30dc6252d16929b8a68ac0f66007b2a8261d6f94660b415b"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/qilin.png",
+      "file": "cards/kylin_bow.png",
+      "sha256": "c1c0d50a004f3925d358ec92907fe91856ada0667c8f0c50f2a71db90709521e"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/bagua.png",
+      "file": "cards/eight_diagram.png",
+      "sha256": "99e0c78f1b35f9c70287fa601f8d16d3317a89950460d133c1b4d4e2bea9623f"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/renwang.png",
+      "file": "cards/renwang_shield.png",
+      "sha256": "1abc0aae22c64c7809a6c35d6a815231891a999a561306b8269d00ddfde5d88a"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/hanbing.png",
+      "file": "cards/ice_sword.png",
+      "sha256": "afeadf2e9167ec97564c74504909dd4dc414b2a903dbefdc0b3cc7473e89e4f4"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/jueying.png",
+      "file": "cards/jueying.png",
+      "sha256": "ae9f9ff88cfc4d1fbc2b4fb7af18d297bc7aee01f6174ce9ad9905538e36b692"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/dilu.png",
+      "file": "cards/dilu.png",
+      "sha256": "06b2cd13f903c0a48fbe6dd62e209a470b1ccffea91266f8eaf3942dbb02a7e0"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/zhuahuang.png",
+      "file": "cards/zhuahuangfeidian.png",
+      "sha256": "d9b2a5bee10b94fee2ef76f5fe5cffd532764baa6ee2e140a4b2a83c68b33a1a"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/chitu.png",
+      "file": "cards/chitu.png",
+      "sha256": "2a0185394af5fa269ab8a551bfae7e9a2e09e224cc035017ec0d5e729502de6b"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/dawan.png",
+      "file": "cards/dayuan.png",
+      "sha256": "db2fd406f3a1e8aedec85985e8d9a22d6a221d3e947f6c8fd9034322ea587756"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/zixin.png",
+      "file": "cards/zixing.png",
+      "sha256": "beaeb3bfa2bb42405c688a9572997ff814570d062fadf525f84da51f82ceda0f"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/wugu.png",
+      "file": "cards/amazing_grace.png",
+      "sha256": "0bcbe91080ead478e66986de5dc91d81de6e13ae892418896802e599d018504e"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/taoyuan.png",
+      "file": "cards/god_salvation.png",
+      "sha256": "12092403aafe9410c6296fdb64248268c8403586da6a559ac0e32f1ee8bdaab0"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/nanman.png",
+      "file": "cards/savage_assault.png",
+      "sha256": "a5168758d1ce4f59a6e514f5f4503bb646b09a2606259125080b754d9574aa5f"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/wanjian.png",
+      "file": "cards/archery_attack.png",
+      "sha256": "bfe1d1063f56ea8b229dfa2962ed6d32fa8eefbbe3daa7a98486216f350830d8"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/juedou.png",
+      "file": "cards/duel.png",
+      "sha256": "1d68565511085a47bbc5d201ea2abe8c309dc6198912170e1e1866ba7ebffa02"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/wuzhong.png",
+      "file": "cards/ex_nihilo.png",
+      "sha256": "7ea2c519ab007ce5c235cc6dda6cb5dc589d4645ec34921d9f4269e8fd9d28c4"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/shunshou.png",
+      "file": "cards/snatch.png",
+      "sha256": "5700cafaf9650101fc782dbb8b9f1c982324e8116fee5862e1c776a5796d5bd1"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/guohe.png",
+      "file": "cards/dismantlement.png",
+      "sha256": "8110f24eae4108620a86986cdffe2c9d7148e762d2ac792b83cde49a5e96b3ae"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/jiedao.png",
+      "file": "cards/collateral.png",
+      "sha256": "f2213cb28e09f31e6641b2a44cc04382f7aae67b692d3fd62dd4d74e7bf5e738"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/wuxie.png",
+      "file": "cards/nullification.png",
+      "sha256": "77766dbf4de8f2911d1d12948cf9bb7ecbd7f27e02fbc6e4387775addf6c1dc4"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/lebu.png",
+      "file": "cards/indulgence.png",
+      "sha256": "8982fcaee82f863f19e3312528a9c8259b2548815bce7ab2c8771d706c2c1d70"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "apps/core/image/card/shandian.png",
+      "file": "cards/lightning.png",
+      "sha256": "ec6bf050855d33bae51bbf0632eb6c690edda0f2e7bab5037bf040abb3f26351"
+    },
+    {
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "LICENSE",
+      "file": "decadeUI-LICENSE.txt",
+      "sha256": "0b383d5a63da644f628d99c33976ea6487ed89aaa59f0b3257992deac1171e6b"
+    },
+    {
+      "repository": "https://github.com/libnoname/noname",
+      "revision": "038545e6b354469ca594a4c1f80d5518be141256",
+      "source": "LICENSE",
+      "file": "noname-LICENSE.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "cardSkillHeiSha": {
+    "frames": 36,
+    "fps": 30,
+    "duration": 1.166699951171875,
+    "columns": 8,
+    "rows": 5,
+    "crop": [
+      64,
+      72,
+      448,
+      440
+    ],
+    "width": 384,
+    "height": 368
+  },
+  "cardSkillHongSha": {
+    "frames": 36,
+    "fps": 30,
+    "duration": 1.166699951171875,
+    "columns": 8,
+    "rows": 5,
+    "crop": [
+      64,
+      72,
+      448,
+      440
+    ],
+    "width": 384,
+    "height": 368
+  },
+  "cardSkillShan": {
+    "frames": 51,
+    "fps": 30,
+    "duration": 1.666699951171875,
+    "columns": 8,
+    "rows": 7,
+    "crop": [
+      59,
+      108,
+      462,
+      421
+    ],
+    "width": 403,
+    "height": 313
+  },
+  "seatStateRed": {
+    "frames": 36,
+    "fps": 30,
+    "duration": 1.2,
+    "columns": 8,
+    "rows": 5,
+    "crop": [
+      84,
+      67,
+      432,
+      430
+    ],
+    "width": 348,
+    "height": 363
+  },
+  "seatStateYellow": {
+    "frames": 33,
+    "fps": 30,
+    "duration": 1.1,
+    "columns": 8,
+    "rows": 5,
+    "crop": [
+      87,
+      68,
+      427,
+      438
+    ],
+    "width": 340,
+    "height": 370
+  },
+  "victory-base": {
+    "frames": 60,
+    "columns": 8,
+    "rows": 8,
+    "width": 423,
+    "height": 462,
+    "crop": [
+      45,
+      28,
+      468,
+      490
+    ],
+    "duration": 2.0
+  },
+  "victory-text": {
+    "frames": 22,
+    "columns": 5,
+    "rows": 5,
+    "width": 768,
+    "height": 768,
+    "crop": [
+      0,
+      0,
+      768,
+      768
+    ],
+    "duration": 0.7333333129882813,
+    "stageWidth": 768,
+    "stageHeight": 768
+  },
+  "defeat-base": {
+    "frames": 60,
+    "columns": 8,
+    "rows": 8,
+    "width": 252,
+    "height": 250,
+    "crop": [
+      130,
+      131,
+      382,
+      381
+    ],
+    "duration": 2.0
+  },
+  "defeat-text": {
+    "frames": 18,
+    "columns": 5,
+    "rows": 4,
+    "width": 159,
+    "height": 202,
+    "crop": [
+      313,
+      258,
+      472,
+      460
+    ],
+    "duration": 0.5666666870117187,
+    "stageWidth": 768,
+    "stageHeight": 768
+  },
+  "first-blood": {
+    "frames": 105,
+    "columns": 7,
+    "rows": 15,
+    "width": 896,
+    "height": 411,
+    "crop": [
+      0,
+      42,
+      896,
+      453
+    ],
+    "duration": 3.5,
+    "stageWidth": 896,
+    "stageHeight": 504
+  },
+  "general-unlock-start": {
+    "frames": 7,
+    "columns": 3,
+    "rows": 3,
+    "width": 278,
+    "height": 289,
+    "crop": [
+      244,
+      193,
+      522,
+      482
+    ],
+    "stageWidth": 768,
+    "stageHeight": 768,
+    "duration": 0.23333332824707032
+  },
+  "general-unlock-loop": {
+    "frames": 60,
+    "columns": 8,
+    "rows": 8,
+    "width": 357,
+    "height": 333,
+    "crop": [
+      193,
+      163,
+      550,
+      496
+    ],
+    "stageWidth": 768,
+    "stageHeight": 768,
+    "duration": 2.0
+  },
+  "judgment-reveal": {
+    "frames": 60,
+    "columns": 8,
+    "rows": 8,
+    "width": 60,
+    "height": 58,
+    "crop": [
+      227,
+      225,
+      287,
+      283
+    ],
+    "duration": 2,
+    "stageWidth": 512,
+    "stageHeight": 512
+  },
+  "judgment-success": {
+    "frames": 60,
+    "columns": 8,
+    "rows": 8,
+    "width": 186,
+    "height": 176,
+    "crop": [
+      156,
+      156,
+      342,
+      332
+    ],
+    "duration": 2,
+    "stageWidth": 512,
+    "stageHeight": 512
+  },
+  "judgment-failure": {
+    "frames": 60,
+    "columns": 8,
+    "rows": 8,
+    "width": 180,
+    "height": 193,
+    "crop": [
+      156,
+      139,
+      336,
+      332
+    ],
+    "duration": 2,
+    "stageWidth": 512,
+    "stageHeight": 512
+  }
+}

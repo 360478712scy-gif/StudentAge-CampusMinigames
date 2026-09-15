@@ -1,8 +1,8 @@
 # 学生时代小游戏 · UP 接入包
 
-需要 Windows x64 / Unity Mono / BepInEx 5，以及提供 Begin、Cancel、Invalidated 和插件目录注册支持的 UP 1.0.23 或更新兼容版。合并版与 split 版二选一；本包不附 UP、BepInEx 加载器或游戏程序集。
+本版适用《学生时代》1.94 测试分支（Unity Mono，官方内置 BepInEx 5），以及提供 Begin、Cancel、Invalidated 和插件目录注册支持的 UP 1.0.23 或更新兼容版。合并版与 split 版二选一；本包不附 UP、BepInEx 加载器或游戏程序集。
 
-退出游戏后，将包内 BepInEx 合并到游戏根目录。CampusUno/CampusUno.dll 替换旧版同路径文件，不能同时保留另一份旧 CampusUno.dll。已有 BepInEx/config/BepInEx.cfg 中 HideManagerGameObject 必须为 true。
+退出游戏后，将包内 BepInEx 合并到游戏根目录。CampusUno/CampusUno.dll 替换旧版同路径文件，不能同时保留另一份旧 CampusUno.dll。插件使用独立常驻宿主，无需修改 HideManagerGameObject。
 
 - CampusUno：UNO 现有四人对局与视觉界面，检测 UP 时交出旧社交拦截和结算。
 - StudentAgeCampusMinigames：公开 UP 适配器、注册 JSON、默认阶段 CFG、CC0 音效；包含附加小游戏的原生 Unity 玩法及共享扑克资源。

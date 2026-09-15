@@ -72,3 +72,29 @@ Mario Starman, death and level-complete audio use the same pinned SMB-clone sour
 ## 三国杀原版资源 / QSanguosha-v2
 
 三国杀卡牌插画、武将卡面和声音的相关权利归原作者及三国杀权利人。此模块使用 Mogara/QSanguosha-v2（固定版本 e8768851bd8054db9fd1b63cd6f1feca813590d7）公开收录的资源；来源文件与SHA256见 `assets/sanguosha/sources.json`。保留上游 `LICENSE`、`GPLv3` 与 `MCFR` 声明；原文件随资源打包。本模块的C#规则引擎独立实现，不包含上游C++引擎。资源不受本项目代码许可重新授权。
+
+## 三国杀十周年界面资源
+
+本地牌桌重做使用 diandian157/decadeUI（30dbc8911ea9d27cf674c9be50e8abd663e8a8f0）以及 libnoname/noname（038545e6b354469ca594a4c1f80d5518be141256）公开收录的界面/卡牌/背景资源。decadeUI 原创作者短歌，项目维护与资源贡献者见上游 README。相关三国杀美术权利仍归原作者和权利人；逐文件来源及SHA256见 assets/sanguosha/decade/sources.json，两个上游LICENSE一并保留。本次没有导入上游JavaScript或CSS代码，不将这些美术声明为本项目原创或按本项目代码许可重新授权。
+
+## 三国杀十周年公开客户端图集与字体
+
+本地验收版本从 `https://web.sanguosha.com/10/pc/res/assets/default.res.json` 及对应公开图集提取原始卡面、花色点数、体力槽、阵营框、装备条、操作按钮，保留完整原画与书法牌名。原始骨骼动画 `cardSkillHeiSha`、`cardSkillHongSha`、`cardSkillShan`、`seatStateRed`、`seatStateYellow` 经离线渲染组成透明精灵表；原始 `font/fzkt.ttf`（FZXingKai-S04S）离线栅格化为界面字形图集。相关美术、动画、字体权利归各自原作者和权利人，不受本项目代码许可重新授权。逐文件来源、处理方式与SHA256见 `assets/sanguosha/official/sources.json`；当前不公开分发。
+
+离线动画参考工具使用 LayaAir 官方 `layabox/layaair-demo` 的 `laya.core.js` 和 `laya.ani.js` 加载公开动画；这些脚本、桌面安装程序、登录页面和研究视频均没有放入插件运行包。运行时仍为本项目独立的 Unity/C# 实现，不访问三国杀账号或游戏服务器。
+
+## 三国杀声音、社交圆标与胜负动画补全
+
+新增35将阵亡台词、技能第二条配音及装备/伤害声音沿用上述固定QSanguosha版本。“一破·卧龙出山”画面及对应声音取自Notify_公开分享的原版绿幕素材《一破 卧龙出山.GB 附使用例》（https://www.bilibili.com/video/BV1ag411p7nB/），仅使用开头3.5秒效果及4秒音频尾声，不含后续使用例；画面去除绿底并裁去效果外上方60像素，署名和来源保留在清单中；开场、落牌声音取自上述固定decadeUI版本；恢复音效取自十周年公开资源armor_baiyinshizi_heal.mp3。未生成或合成武将台词。来源及原始/转换后SHA256见assets/sanguosha/audio-additions-sources.json，QS部分继续记录在sources.json。
+
+社交圆标提取公开LoginLogo.png中的繁体“殺”笔画，去除前字和商标小字，置于本项目绛红底圆印。胜败画面由公开dipan.sk和shenglishibaiwenzi.sk的原动画离线渲染，原始动画/图像URL、动画索引、缩放及帧图SHA256见official/sources.json。相关原始美术和声音权利仍归三国杀及各原作者，仅保留本地验收范围。
+
+选牌窗口使用公开客户端 `newSkillWindow_bg.png`；新武将展示采用 `getGeneral.atlas` 的原始标题和 `sf_dhua_zhaomuwj_wujiang.sk` 的招募动画，隐藏原动画的红色占位武将槽并由运行时填入实际获得的卡面。来源、原始动画索引和转换哈希列于 `assets/sanguosha/official/sources.json`。
+
+## 三国杀彩色牌面与单挑新增语音
+
+用户选择的彩色牌面来自上述固定decadeUI版本的`image/card-skins/caise`，保留原始WEBP，以原生分辨率转PNG并叠加本副牌的点数、花色；未放大低清图片，未导入上游代码。来源和逐文件指纹见`assets/sanguosha/hd/sources.json`，资源权利仍归原作者和三国杀权利人。酒、兵粮寸断、水淹七军男女语音来自上述固定noname版本，见`assets/sanguosha/audio-additions-sources.json`。一破播放时裁去效果范围外的上方文字残边，原始研究参考保留。仅本地更新，暂停公开分发。
+
+三国杀判定展示使用 decadeUI（diandian157/decadeUI，30dbc8911ea9d27cf674c9be50e8abd663e8a8f0）收录的 assets/animation/effect_panding 原始素材。本地离线渲染 play/play4/play5 后导出图集，源文件哈希和动画信息记录于 Sanguosha/official/sources.json。运行包不包含上游 JavaScript 或 Spine 运行库。
+
+人物气泡背景使用同一公开客户端gameBase图集的gameBaseSmartBubbleMsgBg.png，以九宫格伸缩保留边缘。原游戏人物头像通过《学生时代》原有资源接口在运行时加载，不随插件复制人物美术。圆形裁切、边缘和对话时序由本工程C#实现。

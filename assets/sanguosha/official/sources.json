@@ -1,0 +1,5833 @@
+{
+  "scope": "Local visual comparison only. Original Sanguosha assets remain the property of their rights holders. No client JavaScript, account data or server code is included.",
+  "manifest": "https://web.sanguosha.com/10/pc/version.json",
+  "manifestSha256": "194c643aef9249e5d49fd8e3b0d8c3b55b531f66ff997c60d0dfed23f7053e67",
+  "files": [
+    {
+      "file": "cards/slash.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Sha_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 272,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "211001b203726d0bd5c87a677638443a63a46f1f01942aaac951bdcb66adcfe4"
+    },
+    {
+      "file": "cards/jink.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Shan_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 272,
+          "y": 955
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "976e758b4b5879bf927188b13d220983ed06e52e422b9c0c907d24fc159e2f9c"
+    },
+    {
+      "file": "cards/peach.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Tao_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 952,
+          "y": 1146
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "a1dd72ee541909dede884dc548dc1368dd093119d26260384a4759c6619f5031"
+    },
+    {
+      "file": "cards/crossbow.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ZhuGeLianNu_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 816,
+          "y": 1719
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "4b7610b445586006ae955d6c185ebeec82e75bc272e2a38c80e70fc35d5fa0a4"
+    },
+    {
+      "file": "equipment/crossbow.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_ZhuGeLianNu_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1871,
+          "y": 1561
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "4bdb84ff4edb90510b9a3ab38cb595b7d14aa3d00b7b4ca7fb0645b186f6c8b1"
+    },
+    {
+      "file": "cards/double_sword.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "CiXiongShuangGuJian_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1496,
+          "y": 955
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6e080343a26443a454c70c0bb95bb849db8532b9b4a63395f8d09c720769b6f5"
+    },
+    {
+      "file": "equipment/double_sword.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_CiXiongShuangGuJian_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 604,
+          "y": 1910
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "55bae83e0f7d6734ae5661421e7db34471849924f77c84b084a0152e822025f1"
+    },
+    {
+      "file": "cards/qinggang_sword.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "QingGangJian_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 136,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "7748e654737206371438167a029e8632c7322b77d1af1589b36f29e946a10a9e"
+    },
+    {
+      "file": "equipment/qinggang_sword.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_QingGangJian_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1871,
+          "y": 1981
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f8dcce8940520d4171de0fe3652cc0654110efe4cad227642666260ed01a3803"
+    },
+    {
+      "file": "cards/blade.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "QingLongYanYueDao_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 0,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "9fdfd242102eb010d20e61f0a2930264d0dbfc61e44f79fd00e8843c7c0d2de1"
+    },
+    {
+      "file": "equipment/blade.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_QingLongYanYueDao_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1782,
+          "y": 1841
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "19a3b92083f18be5d8def4c9fc71e50799c44c452049dfed1ff7c0880ea2a731"
+    },
+    {
+      "file": "cards/spear.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ZhangBaSheMao_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1904,
+          "y": 191
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f881c2c52eddca95e7b4e9484c8e45667225eb110ea9d677684bf2a84ebe5eed"
+    },
+    {
+      "file": "equipment/spear.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_ZhangBaSheMao_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1870,
+          "y": 1393
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "006d49a603684b0c5cca6eeba4361e0c4bd9efda5c3ff586b85889d806cd3806"
+    },
+    {
+      "file": "cards/axe.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "GuanShiFu_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 408,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "76efae582e77cf2f5f0c537bd32273f551d91820d6560c8dbcfc90913fd7e04b"
+    },
+    {
+      "file": "equipment/axe.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_GuanShiFu_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1632,
+          "y": 1512
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e6bce9839397bb11debaf441277d8a0ad73630ccd90e6bb0b05269f7b1fc3e46"
+    },
+    {
+      "file": "cards/halberd.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "FangTianHuaJi_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 408,
+          "y": 191
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5e432abb4eb9a69b0be826b21f97318154892ca416e57c40b93049ee2b4238f4"
+    },
+    {
+      "file": "equipment/halberd.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_FangTianHuaJi_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 821,
+          "y": 1951
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b8be2f743ac21ec0f9353cb577d4616cc9bb12f57c303339454036f883785829"
+    },
+    {
+      "file": "cards/kylin_bow.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "QiLinGong_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 136,
+          "y": 573
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e32b5c0c131287f2e37e8ea8ca77830e04ab0061291c5e1273a68a5b325e136e"
+    },
+    {
+      "file": "equipment/kylin_bow.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_QiLinGong_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1871,
+          "y": 1953
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "a1f8ec2b258667231940093f65597feb5582a9c4c6f8bdefe0220413c6bf40a2"
+    },
+    {
+      "file": "cards/eight_diagram.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "BaGuaZhen_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1904,
+          "y": 1146
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "86dc98dce3cfc36ab9222960ff1c30a9b5b530ad92ebe5f52f73393207c8f43f"
+    },
+    {
+      "file": "equipment/eight_diagram.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_BaGuaZhen_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1054,
+          "y": 1910
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6449fb1caf1414242036c4e37b7d85a82fd67dc06133310f5efd416c745fb8b0"
+    },
+    {
+      "file": "cards/renwang_shield.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "RenWangDun_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 136,
+          "y": 1528
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "43acfb885320d428a3551b26e5dad7e6918a4a513a1a78137a0d2afd5c751ecb"
+    },
+    {
+      "file": "equipment/renwang_shield.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_RenWangDun_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1896,
+          "y": 1897
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "54eccb0cb72e2d493cfebab350a098bdeeb28db74927fa6d55ae60033f7a0280"
+    },
+    {
+      "file": "cards/ice_sword.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "HanBingJian_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 544,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "46f6c0cd06192245bd884df99a96e3ef1875b1396b4d6770fbb7d4cea5669e00"
+    },
+    {
+      "file": "equipment/ice_sword.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_HanBingJian_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1632,
+          "y": 1540
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "7b8bee1fe01aba789acc20af7d4cf096d082c2371e06416b9c6e6d5571659c06"
+    },
+    {
+      "file": "cards/jueying.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "JueYing_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1224,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "dfc985399cf630caff89ed3df415afb2bafdf86ccf17f8a8b2d3f35403536700"
+    },
+    {
+      "file": "equipment/jueying.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_JueYing_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1871,
+          "y": 1729
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "81738340f266466dac171d8a97352557653f73a36c118c048ffc8e8880209d96"
+    },
+    {
+      "file": "cards/dilu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "DiLu_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1224,
+          "y": 1337
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b1f4f1fe36c9b3267533c20b3bec12dedafa6ce444ea2206e5a1ca6e0e5db38a"
+    },
+    {
+      "file": "equipment/dilu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_DiLu_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 521,
+          "y": 1979
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "0e480f4e987af7c0120c2d57fb0b3ccbe1fdc4d08e29356d1ee01afd02b6b7ce"
+    },
+    {
+      "file": "cards/zhuahuangfeidian.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ZhuaHuangFeiDian_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 816,
+          "y": 1337
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "84e0a2c1af537836f7314b96e0806613113767500dd40c0473b042bc741568e7"
+    },
+    {
+      "file": "equipment/zhuahuangfeidian.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_ZhuaHuangFeiDian_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1870,
+          "y": 1477
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "87798a6bd92b4191f9d94f82fd97f9c24fa9fd1e139e312c542c437c3a79942e"
+    },
+    {
+      "file": "cards/chitu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ChiTu_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1904,
+          "y": 955
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6f8738c885d8bf49bc0f152bf300870cdfb2b4809293b5322bb22f6fcea16c32"
+    },
+    {
+      "file": "equipment/chitu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_ChiTu_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 904,
+          "y": 1910
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "378edc7c9478ed1f42e1cd118a92461aa154097f60e568103722a4cc0f1c9f0a"
+    },
+    {
+      "file": "cards/dayuan.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "DaWan_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1224,
+          "y": 1528
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "0026e05907e159f33851de0a9c469aa90e4bca89086473d410e52b179a48bbc1"
+    },
+    {
+      "file": "equipment/dayuan.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_DaWan_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 521,
+          "y": 1951
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "70fa0fd7550ec0d57458784f09964d05c4323e8deb8bd129cb1bbbaddaae69e8"
+    },
+    {
+      "file": "cards/zixing.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ZiXing_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1224,
+          "y": 382
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "2dc062e419056a0c8b15c4174296a8fb6afbd1a6833682f31354a3cd7a191230"
+    },
+    {
+      "file": "equipment/zixing.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "Equip_ZiXing_S.png",
+      "bounds": {
+        "frame": {
+          "h": 27,
+          "idx": 0,
+          "w": 149,
+          "x": 1871,
+          "y": 1505
+        },
+        "sourceSize": {
+          "h": 27,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b38f0da1446ec2a023808c8a638b70d78c4959b98d6794c2636080b47c9b5c71"
+    },
+    {
+      "file": "cards/amazing_grace.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "WuGuFengDeng_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1088,
+          "y": 1528
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "7814f3c49967d77857d03737f95627d065159600045a2d84408e910b40c0fdcf"
+    },
+    {
+      "file": "cards/god_salvation.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "TaoYuanJieYi_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 952,
+          "y": 1719
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "76ce2f7366eda70ce9fe9e529b925db7cfbc0af521e422b6749fe871cdfef447"
+    },
+    {
+      "file": "cards/savage_assault.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "NanManRuQin_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 0,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d854c032e14b750544fbbf2418db4b2a3bfd85229fa6f8e6e6fdcdbe711bf289"
+    },
+    {
+      "file": "cards/archery_attack.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "WanJianQiFa_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1088,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "2615576770f4648ef6b363fe7428f4e1ab06ab5bfb2c85b24e2be402b6761192"
+    },
+    {
+      "file": "cards/duel.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "JueDou_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1088,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "70d8dd6d1fa7c373abe3a448c1fb8721d5565bfce5ff4e0ab7ba25850ce576fc"
+    },
+    {
+      "file": "cards/ex_nihilo.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "WuZhongShengYou_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1632,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "77fb8c38c90c601839f07d32ddd7461ac9fdb46f6eb03d1a63dc042078efbfa9"
+    },
+    {
+      "file": "cards/snatch.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ShunShouQianYang_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 952,
+          "y": 573
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "4b07ee5f26c449c4e726258cd7f99323ecd0d1c7b062e87a31a5979d2a49c21d"
+    },
+    {
+      "file": "cards/dismantlement.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "GuoHeChaiQiao_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 408,
+          "y": 1146
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "cc83bd1fd9b156d93ecc5b8c5cf2d27c379a74e04849c74695e11d8835422526"
+    },
+    {
+      "file": "cards/collateral.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "JieDaoShaRen_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 544,
+          "y": 1528
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "37520f246df9e1279904ea99596bccea8fe6b89e3276ccfd86186493310cfd6b"
+    },
+    {
+      "file": "cards/nullification.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "WuXieKeJi_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1360,
+          "y": 764
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "019570deaa20a92df59e12962c4fa516bc206de9f70e72db324698f181cc61c1"
+    },
+    {
+      "file": "cards/indulgence.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "LeBuSiShu_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 1360,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6d90c6b633d95855409ffd383ea167123becb5e70f98dfcb6724dadc557161dd"
+    },
+    {
+      "file": "cards/lightning.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "ShanDian_png.png",
+      "bounds": {
+        "frame": {
+          "h": 190,
+          "idx": 0,
+          "w": 135,
+          "x": 272,
+          "y": 1146
+        },
+        "sourceSize": {
+          "h": 190,
+          "w": 135
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "8031476e92c9881859d5ab1bac9b608c0d76510d35224961ffbef64d9ce334d6"
+    },
+    {
+      "file": "card/spade.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "spade.png",
+      "bounds": {
+        "frame": {
+          "h": 24,
+          "idx": 0,
+          "w": 23,
+          "x": 2021,
+          "y": 1980
+        },
+        "sourceSize": {
+          "h": 24,
+          "w": 23
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "fdd3cdc421cea7c888bf9c4dcf3038843cdc254d4c49cf4e9f2dd015f3ed98ed"
+    },
+    {
+      "file": "card/club.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "club.png",
+      "bounds": {
+        "frame": {
+          "h": 24,
+          "idx": 0,
+          "w": 23,
+          "x": 2020,
+          "y": 1362
+        },
+        "sourceSize": {
+          "h": 24,
+          "w": 23
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "a51781a8f42421dfd9191433290289fb703603b3e8be9fa2d754b015b60d398d"
+    },
+    {
+      "file": "card/heart.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "heart.png",
+      "bounds": {
+        "frame": {
+          "h": 24,
+          "idx": 0,
+          "w": 23,
+          "x": 2020,
+          "y": 1337
+        },
+        "sourceSize": {
+          "h": 24,
+          "w": 23
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f386c38e5e833984d5a10106c6ec6516bed04cc5819b37a279c32f9d070fb709"
+    },
+    {
+      "file": "card/diamond.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "diamond.png",
+      "bounds": {
+        "frame": {
+          "h": 24,
+          "idx": 0,
+          "w": 23,
+          "x": 2020,
+          "y": 1387
+        },
+        "sourceSize": {
+          "h": 24,
+          "w": 23
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "53630fcc40a2e18e0f392ca663411044beeae64f09778059a395e7524422687e"
+    },
+    {
+      "file": "card/normalcard_selected_new.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "normalcard_selected_new.png",
+      "bounds": {
+        "frame": {
+          "h": 150,
+          "idx": 0,
+          "w": 110,
+          "x": 1759,
+          "y": 1337
+        },
+        "sourceSize": {
+          "h": 150,
+          "w": 110
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5cdcc10587c153bd5012a1c568ee948f908d06722d5f799ace300fad53b1f5c1"
+    },
+    {
+      "file": "card/CardDescBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "CardDescBg.png",
+      "bounds": {
+        "frame": {
+          "h": 46,
+          "idx": 0,
+          "w": 97,
+          "x": 1496,
+          "y": 1904
+        },
+        "sourceSize": {
+          "h": 46,
+          "w": 97
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5f5ee41b2cdbf7795fffc50bc5596a8cf8f342c1c22744a6bb750ac9d078cf4c"
+    },
+    {
+      "file": "card/red_A.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_A.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1736
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3b466ff8a5984588e58141a78c20892f6076a165515fd9fa0cb094218a12d3cb"
+    },
+    {
+      "file": "card/red_2.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_2.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1632,
+          "y": 1642
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "c0574900b19f3cf83514b128e4e48992e7dbf63851b674c08e2aff812527a42b"
+    },
+    {
+      "file": "card/red_3.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_3.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1814,
+          "y": 1640
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5ba626a8324fe14d1a42abc4405e23b636888470e75a2936df1d64aa64af7780"
+    },
+    {
+      "file": "card/red_4.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_4.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1676,
+          "y": 1642
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "48a1c3ec48cafbbe0868cf6210083d6943e585d51127272c2ce65a034e768788"
+    },
+    {
+      "file": "card/red_5.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_5.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1836,
+          "y": 1640
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "dea7f08aa808b98485387b88040089d93c7abab5f7c1f118887179d192d20307"
+    },
+    {
+      "file": "card/red_6.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_6.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1654,
+          "y": 1642
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5f9f454b4e72018393ef9bb4f7456431efe19bcdbc6c804d248ebe3d203b006c"
+    },
+    {
+      "file": "card/red_7.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_7.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2020,
+          "y": 1439
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6fa642ff3023fd72a83ccddf83a97a9669efad2a048d5968f6f92b754e30aa4f"
+    },
+    {
+      "file": "card/red_8.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_8.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1682
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "fa03ac5736c42a0ba1761a8ef5a35daa1cc9ff0a7f423baccac7e354aee18361"
+    },
+    {
+      "file": "card/red_9.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_9.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1709
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f58de9cc3947876913797dad3124efbcfc846d25ffcf78706bd34599af4de9f4"
+    },
+    {
+      "file": "card/red_10.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_10.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 23,
+          "x": 1465,
+          "y": 1910
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 23
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3a6bdb590cd75ec1fd28de74c34c8b992c5773e6af6bf5f274eca15ee0395fe6"
+    },
+    {
+      "file": "card/red_J.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_J.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1763
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "9959e579529cb4e7c4d22dc4bddb279c87a987c6ba5d4fe8279bc96bad1d2c0a"
+    },
+    {
+      "file": "card/red_Q.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_Q.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1770,
+          "y": 1640
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "0a25b42d5dfafbd64efadbe0377ce41359ed8ab0c0418def4814d6ded8f1b48a"
+    },
+    {
+      "file": "card/red_K.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "red_K.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1790
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f7cab9b0a56c9f7cac4aab3eb4a6b999a9e5c8c9ef5a29dba33c7d3cc9358e89"
+    },
+    {
+      "file": "card/black_A.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_A.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2020,
+          "y": 1412
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "470c58148955ed4c20c5044eeecbdd64d53182ad54e82a61c630232fe4b0219c"
+    },
+    {
+      "file": "card/black_2.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_2.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1655
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "01feea450a82dc04488ee26e60181d6645e3190ca83a7908da8dde85454146a7"
+    },
+    {
+      "file": "card/black_3.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_3.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1628
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "372aeb449839aad2d3360ead5486e08b10771edd7934e42c25823544777b1d3c"
+    },
+    {
+      "file": "card/black_4.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_4.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1601
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e377a783ad5515fb3196f9ac9f63e5af8443d763c10d9769b1551152b0c3fa39"
+    },
+    {
+      "file": "card/black_5.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_5.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1574
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "9ee8fb2d03cd5048e63e9c5693666c4fe76b6171ff558c436644b73313e44be0"
+    },
+    {
+      "file": "card/black_6.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_6.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1547
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6bfa48a35a96644d84260be023bcc19082c906c787e646f1881159eaf31f5cfd"
+    },
+    {
+      "file": "card/black_7.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_7.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1520
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "ca7ca33c4677cb9ac191d3ea7c363afcbc32164c4a8868ab604272d92d4856d5"
+    },
+    {
+      "file": "card/black_8.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_8.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2021,
+          "y": 1493
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e8278266f13d08dd065e122037b63bb2b859f33cf1c584ba591377fcf4669260"
+    },
+    {
+      "file": "card/black_9.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_9.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 2020,
+          "y": 1466
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f792f47bd67bb5fe429167d825ce62d2ae5de75ad60310b6856e6b93b17aba1c"
+    },
+    {
+      "file": "card/black_10.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_10.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 23,
+          "x": 2021,
+          "y": 1953
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 23
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3e7c1635b745fc211276dd7b0c9597cc7633efc3e7434662cc97420a301e491a"
+    },
+    {
+      "file": "card/black_J.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_J.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1720,
+          "y": 1642
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "489505ff79da5a3b1ed499be63334af59bab06e2b8ffdb4fddfd20f74f011cff"
+    },
+    {
+      "file": "card/black_Q.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_Q.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1698,
+          "y": 1642
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d2de6cea0e16a8a10401fa45c728536e6979a20fd5ef86edf5240f989f8f0eb3"
+    },
+    {
+      "file": "card/black_K.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/cards/normal/card.atlas",
+      "atlasVersion": "8370993f",
+      "region": "black_K.png",
+      "bounds": {
+        "frame": {
+          "h": 26,
+          "idx": 0,
+          "w": 21,
+          "x": 1792,
+          "y": 1640
+        },
+        "sourceSize": {
+          "h": 26,
+          "w": 21
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "656b60963513d931e40f5a58643421528f4d28b4baf3b55ed2275b6ebf88130b"
+    },
+    {
+      "file": "seat/handCardsBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "handCardsBg.png",
+      "bounds": {
+        "frame": {
+          "h": 38,
+          "idx": 0,
+          "w": 38,
+          "x": 987,
+          "y": 863
+        },
+        "sourceSize": {
+          "h": 38,
+          "w": 38
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "513296a85ebaa5149040f3d332fd69cd714aca3b14bd6e5d9652ded07f9c182d"
+    },
+    {
+      "file": "seat/gradeCountryBg1.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "gradeCountryBg1.png",
+      "bounds": {
+        "frame": {
+          "h": 184,
+          "idx": 0,
+          "w": 54,
+          "x": 227,
+          "y": 478
+        },
+        "sourceSize": {
+          "h": 184,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "9e7ad4286ce8f133b2aac39970ac58e47384480316e4f5b2f256859159d8eac0"
+    },
+    {
+      "file": "seat/gradeCountryBg3.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "gradeCountryBg3.png",
+      "bounds": {
+        "frame": {
+          "h": 184,
+          "idx": 0,
+          "w": 54,
+          "x": 282,
+          "y": 478
+        },
+        "sourceSize": {
+          "h": 184,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "260e28d96cb3edc4235bd64dede8d89817e8c0a12f97e34f9f8e253f980e9819"
+    },
+    {
+      "file": "seat/gradeCountryBg5.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "gradeCountryBg5.png",
+      "bounds": {
+        "frame": {
+          "h": 184,
+          "idx": 0,
+          "w": 54,
+          "x": 282,
+          "y": 663
+        },
+        "sourceSize": {
+          "h": 184,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "47c4e288d83552986a2452e00bc550e39cd4bd0761db794494f134988f1f2cee"
+    },
+    {
+      "file": "seat/gradeHpBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "gradeHpBg.png",
+      "bounds": {
+        "frame": {
+          "h": 100,
+          "idx": 0,
+          "w": 32,
+          "x": 1038,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 100,
+          "w": 32
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "8e9a20f05d6d1f971cfbb2c0915fd4e434cef0d0222fe324e43ec37ce089b40d"
+    },
+    {
+      "file": "seat/greenBlood.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "greenBlood.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 18,
+          "x": 694,
+          "y": 1042
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 18
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b010751f9048e8f74a262cca57a8d959e4b35891b915e54f2077ebdba5717eb8"
+    },
+    {
+      "file": "seat/yellowBlood.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "yellowBlood.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 18,
+          "x": 736,
+          "y": 1021
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 18
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3fa5610772315971bad08f7aa8863dea4e21445d133707b68552213e62f15f4b"
+    },
+    {
+      "file": "seat/redBlood.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "redBlood.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 18,
+          "x": 713,
+          "y": 1042
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 18
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "83abc3c700e2edeada9cfa9f910f467932f2b9dc05b81fb2823c488953605dad"
+    },
+    {
+      "file": "seat/empBlood.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "empBlood.png",
+      "bounds": {
+        "frame": {
+          "h": 19,
+          "idx": 0,
+          "w": 17,
+          "x": 767,
+          "y": 1036
+        },
+        "sourceSize": {
+          "h": 19,
+          "w": 17
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "c36ea06c1aef21779f51da28aa2c3725fce2fe2ff2c900a447b2550bd5dca347"
+    },
+    {
+      "file": "seat/seatCanSelect.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "seatCanSelect.png",
+      "bounds": {
+        "frame": {
+          "h": 260,
+          "idx": 0,
+          "w": 198,
+          "x": 0,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 260,
+          "w": 198
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f0c88679fa8f457dd444cb22ea1e43c6b0e5b1dbcb3f50c2c3755ee13c031506"
+    },
+    {
+      "file": "seat/Figure_Self.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "Figure_Self.png",
+      "bounds": {
+        "frame": {
+          "h": 44,
+          "idx": 0,
+          "w": 41,
+          "x": 739,
+          "y": 452
+        },
+        "sourceSize": {
+          "h": 44,
+          "w": 41
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "8be7011974d7649bbf30bdc8c9ae247ed0abbb2bf3d9e2cfaf99b4f1a93ff171"
+    },
+    {
+      "file": "seat/Figure_Enemy.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "Figure_Enemy.png",
+      "bounds": {
+        "frame": {
+          "h": 44,
+          "idx": 0,
+          "w": 41,
+          "x": 394,
+          "y": 907
+        },
+        "sourceSize": {
+          "h": 44,
+          "w": 41
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "7fc7854ff86a421e8b8a72d3e5d2aeee52b6cdce834717cc5ff373058d0d5bdc"
+    },
+    {
+      "file": "seat/cardNumBg1.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "cardNumBg1.png",
+      "bounds": {
+        "frame": {
+          "h": 38,
+          "idx": 0,
+          "w": 36,
+          "x": 399,
+          "y": 997
+        },
+        "sourceSize": {
+          "h": 38,
+          "w": 36
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "f15eeaa58121dcd40333c68d6166e6eb1acac5446d9ca9ffaf10e0ea27d2d5cf"
+    },
+    {
+      "file": "seat/seatui_directline_new0.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "seatui_directline_new0.png",
+      "bounds": {
+        "frame": {
+          "h": 66,
+          "idx": 0,
+          "w": 518,
+          "x": 388,
+          "y": 67
+        },
+        "sourceSize": {
+          "h": 66,
+          "w": 518
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "8017b37d16ae129199d26c6924111f4df2c4c5c8f45e76df6ba0a2587bd74fd5"
+    },
+    {
+      "file": "seat/seatui_directline_new1.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "seatui_directline_new1.png",
+      "bounds": {
+        "frame": {
+          "h": 66,
+          "idx": 0,
+          "w": 518,
+          "x": 388,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 66,
+          "w": 518
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6b73edb19df68b05c50b16fa002bf86f5e77f864349ebe8ca48034247681cf56"
+    },
+    {
+      "file": "seat/TurnOverMask.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "TurnOverMask.png",
+      "bounds": {
+        "frame": {
+          "h": 249,
+          "idx": 0,
+          "w": 188,
+          "x": 199,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 249,
+          "w": 188
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "929f5da23333df4de2a5147444093f16655b9738a2ba905a611a8ce1a6f33dc3"
+    },
+    {
+      "file": "seat/wei.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "wei.png",
+      "bounds": {
+        "frame": {
+          "h": 58,
+          "idx": 0,
+          "w": 52,
+          "x": 551,
+          "y": 498
+        },
+        "sourceSize": {
+          "h": 58,
+          "w": 52
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "08fe8ad5ea3f22537ca45c236b31a0b0d5f7b46d7af8f47d33c1a94e475c594d"
+    },
+    {
+      "file": "seat/weiBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "weiBg.png",
+      "bounds": {
+        "frame": {
+          "h": 133,
+          "idx": 0,
+          "w": 25,
+          "x": 394,
+          "y": 439
+        },
+        "sourceSize": {
+          "h": 133,
+          "w": 25
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b89e210f80e168d0e525b1adb03afa5371bf2b52dbdd932506db1485d7f115fa"
+    },
+    {
+      "file": "seat/shu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "shu.png",
+      "bounds": {
+        "frame": {
+          "h": 58,
+          "idx": 0,
+          "w": 52,
+          "x": 1012,
+          "y": 371
+        },
+        "sourceSize": {
+          "h": 58,
+          "w": 52
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "290ecb09b37633db8f712f8b8e1647d8a95d09cae157913e5bb725d1b44bed2c"
+    },
+    {
+      "file": "seat/shuBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "shuBg.png",
+      "bounds": {
+        "frame": {
+          "h": 133,
+          "idx": 0,
+          "w": 25,
+          "x": 363,
+          "y": 686
+        },
+        "sourceSize": {
+          "h": 133,
+          "w": 25
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "653c248ce4a3e8ffc81962a49628c3be3a3f4159ced815c5ef0e7c2db9a01e32"
+    },
+    {
+      "file": "seat/wu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "wu.png",
+      "bounds": {
+        "frame": {
+          "h": 58,
+          "idx": 0,
+          "w": 52,
+          "x": 959,
+          "y": 371
+        },
+        "sourceSize": {
+          "h": 58,
+          "w": 52
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "48479970a5127473e2584f07e4c9ab591ea2a8c51d0593f53facc72a72659821"
+    },
+    {
+      "file": "seat/wuBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "wuBg.png",
+      "bounds": {
+        "frame": {
+          "h": 133,
+          "idx": 0,
+          "w": 25,
+          "x": 420,
+          "y": 439
+        },
+        "sourceSize": {
+          "h": 133,
+          "w": 25
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "a339c2a581dc7b79ebf092c383412d43beb80595d9b8e881ab11cc41ce10ad12"
+    },
+    {
+      "file": "seat/qun.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "qun.png",
+      "bounds": {
+        "frame": {
+          "h": 58,
+          "idx": 0,
+          "w": 52,
+          "x": 498,
+          "y": 439
+        },
+        "sourceSize": {
+          "h": 58,
+          "w": 52
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3f178808744f462c36ba687981fc2e983ea9f9f8f9ec9dd1960869b86473d1f4"
+    },
+    {
+      "file": "seat/qunBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "qunBg.png",
+      "bounds": {
+        "frame": {
+          "h": 133,
+          "idx": 0,
+          "w": 25,
+          "x": 446,
+          "y": 433
+        },
+        "sourceSize": {
+          "h": 133,
+          "w": 25
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "09144f3cdf41c85684df144a80bc57f45ee6188600667ca3cad83edb27fc47f8"
+    },
+    {
+      "file": "seat/shen.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "shen.png",
+      "bounds": {
+        "frame": {
+          "h": 58,
+          "idx": 0,
+          "w": 52,
+          "x": 551,
+          "y": 439
+        },
+        "sourceSize": {
+          "h": 58,
+          "w": 52
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "90ebd73b68d7830e65bf00537d5933f326fd3ca527a1b2eab163a976bcf6ffe6"
+    },
+    {
+      "file": "seat/shenBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "shenBg.png",
+      "bounds": {
+        "frame": {
+          "h": 133,
+          "idx": 0,
+          "w": 25,
+          "x": 368,
+          "y": 439
+        },
+        "sourceSize": {
+          "h": 133,
+          "w": 25
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e650b61307c3e4e2a23978b782d7b1f9ed05d131bc95c699520b6fc9948fb995"
+    },
+    {
+      "file": "seat_bottom/selfSeatBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "selfSeatBg.png",
+      "bounds": {
+        "frame": {
+          "h": 134,
+          "idx": 0,
+          "w": 18,
+          "x": 615,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 134,
+          "w": 18
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "58f8b4e1a843a7687a267792b57503163af4ac14482a3e60cbb0a3db0f932109"
+    },
+    {
+      "file": "seat_bottom/selfSeatEquipBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "selfSeatEquipBg.png",
+      "bounds": {
+        "frame": {
+          "h": 159,
+          "idx": 0,
+          "w": 149,
+          "x": 150,
+          "y": 545
+        },
+        "sourceSize": {
+          "h": 159,
+          "w": 149
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3d278ea416373d0e93a3ecefbc77915e4ca67282c42c292e81e98691c7f48be3"
+    },
+    {
+      "file": "seat_bottom/seat_bottom_projection.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "seat_bottom_projection.png",
+      "bounds": {
+        "frame": {
+          "h": 281,
+          "idx": 0,
+          "w": 224,
+          "x": 0,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 281,
+          "w": 224
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "4500ad47ee11750c12f4d786eb0f25582641dcca4eea14bfbc118de24d850532"
+    },
+    {
+      "file": "seat_bottom/seat_bottom_select_general.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "seat_bottom_select_general.png",
+      "bounds": {
+        "frame": {
+          "h": 215,
+          "idx": 0,
+          "w": 162,
+          "x": 414,
+          "y": 251
+        },
+        "sourceSize": {
+          "h": 215,
+          "w": 162
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e7017b2cb6e4590878293bc49249c23d2baa586e16d67a8a539f407b202df17d"
+    },
+    {
+      "file": "seat_bottom/hurt_Bg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_Bg.png",
+      "bounds": {
+        "frame": {
+          "h": 90,
+          "idx": 0,
+          "w": 128,
+          "x": 541,
+          "y": 599
+        },
+        "sourceSize": {
+          "h": 90,
+          "w": 128
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d27609296ec7c253663e7dca3fdda216d67f20c796fffb088102aeee51fea58e"
+    },
+    {
+      "file": "seat_bottom/hurt_0.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_0.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 634,
+          "y": 48
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "a8b8fe896796a048bb6b76b1b366f71dd096b9ad31f7132bfa23b557997faf5f"
+    },
+    {
+      "file": "seat_bottom/hurt_1.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_1.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 634,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d0103004b923a4450e52d816600ff598c0f0c78cb0d49119d92ae1ba1fe3a871"
+    },
+    {
+      "file": "seat_bottom/hurt_2.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_2.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 343,
+          "y": 545
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "acbd03c0b5800fc52a2dc2c5ce771485892faba56f3804d16f0fc42b580e9b4b"
+    },
+    {
+      "file": "seat_bottom/hurt_3.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_3.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 300,
+          "y": 593
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6605b88a557c8c782b4a250707d0121a57e8fd33ad535ad13b375ce9aa8f6ba4"
+    },
+    {
+      "file": "seat_bottom/hurt_4.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_4.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 300,
+          "y": 545
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d0a1ce383f0f6c8c261875d8d90ebe56d506b0dd702e3d5513af75c86412ec34"
+    },
+    {
+      "file": "seat_bottom/hurt_5.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_5.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 658,
+          "y": 192
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "2526a2596dd2433a089cca01a6056008cf6a4da5f42832c078e24edf00087ecc"
+    },
+    {
+      "file": "seat_bottom/hurt_6.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_6.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 615,
+          "y": 192
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b0ff0ece1b455f01c33854bd50003431e48c0be5d761a87cdff3e8ff57ad8c9c"
+    },
+    {
+      "file": "seat_bottom/hurt_7.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_7.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 658,
+          "y": 144
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "c2d145483a2b0f7a610084460cc288c62dbed3fdeb0200382abe97d33b774b21"
+    },
+    {
+      "file": "seat_bottom/hurt_8.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_8.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 615,
+          "y": 144
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "808cedffcc8d63aa36d5f1aeae3d9d56dc3e8954eb458da4c10d7ea2c001c724"
+    },
+    {
+      "file": "seat_bottom/hurt_9.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_9.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 634,
+          "y": 96
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "58661ab45b0981d354e155634adb4c5128daf9310372b295e35b2a707e2339aa"
+    },
+    {
+      "file": "seat_bottom/hurt_-.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat_bottom.atlas",
+      "atlasVersion": "1e314081",
+      "region": "hurt_-.png",
+      "bounds": {
+        "frame": {
+          "h": 47,
+          "idx": 0,
+          "w": 42,
+          "x": 479,
+          "y": 641
+        },
+        "sourceSize": {
+          "h": 47,
+          "w": 42
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3ebc390228a8877271395119cc3abac2f2ff519c16dff71c617105ca15c2a201"
+    },
+    {
+      "file": "selfseat/selfSeatCountdownBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "selfSeatCountdownBg.png",
+      "bounds": {
+        "frame": {
+          "h": 13,
+          "idx": 0,
+          "w": 506,
+          "x": 134,
+          "y": 388
+        },
+        "sourceSize": {
+          "h": 13,
+          "w": 506
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "6569c3027effd065e5b4aeee88e44011d93dd88a7659ff6cc52ecdc99308da32"
+    },
+    {
+      "file": "selfseat/selfSeatCountdownBar.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "selfSeatCountdownBar.png",
+      "bounds": {
+        "frame": {
+          "h": 9,
+          "idx": 0,
+          "w": 502,
+          "x": 420,
+          "y": 278
+        },
+        "sourceSize": {
+          "h": 9,
+          "w": 502
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "13ed98c0fe00fae5e45c2eb71beab2ae08931d8408ece533cf546b7660bd256f"
+    },
+    {
+      "file": "selfseat/selfSeatCountdownLight.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "selfSeatCountdownLight.png",
+      "bounds": {
+        "frame": {
+          "h": 17,
+          "idx": 0,
+          "w": 29,
+          "x": 824,
+          "y": 410
+        },
+        "sourceSize": {
+          "h": 17,
+          "w": 29
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "e4d2144000444e208110ba9d9bd9b554050d770dc393fb9d4840e5c06741fcb2"
+    },
+    {
+      "file": "selfseat/selfSeatCancelBtn_normal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "selfSeatCancelBtn_normal.png",
+      "bounds": {
+        "frame": {
+          "h": 46,
+          "idx": 0,
+          "w": 167,
+          "x": 0,
+          "y": 477
+        },
+        "sourceSize": {
+          "h": 46,
+          "w": 167
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "481cf97f54d1ac392fdb4c444ad3cdcf9b7332fbba46d3252787c3e8863359f0"
+    },
+    {
+      "file": "selfseat/selfSeatCancelBtn_over.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "selfSeatCancelBtn_over.png",
+      "bounds": {
+        "frame": {
+          "h": 46,
+          "idx": 0,
+          "w": 167,
+          "x": 0,
+          "y": 524
+        },
+        "sourceSize": {
+          "h": 46,
+          "w": 167
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "9f957af4a0e388eadabe6617ff16a980b3ea25d8d0303b5b589e3123e5a58e63"
+    },
+    {
+      "file": "selfseat/selfSeatCancelBtn_disable.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "selfSeatCancelBtn_disable.png",
+      "bounds": {
+        "frame": {
+          "h": 46,
+          "idx": 0,
+          "w": 167,
+          "x": 715,
+          "y": 159
+        },
+        "sourceSize": {
+          "h": 46,
+          "w": 167
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "80ded5e11d755a1eb87288efd4aea3a061a12edc991b372219226df3666fdf1b"
+    },
+    {
+      "file": "selfseat/skill_common_up.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "skill_common_up.png",
+      "bounds": {
+        "frame": {
+          "h": 30,
+          "idx": 0,
+          "w": 66,
+          "x": 585,
+          "y": 472
+        },
+        "sourceSize": {
+          "h": 30,
+          "w": 66
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "be2552802b21f763711c939464e4482adf560c570010e6f8ab7852dc32d2b0c1"
+    },
+    {
+      "file": "selfseat/skill_common_over.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "skill_common_over.png",
+      "bounds": {
+        "frame": {
+          "h": 30,
+          "idx": 0,
+          "w": 66,
+          "x": 595,
+          "y": 503
+        },
+        "sourceSize": {
+          "h": 30,
+          "w": 66
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3eac1f17fdee7b1d60989bafedb3f8b7ef19e838f5b6eec929cec9e8e7fd1187"
+    },
+    {
+      "file": "selfseat/skill_comon_disabled.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "skill_comon_disabled.png",
+      "bounds": {
+        "frame": {
+          "h": 30,
+          "idx": 0,
+          "w": 66,
+          "x": 463,
+          "y": 543
+        },
+        "sourceSize": {
+          "h": 30,
+          "w": 66
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "fd1f2d3027d5867285c730d8a82e3c36df82c6bdf52f3c84139b364ccd7f4f50"
+    },
+    {
+      "file": "selfseat/game_chat_btn_normal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "game_chat_btn_normal.png",
+      "bounds": {
+        "frame": {
+          "h": 34,
+          "idx": 0,
+          "w": 82,
+          "x": 250,
+          "y": 521
+        },
+        "sourceSize": {
+          "h": 34,
+          "w": 82
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "7dd90a175afb025f049fe22882a9e70facab2c451c397b27a0c6e040eec634be"
+    },
+    {
+      "file": "selfseat/game_chat_btn_close_normal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "game_chat_btn_close_normal.png",
+      "bounds": {
+        "frame": {
+          "h": 34,
+          "idx": 0,
+          "w": 82,
+          "x": 376,
+          "y": 402
+        },
+        "sourceSize": {
+          "h": 34,
+          "w": 82
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "ecb769d2c2582ef8cfb04d08cce00f04d447c05ecf5834032dee4d8eaff92a7c"
+    },
+    {
+      "file": "selfseat/game_chat_btn_over.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "game_chat_btn_over.png",
+      "bounds": {
+        "frame": {
+          "h": 34,
+          "idx": 0,
+          "w": 82,
+          "x": 250,
+          "y": 486
+        },
+        "sourceSize": {
+          "h": 34,
+          "w": 82
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5c3d67cbd3f147ab5674e5d1782277d2066fc1f55d07e9d37a42e0427f431f64"
+    },
+    {
+      "file": "selfseat/surrender_btn_normal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "surrender_btn_normal.png",
+      "bounds": {
+        "frame": {
+          "h": 34,
+          "idx": 0,
+          "w": 62,
+          "x": 585,
+          "y": 437
+        },
+        "sourceSize": {
+          "h": 34,
+          "w": 62
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d9225c3f18d69a9e6920d6cf788778b19bf67d46b2263c962297e8a8ba4a0bc4"
+    },
+    {
+      "file": "selfseat/game_audio_btn_normal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "game_audio_btn_normal.png",
+      "bounds": {
+        "frame": {
+          "h": 34,
+          "idx": 0,
+          "w": 62,
+          "x": 532,
+          "y": 542
+        },
+        "sourceSize": {
+          "h": 34,
+          "w": 62
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "880c4af71fdb7030ded3d8e779c0af8b62d681a558b2350b7a0327292d5954a0"
+    },
+    {
+      "file": "selfseat/SeatRoundState_1.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "SeatRoundState_1.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 93,
+          "x": 648,
+          "y": 417
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 93
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "90a718a5abf22f643c3c9d66ca7c2dc88587c922502edc29b8cbfbdd1834246e"
+    },
+    {
+      "file": "selfseat/SeatRoundState_2.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "SeatRoundState_2.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 93,
+          "x": 735,
+          "y": 375
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 93
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "cb3a0cbcc6064cf90447bf9835241f5581fd262f83b57f1c994921d29d862bb4"
+    },
+    {
+      "file": "selfseat/SeatRoundState_3.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "SeatRoundState_3.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 93,
+          "x": 641,
+          "y": 375
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 93
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "20c70c625b7a1a5747997fa9db325a4e3670afe750606c1ebeb554d6f7744b2d"
+    },
+    {
+      "file": "selfseat/SeatRoundState_4.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "SeatRoundState_4.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 93,
+          "x": 648,
+          "y": 396
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 93
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "3c66fadf73a57abf149c0c1802b63dc0249f58c0285e3a2dfdf43527cac38a1d"
+    },
+    {
+      "file": "selfseat/SeatRoundState_5.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "SeatRoundState_5.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 93,
+          "x": 595,
+          "y": 555
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 93
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "5e3712b287deda97084ab42974e77d2b1e562bb6d419f73bf03c492c688a0a98"
+    },
+    {
+      "file": "selfseat/SeatRoundState_6.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/selfseat.atlas",
+      "atlasVersion": "60cb5813",
+      "region": "SeatRoundState_6.png",
+      "bounds": {
+        "frame": {
+          "h": 20,
+          "idx": 0,
+          "w": 93,
+          "x": 595,
+          "y": 534
+        },
+        "sourceSize": {
+          "h": 20,
+          "w": 93
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "1e290ebbb363436aeadd2b7a8b4fe6f259093e1e78473ee8d6cb5a72fc63a6a7"
+    },
+    {
+      "file": "gameBase/gameActionBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/gameBase.atlas",
+      "atlasVersion": "64e2b904",
+      "region": "gameActionBg.png",
+      "bounds": {
+        "frame": {
+          "h": 35,
+          "idx": 0,
+          "w": 579,
+          "x": 175,
+          "y": 473
+        },
+        "sourceSize": {
+          "h": 35,
+          "w": 579
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "7603fcde46ff35cfb3d8913994373d94e68379691600c3801384bebdea8c623f"
+    },
+    {
+      "file": "gameBase/operate_tips_bg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/gameBase.atlas",
+      "atlasVersion": "64e2b904",
+      "region": "operate_tips_bg.png",
+      "bounds": {
+        "frame": {
+          "h": 51,
+          "idx": 0,
+          "w": 187,
+          "x": 220,
+          "y": 822
+        },
+        "sourceSize": {
+          "h": 51,
+          "w": 187
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "db634ddf6deb44540b7ee5663b0daa9fd37d38c2e1bb3521df133334848d552f"
+    },
+    {
+      "file": "gameBase/gameBaseLine.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/gameBase.atlas",
+      "atlasVersion": "64e2b904",
+      "region": "gameBaseLine.png",
+      "bounds": {
+        "frame": {
+          "h": 5,
+          "idx": 0,
+          "w": 15,
+          "x": 480,
+          "y": 205
+        },
+        "sourceSize": {
+          "h": 5,
+          "w": 15
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "88554d16703c77e80b15ac8c26f51b99f20124770b0dc59efe68bb9eff4b50a6"
+    },
+    {
+      "file": "nsOptBar/nsOptBarBg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarBg.png",
+      "bounds": {
+        "frame": {
+          "h": 302,
+          "idx": 0,
+          "w": 115,
+          "x": 0,
+          "y": 0
+        },
+        "sourceSize": {
+          "h": 302,
+          "w": 115
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "49593eac60e058dabfc2f9054e6c2234db9e9d32a5cf61d81d253f934a734aea"
+    },
+    {
+      "file": "nsOptBar/nsOptBarChatBtnNormal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarChatBtnNormal.png",
+      "bounds": {
+        "frame": {
+          "h": 54,
+          "idx": 0,
+          "w": 54,
+          "x": 171,
+          "y": 220
+        },
+        "sourceSize": {
+          "h": 54,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "fc27a88dbfd7f780aeba404c4a8c104993e1f47ab1bbcac9cab1a5bfc6e44864"
+    },
+    {
+      "file": "nsOptBar/nsOptBarChatBtnOver.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarChatBtnOver.png",
+      "bounds": {
+        "frame": {
+          "h": 54,
+          "idx": 0,
+          "w": 54,
+          "x": 281,
+          "y": 165
+        },
+        "sourceSize": {
+          "h": 54,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "18c4aeb496f0dd2567dbaa84772095859f06b3d998c71c63f173545b229d42e0"
+    },
+    {
+      "file": "nsOptBar/nsOptBarConditonNormal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarConditonNormal.png",
+      "bounds": {
+        "frame": {
+          "h": 54,
+          "idx": 0,
+          "w": 54,
+          "x": 171,
+          "y": 165
+        },
+        "sourceSize": {
+          "h": 54,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "b2f7f6035caeb95e4cfb834cd92f70f74decff72c0fd4e86bc5461580e505af5"
+    },
+    {
+      "file": "nsOptBar/nsOptBarConditionOver.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarConditionOver.png",
+      "bounds": {
+        "frame": {
+          "h": 54,
+          "idx": 0,
+          "w": 54,
+          "x": 226,
+          "y": 165
+        },
+        "sourceSize": {
+          "h": 54,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "963401eae366d4c44e21edb9e51ad3d44f9b2561c10796ed54f88a37e4120812"
+    },
+    {
+      "file": "nsOptBar/nsOptBarTouXiangBtnNormal.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarTouXiangBtnNormal.png",
+      "bounds": {
+        "frame": {
+          "h": 54,
+          "idx": 0,
+          "w": 54,
+          "x": 226,
+          "y": 55
+        },
+        "sourceSize": {
+          "h": 54,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "d965da5dde8fccec7c1a1c6c5fb0dc146d6ce33e09c26976041313a894a2c97e"
+    },
+    {
+      "file": "nsOptBar/nsOptBarTouXiangBtnOver.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/nsOptBar/nsOptBar.atlas",
+      "atlasVersion": null,
+      "region": "nsOptBarTouXiangBtnOver.png",
+      "bounds": {
+        "frame": {
+          "h": 54,
+          "idx": 0,
+          "w": 54,
+          "x": 171,
+          "y": 55
+        },
+        "sourceSize": {
+          "h": 54,
+          "w": 54
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "4c95ce4c896d580790312fa817fdbd4591d951ab63c3ad9132f8bb4f1b1688a5"
+    },
+    {
+      "file": "faces/slash-spade-7.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_7.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "36e17aa94e1d3a8a6cfafa0f63a863d3ab8c836a7f6fd5a45cfbc087a44fef7d"
+    },
+    {
+      "file": "faces/slash-spade-8.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_8.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "1f3b7989291230aa27773d61ee5b46cc4afe6d2e37744a362eee8b53fea8e22e"
+    },
+    {
+      "file": "faces/slash-spade-9.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_9.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "5e24df970006a0933186a270ec9eb9cb8b3c235acdbffbae2922468b7c483833"
+    },
+    {
+      "file": "faces/slash-spade-10.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_10.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        7,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "6816d3797813dfe26d99e92766cd0d64db3251dd5780d1fad35c10708d03d3da"
+    },
+    {
+      "file": "faces/slash-club-2.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_2.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "c5291c554d7556f8b964373c90517c35c4414386c55c477c6692ff4b78fa43c6"
+    },
+    {
+      "file": "faces/slash-club-3.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_3.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a476f42c5c81b05ec50b3aa71cc7c0c091be3c0ce07a7ef3b56855123e8f579b"
+    },
+    {
+      "file": "faces/slash-club-4.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_4.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "af09bb1d97b5fc2dd10a40d14cffb918413f6563e4453df208439eb34e4a39d6"
+    },
+    {
+      "file": "faces/slash-club-5.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_5.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "676e1e43e9390f7cd16947d869f0f18ed2ce7b3f964e2fc63bb7ac9f4be49ddd"
+    },
+    {
+      "file": "faces/slash-club-6.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_6.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "4b7a9043854ba42cb13e6542fbf407a11ab981f84547044112e405df31d755e4"
+    },
+    {
+      "file": "faces/slash-club-7.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_7.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "41e77eb52e94cfaac220aa9f2527b6e29788abb6c313bb6dcd840633a0c62e0b"
+    },
+    {
+      "file": "faces/slash-club-8.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_8.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "ddde50825e31fd91049e2bca2e49a29f87d83c833f65a3622d0fb3e94a0448d4"
+    },
+    {
+      "file": "faces/slash-club-9.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_9.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "80b3d70ebae5a3519b4dcf133811d6fa482c38741c93dd0ee8dc3fb4b38e076b"
+    },
+    {
+      "file": "faces/slash-club-10.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_10.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        7,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "2443c70c9c50204dc5fc5697452c0c2727739b35da7ceaa9448eb1a83bf675e7"
+    },
+    {
+      "file": "faces/slash-club-11.png",
+      "composition": [
+        "cards/slash.png",
+        "card/black_J.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "24706e9710871bba523b722245d699c366fc2514c74f009e4607ea4bbd4d1894"
+    },
+    {
+      "file": "faces/slash-heart-10.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_10.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        7,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "b18ad22c27e4191954e8240a184d330ef4ab13d411aacd90d44e80daf722032d"
+    },
+    {
+      "file": "faces/slash-heart-11.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_J.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "4268fbf044be710c35259d00d9477a081624564cbdb39d11b6d254a28bc7c72b"
+    },
+    {
+      "file": "faces/slash-diamond-6.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_6.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "35f41fdbc5966cee2ed3bf7513450463f61969f1a56264bc7a1940e4a376104e"
+    },
+    {
+      "file": "faces/slash-diamond-7.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_7.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "c0f27af74a2504044353b4c48136c857176fadaac352fdb132f8e5ef37410117"
+    },
+    {
+      "file": "faces/slash-diamond-8.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_8.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "0d5ea3f958c8521c1194e5109324a573f68320100db589a1f48c8e6305d17b0c"
+    },
+    {
+      "file": "faces/slash-diamond-9.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_9.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "23a1e3191f963b510ce9ebe5b0cb4258520e6c8a0e684c965d99b52096451730"
+    },
+    {
+      "file": "faces/slash-diamond-10.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_10.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        7,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a588f950f1a30b856002a791989e12dca5f5722059a21d9315c56f6602279933"
+    },
+    {
+      "file": "faces/slash-diamond-13.png",
+      "composition": [
+        "cards/slash.png",
+        "card/red_K.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "922415aa07dec906916c613e46cf955eacc932ede5f8a998bcdf43cb3e79c861"
+    },
+    {
+      "file": "faces/jink-heart-2.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_2.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "769bf432ecd3484d9d13a7727c34ce85e151bb9f9e119bb867d25767ad068533"
+    },
+    {
+      "file": "faces/jink-heart-13.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_K.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "9914362d6296ec141e32f55efa4a314799144d55cfb3847eb3a57b0675076fd8"
+    },
+    {
+      "file": "faces/jink-diamond-2.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_2.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "62ebdebd69596433eb9d73c195e8d39be4d5da2033b17b241b03b2d8da0d3111"
+    },
+    {
+      "file": "faces/jink-diamond-3.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_3.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "9c468500b9e12e30c70ef746729757edff663e5af7391921e32a70bf5a66ab2b"
+    },
+    {
+      "file": "faces/jink-diamond-4.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_4.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "2311b3fa917c85bc41285b9f9bb62ebb3b94d5565cb3ef8a8d4d2a476dbe5fe3"
+    },
+    {
+      "file": "faces/jink-diamond-5.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_5.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "314dc169ccca026e87c11d3b53d8056216693ed3598d2dd5afb3fbc968895b85"
+    },
+    {
+      "file": "faces/jink-diamond-6.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_6.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "2b9e2d67e222c86a3f5446d9770efb197ffad3cc77b6407143f5e29d77d7670a"
+    },
+    {
+      "file": "faces/jink-diamond-7.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_7.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "84d326c0e17828d5b3051183201f975a3283dfc0e93711496da154b7ccfe0347"
+    },
+    {
+      "file": "faces/jink-diamond-8.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_8.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "db46e4a6f024f9b0e84bc571ac8d432b09eb2f4d0c059a7595916f4a5ee013d8"
+    },
+    {
+      "file": "faces/jink-diamond-9.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_9.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "2230c21c44dc1cef50d6d02735916079d2b67e10c08b040def2059dce21f2c83"
+    },
+    {
+      "file": "faces/jink-diamond-10.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_10.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        7,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "c702db9bc2debd8434786af5a77ca9de9ba8178ac209fd936fffe916908e5db9"
+    },
+    {
+      "file": "faces/jink-diamond-11.png",
+      "composition": [
+        "cards/jink.png",
+        "card/red_J.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "734520b3f4dc961953411e239a29c76f8d4a4c1d4a08632265dd4643f78333f2"
+    },
+    {
+      "file": "faces/peach-heart-3.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_3.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "d005a395065872cfd683367d595563cb417e9e011b953a3709a42625479ec17e"
+    },
+    {
+      "file": "faces/peach-heart-4.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_4.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "59c4be04cc0b8fedfe021154b5431cfedc03898fe35b10f70d270f82b50ed469"
+    },
+    {
+      "file": "faces/peach-heart-6.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_6.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "7cf6ae6a3d6bbefff044e350e12b10933927f011848949068c3d3d54abaced5a"
+    },
+    {
+      "file": "faces/peach-heart-7.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_7.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "eb6a25194271702e9f5ffe0652ac95fa289a1bb88accee15dacf61ac0bb32a41"
+    },
+    {
+      "file": "faces/peach-heart-8.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_8.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "6001adebfaf1bc33bf6254f908cb84a05c2f77dd7371d15bc4d19b2a39c470a0"
+    },
+    {
+      "file": "faces/peach-heart-9.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_9.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "43afc7c9fc890da0bed2dd6314c4538701dc0011c3ace37709da0830c565e000"
+    },
+    {
+      "file": "faces/peach-heart-12.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_Q.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "aeef687c72f9e0f4b2589b1a24069a39cdff61884e344f80178351a153db96ac"
+    },
+    {
+      "file": "faces/peach-diamond-12.png",
+      "composition": [
+        "cards/peach.png",
+        "card/red_Q.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "48550ab9011496700589e2c91d2bce55a6c6d5f299bad9b13d92a94facf93dc0"
+    },
+    {
+      "file": "faces/crossbow-club-1.png",
+      "composition": [
+        "cards/crossbow.png",
+        "card/black_A.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "7a47c79486c6a68b985ee1fd825b9ed83ca309378e44e5557233129beb7f1153"
+    },
+    {
+      "file": "faces/crossbow-diamond-1.png",
+      "composition": [
+        "cards/crossbow.png",
+        "card/red_A.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "fdf92e4f9ac67f67565055a17936a1093b539c9c7c138f718d4f6a3ab295cfc4"
+    },
+    {
+      "file": "faces/double_sword-spade-2.png",
+      "composition": [
+        "cards/double_sword.png",
+        "card/black_2.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "2907e922de34cd65014faa8896ea3cefbb2beddc7485e6d92a92fe00f7db5ed5"
+    },
+    {
+      "file": "faces/qinggang_sword-spade-6.png",
+      "composition": [
+        "cards/qinggang_sword.png",
+        "card/black_6.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "4ade2424573fe073b85cd4faffc418a5575634aaa76b79237aed0bf01e32b525"
+    },
+    {
+      "file": "faces/blade-spade-5.png",
+      "composition": [
+        "cards/blade.png",
+        "card/black_5.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "5a0bdbd3bc7d75029b6e16e56a234e1cde464e0b6faaae803d6817cbafc3ca02"
+    },
+    {
+      "file": "faces/spear-spade-12.png",
+      "composition": [
+        "cards/spear.png",
+        "card/black_Q.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "aa44df8481405296bb400be84a24dcd82860ffcb860f127b46060d40274586ca"
+    },
+    {
+      "file": "faces/axe-diamond-5.png",
+      "composition": [
+        "cards/axe.png",
+        "card/red_5.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "e94b2813b70a431e6f609e3dd759372525ef6178fe138b2d8fe50eec08fd4e19"
+    },
+    {
+      "file": "faces/halberd-diamond-12.png",
+      "composition": [
+        "cards/halberd.png",
+        "card/red_Q.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a3b1a684831f75cca471c72bd44518d633c474c767848e0d9bd28dcca44206e2"
+    },
+    {
+      "file": "faces/kylin_bow-heart-5.png",
+      "composition": [
+        "cards/kylin_bow.png",
+        "card/red_5.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "cfc04c9780c9add99c3fbd0a013727c81e396947b08feaa61fb402b446e47b24"
+    },
+    {
+      "file": "faces/eight_diagram-spade-2.png",
+      "composition": [
+        "cards/eight_diagram.png",
+        "card/black_2.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "c9465073708537ac58e1384c16d5a57f9c6e16a493dd55e0d76a4f7add3b1f50"
+    },
+    {
+      "file": "faces/eight_diagram-club-2.png",
+      "composition": [
+        "cards/eight_diagram.png",
+        "card/black_2.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a82bd88f9b95970f4b1f1b6bf87406530ce367f84fa8eb8d7ea08bdf713f6c6c"
+    },
+    {
+      "file": "faces/jueying-spade-5.png",
+      "composition": [
+        "cards/jueying.png",
+        "card/black_5.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "58e06f702fe2b8d901c104aa08bb606633dfe97d5ab8bc2a1d6c91934489b1d6"
+    },
+    {
+      "file": "faces/dilu-club-5.png",
+      "composition": [
+        "cards/dilu.png",
+        "card/black_5.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "5b1f02c09d9d7cb1caadd353313a4605e0a6ef4623b888aeb1413398a5cd9de5"
+    },
+    {
+      "file": "faces/zhuahuangfeidian-heart-13.png",
+      "composition": [
+        "cards/zhuahuangfeidian.png",
+        "card/red_K.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "6efaccb9db5126ba30708760c0a8e3afb106618e29b3551b7f6a9ca9990085f2"
+    },
+    {
+      "file": "faces/chitu-heart-5.png",
+      "composition": [
+        "cards/chitu.png",
+        "card/red_5.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "238b5199269e3035107a81b445b376618e5f766100905df1a1335368db52c887"
+    },
+    {
+      "file": "faces/dayuan-spade-13.png",
+      "composition": [
+        "cards/dayuan.png",
+        "card/black_K.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "5ed1e27be39e11f234fe607e23bfe3c8de13f08e5ea24413f5ff98b81c22f49a"
+    },
+    {
+      "file": "faces/zixing-diamond-13.png",
+      "composition": [
+        "cards/zixing.png",
+        "card/red_K.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "ceb0056fc095ec57c81088a4c84e63d080fef79b44ccab2650692a54279edeb2"
+    },
+    {
+      "file": "faces/amazing_grace-heart-3.png",
+      "composition": [
+        "cards/amazing_grace.png",
+        "card/red_3.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "6d20567d07ba03e96d7c8134106be92bbf9f46e312c0d4721ea8cef95224e8da"
+    },
+    {
+      "file": "faces/amazing_grace-heart-4.png",
+      "composition": [
+        "cards/amazing_grace.png",
+        "card/red_4.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "c5d86aa6c21dc2e2cbfff19e49c3c73aac2df1f4d7c93957575c050d92da974c"
+    },
+    {
+      "file": "faces/god_salvation-heart-1.png",
+      "composition": [
+        "cards/god_salvation.png",
+        "card/red_A.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "83947ae384158be4cdf979264301ee3239e0cc13828a8939f8f49db92aadf26b"
+    },
+    {
+      "file": "faces/savage_assault-spade-7.png",
+      "composition": [
+        "cards/savage_assault.png",
+        "card/black_7.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "d0203c3cce253a6836eff4afc52b44c3c5caa30f51efcc2a887b60a35c3cef63"
+    },
+    {
+      "file": "faces/savage_assault-spade-13.png",
+      "composition": [
+        "cards/savage_assault.png",
+        "card/black_K.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "f1623018337326cfd477bf606898311e11c1c791e31286aebc6823f928e7f324"
+    },
+    {
+      "file": "faces/savage_assault-club-7.png",
+      "composition": [
+        "cards/savage_assault.png",
+        "card/black_7.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "6d91c95e54fce0c1ef86339deec1b00246b501ca1cbcb2317bb7b2b71aa8f8f8"
+    },
+    {
+      "file": "faces/archery_attack-heart-1.png",
+      "composition": [
+        "cards/archery_attack.png",
+        "card/red_A.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "f79a9b69581bdf9bbf311cf1b9967fd01d0cf3c54354bb78e26df8e9aef737f1"
+    },
+    {
+      "file": "faces/duel-spade-1.png",
+      "composition": [
+        "cards/duel.png",
+        "card/black_A.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "9de407bf361ce2bfb6b22df4f0f34f0ce112bee9dad66eb1402421d8f8eaad64"
+    },
+    {
+      "file": "faces/duel-club-1.png",
+      "composition": [
+        "cards/duel.png",
+        "card/black_A.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "ebfbef467e6042db190a48917b4693c5f91b7233a46c04620e5c79ad0af74ba2"
+    },
+    {
+      "file": "faces/duel-diamond-1.png",
+      "composition": [
+        "cards/duel.png",
+        "card/red_A.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "42b4946da7877e4ef9207249170d186b4d730db702a2efaac1560b2af1726e87"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-7.png",
+      "composition": [
+        "cards/ex_nihilo.png",
+        "card/red_7.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "464fa3d615b64dc485c7e586dd5646ad156a52f9aaf2090c4b86030e947b8035"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-8.png",
+      "composition": [
+        "cards/ex_nihilo.png",
+        "card/red_8.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "80cc8212b5cbac7cc76b1349d2fb3c5b4f276e6630ed20a1256d15e7b11367c9"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-9.png",
+      "composition": [
+        "cards/ex_nihilo.png",
+        "card/red_9.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "608cd37bc91287bcbf76f30b5d2b5139fe4a7d0965876c7249690153a8112ef1"
+    },
+    {
+      "file": "faces/ex_nihilo-heart-11.png",
+      "composition": [
+        "cards/ex_nihilo.png",
+        "card/red_J.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "235539cfbebd0d0f6d18173001b11f46d32e5a6ce5a78e2b4c26efa331a2d730"
+    },
+    {
+      "file": "faces/snatch-spade-3.png",
+      "composition": [
+        "cards/snatch.png",
+        "card/black_3.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "519ea5f668d6b9f1fc7eae4079167164e4baa75e7122b0111f3ab67d13561c3a"
+    },
+    {
+      "file": "faces/snatch-spade-4.png",
+      "composition": [
+        "cards/snatch.png",
+        "card/black_4.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "b666c96e28214ef8355f3a9b31bf4487600dfd8ac18f772f07189b6094283c4e"
+    },
+    {
+      "file": "faces/snatch-spade-11.png",
+      "composition": [
+        "cards/snatch.png",
+        "card/black_J.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "80911d47c7a78f3325e2f5ceeb5bdf730e34acda69af99864071f951ae24a5a5"
+    },
+    {
+      "file": "faces/snatch-diamond-3.png",
+      "composition": [
+        "cards/snatch.png",
+        "card/red_3.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "329ab8e361e26f6396c00532bbca85f953aebfcd976c87790b2d91805d28f76d"
+    },
+    {
+      "file": "faces/snatch-diamond-4.png",
+      "composition": [
+        "cards/snatch.png",
+        "card/red_4.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "7bc3df5e497fe6f9ce0efae3191b2476f83b3bbc8c4342c525f96ae6a2c2f90c"
+    },
+    {
+      "file": "faces/dismantlement-spade-3.png",
+      "composition": [
+        "cards/dismantlement.png",
+        "card/black_3.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "99179379cb35ce8282b032d7e90f33d11704d6f813c83dc7dcb609e137f3d99c"
+    },
+    {
+      "file": "faces/dismantlement-spade-4.png",
+      "composition": [
+        "cards/dismantlement.png",
+        "card/black_4.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "d533e6b7acbfa5c032f620ebbcdcf0ed64b6b5031cfa767df31b5c1244e6a20e"
+    },
+    {
+      "file": "faces/dismantlement-spade-12.png",
+      "composition": [
+        "cards/dismantlement.png",
+        "card/black_Q.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "761f7d1697a6447c184ed3172a8ee9ea0d879d499bc152d66085a89a52fe6b73"
+    },
+    {
+      "file": "faces/dismantlement-club-3.png",
+      "composition": [
+        "cards/dismantlement.png",
+        "card/black_3.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "609b5a95915edc43c06bd7bae61ad40218e58dde95f62a3e19f8a8f03314f080"
+    },
+    {
+      "file": "faces/dismantlement-club-4.png",
+      "composition": [
+        "cards/dismantlement.png",
+        "card/black_4.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "9734996a91db83728db222707b6b04de0f095c7d6754766b3676e5ad574c258a"
+    },
+    {
+      "file": "faces/dismantlement-heart-12.png",
+      "composition": [
+        "cards/dismantlement.png",
+        "card/red_Q.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "98c9dd35b37f1a0a81836999e29ff858a5d7a4088c379b1eec776aa02ca961d1"
+    },
+    {
+      "file": "faces/collateral-club-12.png",
+      "composition": [
+        "cards/collateral.png",
+        "card/black_Q.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "d7ae8b64e301cd0f4a7a97d08636f590e81bd1fac2c2be01a84ad9f4140deaee"
+    },
+    {
+      "file": "faces/collateral-club-13.png",
+      "composition": [
+        "cards/collateral.png",
+        "card/black_K.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "03539669a4da81c7a75221cca02de947ba2ee843741c968f4c4b74e6a950a759"
+    },
+    {
+      "file": "faces/nullification-spade-11.png",
+      "composition": [
+        "cards/nullification.png",
+        "card/black_J.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "67f42368d6b87ee83a436744d7d9d4b258bcf9135d8ee51633fe6b75b56f0685"
+    },
+    {
+      "file": "faces/nullification-club-12.png",
+      "composition": [
+        "cards/nullification.png",
+        "card/black_Q.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a00cc7a7bb58c7279bbebbbab1b5aac47eec4d39f8ff5e3a4757c75f9217b69d"
+    },
+    {
+      "file": "faces/nullification-club-13.png",
+      "composition": [
+        "cards/nullification.png",
+        "card/black_K.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "12750cb5b7e981e7fb299757989d99f86992bceaa8c67c85ed32687ad32d6680"
+    },
+    {
+      "file": "faces/indulgence-spade-6.png",
+      "composition": [
+        "cards/indulgence.png",
+        "card/black_6.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a51c3c33fe78aea651a7a31bf69af4faf04a9ceb4148e50b89fbf252f4237753"
+    },
+    {
+      "file": "faces/indulgence-club-6.png",
+      "composition": [
+        "cards/indulgence.png",
+        "card/black_6.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "087eb4ec9fd67904d961649c08bdbdf71c28487b86e00882992516aa9587e840"
+    },
+    {
+      "file": "faces/indulgence-heart-6.png",
+      "composition": [
+        "cards/indulgence.png",
+        "card/red_6.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "9ac64bf642674fd6dd686356228127487eee49aa613e7787095be2ab7f4c6d5f"
+    },
+    {
+      "file": "faces/lightning-spade-1.png",
+      "composition": [
+        "cards/lightning.png",
+        "card/black_A.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "f1716915ac8a1d4d7b6de288b029fcb2830dc3436ea2a879ee4659ba0c7ded43"
+    },
+    {
+      "file": "faces/ice_sword-spade-2.png",
+      "composition": [
+        "cards/ice_sword.png",
+        "card/black_2.png",
+        "card/spade.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "dd1eaff30365b507cde4611c51fbaba9d7c5f655edcc4cebf916f521ca7ee63c"
+    },
+    {
+      "file": "faces/renwang_shield-club-2.png",
+      "composition": [
+        "cards/renwang_shield.png",
+        "card/black_2.png",
+        "card/club.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "1891ce05e44a79265bf24837a0b82ffec1da127a33de5decd979d5acad114b52"
+    },
+    {
+      "file": "faces/lightning-heart-12.png",
+      "composition": [
+        "cards/lightning.png",
+        "card/red_Q.png",
+        "card/heart.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "a099c57f466a819966b1177a8baff1ab361365c0790a61ac2ce938ff9cda6cf1"
+    },
+    {
+      "file": "faces/nullification-diamond-12.png",
+      "composition": [
+        "cards/nullification.png",
+        "card/red_Q.png",
+        "card/diamond.png"
+      ],
+      "rankOrigin": [
+        8,
+        8
+      ],
+      "suitOrigin": [
+        7,
+        29
+      ],
+      "sha256": "edaf20d774301a02b1d4ef39c5056334f381ae1498adfc1716c974e715d63e2e"
+    },
+    {
+      "file": "effects/cardSkillHeiSha.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/cardSkill/cardSkillHeiSha.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/cardSkill/cardSkillHeiSha.png"
+      ],
+      "render": {
+        "frames": 36,
+        "fps": 30,
+        "duration": 1.166699951171875,
+        "columns": 8,
+        "rows": 5,
+        "crop": [
+          64,
+          72,
+          448,
+          440
+        ],
+        "width": 384,
+        "height": 368
+      },
+      "sha256": "c7c3b7bd0b8d404584d7f8c915cc7823fe00a3533b98ef7ebdb52f10992b056c"
+    },
+    {
+      "file": "effects/cardSkillHongSha.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/cardSkill/cardSkillHongSha.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/cardSkill/cardSkillHongSha.png"
+      ],
+      "render": {
+        "frames": 36,
+        "fps": 30,
+        "duration": 1.166699951171875,
+        "columns": 8,
+        "rows": 5,
+        "crop": [
+          64,
+          72,
+          448,
+          440
+        ],
+        "width": 384,
+        "height": 368
+      },
+      "sha256": "e503d5ec0bcd0296c2d0e71e6fdffb854e7e2580ca4fdfaea9704e21517c7b31"
+    },
+    {
+      "file": "effects/cardSkillShan.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/cardSkill/cardSkillShan.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/cardSkill/cardSkillShan.png"
+      ],
+      "render": {
+        "frames": 51,
+        "fps": 30,
+        "duration": 1.666699951171875,
+        "columns": 8,
+        "rows": 7,
+        "crop": [
+          59,
+          108,
+          462,
+          421
+        ],
+        "width": 403,
+        "height": 313
+      },
+      "sha256": "cbb00a9319d5434ab28af5f9db0f4bdcfad2c6698370970d61e5704de4641f52"
+    },
+    {
+      "file": "effects/seatStateRed.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/seatStateRed.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/seatStateRed.png"
+      ],
+      "render": {
+        "frames": 36,
+        "fps": 30,
+        "duration": 1.2,
+        "columns": 8,
+        "rows": 5,
+        "crop": [
+          84,
+          67,
+          432,
+          430
+        ],
+        "width": 348,
+        "height": 363
+      },
+      "sha256": "60e6dad1e3da398fc6aecfd6614bdd24ca4f65fd2c0900ab76f899c27559ef22"
+    },
+    {
+      "file": "effects/seatStateYellow.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/seatStateYellow.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/seatStateYellow.png"
+      ],
+      "render": {
+        "frames": 33,
+        "fps": 30,
+        "duration": 1.1,
+        "columns": 8,
+        "rows": 5,
+        "crop": [
+          87,
+          68,
+          427,
+          438
+        ],
+        "width": 340,
+        "height": 370
+      },
+      "sha256": "fb52afb421a9000b1e522e982634c9d4aca76561cdd07fee1bdf686330d4beb2"
+    },
+    {
+      "file": "effects/victory-base.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/gameover/dipan.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/gameover/dipan.png"
+      ],
+      "animation": 0,
+      "scale": 0.6,
+      "render": {
+        "frames": 60,
+        "columns": 8,
+        "rows": 8,
+        "width": 423,
+        "height": 462,
+        "crop": [
+          45,
+          28,
+          468,
+          490
+        ],
+        "duration": 2.0
+      },
+      "sha256": "9d761f86fee5a95ffe51a1ea968db537530e6a6dad7c4d95ad9330173b323f4d"
+    },
+    {
+      "file": "effects/victory-text.png",
+      "source": {
+        "skeleton": "https://web.sanguosha.com/10/pc/res/assets/animate/battle/gameover/shenglishibaiwenzi.sk",
+        "animation": 0,
+        "renderCanvas": 1024,
+        "renderScale": 0.6,
+        "downsample": 768
+      },
+      "render": {
+        "frames": 22,
+        "columns": 5,
+        "rows": 5,
+        "width": 768,
+        "height": 768,
+        "crop": [
+          0,
+          0,
+          768,
+          768
+        ],
+        "duration": 0.7333333129882813,
+        "stageWidth": 768,
+        "stageHeight": 768
+      },
+      "sha256": "6953fbea9de65e7f1d91fdaa1827218db2e3e6726a58f3d1e002fa89450acb04"
+    },
+    {
+      "file": "effects/defeat-base.png",
+      "source": [
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/gameover/dipan.sk",
+        "https://web.sanguosha.com/10/pc/res/assets/animate/battle/gameover/dipan.png"
+      ],
+      "animation": 2,
+      "scale": 0.6,
+      "render": {
+        "frames": 60,
+        "columns": 8,
+        "rows": 8,
+        "width": 252,
+        "height": 250,
+        "crop": [
+          130,
+          131,
+          382,
+          381
+        ],
+        "duration": 2.0
+      },
+      "sha256": "f7ef8072c0e29df943fce242c095abb07ffd82674a30136383079f887bcb8ea9"
+    },
+    {
+      "file": "effects/defeat-text.png",
+      "source": {
+        "skeleton": "https://web.sanguosha.com/10/pc/res/assets/animate/battle/gameover/shenglishibaiwenzi.sk",
+        "animation": 1,
+        "renderCanvas": 1024,
+        "renderScale": 0.6,
+        "downsample": 768
+      },
+      "render": {
+        "frames": 18,
+        "columns": 5,
+        "rows": 4,
+        "width": 159,
+        "height": 202,
+        "crop": [
+          313,
+          258,
+          472,
+          460
+        ],
+        "duration": 0.5666666870117187,
+        "stageWidth": 768,
+        "stageHeight": 768
+      },
+      "sha256": "817fec58cecf4c9b4235a1dbd13e9eb21fc4c707dffc68c8b9ed53c1d409d21a"
+    },
+    {
+      "file": "social-kill.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/login/login1.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/login/login.atlas",
+      "region": "LoginLogo.png",
+      "transform": "Masked final traditional 殺 glyph, set inside burgundy seal",
+      "sha256": "64d02bc756f74f335c3b468b38c0f3565947028df539031de2ca7d32225a228f"
+    },
+    {
+      "file": "effects/first-blood.png",
+      "source": {
+        "video": "https://www.bilibili.com/video/BV1ag411p7nB/",
+        "uploader": "Notify_",
+        "segment": [
+          0,
+          3.5
+        ],
+        "transform": "Chroma keyed original 720p sequence; crop only upper 60px outside effect, scale 0.7",
+        "sourceSha256": "0ebed18955d9401e3ea87b860dca7d86378ebd0c27ad01ecccded566ca753a7d"
+      },
+      "render": {
+        "frames": 105,
+        "columns": 7,
+        "rows": 15,
+        "width": 896,
+        "height": 411,
+        "crop": [
+          0,
+          42,
+          896,
+          453
+        ],
+        "duration": 3.5,
+        "stageWidth": 896,
+        "stageHeight": 504
+      },
+      "sha256": "6ff6cd422ebe01262650a512f001540a1763f69f23060dab34d15660c0cdd110"
+    },
+    {
+      "file": "dialogs/selection-bg.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/game/skill_window/newSkillWindow_bg.png",
+      "sha256": "071f88d192838149fd36a6dff325a630150033b7854d0af984079130cc1a62b1"
+    },
+    {
+      "file": "dialogs/getGeneralTitle.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/window/getGeneral.atlas",
+      "sha256": "eb55e5897520012c37b005a21e3bffa5a761f326a7b5675e7ba1998ed33c15ca",
+      "region": "getGeneralTitle.png"
+    },
+    {
+      "file": "dialogs/collect_general_frame.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/window/getGeneral.atlas",
+      "sha256": "24ccaab484a575be53b04a738999ffd4a57f079149b134225fdf71c132c54412",
+      "region": "collect_general_frame.png"
+    },
+    {
+      "file": "dialogs/collect_general_name_bg.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/window/getGeneral.atlas",
+      "sha256": "2a419bcfd6b4d4a34c06767f0fb47ff78630a6c7ab67f068634787a9a17a3f93",
+      "region": "collect_general_name_bg.png"
+    },
+    {
+      "file": "effects/general-unlock-start.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/animate/generalWindow/sf_dhua_zhaomuwj_wujiang.sk",
+      "sha256": "4da9f85e10c0abdb9a47d52215de455be30053b8785e2eb2b5213cdb639595b5",
+      "animation": 0,
+      "transform": "Laya original timeline; wujiang placeholder slot hidden for runtime portrait; 1024 canvas at 0.6 then 768 export",
+      "render": {
+        "frames": 7,
+        "columns": 3,
+        "rows": 3,
+        "width": 278,
+        "height": 289,
+        "crop": [
+          244,
+          193,
+          522,
+          482
+        ],
+        "stageWidth": 768,
+        "stageHeight": 768,
+        "duration": 0.23333332824707032
+      }
+    },
+    {
+      "file": "effects/general-unlock-loop.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/animate/generalWindow/sf_dhua_zhaomuwj_wujiang.sk",
+      "sha256": "3aaa9b35e817c2e1adee7b7f0c238e7a2c6d6fb7489f806696ce6dd59c5e1bdf",
+      "animation": 1,
+      "transform": "Laya original timeline; wujiang placeholder slot hidden for runtime portrait; 1024 canvas at 0.6 then 768 export",
+      "render": {
+        "frames": 60,
+        "columns": 8,
+        "rows": 8,
+        "width": 357,
+        "height": 333,
+        "crop": [
+          193,
+          163,
+          550,
+          496
+        ],
+        "stageWidth": 768,
+        "stageHeight": 768,
+        "duration": 2.0
+      }
+    },
+    {
+      "file": "seat/DecideLeBuSiShu.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "DecideLeBuSiShu.png",
+      "bounds": {
+        "frame": {
+          "h": 51,
+          "idx": 0,
+          "w": 51,
+          "x": 337,
+          "y": 820
+        },
+        "sourceSize": {
+          "h": 51,
+          "w": 51
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "a92d171e18205dc4eee2817ef9c07f34a0e397bff78a0797959c140ef1ea82fa"
+    },
+    {
+      "file": "seat/DecideBingLiangCunDuan.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/seat.atlas",
+      "atlasVersion": "9285583e",
+      "region": "DecideBingLiangCunDuan.png",
+      "bounds": {
+        "frame": {
+          "h": 51,
+          "idx": 0,
+          "w": 51,
+          "x": 981,
+          "y": 593
+        },
+        "sourceSize": {
+          "h": 51,
+          "w": 51
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "683607aafcc663f69319d5ba1feadd27a809a6570b36f212abad635044759780"
+    },
+    {
+      "file": "effects/judgment-reveal.png",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "assets/animation/effect_panding.skel",
+      "sourceSHA256": "c5e460d97ba5c4b27ba8963220b0cc281e118adcf698bffd575b9c52838b1711",
+      "animation": "play",
+      "render": {
+        "frames": 60,
+        "columns": 8,
+        "rows": 8,
+        "width": 60,
+        "height": 58,
+        "crop": [
+          227,
+          225,
+          287,
+          283
+        ],
+        "duration": 2,
+        "stageWidth": 512,
+        "stageHeight": 512
+      },
+      "sha256": "421a9aacbcc2b9feda8e44338403386b100bf6230fcc1be8d809b7dbd67247f9"
+    },
+    {
+      "file": "effects/judgment-success.png",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "assets/animation/effect_panding.skel",
+      "sourceSHA256": "c5e460d97ba5c4b27ba8963220b0cc281e118adcf698bffd575b9c52838b1711",
+      "animation": "play4",
+      "render": {
+        "frames": 60,
+        "columns": 8,
+        "rows": 8,
+        "width": 186,
+        "height": 176,
+        "crop": [
+          156,
+          156,
+          342,
+          332
+        ],
+        "duration": 2,
+        "stageWidth": 512,
+        "stageHeight": 512
+      },
+      "sha256": "510caf3d2023f0b64a6d4f2ef0fd0c708122cd30bae2c545a2f9615579408d1a"
+    },
+    {
+      "file": "effects/judgment-failure.png",
+      "repository": "https://github.com/diandian157/decadeUI",
+      "revision": "30dbc8911ea9d27cf674c9be50e8abd663e8a8f0",
+      "source": "assets/animation/effect_panding.skel",
+      "sourceSHA256": "c5e460d97ba5c4b27ba8963220b0cc281e118adcf698bffd575b9c52838b1711",
+      "animation": "play5",
+      "render": {
+        "frames": 60,
+        "columns": 8,
+        "rows": 8,
+        "width": 180,
+        "height": 193,
+        "crop": [
+          156,
+          139,
+          336,
+          332
+        ],
+        "duration": 2,
+        "stageWidth": 512,
+        "stageHeight": 512
+      },
+      "sha256": "f5467dc43af2f35d6de9de11e8c028a453fa2e2619daafb211242dac814dabe6"
+    },
+    {
+      "file": "dialogs/speech-bg.png",
+      "atlas": "https://web.sanguosha.com/10/pc/res/assets/game/gameBase.atlas",
+      "region": "gameBaseSmartBubbleMsgBg.png",
+      "bounds": {
+        "frame": {
+          "h": 30,
+          "idx": 0,
+          "w": 31,
+          "x": 444,
+          "y": 416
+        },
+        "sourceSize": {
+          "h": 30,
+          "w": 31
+        },
+        "spriteSourceSize": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "sha256": "2aa67a565187d0c6423918da3c57aded5e5e9daacc43583481ba2c866042c900"
+    },
+    {
+      "file": "font/fzkt.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/font/fzkt.ttf",
+      "sourceSha256": "ad421e42ead5bc92b1bbdd51181b3923771bc11f600a2852064dba4e16fd2755",
+      "render": "48px original glyphs; common UI first; GB2312 dialogue extensions on demand-loaded 2048-glyph pages",
+      "sha256": "cb708aa9c7d1eeb729474e3e02f7467f6701dfaa7ed45cd779236b1e256f90ea"
+    },
+    {
+      "file": "font/fzkt-1.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/font/fzkt.ttf",
+      "sourceSha256": "ad421e42ead5bc92b1bbdd51181b3923771bc11f600a2852064dba4e16fd2755",
+      "render": "48px original glyphs; common UI first; GB2312 dialogue extensions on demand-loaded 2048-glyph pages",
+      "sha256": "15f1b5c7efe2377d609430dbcbb9e7b1bdf68145257a0b0cbbd450e9a13c9ace"
+    },
+    {
+      "file": "font/fzkt-2.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/font/fzkt.ttf",
+      "sourceSha256": "ad421e42ead5bc92b1bbdd51181b3923771bc11f600a2852064dba4e16fd2755",
+      "render": "48px original glyphs; common UI first; GB2312 dialogue extensions on demand-loaded 2048-glyph pages",
+      "sha256": "c7f32a4dc5e5a3b382b29ba83103db807f2faadbea5d1f93ca6534fbfcb894c3"
+    },
+    {
+      "file": "font/fzkt-3.png",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/font/fzkt.ttf",
+      "sourceSha256": "ad421e42ead5bc92b1bbdd51181b3923771bc11f600a2852064dba4e16fd2755",
+      "render": "48px original glyphs; common UI first; GB2312 dialogue extensions on demand-loaded 2048-glyph pages",
+      "sha256": "84282e6c5b7095f90b3dee0dc6f0e9ee909ef2a383b7d091727b791383f85e44"
+    },
+    {
+      "file": "font/fzkt.json",
+      "source": "https://web.sanguosha.com/10/pc/res/assets/font/fzkt.ttf",
+      "sourceSha256": "ad421e42ead5bc92b1bbdd51181b3923771bc11f600a2852064dba4e16fd2755",
+      "render": "48px original glyphs; common UI first; GB2312 dialogue extensions on demand-loaded 2048-glyph pages",
+      "sha256": "0531d6a9a281960cc2147d0aa87c6ec272462019197610c2bc08df3e03e08b35"
+    }
+  ]
+}

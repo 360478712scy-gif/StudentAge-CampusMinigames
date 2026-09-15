@@ -28,7 +28,7 @@ namespace StudentAge.CampusUno
             return scope;
         }
         public void UseLocalMusic(AudioSource source){if(AudioMgr.Ins!=null){AudioMgrEx.PauseAllMusic();source.outputAudioMixerGroup=AudioMgr.Ins.GetChannel(AudioMgrEx.CHANNEL_BGM).source.outputAudioMixerGroup;}paused=changed=true;localMusic=source;localMusicVolume=source.volume;if(gainControlled)source.volume=localMusicVolume*musicGain;localMusicStarted=source.isPlaying;if(musicSuspended&&localMusicStarted)source.Pause();}
-        IEnumerator LoadLocal(int id){string root=Path.Combine(BepInEx.Paths.PluginPath,"StudentAgeCampusMinigames");string path=Path.Combine(root,"Music",id+".mp3");
+        IEnumerator LoadLocal(int id){string root=CampusResources.Root;string path=Path.Combine(root,"Music",id+".mp3");
             if(File.Exists(path))using(var request=UnityWebRequestMultimedia.GetAudioClip(new Uri(path).AbsoluteUri,AudioType.MPEG)){yield return request.SendWebRequest();if(!active)yield break;if(request.result==UnityWebRequest.Result.Success){localClip=DownloadHandlerAudioClip.GetContent(request);var source=gameObject.AddComponent<AudioSource>();source.playOnAwake=false;source.loop=true;source.clip=localClip;source.volume=MinigameTuning.Get("Audio","TableBgmVolume");UseLocalMusic(source);if(!musicSuspended){source.Play();localMusicStarted=true;}}}
             if(id==919901)yield break;
             tableEffects=gameObject.AddComponent<AudioSource>();tableEffects.playOnAwake=false;Bind(tableEffects);string folder=Path.Combine(root,"CardAudio");if(!Directory.Exists(folder))yield break;

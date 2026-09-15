@@ -912,6 +912,856 @@
       "source": "image/system/emotion/slash_red/23.png",
       "file": "fx/slash-23.png",
       "sha256": "9e3f7b751f45c1b39c86687dca0278e4e9dd8b395c7aa0702f6c7d5302edce9b"
+    },
+    {
+      "source": "image/fullskin/generals/full/sunquan.png",
+      "file": "portraits/sunquan.png",
+      "sha256": "a8519824b1b0598cd3c2f80710d26803b3df72c2c3edba51da685fbe0395fc8f"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_caoren.png",
+      "file": "portraits/caoren.png",
+      "sha256": "959a0c49a5c045febf20984bf7140d42c51b812085bffecc0c87c3e051b6a575"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_machao.png",
+      "file": "portraits/machao.png",
+      "sha256": "ad013facc2f6ae357c3c635bba7e981f5e32037c39acd4b62d733463f48eb91b"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_zhaoyun.png",
+      "file": "portraits/zhaoyun.png",
+      "sha256": "a6d37ceb9e8fd9dd40f18974a52d5e7e866552b6af1a5790b434fb154e6404e8"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_zhoutai.png",
+      "file": "portraits/zhoutai.png",
+      "sha256": "67e1695a5d185eb7f7be83c55072360993349c3b42a3978013482a6e7771a8a6"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_xiahoudun.png",
+      "file": "portraits/xiahoudun.png",
+      "sha256": "fdad12503dc72f32a0f4725ae2345ef707a89e034419eea1542d85f71d892a77"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_zhangliao.png",
+      "file": "portraits/zhangliao.png",
+      "sha256": "eb13219e6f14c57ba4cee6494b79baf7f7a45bacddbe4b4ce8b1f1f4aa995051"
+    },
+    {
+      "source": "image/fullskin/generals/full/zhugeliang.png",
+      "file": "portraits/zhugeliang.png",
+      "sha256": "c716ffdeaf886aa717f4960011368f286cc9f78c66059409673a4d876ec3aa88"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_caocao.png",
+      "file": "portraits/caocao.png",
+      "sha256": "a2f93313e6aa0f253b4b8b816f160bda79226d6df42fb9ac75f43e220e31103d"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_yuji.png",
+      "file": "portraits/yuji.png",
+      "sha256": "941ede0e298b69143f1975b13dcee80dfe9e66591e9283854a365c16632cff84"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_guojia.png",
+      "file": "portraits/guojia.png",
+      "sha256": "7a1aa73a13051a6bef5ffbbbebd486436b90faacd6d8ca9ad4171ed9d1d0368c"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_zhangjiao.png",
+      "file": "portraits/zhangjiao.png",
+      "sha256": "a4b616a97268f43dada11f11dc6c711034817f9833c25871bc151408feb33316"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_huanggai.png",
+      "file": "portraits/huanggai.png",
+      "sha256": "1426389a58e0be0a31eaf79da21cd5d64cc92514fec44abb89849d316b7fc186"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_liubei.png",
+      "file": "portraits/liubei.png",
+      "sha256": "6df1096f7acb6053934bfba8db48aca4b44aecda46360d7c0455bee1fc8b8589"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_zhouyu.png",
+      "file": "portraits/zhouyu.png",
+      "sha256": "d9a35b659a631cd5baf4e31f3a062c0e602732c4f6fee2724eef4b952af496f1"
+    },
+    {
+      "source": "image/fullskin/generals/full/sunshangxiang.png",
+      "file": "portraits/sunshangxiang.png",
+      "sha256": "c40ec2b9c3c8e84b822cffefc9c84a64db79de780fde73a6c83453ca94ff99c9"
+    },
+    {
+      "source": "image/fullskin/generals/full/shenlvmeng.png",
+      "file": "portraits/shenlvmeng.png",
+      "sha256": "2bb17b9548d5ba9e306ac44551c3c98bca7d8f547b3f91fcd41c51e0f1f020bf"
+    },
+    {
+      "source": "image/fullskin/generals/full/xiahouyuan.png",
+      "file": "portraits/xiahouyuan.png",
+      "sha256": "3a00b3b97c4ec34296017ec3eb1b6adf40cf9d42341b73be44e2a968b62e80c7"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_huatuo.png",
+      "file": "portraits/huatuo.png",
+      "sha256": "f2dbbb06e903a121e75528b596d70426ab6b3221ddea6ef343e54f82da4acfd4"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_luxun.png",
+      "file": "portraits/luxun.png",
+      "sha256": "71f358f43361eb3c21a4453de48ca3cf2088d76adebd37f27bff3f0b88a128d1"
+    },
+    {
+      "source": "image/fullskin/generals/full/zhenji.png",
+      "file": "portraits/zhenji.png",
+      "sha256": "37cdde35a950edbcc85d7c2e5f4012d56daf628a29d399762826fd670e31f2c0"
+    },
+    {
+      "source": "image/fullskin/generals/full/weiyan.png",
+      "file": "portraits/weiyan.png",
+      "sha256": "14d062f525c74dde27f532fc604b8fe4b84588ac96b9734ffa008ed0ca5104b8"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_diaochan.png",
+      "file": "portraits/diaochan.png",
+      "sha256": "d4edd962adabed18f2cd91abc199ff995c4391b7d357e30b70bba44e88a8be9f"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_huangyueying.png",
+      "file": "portraits/huangyueying.png",
+      "sha256": "21dd57682e88a88cb7fa8bb8b63f12e80a4f4434e435431317f564ca0680f6c2"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_daqiao.png",
+      "file": "portraits/daqiao.png",
+      "sha256": "3d5e9655b05b52aca6a08742e01cd58ff2aa55feadb3791d2fa9ba142d665851"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_simayi.png",
+      "file": "portraits/simayi.png",
+      "sha256": "e564d14335e1972c886b9398886aa76249347d0787acb7cf01d8bbf95aeb7635"
+    },
+    {
+      "source": "image/fullskin/generals/full/shenguanyu.png",
+      "file": "portraits/shenguanyu.png",
+      "sha256": "7bde7358972767128da12975ca5e27588e7f8147146714aa9a30752d527781ad"
+    },
+    {
+      "source": "image/fullskin/generals/full/huangzhong.png",
+      "file": "portraits/huangzhong.png",
+      "sha256": "872bf118c360c12401a665b23c5b0f83e0afb2e6973c55b70a1c0b531f712a1e"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_lvmeng.png",
+      "file": "portraits/lvmeng.png",
+      "sha256": "d382f9e5cb1b5086f6c7b2d49aab693c2c890c0241ed71f19f75838d7d9a86ce"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_lvbu.png",
+      "file": "portraits/lvbu.png",
+      "sha256": "47c7cf093f58b11fdbea84c55e35110010d0416dde4b2e9b499449e96e60c348"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_guanyu.png",
+      "file": "portraits/guanyu.png",
+      "sha256": "92e2c76663063f64b494c1fa265ddc99fb32196365c54f0c1965d4af3983d8f8"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_xuchu.png",
+      "file": "portraits/xuchu.png",
+      "sha256": "16c38af894a29817648b06e9211a57d2ddbcca3e8d3df97f6a022ec4939db496"
+    },
+    {
+      "source": "image/fullskin/generals/full/xiaoqiao.png",
+      "file": "portraits/xiaoqiao.png",
+      "sha256": "010ad58e58eccc983536947bd4626b9cb753caf7a9ec452d2f6ebf5dad1869ad"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_zhangfei.png",
+      "file": "portraits/zhangfei.png",
+      "sha256": "5d1f6e1add4207b9113755fd3d414e9ed2040ba7346146c1ac8820222d4b4457"
+    },
+    {
+      "source": "image/fullskin/generals/full/nos_ganning.png",
+      "file": "portraits/ganning.png",
+      "sha256": "62cd494a72f4d86f79c311dbe2cca2638538cb9ea6c748356a45ce7cef70bef8"
+    },
+    {
+      "source": "image/fullskin/kingdom/frame/dashboard/wei.png",
+      "file": "table/frame-wei.png",
+      "sha256": "9c0e2c3a720586ae05fc754b428e6b79bea7715b691767477f6370be7bdebcd0"
+    },
+    {
+      "source": "image/fullskin/kingdom/frame/dashboard/shu.png",
+      "file": "table/frame-shu.png",
+      "sha256": "64acda0358c97d64866f6a25539ed0c0b568f0f970e103ab3d0f49a1ac9662a3"
+    },
+    {
+      "source": "image/fullskin/kingdom/frame/dashboard/wu.png",
+      "file": "table/frame-wu.png",
+      "sha256": "14001dd9f4763200d3c6a4852a1b64173d8dac0ad29826319364c296571a2039"
+    },
+    {
+      "source": "image/fullskin/kingdom/frame/dashboard/qun.png",
+      "file": "table/frame-qun.png",
+      "sha256": "44b7ed27757a9b8161e31e45ad354cb75211a9849b87311162da7b3a33e77d15"
+    },
+    {
+      "source": "image/fullskin/kingdom/frame/dashboard/god.png",
+      "file": "table/frame-god.png",
+      "sha256": "c4f11024243b2e225457f7537901a3359273258dcdc96946c9e509e51323ddfa"
+    },
+    {
+      "source": "image/fullskin/system/magatamas/0.png",
+      "file": "table/hp-0.png",
+      "sha256": "067c1b6de4bed59acd3a30d391066cefd7ea37ed10cfdeed1fe59b8bf7e47d12"
+    },
+    {
+      "source": "image/fullskin/system/magatamas/1.png",
+      "file": "table/hp-1.png",
+      "sha256": "0fa972c7ddea652f7ac44a8b57ff7e25df8193548a0a82a1f870c8c4c98906b8"
+    },
+    {
+      "source": "image/fullskin/system/magatamas/2.png",
+      "file": "table/hp-2.png",
+      "sha256": "8a86cf8007b1c7282acdaa3a151efff9734de5851a760a285d3508660adb469a"
+    },
+    {
+      "source": "image/fullskin/system/magatamas/3.png",
+      "file": "table/hp-3.png",
+      "sha256": "0fb6b18a3b134efe7ea877e1ead5abd5c0dfffcfa50ad5afd39af42e16cbc89f"
+    },
+    {
+      "source": "image/fullskin/system/magatamas/4.png",
+      "file": "table/hp-4.png",
+      "sha256": "6eb3d6fa56b1acf310ac280a4fed34d222023c54a86e1b9db44db87168f2ce9e"
+    },
+    {
+      "source": "image/fullskin/system/magatamas/5.png",
+      "file": "table/hp-5.png",
+      "sha256": "40e837210ddf4c78463cbb0720be830a19d2cdef17961f5d00aafd836e231d62"
+    },
+    {
+      "source": "image/fullskin/system/dashboard-avatar.png",
+      "file": "table/dashboard-avatar.png",
+      "sha256": "f3c0f0a848afd53d19dc97c529a4b5c55c1a0fa601a192d45461599e851f6f51"
+    },
+    {
+      "source": "image/fullskin/system/dashboard-equip.png",
+      "file": "table/dashboard-equip.png",
+      "sha256": "7d1e7fa59d5b3a31f9e289f00aa11d06b61292834c65582be7e60eb5f9b4cd8d"
+    },
+    {
+      "source": "image/fullskin/system/dashboard-hand.png",
+      "file": "table/dashboard-hand.png",
+      "sha256": "fb402b74357668b5960eac66f29245755c8d6d031a9563aaba98a816f47a8213"
+    },
+    {
+      "source": "image/fullskin/system/photo-back.png",
+      "file": "table/photo-back.png",
+      "sha256": "84fe299ceaf3d6b5f20cd4f6101411980051d7ee931343fbf1b167a19817ef77"
+    },
+    {
+      "source": "image/fullskin/system/button/skill/proactive/1-normal.png",
+      "file": "table/skill-normal.png",
+      "sha256": "74dd6a74ba0a4e9e091c622902804b7179d443cc943aef2d9deeaa8bbc380fe1"
+    },
+    {
+      "source": "image/fullskin/system/button/skill/proactive/1-hover.png",
+      "file": "table/skill-hover.png",
+      "sha256": "826f1344f083df541a81c5aa13c91f159eed17178f00cf656d388b5a6cbe81eb"
+    },
+    {
+      "source": "image/fullskin/system/button/skill/proactive/1-down.png",
+      "file": "table/skill-down.png",
+      "sha256": "ed4de71c86ce4b5790f4ede477f5afc901b523e1dfa61494734fb38a0e37fc4e"
+    },
+    {
+      "source": "image/fullskin/system/button/skill/proactive/1-disabled.png",
+      "file": "table/skill-disabled.png",
+      "sha256": "b56dfd9bb36d6116d4a0249c2dddab17246c661ad7c2d6fb5c97c1bcff09636e"
+    },
+    {
+      "source": "image/fullskin/small-equips/blank.png",
+      "file": "table/equips/blank.png",
+      "sha256": "126ddb91ca27f19b63dae508c2142a8f7ba419b9dcbe6bff011144b8f13c11e9"
+    },
+    {
+      "source": "image/fullskin/small-equips/kylin_bow.png",
+      "file": "table/equips/kylin_bow.png",
+      "sha256": "fbd2d89ba8642bdc8a9e20b503ac1edbcb0adc695bdcf4606d9ac6423ee39894"
+    },
+    {
+      "source": "image/fullskin/small-equips/moon_spear.png",
+      "file": "table/equips/moon_spear.png",
+      "sha256": "547bdbd7fd82cbc7168bfd33431e4a1fb909c4982f2b50ee36a6245ce2c8fe32"
+    },
+    {
+      "source": "image/fullskin/small-equips/eight_diagram.png",
+      "file": "table/equips/eight_diagram.png",
+      "sha256": "2ae8cdceccfb122df0c01d6d0f160e6ebf87d5a9a35ba5441293bf0d3eb89272"
+    },
+    {
+      "source": "image/fullskin/small-equips/halberd.png",
+      "file": "table/equips/halberd.png",
+      "sha256": "00233fbc87182869c42bdad4412bb85598ec378b3e035a8b1a62260c77fef107"
+    },
+    {
+      "source": "image/fullskin/small-equips/vscrossbow.png",
+      "file": "table/equips/vscrossbow.png",
+      "sha256": "4f9a094af7567a2d5941cc036c01e8e3ed68a2c589bc6d9832bdbe0ff8bfe77f"
+    },
+    {
+      "source": "image/fullskin/small-equips/ice_sword.png",
+      "file": "table/equips/ice_sword.png",
+      "sha256": "1d3115501679e0a0fb6aa4aacdf6d052365c2e38fab59d33a7451f97c411d6a2"
+    },
+    {
+      "source": "image/fullskin/small-equips/yitian_sword.png",
+      "file": "table/equips/yitian_sword.png",
+      "sha256": "f366201f498d9b7d59ddf0b90c49051bcb5c270b7c7cc07e5f5b50314ed372c0"
+    },
+    {
+      "source": "image/fullskin/small-equips/qinggang_sword.png",
+      "file": "table/equips/qinggang_sword.png",
+      "sha256": "8834bbde421c899b225839cdbdd184c92b0b90a1fd1b9f93658209cd8bbf7956"
+    },
+    {
+      "source": "image/fullskin/small-equips/offensivehorse.png",
+      "file": "table/equips/offensivehorse.png",
+      "sha256": "df161c9522556a4d7b33fd2584764e190e859244fa0dc968e5ca14c6987ceaaf"
+    },
+    {
+      "source": "image/fullskin/small-equips/five_lines.png",
+      "file": "table/equips/five_lines.png",
+      "sha256": "4986cb700dd3b66d96809f198411667629f675d18e7db8f2d598ba09343440ed"
+    },
+    {
+      "source": "image/fullskin/small-equips/monkey.png",
+      "file": "table/equips/monkey.png",
+      "sha256": "df161c9522556a4d7b33fd2584764e190e859244fa0dc968e5ca14c6987ceaaf"
+    },
+    {
+      "source": "image/fullskin/small-equips/wooden_ox.png",
+      "file": "table/equips/wooden_ox.png",
+      "sha256": "34133b7c4a229fbdad56e8378af578856186f271c2ade111de5de42e926f1dbf"
+    },
+    {
+      "source": "image/fullskin/small-equips/double_sword.png",
+      "file": "table/equips/double_sword.png",
+      "sha256": "67cb2d6eafaa2e1cc6db56ab805c96eab86820f3e839d46929b3848cfb98c1b2"
+    },
+    {
+      "source": "image/fullskin/small-equips/blade.png",
+      "file": "table/equips/blade.png",
+      "sha256": "3667a586853a1efe444386ca69b74bca1919e12f2f845d5deaccef6e4afc721b"
+    },
+    {
+      "source": "image/fullskin/small-equips/spear.png",
+      "file": "table/equips/spear.png",
+      "sha256": "26e90e9eae6b5d71f80bd852c3addc15713e6f2459e9dce62d2e7aa21661f028"
+    },
+    {
+      "source": "image/fullskin/small-equips/broadsword.png",
+      "file": "table/equips/broadsword.png",
+      "sha256": "f360618f90792598bbde455358ef18a45bd41ddc9a4d0ef9d8fe8f70122b0d60"
+    },
+    {
+      "source": "image/fullskin/small-equips/gale_shell.png",
+      "file": "table/equips/gale_shell.png",
+      "sha256": "0d5ab82c8cc2dd45f4247fa22e23299c9a68f0937d94605d0bbdd216a3044d60"
+    },
+    {
+      "source": "image/fullskin/small-equips/fan.png",
+      "file": "table/equips/fan.png",
+      "sha256": "3c300dd7c56c7de38fa63b230d256ccf17335c571d8fa0c73c77213a90286881"
+    },
+    {
+      "source": "image/fullskin/small-equips/yx_sword.png",
+      "file": "table/equips/yx_sword.png",
+      "sha256": "7ad66e8d582ea5a4a1ea0f91c2fe45bf8f9c7bc2a5f97c836dffa793e966a0ff"
+    },
+    {
+      "source": "image/fullskin/small-equips/guding_blade.png",
+      "file": "table/equips/guding_blade.png",
+      "sha256": "531456fe5630c792f2e5f36826527d584f661d43f2234c4734c23d5afdff95e4"
+    },
+    {
+      "source": "image/fullskin/small-equips/defensivehorse.png",
+      "file": "table/equips/defensivehorse.png",
+      "sha256": "ee4efe572d8483ee4d36705925fc9ef3689182a6945d819af3c78ab287d12541"
+    },
+    {
+      "source": "image/fullskin/small-equips/renwang_shield.png",
+      "file": "table/equips/renwang_shield.png",
+      "sha256": "51c680ae2fb9165b8dae8820f5225e112d4a97ca71d0f69c5b1e70e468ff009d"
+    },
+    {
+      "source": "image/fullskin/small-equips/axe.png",
+      "file": "table/equips/axe.png",
+      "sha256": "88f031fb1eccf75f5c4a8b9d95e8035c0354cac9e74cc3431b35d35ab0ccb260"
+    },
+    {
+      "source": "image/fullskin/small-equips/vine.png",
+      "file": "table/equips/vine.png",
+      "sha256": "123b15cb3ba3a3d9204071cdd874e94ceaa59dcb20daba1ac8a41a9f60ecbdaa"
+    },
+    {
+      "source": "image/fullskin/small-equips/sp_moonspear.png",
+      "file": "table/equips/sp_moonspear.png",
+      "sha256": "8c0b7ecb32d5b8b874af8a4487b2a68302575deebf1c842d966603dd9078db11"
+    },
+    {
+      "source": "image/fullskin/small-equips/crossbow.png",
+      "file": "table/equips/crossbow.png",
+      "sha256": "3799a758aa2d1f79361f771ea7decdc98cefaabc06d54c5b15687b3218b11c61"
+    },
+    {
+      "source": "image/fullskin/small-equips/silver_lion.png",
+      "file": "table/equips/silver_lion.png",
+      "sha256": "3582ca6a34a4c81deb1a3c7112b5d8e2b1f53affd0c9f020e37a06d9a56b8ee6"
+    },
+    {
+      "source": "audio/death/nos_caocao.ogg",
+      "file": "audio/death-caocao.ogg",
+      "sha256": "ac298e6f239009217fa8fbd70111e96b327f1b2d564178a704951232a26e0935"
+    },
+    {
+      "source": "audio/death/nos_simayi.ogg",
+      "file": "audio/death-simayi.ogg",
+      "sha256": "11914a061301a5eb9980d160940c5956058ee8707178c3f5c376b5461029b561"
+    },
+    {
+      "source": "audio/death/nos_xiahoudun.ogg",
+      "file": "audio/death-xiahoudun.ogg",
+      "sha256": "322a0dcd6c9d5980148e1aca8052ef9dcab998477073dd7de2a8f9ff8e3a5e11"
+    },
+    {
+      "source": "audio/death/nos_zhangliao.ogg",
+      "file": "audio/death-zhangliao.ogg",
+      "sha256": "1b3c43f4d04a29539c3573287ce9ae1a686712670e24ea8223a9305a951903ef"
+    },
+    {
+      "source": "audio/death/nos_xuchu.ogg",
+      "file": "audio/death-xuchu.ogg",
+      "sha256": "dc708ce5972fe728e0ed466e9a35b742a2c9da1355c4051d484c2e97f8d18086"
+    },
+    {
+      "source": "audio/death/nos_guojia.ogg",
+      "file": "audio/death-guojia.ogg",
+      "sha256": "f98f91ed71a65398dfe943f117b53001d1dfe57ff2ac13cffb2e5009e180e624"
+    },
+    {
+      "source": "audio/death/zhenji.ogg",
+      "file": "audio/death-zhenji.ogg",
+      "sha256": "7421780263808f6055d7ff9373910198551660771e8c534925b64044b7ad61d2"
+    },
+    {
+      "source": "audio/death/liubei.ogg",
+      "file": "audio/death-liubei.ogg",
+      "sha256": "c850ba6ebb5f3bc914679f3cbad21e9011eb431813aae2b1aadb0d2dbbf0ded6"
+    },
+    {
+      "source": "audio/death/nos_guanyu.ogg",
+      "file": "audio/death-guanyu.ogg",
+      "sha256": "dc24c9b4fe60f05f0bfd99b9017aec4b0865d74f0f4158955e5b4221f488f6c3"
+    },
+    {
+      "source": "audio/death/nos_zhangfei.ogg",
+      "file": "audio/death-zhangfei.ogg",
+      "sha256": "12b0bce6133f6078b6f25f157e600571f093355ca79956d3eab4792833a6f372"
+    },
+    {
+      "source": "audio/death/zhugeliang.ogg",
+      "file": "audio/death-zhugeliang.ogg",
+      "sha256": "cbcbb91d5da0180be033e9a03e6bd4109507f03fb333592924db00028466eb26"
+    },
+    {
+      "source": "audio/death/nos_zhaoyun.ogg",
+      "file": "audio/death-zhaoyun.ogg",
+      "sha256": "67a73f6ccb28c0cbc24ffbd7f3181fd0c726cc263060ab265efeca97c25c3ff2"
+    },
+    {
+      "source": "audio/death/nos_machao.ogg",
+      "file": "audio/death-machao.ogg",
+      "sha256": "858c7d73bf16ae571010debdd6dfb006e5d917f1d45aae8aa4f5e220dc971958"
+    },
+    {
+      "source": "audio/death/huangyueying.ogg",
+      "file": "audio/death-huangyueying.ogg",
+      "sha256": "1d77ac1fe5d8fa22098fb5347b0a9991f2d4f4b3c530b2902353f6cf97d58200"
+    },
+    {
+      "source": "audio/death/sunquan.ogg",
+      "file": "audio/death-sunquan.ogg",
+      "sha256": "e6620e4f4b893071e1b48b361d6782fc858f1f5d1cc929d7e63972c0a9f94ebc"
+    },
+    {
+      "source": "audio/death/nos_ganning.ogg",
+      "file": "audio/death-ganning.ogg",
+      "sha256": "dad70d5a2126ded25e454056b825dccd494737d29e58430cc1a6a4c8306a4f75"
+    },
+    {
+      "source": "audio/death/nos_lvmeng.ogg",
+      "file": "audio/death-lvmeng.ogg",
+      "sha256": "8245a7d655443e858e8fb62d5baae2131a0cb9fb1680f572f53b33ebf868ee20"
+    },
+    {
+      "source": "audio/death/nos_huanggai.ogg",
+      "file": "audio/death-huanggai.ogg",
+      "sha256": "a47a94296c160b8b99734660a3d13626b794080c5ea95516e17977a6eec18b03"
+    },
+    {
+      "source": "audio/death/nos_zhouyu.ogg",
+      "file": "audio/death-zhouyu.ogg",
+      "sha256": "418c06167bef4f38ba449b419bc735f6cd9d8b147130a72d8499d5a93ef98e7e"
+    },
+    {
+      "source": "audio/death/nos_daqiao.ogg",
+      "file": "audio/death-daqiao.ogg",
+      "sha256": "11a8486908df1b8ce2094644a68bf97d224bbd3389d39a5a42f90e78f79b9605"
+    },
+    {
+      "source": "audio/death/nos_luxun.ogg",
+      "file": "audio/death-luxun.ogg",
+      "sha256": "16cc103bc53b6db7ae60563969489a637cdb1bcc86ef5c731fddfb0274cd674a"
+    },
+    {
+      "source": "audio/death/sunshangxiang.ogg",
+      "file": "audio/death-sunshangxiang.ogg",
+      "sha256": "c7c21794ecbb2380e9c0f987a6f75fa66e4ea5fc202281fe680f80c3fd84360c"
+    },
+    {
+      "source": "audio/death/nos_huatuo.ogg",
+      "file": "audio/death-huatuo.ogg",
+      "sha256": "5511bea7daf109447daccc9159e87ca583f4c6b4b9c05c8030a445080a35c4b4"
+    },
+    {
+      "source": "audio/death/nos_lvbu.ogg",
+      "file": "audio/death-lvbu.ogg",
+      "sha256": "50b6e53322a32c831e767c0b2b5b64decb6020c52b9a32cd2a1b905340fdf6e0"
+    },
+    {
+      "source": "audio/death/diaochan.ogg",
+      "file": "audio/death-diaochan.ogg",
+      "sha256": "9d6d87b16dd1a684ec0d2790c47cb47e8ab99fa23586925f1651a50c22e2c3bc"
+    },
+    {
+      "source": "audio/death/xiahouyuan.ogg",
+      "file": "audio/death-xiahouyuan.ogg",
+      "sha256": "52396619a2a2e8d28e9d4a94511a7a103aa845b4ca3164fb30fac5ba257cc16f"
+    },
+    {
+      "source": "audio/death/nos_caoren.ogg",
+      "file": "audio/death-caoren.ogg",
+      "sha256": "97d3cd855ffd958557bd4fffefd40a26768d1edfa599d438eaebbc550d8f02ec"
+    },
+    {
+      "source": "audio/death/huangzhong.ogg",
+      "file": "audio/death-huangzhong.ogg",
+      "sha256": "06e9020f510a24f1765b3dc1fb254340e346c5b5f355ec877c253488ef04c9e2"
+    },
+    {
+      "source": "audio/death/weiyan.ogg",
+      "file": "audio/death-weiyan.ogg",
+      "sha256": "3759741ca4b6c29623473649cedf07a59bd4270397a5eea267411b3eef28aba3"
+    },
+    {
+      "source": "audio/death/xiaoqiao.ogg",
+      "file": "audio/death-xiaoqiao.ogg",
+      "sha256": "9b5af2867a2c93a729cd323391f8591a26e974e185020160183c06995daa90ed"
+    },
+    {
+      "source": "audio/death/nos_zhoutai.ogg",
+      "file": "audio/death-zhoutai.ogg",
+      "sha256": "b8f1039fd50ebf36a908f1dea097aa607fad0453ba59fc7f96465e127a1ceebc"
+    },
+    {
+      "source": "audio/death/nos_zhangjiao.ogg",
+      "file": "audio/death-zhangjiao.ogg",
+      "sha256": "e7ef492f098cf255148e7d253135250b5d1044b2b00519d8e36b35a11bcf766f"
+    },
+    {
+      "source": "audio/death/nos_yuji.ogg",
+      "file": "audio/death-yuji.ogg",
+      "sha256": "9c5a7ca5d8f351a7fa2772f275fd251d49a1cf815aa5ba86b2d8df62df70dd9b"
+    },
+    {
+      "source": "audio/death/shenguanyu.ogg",
+      "file": "audio/death-shenguanyu.ogg",
+      "sha256": "c7b09959f10177ea4de360c82cbebc43ca022359750fbff21679c154f7ad7374"
+    },
+    {
+      "source": "audio/death/shenlvmeng.ogg",
+      "file": "audio/death-shenlvmeng.ogg",
+      "sha256": "4f091b36f23baa9ac441f02390a2f436a5f70cffc6d7b02609e26f753edc1e66"
+    },
+    {
+      "source": "audio/card/common/weapon.ogg",
+      "file": "audio/weapon.ogg",
+      "sha256": "f1058a76f660dc74c571e67a6c0cf2abf1c4df8d9b0ff897d621c45f33930c85"
+    },
+    {
+      "source": "audio/card/common/armor.ogg",
+      "file": "audio/armor.ogg",
+      "sha256": "0a651eca499e0f9af47c898f7b4a312e49804a2f310f7bcee518048319da816c"
+    },
+    {
+      "source": "audio/card/common/horse.ogg",
+      "file": "audio/horse.ogg",
+      "sha256": "4e7e3d1a3da8764687f5e1189e71534eea66a8d4296ccb9306dece2d0f8b2e27"
+    },
+    {
+      "source": "audio/system/injure2.ogg",
+      "file": "audio/injure2.ogg",
+      "sha256": "28da56926f50873e2596d04d5c3fa95612e89ea324e1389bc3fe9fcf1ab5efc5"
+    },
+    {
+      "source": "audio/system/injure3.ogg",
+      "file": "audio/injure3.ogg",
+      "sha256": "601fceed1459062259c557245521825df9647add1483d2f6e089660744c22453"
+    },
+    {
+      "source": "audio/system/standoff.ogg",
+      "file": "audio/standoff.ogg",
+      "sha256": "fd4996de2137c4e2ab529f4dadb0acda9d8abddcb1f23c8b1cb29681388808c9"
+    },
+    {
+      "source": "audio/skill/jianxiong2.ogg",
+      "file": "audio/jianxiong-2.ogg",
+      "sha256": "55f9378369035eb4f535b9480e45ea416dc6d43cc1e550bfa0643ecdea2e13ad"
+    },
+    {
+      "source": "audio/skill/fankui2.ogg",
+      "file": "audio/fankui-2.ogg",
+      "sha256": "ef9750177e19cf6017510995a013ad4c168d3d6cf7b9048b6c6613c419b7bc36"
+    },
+    {
+      "source": "audio/skill/guicai2.ogg",
+      "file": "audio/guicai-2.ogg",
+      "sha256": "9ce49bfb6fdec9593363833c97ccbca57a1e0d28c01086b5908e3a8c4dfc0a8d"
+    },
+    {
+      "source": "audio/skill/ganglie2.ogg",
+      "file": "audio/ganglie-2.ogg",
+      "sha256": "b66ae5f537518d1b4ecccd863385a6dba464609ad1c0caf7c375c4c56efa01ce"
+    },
+    {
+      "source": "audio/skill/tuxi2.ogg",
+      "file": "audio/tuxi-2.ogg",
+      "sha256": "06c37259b77e6c1979ef1d12ce8e06b90bb521f6e3aa4d6ab24780723f0dcbdb"
+    },
+    {
+      "source": "audio/skill/luoyi2.ogg",
+      "file": "audio/luoyi-2.ogg",
+      "sha256": "38346327cb0bc140a42a7301195fbd6b88ce7dd825c14d49bfa5c451232b15c9"
+    },
+    {
+      "source": "audio/skill/tiandu2.ogg",
+      "file": "audio/tiandu-2.ogg",
+      "sha256": "ccb9cf37a68322d4f0ad1c5d32766fc821645e397e13689dc924a9477356f95e"
+    },
+    {
+      "source": "audio/skill/yiji2.ogg",
+      "file": "audio/yiji-2.ogg",
+      "sha256": "8d50205ff44bea6a49c0ded3a33b7f94e8bb0da35d9b0827da83b3a77f2f1b80"
+    },
+    {
+      "source": "audio/skill/qingguo2.ogg",
+      "file": "audio/qingguo-2.ogg",
+      "sha256": "2ece88e788d32319dc7428c51956ef0d751cd24dce729e24739621b5768f6e65"
+    },
+    {
+      "source": "audio/skill/luoshen2.ogg",
+      "file": "audio/luoshen-2.ogg",
+      "sha256": "32580f26bb3e1e4aed778faf58949ca536e4914daaf96c38706234ed32bd4750"
+    },
+    {
+      "source": "audio/skill/rende2.ogg",
+      "file": "audio/rende-2.ogg",
+      "sha256": "c255e5909eea94eeace773e2d88ede5651e080e5d77b25c7daff486f660c1a92"
+    },
+    {
+      "source": "audio/skill/wusheng2.ogg",
+      "file": "audio/wusheng-2.ogg",
+      "sha256": "0e5f83976e270dd71ff0bfa952f7e24a54d54e41935e5e5083fd7dd79953edf7"
+    },
+    {
+      "source": "audio/skill/paoxiao2.ogg",
+      "file": "audio/paoxiao-2.ogg",
+      "sha256": "b19b14efcc49f56f38798fe06d35ef3fbea7cd1c6c7864b8b5fa1912d6f86c3e"
+    },
+    {
+      "source": "audio/skill/guanxing2.ogg",
+      "file": "audio/guanxing-2.ogg",
+      "sha256": "07d6bde10a056fc93eb3fba99b43843967f225fbcffc7b64e154793fd52f0c36"
+    },
+    {
+      "source": "audio/skill/kongcheng2.ogg",
+      "file": "audio/kongcheng-2.ogg",
+      "sha256": "4b5f68c8055dd94772e5032e395951c5788dd7196b799c961159c43587442ada"
+    },
+    {
+      "source": "audio/skill/longdan2.ogg",
+      "file": "audio/longdan-2.ogg",
+      "sha256": "70bef487e34b269bee642f1c1346c364547f8a363cb12a27ea98612dd37dbe62"
+    },
+    {
+      "source": "audio/skill/tieji2.ogg",
+      "file": "audio/tieji-2.ogg",
+      "sha256": "d9a895a545a937756f2c72b27970d999831e647488630c42e88736c13bef12f2"
+    },
+    {
+      "source": "audio/skill/jizhi2.ogg",
+      "file": "audio/jizhi-2.ogg",
+      "sha256": "a1c676cba03f02bfe42946ea8eeeb367b83593f0fb6cd13725be5dba50405e9f"
+    },
+    {
+      "source": "audio/skill/zhiheng2.ogg",
+      "file": "audio/zhiheng-2.ogg",
+      "sha256": "4098d3e81cdf92d3db814d14ee6d5aedfb5b3920da6eb042dce790b006fb7ea6"
+    },
+    {
+      "source": "audio/skill/qixi2.ogg",
+      "file": "audio/qixi-2.ogg",
+      "sha256": "6ba68f877ac8f2847403154a314df57f71f5fc6c118dca4bde33679abd30e403"
+    },
+    {
+      "source": "audio/skill/keji2.ogg",
+      "file": "audio/keji-2.ogg",
+      "sha256": "65da43bb646cd70f2cc74987b382edfb7cef363ec3d0409976fa265b71f63de2"
+    },
+    {
+      "source": "audio/skill/kurou2.ogg",
+      "file": "audio/kurou-2.ogg",
+      "sha256": "77db2cff091ff3aaaa9595c3c76932fa5445a3ef9e2b5b89d370273d837ce226"
+    },
+    {
+      "source": "audio/skill/yingzi2.ogg",
+      "file": "audio/yingzi-2.ogg",
+      "sha256": "fe4ff8373a6d4a44566a5da0153fa41da2d5cbb567ebe3c62396b3cb32ec070f"
+    },
+    {
+      "source": "audio/skill/fanjian2.ogg",
+      "file": "audio/fanjian-2.ogg",
+      "sha256": "d8b68d323056bd4b545b8d20c9a63433780b20c021ebb4756c0798e2cb675521"
+    },
+    {
+      "source": "audio/skill/guose2.ogg",
+      "file": "audio/guose-2.ogg",
+      "sha256": "52b308a22f05e9dc2fbf124ec4369988ada4040dfab8bd53a22e9dffda5d7f52"
+    },
+    {
+      "source": "audio/skill/liuli2.ogg",
+      "file": "audio/liuli-2.ogg",
+      "sha256": "f27c26601229610194bd87eb5514a29fe20224f9f04bea2e213a4f2899f9fd60"
+    },
+    {
+      "source": "audio/skill/qianxun2.ogg",
+      "file": "audio/qianxun-2.ogg",
+      "sha256": "caefa26b11a2cbd683cabd0e6cfe89da24037e59c2b2a85c04791727c105b974"
+    },
+    {
+      "source": "audio/skill/lianying2.ogg",
+      "file": "audio/lianying-2.ogg",
+      "sha256": "ae5ddf0492e421ead40f1aa29fcdc2ba0ce4141a4e6c375263da9b716f9f70fb"
+    },
+    {
+      "source": "audio/skill/jieyin2.ogg",
+      "file": "audio/jieyin-2.ogg",
+      "sha256": "fbf3b6a79f60b47148a4466861fd327bcf70d5d2eb9797588f0f1bc90e888f7d"
+    },
+    {
+      "source": "audio/skill/xiaoji2.ogg",
+      "file": "audio/xiaoji-2.ogg",
+      "sha256": "1e6f9cdbcdaaf30f6dac262fe38bd194c87a064b00112b9cc4219c89c5cc179a"
+    },
+    {
+      "source": "audio/skill/jijiu2.ogg",
+      "file": "audio/jijiu-2.ogg",
+      "sha256": "a8b60df293f229a9bed8d8d41eb187e38210a3b547041a29758b7b9dbd3466eb"
+    },
+    {
+      "source": "audio/skill/qingnang2.ogg",
+      "file": "audio/qingnang-2.ogg",
+      "sha256": "f4fe71b10dd4c7366ff5f03fc2e5a4896067e60cd720cc813fc9b3a0c9b3f513"
+    },
+    {
+      "source": "audio/skill/wushuang2.ogg",
+      "file": "audio/wushuang-2.ogg",
+      "sha256": "090ac8e91845cd36a9160d8153cb738f40207dbe3ca43467d4553c8ce622b428"
+    },
+    {
+      "source": "audio/skill/lijian2.ogg",
+      "file": "audio/lijian-2.ogg",
+      "sha256": "516ad276a6d9cf788f1dbe3ccfc2e3c7a13c817299e9b0f9428817da365d64f6"
+    },
+    {
+      "source": "audio/skill/biyue2.ogg",
+      "file": "audio/biyue-2.ogg",
+      "sha256": "6b6e368625f57af7ce3a936f7f3236b605c94894796effc28044aa7baedd28d6"
+    },
+    {
+      "source": "audio/skill/shensu2.ogg",
+      "file": "audio/shensu-2.ogg",
+      "sha256": "f95d031b9905ab3d0cb5a217c96e4cc8900a8aa856056b2a8c9b42140823d652"
+    },
+    {
+      "source": "audio/skill/liegong2.ogg",
+      "file": "audio/liegong-2.ogg",
+      "sha256": "7347e0a864218e136557899b6e27414aa13e1807a0163faaf7580d6272e68054"
+    },
+    {
+      "source": "audio/skill/kuanggu2.ogg",
+      "file": "audio/kuanggu-2.ogg",
+      "sha256": "052e8f2110c4983e4ff3c38850977ac037a897c8a350d7e031ddfae45e178f55"
+    },
+    {
+      "source": "audio/skill/tianxiang2.ogg",
+      "file": "audio/tianxiang-2.ogg",
+      "sha256": "9193b39bcfe5f1a5dc02b6c6f8b884fecaa2e9efb6f92469bd9746888994f61b"
+    },
+    {
+      "source": "audio/skill/buqu2.ogg",
+      "file": "audio/buqu-2.ogg",
+      "sha256": "255e7551a70e035f04c56c2852f8699dbec4517cf8a6c129a602a2a24551387c"
+    },
+    {
+      "source": "audio/skill/leiji2.ogg",
+      "file": "audio/leiji-2.ogg",
+      "sha256": "e07cec95ed91b43af50a866d64ee8d75ea21e53f7a08561aba9f187bb02d5bd2"
+    },
+    {
+      "source": "audio/skill/guidao2.ogg",
+      "file": "audio/guidao-2.ogg",
+      "sha256": "2ebb50afa437c59cdf031d7e700c6ce4cefefc857a71cb320a9e7bdb5957cebc"
+    },
+    {
+      "source": "audio/skill/guhuo2.ogg",
+      "file": "audio/guhuo-2.ogg",
+      "sha256": "cf77d8beffead8cafbc1a929b55d41a26b4932f2be87ae1d9d1f734f223c7a24"
+    },
+    {
+      "source": "audio/skill/wushen2.ogg",
+      "file": "audio/wushen-2.ogg",
+      "sha256": "a7ed746bba2b0257a744cac919cf90dba51642b0876dd153fa4fc00b26bfc8c2"
+    },
+    {
+      "source": "audio/skill/wuhun2.ogg",
+      "file": "audio/wuhun-2.ogg",
+      "sha256": "f168d5d56e874277b2ad89afd87956e7633f85079e91cdbf517710cd2bbef6e7"
+    },
+    {
+      "source": "audio/skill/shelie2.ogg",
+      "file": "audio/shelie-2.ogg",
+      "sha256": "3dfc3641200ff967ae607df618949e6c15ee1677e4cff446e5086caf3c46a2f1"
+    },
+    {
+      "source": "audio/skill/gongxin2.ogg",
+      "file": "audio/gongxin-2.ogg",
+      "sha256": "46b23c55188cb650ae58a8599ecab879b41206a0747b242aed62e797fa005ae0"
     }
   ]
 }

@@ -13,7 +13,7 @@ namespace StudentAge.CampusUno
         internal static void Register()
         {
             if (Cfg.MinigameCfgMap == null || Cfg.MinigameActionCfgMap == null) return;
-            string root=Path.Combine(BepInEx.Paths.PluginPath,"StudentAgeCampusMinigames","Cfgs","zh-cn");
+            string root=Path.Combine(CampusResources.Root,"Cfgs","zh-cn");
             if(games==null)
             {
                 try
