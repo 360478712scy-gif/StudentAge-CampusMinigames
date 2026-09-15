@@ -1,6 +1,6 @@
 # 官方 1.94 工坊插件接入评估
 
-状态：2026-09-15，小游戏侧已实现并安装。官方 1.94 的实际可执行文件、Managed 与 MultiFolderLoader 在隔离 CrossOver 工坊目录下通过 22 项定向检查。未公开发布，未验证 Steam 远端订阅下载或 Windows 原生环境。
+状态：2026-09-16，0.11.1 已发布至 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3802190178) 与 [GitHub](https://github.com/360478712scy-gif/StudentAge-CampusMinigames/releases/tag/v0.11.1)。实际Steam下载包1100文件校验一致；隔离CrossOver中，仅启用该Mod后重启，官方MultiFolderLoader直接加载下载包及兼容UP，F7/F8和元数据检查通过。未做Windows原生或完整自然周目验收。下文早期评估保留为历史，不代表当前发布状态。
 
 ## 官方已经提供的能力
 

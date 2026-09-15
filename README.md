@@ -4,9 +4,14 @@
 
 ## 下载与安装
 
+**[Steam 创意工坊：NDS小游戏拓展（仅测试版支持）](https://steamcommunity.com/sharedfiles/filedetails/?id=3802190178)**
+
+Steam 库右键《学生时代》→属性→测试版→参与测试，选择「test - 测试版」。更新后订阅本 Mod，在游戏内启用，再重启一次即可使用；整合版包含所需兼容前置，无需手动安装 BepInEx 或复制配置。
+
+
 最新试玩版：[0.11.1](https://github.com/360478712scy-gif/StudentAge-CampusMinigames/releases/tag/v0.11.1)，适用于《学生时代》**1.94 测试分支**。官方已内置 BepInEx，无需另装加载器。此版本作为预发布提供，不替换旧版 0.9.4 的自动更新入口。
 
-- `StudentAge-CampusMinigames-Workshop-0.11.1.zip`：官方 Mod 目录格式，根目录为 `plugins/`，包含兼容 UP 与对应源码、许可，供官方 Mod 加载器使用或上传创意工坊。在游戏内启用后重启；不要再套一层 `BepInEx/plugins`。GitHub 发布不等于已上传 Steam 创意工坊。
+- `StudentAge-CampusMinigames-Workshop-0.11.1.zip`：官方 Mod 目录格式，根目录为 `plugins/`，包含兼容 UP 与对应源码、许可，与工坊发布内容一致，供官方 Mod 加载器使用。在游戏内启用后重启；不要再套一层 `BepInEx/plugins`。Steam 订阅玩家直接使用上方工坊链接。
 - `StudentAge-CampusMinigames-0.11.1.zip`：已有兼容 UP 的手动安装包，将 `BepInEx` 合并到游戏目录，保留两个插件目录与所有资源。此包不附 UP；如需兼容 UP，可从上面的整合包取得 `plugins/EC2BUnofficialPatch.dll` 及对应 `Source/`、许可。不要同时保留另一份同名插件或 UP。
 
 `ModAuthorTemplate` 仅供剧情 Mod 作者参考。包内不包含游戏本体、游戏程序集或玩家存档。

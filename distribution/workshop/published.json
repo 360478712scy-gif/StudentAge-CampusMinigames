@@ -1,0 +1,16 @@
+{
+  "title": "NDS小游戏拓展（仅测试版支持）",
+  "version": "0.11.1",
+  "workshopId": "3802190178",
+  "workshopUrl": "https://steamcommunity.com/sharedfiles/filedetails/?id=3802190178",
+  "githubRelease": "https://github.com/360478712scy-gif/StudentAge-CampusMinigames/releases/tag/v0.11.1",
+  "releaseCommit": "e40d97fa4913e6e2534d2b712c7b943872218f9e",
+  "icon": "preview.png",
+  "screenshots": [
+    "01-nds.png",
+    "02-uno.jpg",
+    "03-sanguosha.jpg",
+    "04-mario.png",
+    "05-contra.png"
+  ]
+}
