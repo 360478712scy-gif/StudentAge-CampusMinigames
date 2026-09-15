@@ -5,6 +5,7 @@ from pathlib import Path
 p=argparse.ArgumentParser()
 p.add_argument('--staging',type=Path,required=True)
 p.add_argument('--out',type=Path,required=True)
+p.add_argument('--preview',type=Path,help='Existing preview artwork; only format conversion is applied')
 p.add_argument('--up',type=Path,help='Optional compatible UP DLL for a local all-in-one candidate')
 p.add_argument('--up-source',type=Path,help='Matching UP source checkout, bundled with its license')
 a=p.parse_args();root=Path(__file__).resolve().parents[1];out=a.out.resolve()
@@ -15,10 +16,11 @@ shutil.copy2(a.staging/'BepInEx/plugins/CampusUno/CampusUno.dll',plugins/'Campus
 if a.up:shutil.copy2(a.up,plugins/'EC2BUnofficialPatch.dll')
 # Reuse existing artwork; this does not create or alter a game asset.
 from PIL import Image
-Image.open(root/'assets/classroom-desk.png').convert('RGB').save(out/'preview.jpg',quality=90)
+Image.open(a.preview or root/'assets/nds/Badges/badge-919999.png').convert('RGB').save(out/'preview.jpg',quality=90)
+shutil.copy2(root/'integration/INSTALL.md',out/'安装与角色绑定.md')
 for name in ['小游戏配置说明.md','三国杀说明.md','角色武将分配.md','人物对话配置说明.md','第一关胜利剧情说明.md','THIRD_PARTY_NOTICES.md']:
  shutil.copy2(a.staging/name,out/name)
-(out/'使用说明.txt').write_text('适用《学生时代》1.94 测试分支。订阅后在游戏内启用并重启。\n工坊版由 Steam 更新；数值配置仍在游戏 BepInEx/config 中。\n'+('本地候选包含兼容 UP；不要同时安装另一份同名 UP 或小游戏。公开发布前须配齐 UP 对应源码和许可。\n' if a.up else '需要同时订阅并启用兼容 1.94 的 UP 前置。\n')+'F7：主界面三国杀测试目录。F8：主界面 NDS。\n三国杀 2006 年年初起出售；NDS 2005 年夏起出售，已有物品不重复出售。\n',encoding='utf-8')
+(out/'使用说明.txt').write_text('适用《学生时代》1.94 测试分支。订阅后在游戏内启用并重启。\n工坊版由 Steam 更新；数值配置仍在游戏 BepInEx/config 中。\n'+('本整合版包含兼容 UP；不要同时安装另一份同名 UP 或小游戏。公开发布前须配齐 UP 对应源码和许可。\n' if a.up else '需要同时订阅并启用兼容 1.94 的 UP 前置。\n')+'F7：主界面三国杀测试目录。F8：主界面 NDS。\n三国杀 2006 年年初起出售；NDS 2005 年夏起出售，已有物品不重复出售。\n',encoding='utf-8')
 if a.up_source:
  if not a.up: raise SystemExit('--up-source requires --up')
  (out/'Source').mkdir(exist_ok=True)

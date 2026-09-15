@@ -6,10 +6,12 @@ namespace StudentAge.CampusMinigames {
   public const int StoryEventType=920092,TalkOffset=700000000,OptionOffset=70000000,EventOffset=700000;
   const int FirstEvent=1222100,LastWinEvent=1222109,LastEvent=1222119;
   static Dictionary<int,TalkCfg> talks;static Dictionary<int,OptionCfg> options;static Dictionary<int,EvtCfg> events;static Dictionary<int,int> wins,losses;
+  // Native enabled-Mod EvtCfg rows can bind independent author stories without replacing shared files.
+  public const int AuthorWinEventType=920093,AuthorLossEventType=920094;
   public static bool Active{get;private set;}
-  public static int EventFor(int npc,bool won=true){Load();return (won?wins:losses).TryGetValue(npc,out int id)?id:0;}
+  public static int EventFor(int npc,bool won=true){Load();int type=won?AuthorWinEventType:AuthorLossEventType;var authored=Cfg.EvtCfgMap?.Values.Where(e=>e.npc==npc&&e.type==type).OrderBy(e=>e.id).ToArray();if(authored!=null&&authored.Length>0){if(authored.Length>1)Debug.LogWarning("[Sanguosha] 人物第一关剧情有多个绑定，使用最小事件编号："+npc+" / "+authored[0].id);return authored[0].id;}return (won?wins:losses).TryGetValue(npc,out int id)?id:0;}
   // Original export ID (e.g. 1222117) that the save record tracks; 0 when no story exists.
-  public static int SourceEventFor(int npc,bool won){int id=EventFor(npc,won);return id==0?0:id-EventOffset;}
+  public static int SourceEventFor(int npc,bool won){int id=EventFor(npc,won);return id==0?0:events.ContainsKey(id)?id-EventOffset:id;}
   public static bool IsWinEvent(int sourceId)=>sourceId>=FirstEvent&&sourceId<=LastWinEvent;
   static bool IsTalk(int id)=>id>=1222100001&&id<=1222119999;static bool IsOption(int id)=>id>=122210001&&id<=122211999;static bool IsEvent(int id)=>id>=FirstEvent&&id<=LastEvent;
   static int TalkId(int id)=>IsTalk(id)?id+TalkOffset:id;
