@@ -46,6 +46,7 @@ def main():
     p.add_argument('--bepinex', type=Path, default=None, help='BepInEx/core 目录；默认取游戏自带的')
     p.add_argument('--up', type=Path, required=True, help='用于编译引用的 EC2BUnofficialPatch.dll（不会被打包）')
     p.add_argument('--out', type=Path, default=ROOT / 'dist/build')
+    p.add_argument('--helper', type=Path, default=None, help='已编译好的 CampusMinigames.Updater.exe；给出时跳过 dotnet build')
     args = p.parse_args()
 
     managed = args.game / 'StudentAge_Data/Managed'
@@ -55,7 +56,11 @@ def main():
     assert args.up.is_file(), 'UP dll missing: ' + str(args.up)
 
     dotnet = shutil.which('dotnet') or '/usr/local/share/dotnet/dotnet'
-    subprocess.run([dotnet, 'build', str(ROOT / 'updater/Helper/Updater.csproj'), '-c', 'Release', '--nologo'], check=True)
+    helper = args.helper
+    if helper is None:
+        subprocess.run([dotnet, 'build', str(ROOT / 'updater/Helper/Updater.csproj'), '-c', 'Release', '--nologo'], check=True)
+        helper = ROOT / 'updater/Helper/bin/Release/net472/CampusMinigames.Updater.exe'
+    assert helper.is_file(), 'Updater helper missing: ' + str(helper)
 
     out = args.out.resolve()
     out.mkdir(parents=True, exist_ok=True)
@@ -64,7 +69,7 @@ def main():
     cmd = [dotnet, str(find_csc(dotnet)), '-nologo', '-target:library', '-nostdlib+', '-langversion:9', '-optimize+', '-out:' + str(dll)]
     cmd += ['-r:' + str(r) for r in refs]
     cmd += ['-resource:' + str(ROOT / 'assets/classroom-desk.png') + ',CampusUno.Desk']
-    cmd += ['-resource:' + str(ROOT / 'updater/Helper/bin/Release/net472/CampusMinigames.Updater.exe') + ',CampusMinigames.Updater']
+    cmd += ['-resource:' + str(helper) + ',CampusMinigames.Updater']
     cmd += [str(f) for f in sources()]
     subprocess.run(cmd, check=True)
 

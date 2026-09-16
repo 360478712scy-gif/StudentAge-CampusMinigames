@@ -36,7 +36,7 @@ namespace StudentAge.CampusMinigames {
   public static SanguoshaDialogueConfig Load(){var value=new SanguoshaDialogueConfig();
    foreach(string key in new[]{"player_female","player_male","3","101","102","103","104","105","201","202","203","204"})value.Speakers[key]=new SanguoshaSpeaker{Expressions=new Dictionary<string,SanguoshaExpression>{{"neutral",new SanguoshaExpression()},{"slash",new SanguoshaExpression()},{"jink",new SanguoshaExpression()}}};
    SourceDirs.Clear();foreach(string dir in ModCfgLocator.CfgDirectories()){string file=Path.Combine(dir,Table+".json");if(!File.Exists(file))continue;
-    try{string text=File.ReadAllText(file);var probe=Newtonsoft.Json.Linq.JObject.Parse(text);var schema=probe["Schema"];if(schema!=null&&schema.Type!=Newtonsoft.Json.Linq.JTokenType.Null&&schema.Value<int>()!=1)throw new InvalidDataException("未知对话配置版本");JsonConvert.PopulateObject(text,value);SourceDirs.Add(dir);}
+    try{string text=File.ReadAllText(file);var probe=Newtonsoft.Json.Linq.JObject.Parse(text);var schema=probe["Schema"];if(schema!=null&&schema.Type!=Newtonsoft.Json.Linq.JTokenType.Null&&(int)schema!=1)throw new InvalidDataException("未知对话配置版本");JsonConvert.PopulateObject(text,value);SourceDirs.Add(dir);}
     catch(Exception e){Debug.LogWarning("[Sanguosha] 对话配置读取失败，已跳过 "+file+"："+e.Message);}}
    value.Lines=value.Lines??new Dictionary<string,SanguoshaDialogueLine>();value.Speakers=value.Speakers??new Dictionary<string,SanguoshaSpeaker>();return value;}
  }

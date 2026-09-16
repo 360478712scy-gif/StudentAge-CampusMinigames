@@ -88,11 +88,11 @@ namespace StudentAge.CampusUno
             {
                 case JTokenType.Integer:
                 case JTokenType.Float:
-                    value = token.Value<float>(); return true;
+                    value = (float)token; return true;
                 case JTokenType.Boolean:
-                    value = token.Value<bool>() ? 1 : 0; return true;
+                    value = (bool)token ? 1 : 0; return true;
                 case JTokenType.String:
-                    return float.TryParse(token.Value<string>(), NumberStyles.Float, CultureInfo.InvariantCulture, out value);
+                    return float.TryParse((string)token, NumberStyles.Float, CultureInfo.InvariantCulture, out value);
                 default:
                     return false;
             }
@@ -102,7 +102,7 @@ namespace StudentAge.CampusUno
         {
             if (row == null || !(row[key] is JArray array)) return null;
             var list = new List<string>();
-            foreach (var item in array) if (item.Type == JTokenType.String) list.Add(item.Value<string>());
+            foreach (var item in array) if (item.Type == JTokenType.String) list.Add((string)item);
             return list.ToArray();
         }
     }
