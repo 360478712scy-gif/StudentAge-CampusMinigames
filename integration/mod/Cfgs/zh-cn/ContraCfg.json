@@ -5,6 +5,7 @@
     "level": 0,
     "name": "魂斗罗",
     "parms": {
+      "Lives": 3,
       "BossHP": 32,
       "BatteryHP": 5,
       "RespawnGraceSeconds": 3

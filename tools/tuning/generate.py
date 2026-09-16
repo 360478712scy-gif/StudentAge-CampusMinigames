@@ -12,6 +12,8 @@ import re
 
 root = Path(__file__).resolve().parents[2]
 spec = json.loads((Path(__file__).parent / 'settings.json').read_text(encoding='utf-8'))
+# settings.json 里同一分组可能不相邻（Mario/Contra 分两段），按分组稳定排序后再 groupby
+sorted_spec = sorted(spec, key=lambda s: list(dict.fromkeys(x['section'] for x in spec)).index(s['section']))
 cfg_dir = root / 'integration/mod/Cfgs/zh-cn'
 cfg_dir.mkdir(parents=True, exist_ok=True)
 
@@ -49,7 +51,7 @@ p.write_text(code[:start] + '\n'.join(lines) + code[end:], encoding='utf-8')
 
 # 2/3. JSON 表
 common = {}
-for section, items in itertools.groupby(spec, key=lambda s: s['section']):
+for section, items in itertools.groupby(sorted_spec, key=lambda s: s['section']):
     items = list(items)
     if section in GAME_IDS:
         gid = GAME_IDS[section]
@@ -87,7 +89,7 @@ doc = ['# 小游戏配置说明', '',
        f'通用项在 `{COMMON}.json`：`NDS`（回合额度、掌机价格）、`Audio`、`Social`（仅无 UP 时使用）。',
        '三国杀对手/奖励在 `SanguoshaCfg.json`，对话气泡在 `SanguoshaDialogueCfg.json`，见《三国杀说明》。', '',
        '## 全部配置项', '']
-for section, items in itertools.groupby(spec, key=lambda s: s['section']):
+for section, items in itertools.groupby(sorted_spec, key=lambda s: s['section']):
     items = list(items)
     table = f'{section}Cfg.json' if section in GAME_IDS else f'{COMMON}.json'
     doc += [f'### {section}（{table}）', '', '| parms 键 | 关卡 | 默认 | 范围 | 说明 |', '| --- | --- | --- | --- | --- |']

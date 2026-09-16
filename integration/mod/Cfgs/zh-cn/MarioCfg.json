@@ -5,6 +5,7 @@
     "level": 0,
     "name": "超级马里奥兄弟",
     "parms": {
+      "Lives": 3,
       "TimeScale": 1,
       "StarSeconds": 10,
       "HurtGraceSeconds": 2
