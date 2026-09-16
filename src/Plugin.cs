@@ -91,7 +91,7 @@ namespace StudentAge.CampusUno
         void Start() { Logger.LogInfo("UNO lifecycle Start"); }
         void Update()
         {
-            if (Time.unscaledTime >= nextRegister) { nextRegister = Time.unscaledTime + 1f; SavePathGuard.Tick(Logger); EnsureConfigs(); }
+            if (Time.unscaledTime >= nextRegister) { nextRegister = Time.unscaledTime + 1f; EnsureConfigs(); }
         }
         internal void EnsureConfigs()
         {
