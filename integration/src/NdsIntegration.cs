@@ -6,7 +6,7 @@ public sealed class NdsPlugin:BaseUnityPlugin{
 }
 public sealed class NdsRuntime:MonoBehaviour{
  public static NdsRuntime Instance{get;private set;}
- Harmony harmony;float next;void Awake(){Instance=this;harmony=new Harmony("studio.studentage.nds");harmony.PatchAll(typeof(NdsPlugin).Assembly);}
+ Harmony harmony;float next;void Awake(){Instance=this;harmony=new Harmony("studio.studentage.nds");HarmonyScope.PatchNamespace(harmony,typeof(NdsPlugin).Assembly,"StudentAge.CampusMinigames");}
  void Update(){if(Keyboard.current!=null&&Keyboard.current.f7Key.wasPressedThisFrame)SanguoshaView.OpenTestDirectory();if(Keyboard.current!=null&&Keyboard.current.f8Key.wasPressedThisFrame)NdsConsole.OpenFromTitle();if(Time.unscaledTime<next)return;next=Time.unscaledTime+1;NdsIntegration.Register();SanguoshaIntegration.Register();}
  void OnDestroy(){if(Instance==this)Instance=null;NdsConsole.Invalidate();NdsBadgeAssets.Clear();harmony?.UnpatchSelf();}
 }

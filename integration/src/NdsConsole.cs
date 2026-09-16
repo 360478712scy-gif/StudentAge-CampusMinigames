@@ -16,7 +16,7 @@ public static class NdsCatalog{
 }
 public sealed class NdsSession:IGameSession,IPracticeSession{
  readonly NdsConsole owner;readonly NdsGame game;readonly int level;int startRound;bool began,ended;Action invalidated;public NdsSession(NdsConsole o,NdsGame g,int l){owner=o;game=g;level=l;}
- public string Name=>"电脑";public string Root=>Path.GetDirectoryName(typeof(NdsConsole).Assembly.Location);public int NpcId=>-1;public bool IsExternal=>true;public float Cost=>0;
+ public string Name=>"电脑";public string Root=>CampusResources.ContentRoot;public int NpcId=>-1;public bool IsExternal=>true;public float Cost=>0;
  public bool IsActive=>!ended&&owner!=null&&owner.Valid&&owner.CanUse;public bool Begin(){if(began)return IsActive;if(!IsActive||!owner.CanPlay(game,level))return false;began=true;if(!owner.TitleMode)startRound=Singleton<RoundMgr>.Ins.GetRound();return true;}
  public void Finish(Outcome outcome){if(ended||!began||outcome==Outcome.Playing)return;bool active=IsActive;ended=true;if(active&&!owner.TitleMode)NdsProgress.Complete(game,level,startRound,outcome);if(owner!=null)owner.Resume(this);}
  public void Cancel(){if(ended)return;ended=true;if(owner!=null)owner.Resume(this);}
@@ -33,7 +33,7 @@ public sealed partial class NdsConsole:MonoBehaviour{
  public static void OpenFromTitle(){if(NdsIntegration.IsTitleScreen)Open(true);}
  static void Open(bool titleMode){if(Current!=null||Plugin.IsBusy||(titleMode?!NdsIntegration.IsTitleScreen:!NdsIntegration.Owned))return;var obj=new GameObject("NdsConsoleHost");DontDestroyOnLoad(obj);var v=obj.AddComponent<NdsConsole>();Current=v;v.TitleMode=titleMode;v.previousTime=Time.timeScale;v.Valid=true;v.Booting=true;try{v.Load();v.Build();v.LockMenu();v.StartCoroutine(v.Boot());}catch(Exception e){Debug.LogException(e);v.Close();}}
  public static void Invalidate(){if(Current!=null)Current.Close();}
- void Load(){LoadBadgeAudio();string path=Path.Combine(Path.GetDirectoryName(typeof(NdsConsole).Assembly.Location),"Nds");shell=LoadSprite(Path.Combine(path,"shell.png"));icons=Enumerable.Range(0,12).Select(n=>LoadSprite(Path.Combine(path,"icon-"+n+".png"))).ToArray();font=LoadTexture(Path.Combine(path,"font.png"));var data=JObject.Parse(File.ReadAllText(Path.Combine(path,"font.json")));characters=(string)data["characters"];fontRows=font.height/16;}
+ void Load(){LoadBadgeAudio();string path=Path.Combine(CampusResources.ContentRoot,"Nds");shell=LoadSprite(Path.Combine(path,"shell.png"));icons=Enumerable.Range(0,12).Select(n=>LoadSprite(Path.Combine(path,"icon-"+n+".png"))).ToArray();font=LoadTexture(Path.Combine(path,"font.png"));var data=JObject.Parse(File.ReadAllText(Path.Combine(path,"font.json")));characters=(string)data["characters"];fontRows=font.height/16;}
  Texture2D LoadTexture(string file){var t=new Texture2D(2,2,TextureFormat.RGBA32,false);ImageConversion.LoadImage(t,File.ReadAllBytes(file));t.filterMode=FilterMode.Point;t.wrapMode=TextureWrapMode.Clamp;owned.Add(t);return t;}
  Sprite LoadSprite(string path){var t=LoadTexture(path);var s=Sprite.Create(t,new Rect(0,0,t.width,t.height),new Vector2(.5f,.5f),100);owned.Add(s);return s;}
  void Build(){canvas=new GameObject("NDS掌机",typeof(RectTransform),typeof(Canvas),typeof(GraphicRaycaster));var c=canvas.GetComponent<Canvas>();c.renderMode=RenderMode.ScreenSpaceOverlay;c.sortingOrder=32759;c.pixelPerfect=true;

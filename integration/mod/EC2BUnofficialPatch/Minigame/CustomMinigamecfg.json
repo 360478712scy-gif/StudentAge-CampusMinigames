@@ -3,7 +3,7 @@
     {
       "id": 9101,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.UnoEntry",
       "parameters": {
         "deferStart": "true"
@@ -12,7 +12,7 @@
     {
       "id": 9102,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.GomokuEntry",
       "parameters": {
         "deferStart": "true"
@@ -21,7 +21,7 @@
     {
       "id": 9103,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.BubbleEntry",
       "parameters": {
         "deferStart": "true"
@@ -30,7 +30,7 @@
     {
       "id": 9104,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.BoxEntry",
       "parameters": {
         "deferStart": "true"
@@ -39,7 +39,7 @@
     {
       "id": 9105,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.TwentyFourEntry",
       "parameters": {
         "deferStart": "true"
@@ -48,7 +48,7 @@
     {
       "id": 9106,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.FallingBlocksEntry",
       "parameters": {
         "deferStart": "true"
@@ -57,7 +57,7 @@
     {
       "id": 9107,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.LandlordEntry",
       "parameters": {
         "deferStart": "true"
@@ -66,7 +66,7 @@
     {
       "id": 9108,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.SnakeEntry",
       "parameters": {
         "deferStart": "true"
@@ -75,7 +75,7 @@
     {
       "id": 9109,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.MazeEntry",
       "parameters": {
         "deferStart": "true"
@@ -84,7 +84,7 @@
     {
       "id": 9110,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.MarioEntry",
       "parameters": {
         "deferStart": "true"
@@ -93,7 +93,7 @@
     {
       "id": 9111,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.ContraEntry",
       "parameters": {
         "deferStart": "true"
@@ -102,7 +102,7 @@
     {
       "id": 9112,
       "type": "external",
-      "dll": "CampusMinigames.UP.dll",
+      "dll": "../../plugins/CampusMinigames.dll",
       "class": "StudentAge.CampusMinigames.MahjongEntry",
       "parameters": {
         "deferStart": "true"

@@ -67,7 +67,7 @@ namespace StudentAge.CampusUno
             Config.Bind("Practice", "EnableF10", false);
             Config.Remove(new ConfigDefinition("Practice", "EnableF10"));
             harmony = new Harmony("studio.studentage.campusuno");
-            harmony.PatchAll(typeof(Plugin).Assembly);
+            HarmonyScope.PatchNamespace(harmony, typeof(Plugin).Assembly, "StudentAge.CampusUno");
             Logger.LogInfo("Campus UNO "+CampusVersion.Value+" loaded | untimed quick rounds | social ID " + GameId.Value);
             Logger.LogInfo("Game assembly: " + typeof(FuncMgr).Assembly.ManifestModule.ModuleVersionId);
             bool smoke = Environment.GetCommandLineArgs().Contains("--campus-uno-smoke") || Config.Bind("Diagnostics", "SmokeTest", false, "仅供隔离副本自动验收；普通使用保持 false。").Value;

@@ -1,7 +1,7 @@
 using System;using System.IO;using System.Linq;using System.Collections;using System.Collections.Generic;using UnityEngine;using UnityEngine.UI;using UnityEngine.Networking;using UnityEngine.InputSystem;using StudentAge.CampusUno;using StudentAge.Sanguosha;using Sdk;
 namespace StudentAge.CampusMinigames {
  public static class SanguoshaAssets {
-  public static string Root=>Path.Combine(Path.GetDirectoryName(typeof(SanguoshaView).Assembly.Location),"Sanguosha");static readonly Dictionary<string,Texture2D> images=new Dictionary<string,Texture2D>();static readonly Dictionary<string,Sprite> sprites=new Dictionary<string,Sprite>();
+  public static string Root=>Path.Combine(CampusResources.ContentRoot,"Sanguosha");static readonly Dictionary<string,Texture2D> images=new Dictionary<string,Texture2D>();static readonly Dictionary<string,Sprite> sprites=new Dictionary<string,Sprite>();
   public static Texture2D Image(string path){if(images.TryGetValue(path,out var t)&&t!=null)return t;string f=Path.Combine(Root,path);if(!File.Exists(f))return null;t=new Texture2D(2,2,TextureFormat.RGBA32,false);ImageConversion.LoadImage(t,File.ReadAllBytes(f));if(path.StartsWith("official/font/",StringComparison.Ordinal))t.Apply(false,true);t.filterMode=FilterMode.Bilinear;t.wrapMode=TextureWrapMode.Clamp;images[path]=t;return t;}
   public static Sprite Sprite(string id){if(sprites.TryGetValue(id,out var s)&&s!=null)return s;var t=Image(id=="social"?"official/social-kill.png":id=="box"?"back.png":"generals/"+id+".jpg");if(t==null)return null;s=UnityEngine.Sprite.Create(t,new Rect(0,0,t.width,t.height),new Vector2(.5f,.5f),100);sprites[id]=s;return s;}
  }

@@ -1,4 +1,4 @@
-using System;using System.Collections.Generic;using System.IO;using System.Linq;using Config;using HarmonyLib;using Sdk;using UnityEngine;
+using System;using StudentAge.CampusUno;using System.Collections.Generic;using System.IO;using System.Linq;using Config;using HarmonyLib;using Sdk;using UnityEngine;
 namespace StudentAge.CampusMinigames {
 public sealed class NdsBadge {
  public readonly int GameId,ItemId;public readonly string Name,Story;public readonly string[] Effects;public readonly List<List<float>> NativeEffects;
@@ -39,7 +39,7 @@ public static class NdsBadges {
 [HarmonyPatch(typeof(ItemData),"GetEffectStr")]static class NdsBadgeDescription{static bool Prefix(ItemData __instance,ref string __result){var b=NdsBadges.All.FirstOrDefault(x=>x.ItemId==__instance.id);if(b==null)return true;__result=string.Join("\n",b.Effects);return false;}}
 public static class NdsBadgeAssets {
  static readonly Dictionary<int,Sprite> sprites=new Dictionary<int,Sprite>();
- public static string Root=>Path.Combine(Path.GetDirectoryName(typeof(NdsConsole).Assembly.Location),"Nds","Badges");
+ public static string Root=>Path.Combine(CampusResources.ContentRoot,"Nds","Badges");
  public static Sprite Get(NdsBadge b){if(sprites.TryGetValue(b.ItemId,out var s)&&s!=null)return s;string path=Path.Combine(Root,"badge-"+b.ItemId+".png");if(!File.Exists(path))return null;var t=new Texture2D(2,2,TextureFormat.RGBA32,false);ImageConversion.LoadImage(t,File.ReadAllBytes(path));t.filterMode=FilterMode.Point;t.wrapMode=TextureWrapMode.Clamp;s=Sprite.Create(t,new Rect(0,0,t.width,t.height),new Vector2(.5f,.5f),100);sprites[b.ItemId]=s;return s;}
  public static void Clear(){foreach(var s in sprites.Values)if(s!=null){UnityEngine.Object.Destroy(s.texture);UnityEngine.Object.Destroy(s);}sprites.Clear();}
 }

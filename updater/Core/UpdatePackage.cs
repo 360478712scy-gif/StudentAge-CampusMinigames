@@ -20,8 +20,9 @@ namespace StudentAge.CampusUpdates {
  [DataMember] public string root,package,sha256,version,backup;
 }
 public static class UpdatePackage {
+ public const string PluginFolder="CampusMinigames",PluginDll="CampusMinigames.dll";
  public const long MaxZip=256L*1024*1024,MaxExpanded=512L*1024*1024;
- public const string Layout="campus-minigames-v1";
+ public const string Layout="campus-minigames-v2";
  public static T Read<T>(byte[] bytes){using(var s=new MemoryStream(bytes))return (T)new DataContractJsonSerializer(typeof(T)).ReadObject(s);}
  public static byte[] Write<T>(T value){using(var s=new MemoryStream()){new DataContractJsonSerializer(typeof(T)).WriteObject(s,value);return s.ToArray();}}
  public static string Hash(string path){using(var s=File.OpenRead(path))using(var h=SHA256.Create())return BitConverter.ToString(h.ComputeHash(s)).Replace("-","").ToLowerInvariant();}
@@ -29,7 +30,7 @@ public static class UpdatePackage {
  public static bool Newer(string candidate,string current){Version a,b;if(!Version.TryParse(candidate,out a)||!Version.TryParse(current,out b))throw new InvalidDataException("Invalid version");return a>b;}
  public static void ValidateFeed(Feed f,string repository){Uri u;if(f==null||f.schema!=1||f.layout!=Layout||!IsHash(f.sha256)||f.size<=0||f.size>MaxZip||!Uri.TryCreate(f.url,UriKind.Absolute,out u)||u.Scheme!="https"||u.Host!="github.com"||!u.IsDefaultPort||u.UserInfo.Length!=0||!u.AbsolutePath.StartsWith("/"+repository+"/releases/download/",StringComparison.Ordinal)||u.Query.Length!=0||u.Fragment.Length!=0)throw new InvalidDataException("Unsupported update feed");Newer(f.version,"0.0.0");}
  public static void ValidatePath(string relative){
-  if(string.IsNullOrEmpty(relative)||relative.Length>220||relative.Contains("\\")||relative.StartsWith("/",StringComparison.Ordinal)||!(relative.StartsWith("CampusUno/",StringComparison.Ordinal)||relative.StartsWith("StudentAgeCampusMinigames/",StringComparison.Ordinal)))throw new InvalidDataException("Path outside plugin directories");
+  if(string.IsNullOrEmpty(relative)||relative.Length>220||relative.Contains("\\")||relative.StartsWith("/",StringComparison.Ordinal)||!(relative.StartsWith(PluginFolder+"/",StringComparison.Ordinal)))throw new InvalidDataException("Path outside plugin directories");
   foreach(string part in relative.Split('/')){if(part==""||part=="."||part==".."||part.EndsWith(".",StringComparison.Ordinal)||part.EndsWith(" ",StringComparison.Ordinal)||part.Any(c=>c<32||"<>:\"|?*".Contains(c)))throw new InvalidDataException("Invalid package path");string stem=part.Split('.')[0].ToUpperInvariant();if(new[]{"CON","PRN","AUX","NUL"}.Contains(stem)||Enumerable.Range(1,9).Any(n=>stem=="COM"+n||stem=="LPT"+n))throw new InvalidDataException("Reserved filename");}
  }
  public static string Under(string root,string relative){ValidatePath(relative);string full=Path.GetFullPath(Path.Combine(root,relative.Replace('/',Path.DirectorySeparatorChar))),prefix=Path.GetFullPath(root).TrimEnd(Path.DirectorySeparatorChar)+Path.DirectorySeparatorChar;if(!full.StartsWith(prefix,StringComparison.OrdinalIgnoreCase))throw new InvalidDataException("Path escaped installation");return full;}
@@ -41,7 +42,7 @@ public static class UpdatePackage {
    var metadata=archive.GetEntry("package.json");if(metadata==null||metadata.Length>1024*1024)throw new InvalidDataException("Missing package manifest");Payload payload;using(var ms=new MemoryStream()){using(var s=metadata.Open())s.CopyTo(ms);payload=Read<Payload>(ms.ToArray());}
    if(payload==null||payload.schema!=1||payload.version!=version||payload.files==null||payload.files.Count==0||payload.files.Count+1!=archive.Entries.Count)throw new InvalidDataException("Invalid package manifest");
    names.Clear();long total=0;foreach(var f in payload.files){ValidatePath(f.path);if(!names.Add(f.path)||!IsHash(f.sha256)||f.size<0||f.size>128L*1024*1024||(total+=f.size)>MaxExpanded)throw new InvalidDataException("Invalid manifest entry");var e=archive.GetEntry(f.path);if(e==null||e.Length!=f.size)throw new InvalidDataException("Missing package entry");string target=Under(staging,f.path);Directory.CreateDirectory(Path.GetDirectoryName(target));using(var input=e.Open())using(var output=new FileStream(target,FileMode.CreateNew,FileAccess.Write)){byte[] b=new byte[65536];int n;long count=0;while((n=input.Read(b,0,b.Length))>0){count+=n;if(count>f.size)throw new InvalidDataException("Expanded data exceeds declared size");output.Write(b,0,n);}if(count!=f.size)throw new InvalidDataException("Incomplete package entry");}if(Hash(target)!=f.sha256)throw new InvalidDataException("Entry checksum mismatch");}
-   if(!names.Contains("CampusUno/CampusUno.dll")||!names.Contains("StudentAgeCampusMinigames/CampusMinigames.UP.dll"))throw new InvalidDataException("Update must contain both plugins");return payload;
+   if(!names.Contains(PluginFolder+"/"+PluginDll))throw new InvalidDataException("Update must contain the plugin");return payload;
   }
  }
  // Every target is backed up before the first replacement. Journal survives partial installs.

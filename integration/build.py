@@ -1,44 +1,134 @@
+#!/usr/bin/env python3
+"""把编译好的 CampusMinigames.dll 和资源组装成官方 Mod / 工坊目录布局（lfw 示范结构）。
+
+Mod根/
+├── preview.jpg
+├── manifest.json
+├── plugins/CampusMinigames.dll                 ← BepInEx 插件（官方 1.94 加载）
+├── EC2BUnofficialPatch/Minigame/               ← UP 注册与全部小游戏资源
+│   ├── CustomMinigamecfg.json                  （dll 指向 ../../plugins/CampusMinigames.dll）
+│   └── Music/ Nds/ Retro/ Sanguosha/ ...
+├── Cfgs/zh-cn/                                 ← 原版注册表 + 玩家可自定义的关卡表/剧情
+└── readme/                                     ← 说明文档与许可
+
+不附带 UP：玩家需要另外订阅 EC2BUnofficialPatch。
+用法：python integration/build.py --dll dist/build/CampusMinigames.dll [--out dist/mod-<版本>]
+"""
 from pathlib import Path
-import argparse,subprocess,hashlib,json,shutil,zipfile,re
-root=Path(__file__).resolve().parents[1]
-version=re.search(r'const string Value="([0-9.]+)"',(root/'src/CampusAutoUpdate.cs').read_text()).group(1)
-p=argparse.ArgumentParser();p.add_argument('--bepinex',type=Path,default=root/'lib/BepInEx-5.4.23.5/BepInEx/core');p.add_argument('--up',type=Path,required=True);p.add_argument('--game',type=Path,default=root/'qa-game');p.add_argument('--out',type=Path,default=root/('dist/up-integration-'+version));args=p.parse_args()
-subprocess.run(['python3',str(root/'build.py'),'--game',str(args.game),'--bepinex',str(args.bepinex)],check=True)
-managed=args.game/'StudentAge_Data/Managed';core=args.bepinex
-dotnet=shutil.which('dotnet') or '/usr/local/share/dotnet/dotnet';sdk=subprocess.check_output([dotnet,'--list-sdks'],text=True).strip().splitlines()[-1];compiler=Path(sdk.split('[')[1].rstrip(']'))/sdk.split()[0]/'Roslyn/bincore/csc.dll'
-out=args.out.resolve();
-assert out.parent == (root/'dist').resolve() and out.name not in {'up-integration','up-integration-0.3.1'}, 'Use a new staging directly under dist; preserve released packages'
-if out.exists():shutil.rmtree(out)
-plugin=out/'BepInEx/plugins/CampusUno';mod=out/'ModAuthorTemplate/CampusMinigames';ext=out/'BepInEx/plugins/StudentAgeCampusMinigames';ext.mkdir(parents=True,exist_ok=True);plugin.mkdir(parents=True,exist_ok=True)
-shutil.copy2(root/'dist/BepInEx/plugins/CampusUno/CampusUno.dll',plugin/'CampusUno.dll')
-refs=list(managed.glob('*.dll'))+[core/'BepInEx.dll',core/'0Harmony.dll',args.up,plugin/'CampusUno.dll']
-cmd=[dotnet,str(compiler),'-nologo','-target:library','-nostdlib+','-langversion:9','-optimize+','-out:'+str(ext/'CampusMinigames.UP.dll')]+['-r:'+str(r) for r in refs]+[str(r) for r in (root/'integration/src').glob('*.cs')]+[str(r) for r in (root/'bubble/Runtime').glob('*.cs')]+[str(r) for r in (root/'shared/Runtime').glob('*.cs')]+[str(r) for r in (root/'shared/Unity').glob('*.cs')]+[str(r) for r in (root/'retro/Runtime').glob('*.cs')]+[str(r) for r in (root/'sanguosha/Runtime').glob('*.cs')]+[str(root/'retro/Unity/PixelCanvas.cs')]+[str(r) for r in (root/'mahjong/Runtime').glob('*.cs')]+[str(r) for r in (root/'mahjong/Unity').glob('*.cs')]
-subprocess.run(cmd,check=True)
-shutil.copytree(root/'integration/mod/Cfgs',mod/'Cfgs',dirs_exist_ok=True)
-shutil.copytree(root/'integration/mod/Cfgs',ext/'Cfgs',dirs_exist_ok=True)
-shutil.copy2(root/'integration/mod/EC2BUnofficialPatch/CustomMinigamecfg.json',ext/'CustomMinigamecfg.json')
-shutil.copytree(root/'assets/music',ext/'Music',dirs_exist_ok=True)
-shutil.copytree(root/'assets/card-audio',ext/'CardAudio',dirs_exist_ok=True)
-audio=ext/'Audio';audio.mkdir(exist_ok=True)
-for f in (root/'h5/gomoku/assets/audio').iterdir():shutil.copy2(f,audio/f.name)
-shutil.copytree(root/'assets/bubble/audio',ext/'BubbleAudio',dirs_exist_ok=True)
-shutil.copytree(root/'assets/playing-cards',ext/'PlayingCards',dirs_exist_ok=True)
-shutil.copytree(root/'assets/arcade',ext/'Arcade',dirs_exist_ok=True)
-shutil.copytree(root/'retro/assets',ext/'Retro',dirs_exist_ok=True)
-shutil.copytree(root/'assets/mahjong',ext/'Mahjong',dirs_exist_ok=True)
-shutil.copytree(root/'assets/nds',ext/'Nds',dirs_exist_ok=True)
-shutil.copytree(root/'assets/sanguosha',ext/'Sanguosha',dirs_exist_ok=True)
-shutil.copy2(root/'integration/INSTALL.md',out/'安装与角色绑定.md')
-shutil.copy2(root/'integration/CONFIGURATION.md',out/'小游戏配置说明.md')
-shutil.copy2(root/'updater/AUTO_UPDATE.md',out/'自动更新说明.md')
-shutil.copytree(root/'integration/config',out/'配置示例',dirs_exist_ok=True)
-shutil.copy2(root/'mahjong/README.md',out/'课间麻将说明.md')
-shutil.copy2(root/'nds/README.md',out/'NDS掌机说明.md')
-shutil.copy2(root/'sanguosha/README.md',out/'三国杀说明.md')
-shutil.copy2(root/'sanguosha/角色武将分配.md',out/'角色武将分配.md')
-shutil.copy2(root/'sanguosha/人物对话配置说明.md',out/'人物对话配置说明.md')
-shutil.copy2(root/'sanguosha/第一关胜利剧情说明.md',out/'第一关胜利剧情说明.md')
-shutil.copy2(root/'THIRD_PARTY_NOTICES.md',out/'THIRD_PARTY_NOTICES.md')
-manifest={'version':version,'upReferenceSHA256':hashlib.sha256(args.up.read_bytes()).hexdigest(),'gameAssemblySHA256':hashlib.sha256((managed/'Assembly-CSharp.dll').read_bytes()).hexdigest(),'files':{str(f.relative_to(out)):hashlib.sha256(f.read_bytes()).hexdigest() for f in out.rglob('*') if f.is_file() and f.name!='manifest.json'}}
-(out/'manifest.json').write_text(json.dumps(manifest,indent=2))
-print(ext/'CampusMinigames.UP.dll')
+import argparse
+import hashlib
+import json
+import re
+import shutil
+
+ROOT = Path(__file__).resolve().parents[1]
+VERSION = re.search(r'const string Value="([0-9.]+)"', (ROOT / 'src/CampusAutoUpdate.cs').read_text()).group(1)
+
+# 资源目录：仓库路径 -> EC2BUnofficialPatch/Minigame/ 下的目录名
+ASSET_DIRS = {
+    'assets/music': 'Music',
+    'assets/card-audio': 'CardAudio',
+    'assets/bubble/audio': 'BubbleAudio',
+    'assets/playing-cards': 'PlayingCards',
+    'assets/arcade': 'Arcade',
+    'retro/assets': 'Retro',
+    'assets/mahjong': 'Mahjong',
+    'assets/nds': 'Nds',
+    'assets/sanguosha': 'Sanguosha',
+}
+
+# 说明文档：仓库路径 -> readme/ 下的文件名
+README_FILES = {
+    'integration/INSTALL.md': '安装与角色绑定.md',
+    'integration/CONFIGURATION.md': '小游戏配置说明.md',
+    'mahjong/README.md': '课间麻将说明.md',
+    'nds/README.md': 'NDS掌机说明.md',
+    'sanguosha/README.md': '三国杀说明.md',
+    'sanguosha/角色武将分配.md': '角色武将分配.md',
+    'sanguosha/人物对话配置说明.md': '人物对话配置说明.md',
+    'sanguosha/第一关胜利剧情说明.md': '第一关胜利剧情说明.md',
+    'THIRD_PARTY_NOTICES.md': 'THIRD_PARTY_NOTICES.md',
+}
+
+
+def copy_tree(src: Path, dst: Path):
+    shutil.copytree(src, dst, dirs_exist_ok=True, ignore=shutil.ignore_patterns('.DS_Store', '__pycache__', '*.pyc'))
+
+
+def write_manifest(out: Path):
+    files = {
+        str(f.relative_to(out)).replace('\\', '/'): hashlib.sha256(f.read_bytes()).hexdigest()
+        for f in sorted(out.rglob('*')) if f.is_file() and f.name != 'manifest.json'
+    }
+    manifest = {
+        'name': 'NDS小游戏拓展',
+        'id': 'studio.studentage.campusminigames',
+        'version': VERSION,
+        'author': '360478712scy-gif',
+        'game': 'StudentAge 1.94',
+        'requires': ['sa.EC2B.UnofficialPatch'],
+        'plugins': ['plugins/CampusMinigames.dll'],
+        'files': files,
+    }
+    (out / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+
+def assemble(dll: Path, out: Path, preview: Path):
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir(parents=True)
+
+    # 1. 插件
+    (out / 'plugins').mkdir()
+    shutil.copy2(dll, out / 'plugins' / 'CampusMinigames.dll')
+
+    # 2. UP 注册 + 资源
+    content = out / 'EC2BUnofficialPatch' / 'Minigame'
+    content.mkdir(parents=True)
+    shutil.copy2(ROOT / 'integration/mod/EC2BUnofficialPatch/Minigame/CustomMinigamecfg.json', content / 'CustomMinigamecfg.json')
+    for src, name in ASSET_DIRS.items():
+        copy_tree(ROOT / src, content / name)
+    audio = content / 'Audio'
+    audio.mkdir()
+    for f in (ROOT / 'h5/gomoku/assets/audio').iterdir():
+        if f.is_file():
+            shutil.copy2(f, audio / f.name)
+
+    # 3. 原版配置表与玩家可自定义的表
+    copy_tree(ROOT / 'integration/mod/Cfgs', out / 'Cfgs')
+
+    # 4. 说明与许可
+    readme = out / 'readme'
+    readme.mkdir()
+    for src, name in README_FILES.items():
+        shutil.copy2(ROOT / src, readme / name)
+    copy_tree(ROOT / 'licenses', readme / 'licenses')
+    (readme / '使用说明.txt').write_text(
+        '适用《学生时代》1.94 测试分支。\n'
+        '需要先订阅并启用 EC2BUnofficialPatch（UP），再订阅本 Mod，在游戏内启用后重启。\n'
+        '本 Mod 不包含 UP，也不要把旧版手动安装的 CampusUno.dll / CampusMinigames.UP.dll 留在 BepInEx/plugins 下。\n'
+        '玩家可修改的内容都在 Cfgs/zh-cn 下，把对应 json 复制到自己的 Mod 里再改；不要改 BepInEx/config。\n'
+        'F7：主界面三国杀测试目录。F8：主界面 NDS。\n'
+        '三国杀 2006 年年初起出售；NDS 2005 年夏起出售，已有物品不重复出售。\n',
+        encoding='utf-8')
+
+    # 5. 预览图与清单
+    from PIL import Image
+    Image.open(preview).convert('RGB').save(out / 'preview.jpg', quality=90)
+    write_manifest(out)
+    return out
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument('--dll', type=Path, default=ROOT / 'dist/build/CampusMinigames.dll', help='build.py 的产物')
+    p.add_argument('--out', type=Path, default=ROOT / f'dist/mod-{VERSION}')
+    p.add_argument('--preview', type=Path, default=ROOT / 'distribution/workshop/preview.png')
+    args = p.parse_args()
+    assert args.dll.is_file(), 'Run build.py first: ' + str(args.dll)
+    out = assemble(args.dll.resolve(), args.out.resolve(), args.preview)
+    print(out)
+
+
+if __name__ == '__main__':
+    main()
