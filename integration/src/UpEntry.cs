@@ -15,7 +15,26 @@ namespace StudentAge.CampusMinigames
     }
     public sealed class GomokuEntry : ICustomMinigame
     {
-        public void Open(CustomMinigameContext context){var session=new UpSession(context);int level=context.ActionCfgId-context.GameId*100;if(level<1||level>5)throw new InvalidOperationException("Gomoku requires social stage 1–5");GomokuView.Open(session,level);}
+        public void Open(CustomMinigameContext context){var session=new UpSession(context);GomokuView.Open(session,UpLevel.Resolve(context,9102,5));}
+    }
+    /// <summary>
+    /// 决定这一局玩第几关。优先级：
+    /// 1. TalkCfg/OptionCfg 的 miniGame[1]：关卡号（3）或完整阶段 id（910203）——剧情里亲自打开时用；
+    /// 2. 社交阶段：ActionCfgId - 游戏编号×100；
+    /// 3. 都没有时第 1 关。超出游戏内置关数时按最高一关处理并记录日志。
+    /// </summary>
+    public static class UpLevel
+    {
+        public static int Resolve(CustomMinigameContext context,int gameId,int stageCount)
+        {
+            int level=0;string source="default";
+            if(context.LaunchParameters!=null&&context.LaunchParameters.Count>0){int p=(int)Math.Round(context.LaunchParameters[0]);level=p>=100?p%100:p;source="miniGame["+p+"]";}
+            if(level<=0&&context.ActionCfgId>0){int logical=context.GameId>0?context.GameId:gameId;level=context.ActionCfgId-logical*100;source="stage "+context.ActionCfgId;}
+            if(level<=0)level=1;
+            if(level>stageCount){Debug.LogWarning("Campus UP | game "+gameId+" | "+source+" 超出内置关数 "+stageCount+"，按最高一关处理");level=stageCount;}
+            Debug.Log("Campus UP Open | game "+gameId+" | level "+level+" | from "+context.LaunchFrom+" ("+source+")");
+            return level;
+        }
     }
     public sealed class UpSession : IGameSession
     {

@@ -1,0 +1,4840 @@
+{
+  "910101001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "课间还有点时间，来一局 UNO 吧？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910101001,
+    "maxoptions": 0,
+    "miniGame": [
+      9101,
+      1
+    ],
+    "nextTalk": [
+      910101002
+    ],
+    "nextTalk2": [
+      910101003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910101002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910101002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910101003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910101003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910102001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。课间还有点时间，来一局 UNO 吧？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910102001,
+    "maxoptions": 0,
+    "miniGame": [
+      9101,
+      2
+    ],
+    "nextTalk": [
+      910102002
+    ],
+    "nextTalk2": [
+      910102003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910102002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910102002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910102003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910102003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910103001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。课间还有点时间，来一局 UNO 吧？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910103001,
+    "maxoptions": 0,
+    "miniGame": [
+      9101,
+      3
+    ],
+    "nextTalk": [
+      910103002
+    ],
+    "nextTalk2": [
+      910103003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910103002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910103002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910103003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910103003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910104001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。课间还有点时间，来一局 UNO 吧？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910104001,
+    "maxoptions": 0,
+    "miniGame": [
+      9101,
+      4
+    ],
+    "nextTalk": [
+      910104002
+    ],
+    "nextTalk2": [
+      910104003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910104002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910104002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910104003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910104003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910105001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。课间还有点时间，来一局 UNO 吧？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910105001,
+    "maxoptions": 0,
+    "miniGame": [
+      9101,
+      5
+    ],
+    "nextTalk": [
+      910105002
+    ],
+    "nextTalk2": [
+      910105003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910105002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910105002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910105003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910105003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910201001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "五子棋，敢不敢来一盘？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910201001,
+    "maxoptions": 0,
+    "miniGame": [
+      9102,
+      1
+    ],
+    "nextTalk": [
+      910201002
+    ],
+    "nextTalk2": [
+      910201003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910201002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910201002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910201003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910201003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910202001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。五子棋，敢不敢来一盘？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910202001,
+    "maxoptions": 0,
+    "miniGame": [
+      9102,
+      2
+    ],
+    "nextTalk": [
+      910202002
+    ],
+    "nextTalk2": [
+      910202003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910202002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910202002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910202003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910202003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910203001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。五子棋，敢不敢来一盘？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910203001,
+    "maxoptions": 0,
+    "miniGame": [
+      9102,
+      3
+    ],
+    "nextTalk": [
+      910203002
+    ],
+    "nextTalk2": [
+      910203003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910203002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910203002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910203003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910203003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910204001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。五子棋，敢不敢来一盘？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910204001,
+    "maxoptions": 0,
+    "miniGame": [
+      9102,
+      4
+    ],
+    "nextTalk": [
+      910204002
+    ],
+    "nextTalk2": [
+      910204003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910204002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910204002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910204003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910204003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910205001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。五子棋，敢不敢来一盘？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910205001,
+    "maxoptions": 0,
+    "miniGame": [
+      9102,
+      5
+    ],
+    "nextTalk": [
+      910205002
+    ],
+    "nextTalk2": [
+      910205003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910205002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910205002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910205003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910205003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910301001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "玩泡泡吗？看谁先把对方困住。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910301001,
+    "maxoptions": 0,
+    "miniGame": [
+      9103,
+      1
+    ],
+    "nextTalk": [
+      910301002
+    ],
+    "nextTalk2": [
+      910301003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910301002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910301002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910301003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910301003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910302001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。玩泡泡吗？看谁先把对方困住。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910302001,
+    "maxoptions": 0,
+    "miniGame": [
+      9103,
+      2
+    ],
+    "nextTalk": [
+      910302002
+    ],
+    "nextTalk2": [
+      910302003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910302002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910302002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910302003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910302003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910303001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。玩泡泡吗？看谁先把对方困住。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910303001,
+    "maxoptions": 0,
+    "miniGame": [
+      9103,
+      3
+    ],
+    "nextTalk": [
+      910303002
+    ],
+    "nextTalk2": [
+      910303003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910303002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910303002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910303003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910303003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910304001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。玩泡泡吗？看谁先把对方困住。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910304001,
+    "maxoptions": 0,
+    "miniGame": [
+      9103,
+      4
+    ],
+    "nextTalk": [
+      910304002
+    ],
+    "nextTalk2": [
+      910304003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910304002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910304002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910304003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910304003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910305001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。玩泡泡吗？看谁先把对方困住。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910305001,
+    "maxoptions": 0,
+    "miniGame": [
+      9103,
+      5
+    ],
+    "nextTalk": [
+      910305002
+    ],
+    "nextTalk2": [
+      910305003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910305002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910305002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910305003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910305003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910401001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "看好了，文具在哪个盒子里？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910401001,
+    "maxoptions": 0,
+    "miniGame": [
+      9104,
+      1
+    ],
+    "nextTalk": [
+      910401002
+    ],
+    "nextTalk2": [
+      910401003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910401002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910401002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910401003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910401003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910402001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。看好了，文具在哪个盒子里？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910402001,
+    "maxoptions": 0,
+    "miniGame": [
+      9104,
+      2
+    ],
+    "nextTalk": [
+      910402002
+    ],
+    "nextTalk2": [
+      910402003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910402002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910402002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910402003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910402003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910403001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。看好了，文具在哪个盒子里？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910403001,
+    "maxoptions": 0,
+    "miniGame": [
+      9104,
+      3
+    ],
+    "nextTalk": [
+      910403002
+    ],
+    "nextTalk2": [
+      910403003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910403002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910403002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910403003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910403003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910404001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。看好了，文具在哪个盒子里？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910404001,
+    "maxoptions": 0,
+    "miniGame": [
+      9104,
+      4
+    ],
+    "nextTalk": [
+      910404002
+    ],
+    "nextTalk2": [
+      910404003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910404002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910404002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910404003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910404003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910405001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。看好了，文具在哪个盒子里？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910405001,
+    "maxoptions": 0,
+    "miniGame": [
+      9104,
+      5
+    ],
+    "nextTalk": [
+      910405002
+    ],
+    "nextTalk2": [
+      910405003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910405002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910405002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910405003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910405003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910501001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "来算 24 点，看谁算得快。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910501001,
+    "maxoptions": 0,
+    "miniGame": [
+      9105,
+      1
+    ],
+    "nextTalk": [
+      910501002
+    ],
+    "nextTalk2": [
+      910501003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910501002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910501002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910501003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910501003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910502001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。来算 24 点，看谁算得快。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910502001,
+    "maxoptions": 0,
+    "miniGame": [
+      9105,
+      2
+    ],
+    "nextTalk": [
+      910502002
+    ],
+    "nextTalk2": [
+      910502003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910502002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910502002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910502003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910502003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910503001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。来算 24 点，看谁算得快。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910503001,
+    "maxoptions": 0,
+    "miniGame": [
+      9105,
+      3
+    ],
+    "nextTalk": [
+      910503002
+    ],
+    "nextTalk2": [
+      910503003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910503002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910503002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910503003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910503003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910504001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。来算 24 点，看谁算得快。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910504001,
+    "maxoptions": 0,
+    "miniGame": [
+      9105,
+      4
+    ],
+    "nextTalk": [
+      910504002
+    ],
+    "nextTalk2": [
+      910504003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910504002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910504002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910504003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910504003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910505001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。来算 24 点，看谁算得快。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910505001,
+    "maxoptions": 0,
+    "miniGame": [
+      9105,
+      5
+    ],
+    "nextTalk": [
+      910505002
+    ],
+    "nextTalk2": [
+      910505003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910505002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910505002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910505003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910505003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910601001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "俄罗斯方块，比谁消的行多？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910601001,
+    "maxoptions": 0,
+    "miniGame": [
+      9106,
+      1
+    ],
+    "nextTalk": [
+      910601002
+    ],
+    "nextTalk2": [
+      910601003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910601002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910601002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910601003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910601003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910602001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。俄罗斯方块，比谁消的行多？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910602001,
+    "maxoptions": 0,
+    "miniGame": [
+      9106,
+      2
+    ],
+    "nextTalk": [
+      910602002
+    ],
+    "nextTalk2": [
+      910602003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910602002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910602002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910602003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910602003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910603001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。俄罗斯方块，比谁消的行多？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910603001,
+    "maxoptions": 0,
+    "miniGame": [
+      9106,
+      3
+    ],
+    "nextTalk": [
+      910603002
+    ],
+    "nextTalk2": [
+      910603003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910603002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910603002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910603003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910603003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910604001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。俄罗斯方块，比谁消的行多？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910604001,
+    "maxoptions": 0,
+    "miniGame": [
+      9106,
+      4
+    ],
+    "nextTalk": [
+      910604002
+    ],
+    "nextTalk2": [
+      910604003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910604002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910604002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910604003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910604003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910605001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。俄罗斯方块，比谁消的行多？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910605001,
+    "maxoptions": 0,
+    "miniGame": [
+      9106,
+      5
+    ],
+    "nextTalk": [
+      910605002
+    ],
+    "nextTalk2": [
+      910605003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910605002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910605002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910605003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910605003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910701001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "三缺一，来打斗地主吧。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910701001,
+    "maxoptions": 0,
+    "miniGame": [
+      9107,
+      1
+    ],
+    "nextTalk": [
+      910701002
+    ],
+    "nextTalk2": [
+      910701003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910701002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910701002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910701003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910701003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910702001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。三缺一，来打斗地主吧。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910702001,
+    "maxoptions": 0,
+    "miniGame": [
+      9107,
+      2
+    ],
+    "nextTalk": [
+      910702002
+    ],
+    "nextTalk2": [
+      910702003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910702002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910702002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910702003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910702003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910703001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。三缺一，来打斗地主吧。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910703001,
+    "maxoptions": 0,
+    "miniGame": [
+      9107,
+      3
+    ],
+    "nextTalk": [
+      910703002
+    ],
+    "nextTalk2": [
+      910703003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910703002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910703002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910703003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910703003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910704001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。三缺一，来打斗地主吧。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910704001,
+    "maxoptions": 0,
+    "miniGame": [
+      9107,
+      4
+    ],
+    "nextTalk": [
+      910704002
+    ],
+    "nextTalk2": [
+      910704003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910704002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910704002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910704003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910704003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910705001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。三缺一，来打斗地主吧。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910705001,
+    "maxoptions": 0,
+    "miniGame": [
+      9107,
+      5
+    ],
+    "nextTalk": [
+      910705002
+    ],
+    "nextTalk2": [
+      910705003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910705002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910705002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910705003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910705003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910801001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "贪吃蛇，来比比看谁吃得多。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910801001,
+    "maxoptions": 0,
+    "miniGame": [
+      9108,
+      1
+    ],
+    "nextTalk": [
+      910801002
+    ],
+    "nextTalk2": [
+      910801003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910801002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910801002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910801003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910801003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910802001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。贪吃蛇，来比比看谁吃得多。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910802001,
+    "maxoptions": 0,
+    "miniGame": [
+      9108,
+      2
+    ],
+    "nextTalk": [
+      910802002
+    ],
+    "nextTalk2": [
+      910802003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910802002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910802002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910802003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910802003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910803001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。贪吃蛇，来比比看谁吃得多。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910803001,
+    "maxoptions": 0,
+    "miniGame": [
+      9108,
+      3
+    ],
+    "nextTalk": [
+      910803002
+    ],
+    "nextTalk2": [
+      910803003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910803002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910803002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910803003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910803003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910804001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。贪吃蛇，来比比看谁吃得多。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910804001,
+    "maxoptions": 0,
+    "miniGame": [
+      9108,
+      4
+    ],
+    "nextTalk": [
+      910804002
+    ],
+    "nextTalk2": [
+      910804003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910804002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910804002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910804003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910804003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910805001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。贪吃蛇，来比比看谁吃得多。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910805001,
+    "maxoptions": 0,
+    "miniGame": [
+      9108,
+      5
+    ],
+    "nextTalk": [
+      910805002
+    ],
+    "nextTalk2": [
+      910805003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910805002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910805002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910805003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910805003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910901001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "吃豆人，你敢挑战吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910901001,
+    "maxoptions": 0,
+    "miniGame": [
+      9109,
+      1
+    ],
+    "nextTalk": [
+      910901002
+    ],
+    "nextTalk2": [
+      910901003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910901002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910901002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910901003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910901003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910902001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。吃豆人，你敢挑战吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910902001,
+    "maxoptions": 0,
+    "miniGame": [
+      9109,
+      2
+    ],
+    "nextTalk": [
+      910902002
+    ],
+    "nextTalk2": [
+      910902003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910902002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910902002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910902003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910902003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910903001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。吃豆人，你敢挑战吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910903001,
+    "maxoptions": 0,
+    "miniGame": [
+      9109,
+      3
+    ],
+    "nextTalk": [
+      910903002
+    ],
+    "nextTalk2": [
+      910903003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910903002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910903002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910903003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910903003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910904001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。吃豆人，你敢挑战吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910904001,
+    "maxoptions": 0,
+    "miniGame": [
+      9109,
+      4
+    ],
+    "nextTalk": [
+      910904002
+    ],
+    "nextTalk2": [
+      910904003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910904002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910904002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910904003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910904003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910905001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。吃豆人，你敢挑战吗？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910905001,
+    "maxoptions": 0,
+    "miniGame": [
+      9109,
+      5
+    ],
+    "nextTalk": [
+      910905002
+    ],
+    "nextTalk2": [
+      910905003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910905002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910905002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "910905003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 910905003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911001001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911001001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      1
+    ],
+    "nextTalk": [
+      911001002
+    ],
+    "nextTalk2": [
+      911001003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911001002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911001002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911001003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911001003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911002001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911002001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      2
+    ],
+    "nextTalk": [
+      911002002
+    ],
+    "nextTalk2": [
+      911002003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911002002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911002002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911002003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911002003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911003001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911003001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      3
+    ],
+    "nextTalk": [
+      911003002
+    ],
+    "nextTalk2": [
+      911003003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911003002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911003002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911003003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911003003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911004001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911004001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      4
+    ],
+    "nextTalk": [
+      911004002
+    ],
+    "nextTalk2": [
+      911004003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911004002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911004002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911004003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911004003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911005001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911005001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      5
+    ],
+    "nextTalk": [
+      911005002
+    ],
+    "nextTalk2": [
+      911005003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911005002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911005002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911005003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911005003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911006001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 6 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911006001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      6
+    ],
+    "nextTalk": [
+      911006002
+    ],
+    "nextTalk2": [
+      911006003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911006002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911006002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911006003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911006003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911007001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 7 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911007001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      7
+    ],
+    "nextTalk": [
+      911007002
+    ],
+    "nextTalk2": [
+      911007003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911007002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911007002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911007003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911007003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911008001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 8 关了。马里奥借你玩一关，别死太多次哦。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911008001,
+    "maxoptions": 0,
+    "miniGame": [
+      9110,
+      8
+    ],
+    "nextTalk": [
+      911008002
+    ],
+    "nextTalk2": [
+      911008003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911008002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911008002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911008003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911008003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911101001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "魂斗罗，一起闯一关？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911101001,
+    "maxoptions": 0,
+    "miniGame": [
+      9111,
+      1
+    ],
+    "nextTalk": [
+      911101002
+    ],
+    "nextTalk2": [
+      911101003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911101002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911101002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911101003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911101003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911201001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "来搓一局麻将吧，就我们几个。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911201001,
+    "maxoptions": 0,
+    "miniGame": [
+      9112,
+      1
+    ],
+    "nextTalk": [
+      911201002
+    ],
+    "nextTalk2": [
+      911201003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911201002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911201002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911201003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911201003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911202001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 2 关了。来搓一局麻将吧，就我们几个。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911202001,
+    "maxoptions": 0,
+    "miniGame": [
+      9112,
+      2
+    ],
+    "nextTalk": [
+      911202002
+    ],
+    "nextTalk2": [
+      911202003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911202002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911202002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911202003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911202003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911203001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 3 关了。来搓一局麻将吧，就我们几个。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911203001,
+    "maxoptions": 0,
+    "miniGame": [
+      9112,
+      3
+    ],
+    "nextTalk": [
+      911203002
+    ],
+    "nextTalk2": [
+      911203003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911203002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911203002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911203003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911203003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911204001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 4 关了。来搓一局麻将吧，就我们几个。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911204001,
+    "maxoptions": 0,
+    "miniGame": [
+      9112,
+      4
+    ],
+    "nextTalk": [
+      911204002
+    ],
+    "nextTalk2": [
+      911204003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911204002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911204002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911204003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911204003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911205001": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "第 5 关了。来搓一局麻将吧，就我们几个。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911205001,
+    "maxoptions": 0,
+    "miniGame": [
+      9112,
+      5
+    ],
+    "nextTalk": [
+      911205002
+    ],
+    "nextTalk2": [
+      911205003
+    ],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911205002": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "……居然输了。下次可没这么容易。",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911205002,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  },
+  "911205003": {
+    "audio": 0,
+    "bg": 0,
+    "check": [],
+    "content": "哼哼，这局是我赢了。要不要再练练？",
+    "effect": [],
+    "effect2": [],
+    "highlights": [],
+    "id": 911205003,
+    "maxoptions": 0,
+    "miniGame": [],
+    "nextTalk": [],
+    "nextTalk2": [],
+    "option": [],
+    "replace": [],
+    "roleIds": [
+      -1
+    ],
+    "roleName": null,
+    "roles": [],
+    "screenEffect": [],
+    "showTxt": null,
+    "time": 0,
+    "vocals": []
+  }
+}

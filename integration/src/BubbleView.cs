@@ -14,8 +14,7 @@ namespace StudentAge.CampusMinigames
     {
         public void Open(EC2BUnofficialPatch.Features.Mechanics.Minigames.CustomMinigameContext context)
         {
-            int level=context.ActionCfgId-context.GameId*100;if(level<1||level>5)throw new InvalidOperationException("Bubble requires social stage 1-5");
-            BubbleView.Open(new UpSession(context),level);
+            BubbleView.Open(new UpSession(context),UpLevel.Resolve(context,9103,5));
         }
     }
     public sealed class BubbleView : MonoBehaviour

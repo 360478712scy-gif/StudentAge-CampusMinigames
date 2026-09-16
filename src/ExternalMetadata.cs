@@ -9,6 +9,7 @@ namespace StudentAge.CampusUno
     {
         static Dictionary<int,MinigameCfg> games;
         static Dictionary<int,MinigameActionCfg> actions;
+        static Dictionary<int,TalkCfg> talks;
         static string lastError;
         internal static void Register()
         {
@@ -20,8 +21,11 @@ namespace StudentAge.CampusUno
                 {
                     var loadedGames=Read<MinigameCfg>(Path.Combine(root,"MinigameCfg.json"),g=>g.id);
                     var loadedActions=Read<MinigameActionCfg>(Path.Combine(root,"MinigameActionCfg.json"),g=>g.id);
-                    // Publish only after both files validate; a partial installation can recover.
-                    games=loadedGames;actions=loadedActions;lastError=null;
+                    // 阶段 startTalk 对话：官方 Mod 目录会由游戏自己加载，手动安装时靠这里补进内存。
+                    string talkFile=Path.Combine(root,"TalkCfg.json");
+                    var loadedTalks=File.Exists(talkFile)?Read<TalkCfg>(talkFile,t=>t.id):new Dictionary<int,TalkCfg>();
+                    // Publish only after all files validate; a partial installation can recover.
+                    games=loadedGames;actions=loadedActions;talks=loadedTalks;lastError=null;
                 }
                 catch(Exception e) when(e is IOException || e is InvalidDataException || e is UnauthorizedAccessException || e is JsonException)
                 {
@@ -32,6 +36,7 @@ namespace StudentAge.CampusUno
             // Author-provided native Mod rows always take precedence; never write a CFG file.
             foreach(var row in games)if(!Cfg.MinigameCfgMap.ContainsKey(row.Key))Cfg.MinigameCfgMap.Add(row.Key,row.Value);
             foreach(var row in actions)if(!Cfg.MinigameActionCfgMap.ContainsKey(row.Key))Cfg.MinigameActionCfgMap.Add(row.Key,row.Value);
+            if(Cfg.TalkCfgMap!=null)foreach(var row in talks)if(!Cfg.TalkCfgMap.ContainsKey(row.Key))Cfg.TalkCfgMap.Add(row.Key,row.Value);
         }
         static Dictionary<int,T> Read<T>(string path,Func<T,int> id) where T:class
         {

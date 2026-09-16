@@ -24,7 +24,7 @@ namespace StudentAge.CampusMinigames
         protected abstract string Title{get;}protected abstract string[] Rules{get;}
         public static void Open<T>(CustomMinigameContext context,int id,int stageCount=5) where T:PuzzleFrame
         {
-            Open<T>(new UpSession(context),id,context.ActionCfgId-context.GameId*100,stageCount);
+            Open<T>(new UpSession(context),id,UpLevel.Resolve(context,id,stageCount),stageCount);
         }
         public static void Open<T>(IGameSession session,int id,int level,int stageCount=5,bool skipReady=false) where T:PuzzleFrame
         {
