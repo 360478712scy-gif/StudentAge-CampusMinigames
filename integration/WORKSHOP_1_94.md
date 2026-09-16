@@ -1,5 +1,7 @@
 # 官方 1.94 工坊插件接入评估
 
+> 2026-09-16 更新：按 UP 作者示范，Mod 布局已改为 `plugins/CampusMinigames.dll`（单 DLL）+ `EC2BUnofficialPatch/Minigame/`（注册与资源）+ `Cfgs/zh-cn/`（表）+ `readme/`，并且不再随包分发 UP。下文的旧布局与"整合 UP"方案只作历史记录。
+
 状态：2026-09-16，0.11.1 已发布至 [Steam 创意工坊](https://steamcommunity.com/sharedfiles/filedetails/?id=3802190178) 与 [GitHub](https://github.com/360478712scy-gif/StudentAge-CampusMinigames/releases/tag/v0.11.1)。实际Steam下载包1100文件校验一致；隔离CrossOver中，仅启用该Mod后重启，官方MultiFolderLoader直接加载下载包及兼容UP，F7/F8和元数据检查通过。未做Windows原生或完整自然周目验收。下文早期评估保留为历史，不代表当前发布状态。
 
 ## 官方已经提供的能力

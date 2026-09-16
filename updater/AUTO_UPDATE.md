@@ -4,7 +4,9 @@
 
 启动游戏约5秒后检查 GitHub 最新正式 Release 的 `update.json`，默认检查间隔6小时。发现更高版本时，后台下载更新包并核对文件大小、整包 SHA256、文件清单和每个文件的 SHA256。下载完成后等待玩家正常退出游戏，再由独立助手安装；不强制退出、不自动重启。下次打开游戏使用新版本。网络不可用时继续使用原版本。
 
-完整安装仍需要已有的 BepInEx 5 和兼容的 EC2BUnofficialPatch。此更新器只更新 `BepInEx/plugins/CampusUno` 和 `BepInEx/plugins/StudentAgeCampusMinigames`，包括自带注册 JSON 和资源；不会更新 UP、其他 Mod、玩家存档或 `BepInEx/config` 中的自定义配置。
+完整安装仍需要已有的 BepInEx 5 和兼容的 EC2BUnofficialPatch。此更新器只更新 `BepInEx/plugins/CampusMinigames`（单个 DLL、注册 JSON、Cfgs 与资源）；不会更新 UP、其他 Mod、玩家存档或其他 Mod 里的自定义表。工坊 / 官方 Mod 目录安装不走此更新器，由 Steam 更新。
+
+0.12 起插件合并为单个 `CampusMinigames.dll`，更新契约 layout 升为 `campus-minigames-v2`：旧版（两 DLL 布局）客户端会忽略新清单，请手动安装一次新版完整包。
 
 ## 开关
 
@@ -34,7 +36,7 @@ CheckIntervalHours = 6
 
 完整包名 `StudentAge-CampusMinigames-版本.zip`；自动更新包名 `CampusMinigames-update-版本.zip`。安装整个包时使用前者。后者供更新助手使用，不包含加载器、测试存档或账号信息。
 
-自动更新契约为 schema 1、layout `campus-minigames-v1`。下载 URL 限定本项目 GitHub Release 路径，HTTPS 下载；文件仅允许上述两个插件目录，相对路径穿越、大小超限、重复文件、校验失败、目标目录链接会被拒绝。不做远程程序集执行或热替换当前游戏中的程序集。
+自动更新契约为 schema 1、layout `campus-minigames-v2`。下载 URL 限定本项目 GitHub Release 路径，HTTPS 下载；文件仅允许 `CampusMinigames/` 目录，相对路径穿越、大小超限、重复文件、校验失败、目标目录链接会被拒绝。不做远程程序集执行或热替换当前游戏中的程序集。
 
 ## 验证
 

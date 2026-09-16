@@ -6,15 +6,15 @@
 
 **[Steam 创意工坊：NDS小游戏拓展（仅测试版支持）](https://steamcommunity.com/sharedfiles/filedetails/?id=3802190178)**
 
-Steam 库右键《学生时代》→属性→测试版→参与测试，选择「test - 测试版」。更新后订阅本 Mod，在游戏内启用，再重启一次即可使用；整合版包含所需兼容前置，无需手动安装 BepInEx 或复制配置。
+Steam 库右键《学生时代》→属性→测试版→参与测试，选择「test - 测试版」。更新后先订阅并启用 **EC2BUnofficialPatch（UP）**，再订阅本 Mod，在游戏内启用，重启一次即可使用。本 Mod 不再附带 UP，官方 1.94 已内置 BepInEx，无需复制文件或改配置。
 
 
 最新试玩版：[0.11.1](https://github.com/360478712scy-gif/StudentAge-CampusMinigames/releases/tag/v0.11.1)，适用于《学生时代》**1.94 测试分支**。官方已内置 BepInEx，无需另装加载器。此版本作为预发布提供，不替换旧版 0.9.4 的自动更新入口。
 
-- `StudentAge-CampusMinigames-Workshop-0.11.1.zip`：官方 Mod 目录格式，根目录为 `plugins/`，包含兼容 UP 与对应源码、许可，与工坊发布内容一致，供官方 Mod 加载器使用。在游戏内启用后重启；不要再套一层 `BepInEx/plugins`。Steam 订阅玩家直接使用上方工坊链接。
-- `StudentAge-CampusMinigames-0.11.1.zip`：已有兼容 UP 的手动安装包，将 `BepInEx` 合并到游戏目录，保留两个插件目录与所有资源。此包不附 UP；如需兼容 UP，可从上面的整合包取得 `plugins/EC2BUnofficialPatch.dll` 及对应 `Source/`、许可。不要同时保留另一份同名插件或 UP。
+- `StudentAge-CampusMinigames-Workshop-版本.zip`：官方 Mod 目录格式（`preview.jpg`、`manifest.json`、`plugins/CampusMinigames.dll`、`EC2BUnofficialPatch/Minigame/`、`Cfgs/zh-cn/`、`readme/`），与工坊发布内容一致。不含 UP。
+- `StudentAge-CampusMinigames-版本.zip`：手动安装包，把 `BepInEx` 合并到游戏目录，所有内容都在 `BepInEx/plugins/CampusMinigames/` 一个目录里。升级前删掉旧版的 `plugins/CampusUno` 和 `plugins/StudentAgeCampusMinigames`。
 
-`ModAuthorTemplate` 仅供剧情 Mod 作者参考。包内不包含游戏本体、游戏程序集或玩家存档。
+包内不包含游戏本体、游戏程序集、UP 或玩家存档。Mod 目录结构与 UP 作者给出的示范一致。
 
 特别感谢**响空山老师**提供的角色剧情！剧情尚未更新完毕，敬请期待。
 
@@ -33,7 +33,8 @@ UNO、五子棋、课间泡泡、换盒寻物、算24点、俄罗斯方块、斗
 - 标题主界面F8可打开全关卡试玩；游戏内F8保留原版快速读档用途。
 - 小游戏局内Esc打开暂停菜单。UNO已移除独立F10入口。
 - 十二款游戏全部通关各得一枚徽章，集齐后获得“NDS大玩家”；徽章及效果随原生存档保存。
-- 140个带中文注释的数值设置：`BepInEx/config/studio.studentage.minigames.cfg`，退出游戏修改后重启生效。
+- 全部数值在 `Cfgs/zh-cn/` 下每款游戏一张 JSON 表（`GomokuCfg.json`、`SanguoshaCfg.json`……），格式同原版 `FightPlayerCfg.json`；把表复制到自己的 Mod 里改即可覆盖默认值，不使用 BepInEx/config。
+- 每个社交阶段自带 startTalk 对话，小游戏由对话里的 `miniGame: [游戏编号, 关卡]` 打开；普通剧情里也可以这样直接开一局（需要支持剧情启动的 UP）。
 
 详见 [掌机说明](nds/README.md)、[完整配置说明](integration/CONFIGURATION.md)、[角色Mod接入](integration/INSTALL.md)。
 
@@ -41,19 +42,22 @@ UNO、五子棋、课间泡泡、换盒寻物、算24点、俄罗斯方块、斗
 
 **0.9.2及更早版本先手动安装一次最新完整包。** 手动目录安装从0.9.3起默认后台检查并下载最新正式版，正常退出游戏后自动替换，下次启动生效。更新包同时包含两个插件和资源，带大小与SHA256校验、备份及替换失败回滚，保留存档和BepInEx配置。
 
-官方 Mod/工坊目录安装由分发渠道负责更新，不执行 GitHub 自更新。0.11.1 为预发布，需要主动下载。
+官方 Mod/工坊目录安装由分发渠道负责更新，不执行 GitHub 自更新。插件合并为单个 DLL 后更新契约升为 `campus-minigames-v2`，旧版两 DLL 布局的客户端需手动安装一次新版完整包。
 
 开关位于 `studio.studentage.campusuno.cfg` 的 `[Updates]`，设 `Enabled = false` 可关闭后续检查。网络不可用时继续使用已安装版本。详情与维护者发布流程见 [自动更新说明](updater/AUTO_UPDATE.md)。
 
 ## 从源码构建
 
-需要 Python 3、.NET 10 SDK、自己的《学生时代》Windows游戏程序集、BepInEx 5核心程序集和兼容UP DLL。游戏程序集只从本机引用，不上传仓库。
+需要 Python 3（含 Pillow）、.NET 10 SDK、自己的《学生时代》Windows游戏程序集、BepInEx 5核心程序集和用于编译引用的 UP DLL。游戏程序集与 UP 只从本机引用，不上传仓库、不打进包。
 
 ```sh
-python build.py --game "游戏目录" --bepinex "BepInEx/core目录"
-python integration/build.py --game "游戏目录" --up "EC2BUnofficialPatch.dll" --bepinex "BepInEx/core目录" --out dist/up-integration-0.10.0
-python tools/prepare_minigames_release.py --staging dist/up-integration-0.10.0
+python build.py --game "游戏目录" --up "EC2BUnofficialPatch.dll"          # 编译单个 dist/build/CampusMinigames.dll
+python integration/build.py                                              # 组装 Mod 目录 dist/mod-<版本>
+python tools/package_workshop.py --mod dist/mod-<版本>                   # 工坊 zip
+python tools/prepare_minigames_release.py --mod dist/mod-<版本>          # 手动安装包 + 更新包
 ```
+
+改过 `tools/tuning/settings.json` 后运行 `python tools/tuning/generate.py` 重新生成默认值、各游戏 JSON 表和配置说明；改过阶段台词模板后运行 `python tools/generate_stage_talks.py`。
 
 更新助手针对 .NET Framework 4.7.2 构建，通过NuGet引用程序集即可在macOS或Linux编译。Windows需对应.NET Framework运行时；CrossOver需可运行.NET Framework程序的Bottle。
 

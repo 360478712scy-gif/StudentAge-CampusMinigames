@@ -1,6 +1,6 @@
 using System;using System.Diagnostics;using System.IO;using System.Net;using System.Threading;using System.Threading.Tasks;using BepInEx;using BepInEx.Configuration;using BepInEx.Logging;using StudentAge.CampusUpdates;
 namespace StudentAge.CampusUno {
-public static class CampusVersion {public const string Value="0.11.1";public const string Repository="360478712scy-gif/StudentAge-CampusMinigames";}
+public static class CampusVersion {public const string Value="0.12.0";public const string Repository="360478712scy-gif/StudentAge-CampusMinigames";}
 internal sealed class CampusAutoUpdate {
  readonly CancellationTokenSource cancel=new CancellationTokenSource();readonly ManualLogSource log;readonly string root,cache;readonly int interval;readonly bool enabled;
  internal CampusAutoUpdate(ConfigFile config,ManualLogSource logger){log=logger;enabled=config.Bind("Updates","Enabled",true,"后台自动检查并下载本插件更新，退出游戏后安装；不会修改存档与cfg。关闭后不联网。").Value;interval=config.Bind("Updates","CheckIntervalHours",6,new ConfigDescription("两次检查之间的小时数；断网不影响游戏。",new AcceptableValueRange<int>(1,168))).Value;root=Paths.PluginPath;cache=Path.Combine(Paths.BepInExRootPath,"cache","CampusMinigamesUpdates");}

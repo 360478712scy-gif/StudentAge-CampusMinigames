@@ -1,13 +1,24 @@
 # 学生时代小游戏 · UP 接入包
 
-本版适用《学生时代》1.94 测试分支（Unity Mono，官方内置 BepInEx 5），以及提供 Begin、Cancel、Invalidated 和插件目录注册支持的 UP 1.0.23 或更新兼容版。合并版与 split 版二选一；本包不附 UP、BepInEx 加载器或游戏程序集。
+本版适用《学生时代》1.94 测试分支（官方内置 BepInEx 5），需要先订阅并启用 EC2BUnofficialPatch（UP，1.0.21 或更新）。本 Mod 不附带 UP、BepInEx 或游戏程序集。
 
-退出游戏后，将包内 BepInEx 合并到游戏根目录。CampusUno/CampusUno.dll 替换旧版同路径文件，不能同时保留另一份旧 CampusUno.dll。插件使用独立常驻宿主，无需修改 HideManagerGameObject。
+## 目录结构（创意工坊 / 官方 Mod）
 
-- CampusUno：UNO 现有四人对局与视觉界面，检测 UP 时交出旧社交拦截和结算。
-- StudentAgeCampusMinigames：公开 UP 适配器、注册 JSON、默认阶段 CFG、CC0 音效；包含附加小游戏的原生 Unity 玩法及共享扑克资源。
-- 默认元数据只在游戏内存中补缺失项，不覆盖作者 Mod 配置，不修改游戏数据文件。
-- ModAuthorTemplate 是作者参考，不是应放到游戏根目录的可自动发现 Mod。UP 不会把任意根目录 Mod 文件夹当作原生角色 Mod。
+```text
+Mod根/
+├── preview.jpg
+├── manifest.json
+├── plugins/CampusMinigames.dll                ← 唯一的插件 DLL（原 CampusUno.dll + CampusMinigames.UP.dll 已合并）
+├── EC2BUnofficialPatch/Minigame/              ← UP 注册（CustomMinigamecfg.json）与全部小游戏资源
+├── Cfgs/zh-cn/                                ← MinigameCfg / MinigameActionCfg / TalkCfg 与各游戏关卡表
+└── readme/                                    ← 说明与许可
+```
+
+手动安装（不走工坊）：把 `StudentAge-CampusMinigames-版本.zip` 里的 `BepInEx` 合并到游戏根目录，所有内容都在 `BepInEx/plugins/CampusMinigames/` 一个目录里。升级前删除旧版的 `BepInEx/plugins/CampusUno` 与 `BepInEx/plugins/StudentAgeCampusMinigames`，不要同时保留旧 DLL。
+
+- 默认元数据（MinigameCfg / MinigameActionCfg / TalkCfg）只在游戏内存中补缺失项，不覆盖作者 Mod 配置，不修改游戏数据文件。
+- 每个社交阶段有自己的 startTalk 对话，小游戏由对话里的 `miniGame: [游戏编号, 关卡]` 打开（赢走 nextTalk、输走 nextTalk2），不依赖社交事件末尾自动打开。台词在 `Cfgs/zh-cn/TalkCfg.json`，作者 Mod 提供同 id 的行即可替换。
+- 普通剧情里也能开：在 TalkCfg/OptionCfg 的 `miniGame` 写 `[9102, 3]` 即打开五子棋第 3 关（需要 UP 支持剧情启动的版本）。
 
 ## 绑定模组角色
 
@@ -64,7 +75,7 @@ UNO、五子棋和课间泡泡默认引用原版小游戏 BGM（AudioCfg 8，与
 
 三个新玩法继续使用原游戏字体、按钮和小游戏BGM8，没有新增返回、音效开关、难度或选关按钮，没有整局倒计时。找不同、打野鸭本次不注册、不包含在包中。
 
-升级时完整替换本包两个插件子目录，保留本包的 PlayingCards、Arcade、Audio、BubbleAudio 和配置。不能只拿新DLL而漏掉资源。角色Mod保持原位置。本包不包括UP或加载器。
+升级时整目录替换（工坊由 Steam 完成）。不能只拿新 DLL 而漏掉 `EC2BUnofficialPatch/Minigame` 里的资源。角色 Mod 保持原位置。本包不包括 UP 或加载器。
 
 0.6.0视觉调整：UNO与斗地主使用2D课桌，不含3D桌体。斗地主薄圆角纸牌、固定叠放顺序、接触阴影及不透明按钮；UNO中间方向环随反转牌改变旋转方向，开局按席位逐张发牌。贪吃蛇和吃豆人只保留键盘操作，WASD/方向键写在开始前说明中。
 
@@ -80,6 +91,6 @@ UNO、五子棋和课间泡泡默认引用原版小游戏 BGM（AudioCfg 8，与
 
 ## 调整小游戏参数
 
-启动一次后编辑 `BepInEx/config/studio.studentage.minigames.cfg`；140项设置均有中文注释，覆盖12款游戏。修改后重启。完整默认示例在“配置示例”，参数用途、范围和恢复方法见《小游戏配置说明.md》。保留你已有的cfg，不需要用示例覆盖。
+全部数值在 `Cfgs/zh-cn/` 下每款游戏一张 JSON 表（`GomokuCfg.json` 等，格式同原版 FightPlayerCfg），不再使用 BepInEx/config。把要改的表复制到自己 Mod 的 `Cfgs/zh-cn/`，只写要改的行和键即可覆盖默认值。参数用途、范围见《小游戏配置说明.md》。
 
 UNO单独的F10入口已移除，旧EnableF10配置项会在启动时清理。通过掌机或角色社交进入UNO即可。
