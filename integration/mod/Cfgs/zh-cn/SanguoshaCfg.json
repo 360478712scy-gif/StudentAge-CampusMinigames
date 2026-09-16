@@ -1,0 +1,101 @@
+{
+  "0": {
+    "id": 0,
+    "name": "未单独配置的角色",
+    "generals": [
+      "weiyan",
+      "yuji",
+      "zhaoyun"
+    ]
+  },
+  "3": {
+    "id": 3,
+    "name": "",
+    "generals": [
+      "ganning",
+      "zhangliao",
+      "huanggai"
+    ]
+  },
+  "101": {
+    "id": 101,
+    "name": "",
+    "generals": [
+      "liubei",
+      "sunshangxiang",
+      "huatuo"
+    ]
+  },
+  "102": {
+    "id": 102,
+    "name": "",
+    "generals": [
+      "zhouyu",
+      "simayi",
+      "zhugeliang"
+    ]
+  },
+  "103": {
+    "id": 103,
+    "name": "",
+    "generals": [
+      "huangzhong",
+      "guanyu",
+      "zhoutai"
+    ]
+  },
+  "104": {
+    "id": 104,
+    "name": "",
+    "generals": [
+      "xiaoqiao",
+      "daqiao",
+      "zhenji"
+    ]
+  },
+  "105": {
+    "id": 105,
+    "name": "",
+    "generals": [
+      "luxun",
+      "huangyueying",
+      "guojia"
+    ]
+  },
+  "201": {
+    "id": 201,
+    "name": "",
+    "generals": [
+      "machao",
+      "zhangfei",
+      "sunquan"
+    ]
+  },
+  "202": {
+    "id": 202,
+    "name": "",
+    "generals": [
+      "caocao",
+      "diaochan",
+      "zhangjiao"
+    ]
+  },
+  "203": {
+    "id": 203,
+    "name": "",
+    "generals": [
+      "lvmeng",
+      "caoren",
+      "xiahoudun"
+    ]
+  },
+  "204": {
+    "id": 204,
+    "name": "",
+    "generals": [
+      "xuchu",
+      "xiahouyuan",
+      "lvbu"
+    ]
+  }
+}

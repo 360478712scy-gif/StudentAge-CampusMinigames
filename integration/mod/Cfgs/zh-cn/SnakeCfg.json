@@ -1,0 +1,57 @@
+{
+  "910801": {
+    "id": 910801,
+    "game": 9108,
+    "level": 1,
+    "name": "第1关",
+    "parms": {
+      "StepSeconds": 0.31,
+      "Food": 5,
+      "Obstacles": 0
+    }
+  },
+  "910802": {
+    "id": 910802,
+    "game": 9108,
+    "level": 2,
+    "name": "第2关",
+    "parms": {
+      "StepSeconds": 0.29,
+      "Food": 6,
+      "Obstacles": 2
+    }
+  },
+  "910803": {
+    "id": 910803,
+    "game": 9108,
+    "level": 3,
+    "name": "第3关",
+    "parms": {
+      "StepSeconds": 0.27,
+      "Food": 7,
+      "Obstacles": 4
+    }
+  },
+  "910804": {
+    "id": 910804,
+    "game": 9108,
+    "level": 4,
+    "name": "第4关",
+    "parms": {
+      "StepSeconds": 0.25,
+      "Food": 9,
+      "Obstacles": 7
+    }
+  },
+  "910805": {
+    "id": 910805,
+    "game": 9108,
+    "level": 5,
+    "name": "第5关",
+    "parms": {
+      "StepSeconds": 0.2,
+      "Food": 10,
+      "Obstacles": 10
+    }
+  }
+}

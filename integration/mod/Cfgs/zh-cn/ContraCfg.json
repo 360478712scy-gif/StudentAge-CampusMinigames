@@ -1,0 +1,13 @@
+{
+  "9111": {
+    "id": 9111,
+    "game": 9111,
+    "level": 0,
+    "name": "魂斗罗",
+    "parms": {
+      "BossHP": 32,
+      "BatteryHP": 5,
+      "RespawnGraceSeconds": 3
+    }
+  }
+}

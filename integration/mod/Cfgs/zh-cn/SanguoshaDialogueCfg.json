@@ -1,0 +1,331 @@
+{
+  "Schema": 1,
+  "Enabled": true,
+  "MaxBubbleWidth": 300,
+  "Lines": {
+    "slash": {
+      "Text": "杀！",
+      "Expression": "slash",
+      "Seconds": 2.2
+    },
+    "jink": {
+      "Text": "闪！",
+      "Expression": "jink",
+      "Seconds": 2.2
+    }
+  },
+  "Speakers": {
+    "player_female": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "player_male": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "3": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "101": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "102": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "103": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "104": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "105": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "201": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "202": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "203": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    },
+    "204": {
+      "Expressions": {
+        "neutral": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "slash": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        },
+        "jink": {
+          "Image": "",
+          "FaceId": -1,
+          "Zoom": 1,
+          "CenterX": 0.5,
+          "CenterY": 0.5
+        }
+      },
+      "Lines": {}
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "9104": {
+    "id": 9104,
+    "game": 9104,
+    "level": 0,
+    "name": "换盒寻物",
+    "parms": {
+      "Rounds": 3,
+      "Wins": 2
+    }
+  },
+  "910401": {
+    "id": 910401,
+    "game": 9104,
+    "level": 1,
+    "name": "第1关",
+    "parms": {
+      "CloseSeconds": 0.34,
+      "SwapSeconds": 0.96,
+      "MemorySeconds": 3,
+      "GapSeconds": 0.15,
+      "Swaps": 3
+    }
+  },
+  "910402": {
+    "id": 910402,
+    "game": 9104,
+    "level": 2,
+    "name": "第2关",
+    "parms": {
+      "CloseSeconds": 0.29,
+      "SwapSeconds": 0.81,
+      "MemorySeconds": 2.8,
+      "GapSeconds": 0.13,
+      "Swaps": 4
+    }
+  },
+  "910403": {
+    "id": 910403,
+    "game": 9104,
+    "level": 3,
+    "name": "第3关",
+    "parms": {
+      "CloseSeconds": 0.24,
+      "SwapSeconds": 0.66,
+      "MemorySeconds": 2.6,
+      "GapSeconds": 0.1,
+      "Swaps": 5
+    }
+  },
+  "910404": {
+    "id": 910404,
+    "game": 9104,
+    "level": 4,
+    "name": "第4关",
+    "parms": {
+      "CloseSeconds": 0.16,
+      "SwapSeconds": 0.44,
+      "MemorySeconds": 2.1,
+      "GapSeconds": 0.07,
+      "Swaps": 7
+    }
+  },
+  "910405": {
+    "id": 910405,
+    "game": 9104,
+    "level": 5,
+    "name": "第5关",
+    "parms": {
+      "CloseSeconds": 0.08,
+      "SwapSeconds": 0.22,
+      "MemorySeconds": 1.6,
+      "GapSeconds": 0.04,
+      "Swaps": 9
+    }
+  }
+}

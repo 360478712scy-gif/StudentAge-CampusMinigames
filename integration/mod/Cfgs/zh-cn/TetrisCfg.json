@@ -1,0 +1,61 @@
+{
+  "9106": {
+    "id": 9106,
+    "game": 9106,
+    "level": 0,
+    "name": "俄罗斯方块",
+    "parms": {
+      "LockSeconds": 0.5
+    }
+  },
+  "910601": {
+    "id": 910601,
+    "game": 9106,
+    "level": 1,
+    "name": "第1关",
+    "parms": {
+      "FallSeconds": 1.05,
+      "Lines": 4
+    }
+  },
+  "910602": {
+    "id": 910602,
+    "game": 9106,
+    "level": 2,
+    "name": "第2关",
+    "parms": {
+      "FallSeconds": 0.85,
+      "Lines": 6
+    }
+  },
+  "910603": {
+    "id": 910603,
+    "game": 9106,
+    "level": 3,
+    "name": "第3关",
+    "parms": {
+      "FallSeconds": 0.68,
+      "Lines": 8
+    }
+  },
+  "910604": {
+    "id": 910604,
+    "game": 9106,
+    "level": 4,
+    "name": "第4关",
+    "parms": {
+      "FallSeconds": 0.53,
+      "Lines": 10
+    }
+  },
+  "910605": {
+    "id": 910605,
+    "game": 9106,
+    "level": 5,
+    "name": "第5关",
+    "parms": {
+      "FallSeconds": 0.42,
+      "Lines": 12
+    }
+  }
+}

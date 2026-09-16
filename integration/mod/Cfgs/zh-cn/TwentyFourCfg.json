@@ -1,0 +1,52 @@
+{
+  "910501": {
+    "id": 910501,
+    "game": 9105,
+    "level": 1,
+    "name": "第1关",
+    "parms": {
+      "Seconds": 120,
+      "Answers": 3
+    }
+  },
+  "910502": {
+    "id": 910502,
+    "game": 9105,
+    "level": 2,
+    "name": "第2关",
+    "parms": {
+      "Seconds": 120,
+      "Answers": 3
+    }
+  },
+  "910503": {
+    "id": 910503,
+    "game": 9105,
+    "level": 3,
+    "name": "第3关",
+    "parms": {
+      "Seconds": 120,
+      "Answers": 3
+    }
+  },
+  "910504": {
+    "id": 910504,
+    "game": 9105,
+    "level": 4,
+    "name": "第4关",
+    "parms": {
+      "Seconds": 120,
+      "Answers": 3
+    }
+  },
+  "910505": {
+    "id": 910505,
+    "game": 9105,
+    "level": 5,
+    "name": "第5关",
+    "parms": {
+      "Seconds": 120,
+      "Answers": 3
+    }
+  }
+}

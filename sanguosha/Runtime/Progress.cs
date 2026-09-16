@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 namespace StudentAge.Sanguosha {
  public static class Encounters {
-  static readonly Dictionary<int,string[]> rewards=new Dictionary<int,string[]> {
+  // 默认对手/奖励表；SanguoshaCfg.json 里的同名行会在启动时通过 Configure 覆盖。
+  static readonly Dictionary<int,string[]> defaults=new Dictionary<int,string[]> {
    {3,new[]{"ganning","zhangliao","huanggai"}},
    {101,new[]{"liubei","sunshangxiang","huatuo"}},
    {102,new[]{"zhouyu","simayi","zhugeliang"}},
@@ -15,11 +16,23 @@ namespace StudentAge.Sanguosha {
    {203,new[]{"lvmeng","caoren","xiahoudun"}},
    {204,new[]{"xuchu","xiahouyuan","lvbu"}}
   };
-  public static readonly string[] RewardPool=rewards.Values.SelectMany(s=>s).ToArray();
+  static readonly string[] defaultFallback={"weiyan","yuji","zhaoyun"};
+  static Dictionary<int,string[]> rewards=new Dictionary<int,string[]>(defaults);
+  static string[] fallback=defaultFallback;
+  public static string[] RewardPool{get;private set;}=defaults.Values.SelectMany(s=>s).ToArray();
   public static int[] Npcs=>rewards.Keys.ToArray();
+  public static IReadOnlyDictionary<int,string[]> Defaults=>defaults;
+  public static string[] DefaultFallback=>(string[])defaultFallback.Clone();
+  /// <summary>用 SanguoshaCfg.json 覆盖对手表：table 的键是 npc id，值是三关对手武将 id；fallbackGenerals 给未列出的角色用。传 null 表示保留默认。</summary>
+  public static void Configure(IReadOnlyDictionary<int,string[]> table,string[] fallbackGenerals=null){
+   var next=new Dictionary<int,string[]>(defaults);
+   if(table!=null)foreach(var pair in table){if(pair.Value!=null&&pair.Value.Length>=3)next[pair.Key]=(string[])pair.Value.Clone();}
+   rewards=next;fallback=fallbackGenerals!=null&&fallbackGenerals.Length>=3?(string[])fallbackGenerals.Clone():defaultFallback;
+   RewardPool=rewards.Values.SelectMany(s=>s).Distinct().ToArray();
+  }
   public static string[] For(int npcId){if(rewards.TryGetValue(npcId,out var cards))return (string[])cards.Clone();
    // Extra mod characters retain playable opponents; they do not reserve any shop cards.
-   return new[]{"weiyan","yuji","zhaoyun"};}
+   return (string[])fallback.Clone();}
   public static bool OnRoute(int init,bool male)=>init==2||init==(male?3:4);
   public static bool Sold(string general)=>general!="zhaoyun"&&!RewardPool.Contains(general);
   public static bool ShopEligible(string general,IEnumerable<int> available,IEnumerable<int> unfollowed,Progress progress){

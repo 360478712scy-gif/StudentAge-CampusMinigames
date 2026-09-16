@@ -1,0 +1,63 @@
+{
+  "9103": {
+    "id": 9103,
+    "game": 9103,
+    "level": 0,
+    "name": "课间泡泡",
+    "parms": {
+      "Lives": 2,
+      "Range": 2,
+      "Capacity": 1
+    }
+  },
+  "910301": {
+    "id": 910301,
+    "game": 9103,
+    "level": 1,
+    "name": "第1关",
+    "parms": {
+      "AiSeconds": 0.7,
+      "AiLives": 1
+    }
+  },
+  "910302": {
+    "id": 910302,
+    "game": 9103,
+    "level": 2,
+    "name": "第2关",
+    "parms": {
+      "AiSeconds": 0.53,
+      "AiLives": 2
+    }
+  },
+  "910303": {
+    "id": 910303,
+    "game": 9103,
+    "level": 3,
+    "name": "第3关",
+    "parms": {
+      "AiSeconds": 0.39,
+      "AiLives": 2
+    }
+  },
+  "910304": {
+    "id": 910304,
+    "game": 9103,
+    "level": 4,
+    "name": "第4关",
+    "parms": {
+      "AiSeconds": 0.29,
+      "AiLives": 2
+    }
+  },
+  "910305": {
+    "id": 910305,
+    "game": 9103,
+    "level": 5,
+    "name": "第5关",
+    "parms": {
+      "AiSeconds": 0.23,
+      "AiLives": 2
+    }
+  }
+}

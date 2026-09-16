@@ -1,0 +1,12 @@
+{
+  "9101": {
+    "id": 9101,
+    "game": 9101,
+    "level": 0,
+    "name": "课间 UNO",
+    "parms": {
+      "InitialCards": 7,
+      "AiDelay": 1.2
+    }
+  }
+}

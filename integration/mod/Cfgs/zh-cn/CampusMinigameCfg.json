@@ -1,0 +1,29 @@
+{
+  "NDS": {
+    "id": "NDS",
+    "name": "NDS",
+    "parms": {
+      "RoundLimit": 3,
+      "MarioHalfUnits": 1,
+      "Price": 100
+    }
+  },
+  "Audio": {
+    "id": "Audio",
+    "name": "Audio",
+    "parms": {
+      "TableBgmVolume": 0.38,
+      "MarioBgmVolume": 0.75,
+      "ContraBgmVolume": 1
+    }
+  },
+  "Social": {
+    "id": "Social",
+    "name": "无 UP 时的社交绑定",
+    "parms": {
+      "GameId": 9101,
+      "TrustCost": 4,
+      "NeedRelation": 3
+    }
+  }
+}

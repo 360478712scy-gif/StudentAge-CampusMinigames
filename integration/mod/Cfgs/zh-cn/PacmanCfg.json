@@ -1,0 +1,68 @@
+{
+  "9109": {
+    "id": 9109,
+    "game": 9109,
+    "level": 0,
+    "name": "吃豆人",
+    "parms": {
+      "Lives": 3,
+      "StepSeconds": 0.17,
+      "PowerSteps": 42
+    }
+  },
+  "910901": {
+    "id": 910901,
+    "game": 9109,
+    "level": 1,
+    "name": "第1关",
+    "parms": {
+      "Beans": 24,
+      "Guards": 1,
+      "GuardPeriod": 4
+    }
+  },
+  "910902": {
+    "id": 910902,
+    "game": 9109,
+    "level": 2,
+    "name": "第2关",
+    "parms": {
+      "Beans": 30,
+      "Guards": 1,
+      "GuardPeriod": 3
+    }
+  },
+  "910903": {
+    "id": 910903,
+    "game": 9109,
+    "level": 3,
+    "name": "第3关",
+    "parms": {
+      "Beans": 36,
+      "Guards": 2,
+      "GuardPeriod": 3
+    }
+  },
+  "910904": {
+    "id": 910904,
+    "game": 9109,
+    "level": 4,
+    "name": "第4关",
+    "parms": {
+      "Beans": 42,
+      "Guards": 2,
+      "GuardPeriod": 2
+    }
+  },
+  "910905": {
+    "id": 910905,
+    "game": 9109,
+    "level": 5,
+    "name": "第5关",
+    "parms": {
+      "Beans": 48,
+      "Guards": 3,
+      "GuardPeriod": 2
+    }
+  }
+}

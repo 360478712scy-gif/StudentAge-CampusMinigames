@@ -41,11 +41,27 @@ namespace StudentAge.CampusUno
         }
     }
 
+    /// <summary>从 CampusMinigameCfg.json 某行 parms 读取的只读数值；表里没有时用代码默认值。</summary>
+    internal sealed class TableValue<T>
+    {
+        readonly string row, key; readonly T fallback;
+        internal TableValue(string row, string key, T fallback) { this.row = row; this.key = key; this.fallback = fallback; }
+        internal T Value
+        {
+            get
+            {
+                if (!MinigameTables.TryParm(MinigameTables.Row(MinigameLevelConfig.CommonTable, row), key, out float v)) return fallback;
+                return (T)Convert.ChangeType(v, typeof(T));
+            }
+        }
+    }
+
     internal sealed class CampusRuntime : MonoBehaviour
     {
-        internal ConfigEntry<int> GameId;
-        internal ConfigEntry<float> TrustCost;
-        internal ConfigEntry<int> Relation;
+        // 无 UP 时的社交绑定默认值，来自 Cfgs/zh-cn/CampusMinigameCfg.json 的 Social 行。
+        internal readonly TableValue<int> GameId = new TableValue<int>("Social", "GameId", 9101);
+        internal readonly TableValue<float> TrustCost = new TableValue<float>("Social", "TrustCost", 4f);
+        internal readonly TableValue<int> Relation = new TableValue<int>("Social", "NeedRelation", 3);
         internal UnoTable Table;
         internal bool Pending;
         internal int Generation;
@@ -58,11 +74,8 @@ namespace StudentAge.CampusUno
         internal void Initialize(ConfigFile config, BepInEx.Logging.ManualLogSource logger)
         {
             Config = config; Logger = logger; Plugin.Instance = this;
-            MinigameConfig.Load();
+            MinigameLevelConfig.Apply();{var encounters=SanguoshaTables.LoadEncounters(out string[] fallbackGenerals);StudentAge.Sanguosha.Encounters.Configure(encounters,fallbackGenerals);}
             UnityEngine.Object.DontDestroyOnLoad(gameObject);
-            GameId = Config.Bind("Social", "GameId", 9101, new ConfigDescription("PersonGrowCfg.minigame 的绑定编号；须避开其他模组占用。", new AcceptableValueRange<int>(1000, 10000000)));
-            TrustCost = Config.Bind("Social", "TrustCost", 4f, new ConfigDescription("默认每局消耗信任；模组的首阶段配置优先。", new AcceptableValueRange<float>(0, 100)));
-            Relation = Config.Bind("Social", "NeedRelation", 3, new ConfigDescription("默认关系等级；模组的首阶段配置优先。", new AcceptableValueRange<int>(0, 6)));
             // Retire the legacy option as well as its keyboard handler.
             Config.Bind("Practice", "EnableF10", false);
             Config.Remove(new ConfigDefinition("Practice", "EnableF10"));

@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using Sdk;
 using UnityEngine;
 using StudentAge.Sanguosha;
+using StudentAge.CampusUno;
 
 namespace StudentAge.CampusMinigames {
  public sealed class SanguoshaDialogueLine {
@@ -27,11 +28,17 @@ namespace StudentAge.CampusMinigames {
    {"jink",new SanguoshaDialogueLine{Text="闪！",Expression="jink"}}
   };
   public Dictionary<string,SanguoshaSpeaker> Speakers=new Dictionary<string,SanguoshaSpeaker>();
-  public static string ConfigPath=>Path.Combine(Paths.ConfigPath,"studio.studentage.sanguosha-dialogue.json");
-  public static SanguoshaDialogueConfig Load(){try{
-   if(!File.Exists(ConfigPath)){var fresh=new SanguoshaDialogueConfig();foreach(string key in new[]{"player_female","player_male","3","101","102","103","104","105","201","202","203","204"})fresh.Speakers[key]=new SanguoshaSpeaker{Expressions=new Dictionary<string,SanguoshaExpression>{{"neutral",new SanguoshaExpression()},{"slash",new SanguoshaExpression()},{"jink",new SanguoshaExpression()}}};Directory.CreateDirectory(Path.GetDirectoryName(ConfigPath));File.WriteAllText(ConfigPath,JsonConvert.SerializeObject(fresh,Formatting.Indented));return fresh;}
-   var value=JsonConvert.DeserializeObject<SanguoshaDialogueConfig>(File.ReadAllText(ConfigPath));if(value==null||value.Schema!=1)throw new InvalidDataException("未知对话配置版本");value.Lines=value.Lines??new Dictionary<string,SanguoshaDialogueLine>();value.Speakers=value.Speakers??new Dictionary<string,SanguoshaSpeaker>();return value;
-  }catch(Exception e){Debug.LogWarning("[Sanguosha] 对话配置读取失败，使用默认值："+e.Message);return new SanguoshaDialogueConfig();}}
+  public const string Table="SanguoshaDialogueCfg";
+  /// <summary>提供过对话表的 Cfgs/zh-cn 目录（先默认后覆盖）；相对图片路径按后者优先查找。</summary>
+  public static readonly List<string> SourceDirs=new List<string>();
+  public static string ResolveRelative(string path){for(int i=SourceDirs.Count-1;i>=0;i--){string full=Path.GetFullPath(Path.Combine(SourceDirs[i],path));if(File.Exists(full))return full;}return Path.GetFullPath(Path.Combine(CampusResources.CfgRoot,path));}
+  // 默认说话人：本插件 Cfgs/zh-cn/SanguoshaDialogueCfg.json 已包含；其他 Mod 的同名文件按键合并覆盖。
+  public static SanguoshaDialogueConfig Load(){var value=new SanguoshaDialogueConfig();
+   foreach(string key in new[]{"player_female","player_male","3","101","102","103","104","105","201","202","203","204"})value.Speakers[key]=new SanguoshaSpeaker{Expressions=new Dictionary<string,SanguoshaExpression>{{"neutral",new SanguoshaExpression()},{"slash",new SanguoshaExpression()},{"jink",new SanguoshaExpression()}}};
+   SourceDirs.Clear();foreach(string dir in ModCfgLocator.CfgDirectories()){string file=Path.Combine(dir,Table+".json");if(!File.Exists(file))continue;
+    try{JsonConvert.PopulateObject(File.ReadAllText(file),value);SourceDirs.Add(dir);if(value.Schema!=1)throw new InvalidDataException("未知对话配置版本");}
+    catch(Exception e){Debug.LogWarning("[Sanguosha] 对话配置读取失败，已跳过 "+file+"："+e.Message);}}
+   value.Lines=value.Lines??new Dictionary<string,SanguoshaDialogueLine>();value.Speakers=value.Speakers??new Dictionary<string,SanguoshaSpeaker>();return value;}
  }
  public sealed partial class SanguoshaView {
   sealed class Participant {
@@ -57,7 +64,7 @@ namespace StudentAge.CampusMinigames {
      if(string.IsNullOrWhiteSpace(path)&&expression.FaceId>=0)path=RoleMgr.GetExpressionIcon(cfg,p.Cloth,expression.FaceId,grade);
      if(string.IsNullOrWhiteSpace(path))path=p.Head;if(string.IsNullOrEmpty(path))continue;string key=pair.Key;
      Action<Sprite> loaded=s=>{if(Closed||generation!=participantGeneration)return;if(s==null){Debug.LogWarning("[Sanguosha] 人物图不存在："+path);return;}try{var t=RoundParticipant(s,expression);if(p.Images.TryGetValue(key,out var old))Destroy(old);p.Images[key]=t;}catch(Exception e){Debug.LogWarning("[Sanguosha] 人物头像读取失败："+e.Message);}};
-     try{if(path.StartsWith("native:",StringComparison.Ordinal))LoadParticipantNative(path.Substring(7),loaded);else if(Path.IsPathRooted(path))ResMgr.LoadExternSpriteAsync(path,loaded,false);else if(path.StartsWith("Mods",StringComparison.Ordinal))ResMgr.LoadExternSpriteAsync(Singleton<ModCtrl>.Ins.GetFullUrl(path),loaded,false);else if(path==p.Head)LoadParticipantNative(path,loaded);else ResMgr.LoadExternSpriteAsync(Path.GetFullPath(Path.Combine(Path.GetDirectoryName(SanguoshaDialogueConfig.ConfigPath),path)),loaded,false);}
+     try{if(path.StartsWith("native:",StringComparison.Ordinal))LoadParticipantNative(path.Substring(7),loaded);else if(Path.IsPathRooted(path))ResMgr.LoadExternSpriteAsync(path,loaded,false);else if(path.StartsWith("Mods",StringComparison.Ordinal))ResMgr.LoadExternSpriteAsync(Singleton<ModCtrl>.Ins.GetFullUrl(path),loaded,false);else if(path==p.Head)LoadParticipantNative(path,loaded);else ResMgr.LoadExternSpriteAsync(SanguoshaDialogueConfig.ResolveRelative(path),loaded,false);}
      catch(Exception e){Debug.LogWarning("[Sanguosha] 人物表情读取失败："+e.Message);}
     }
    }

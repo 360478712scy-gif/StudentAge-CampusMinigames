@@ -162,7 +162,20 @@ new Setting("Audio","ContraBgmVolume",1f,0f,1f,false,"魂斗罗背景音乐音�
   var scope=new Scope(saved);values=next;activeScope=scope;return scope;
  }
  sealed class Scope:IDisposable{readonly Dictionary<string,float> saved;bool disposed;internal Scope(Dictionary<string,float> value){saved=value;}public void Dispose(){if(disposed)return;disposed=true;if(activeScope==this){values=saved;activeScope=null;}}}
- public static float Get(string section,string key,int level=0)=>values[section+"."+key+(level>0?level.ToString(System.Globalization.CultureInfo.InvariantCulture):"")];
+ /// <summary>表里定义了、但 Settings 没有列出的关卡（例如作者加的第 6 关）从这里补读；返回 null 表示没有。参数：分组、键、关卡、同键的已知设定（可为 null）。</summary>
+ public static Func<string,string,int,Setting,float?> Fallback;
+ public static float Get(string section,string key,int level=0){
+  string suffix=level>0?level.ToString(System.Globalization.CultureInfo.InvariantCulture):"";
+  if(values.TryGetValue(section+"."+key+suffix,out float v))return v;
+  if(level>0){
+   var known=Array.Find(Settings,s=>s.Section==section&&s.Key==key+"1");
+   float? extra=Fallback?.Invoke(section,key,level,known);
+   if(extra.HasValue)return extra.Value;
+   // 作者没有为这一关配数值：沿用已定义的最高一关。
+   for(int l=level-1;l>=1;l--)if(values.TryGetValue(section+"."+key+l,out v))return v;
+  }
+  throw new KeyNotFoundException("Unknown tuning parameter: "+section+"."+key+suffix);
+ }
  public static int Int(string section,string key,int level=0)=>(int)Get(section,key,level);
 }
 }
