@@ -88,14 +88,34 @@ namespace StudentAge.CampusUno
             if (File.Exists(Path.Combine(dir, "save-fixture", "fixture.save"))) yield return SocialAudit(dir);
         }
 
+        // Older builds keep PathDefine paths in static fields; newer builds compute them on demand (read-only).
+        static bool RedirectSavePaths(string saveDir)
+        {
+            var type = typeof(PathDefine);
+            var flags = System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static;
+            var names = new[] { "SAVE_PATH", "TEST_SAVE_PATH", "IMG_PATH", "MUSIC_PATH" };
+            var values = new[] { saveDir, saveDir, Path.Combine(saveDir, "Images"), Path.Combine(saveDir, "Musics") };
+            var fields = new System.Reflection.FieldInfo[names.Length];
+            for (int i = 0; i < names.Length; i++)
+            {
+                fields[i] = type.GetField(names[i], flags);
+                if (fields[i] == null || fields[i].IsInitOnly) return false;
+            }
+            for (int i = 0; i < fields.Length; i++) fields[i].SetValue(null, values[i]);
+            return true;
+        }
+
         IEnumerator SocialAudit(string dir)
         {
             var plugin = Plugin.Instance;
             int initialErrors = plugin.ErrorCount;
             // Redirect all native save paths before loading the copied fixture. Never save to the user's folder.
             string saveDir = Path.Combine(dir, "save-fixture");
-            PathDefine.SAVE_PATH = saveDir; PathDefine.TEST_SAVE_PATH = saveDir;
-            PathDefine.IMG_PATH = Path.Combine(saveDir, "Images"); PathDefine.MUSIC_PATH = Path.Combine(saveDir, "Musics");
+            if (!RedirectSavePaths(saveDir))
+            {
+                Debug.LogWarning("UNO smoke | social audit skipped: this game build computes save paths from Steam and they cannot be redirected");
+                yield break;
+            }
             bool loaded = false, done = false;
             SaveMgrEx.LoadAynsc(saveDir, "fixture.save", 16, ok => { loaded = ok; done = true; });
             float until = Time.realtimeSinceStartup + 20;
