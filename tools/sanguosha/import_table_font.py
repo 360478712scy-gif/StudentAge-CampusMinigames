@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image,ImageFont,ImageDraw
 import json,hashlib,math
 root=Path(__file__).resolve().parents[2];source=root/'research/sanguosha/official-client/fzkt.ttf';out=root/'assets/sanguosha/official';font=ImageFont.truetype(str(source),48)
-texts=''.join(p.read_text() for p in (root/'integration/src').glob('Sanguosha*.cs'))+''.join(p.read_text() for p in (root/'sanguosha/Runtime').glob('*.cs'))
+texts=''.join(p.read_text() for p in (root/'src/Games/Sanguosha').glob('Sanguosha*.cs'))+''.join(p.read_text() for p in (root/'src/Games/Sanguosha').glob('*.cs'))
 people=json.loads((root/'research/sanguosha/npcs.json').read_text())['persons'];texts+=''.join(str(p.get('name','')) for p in people)+''.join(chr(i) for i in range(32,127))+'♠♣♥♦‹›−—…'
 common=''.join(bytes((a,b)).decode('gb2312',errors='ignore') for a in range(0xA1,0xF8) for b in range(0xA1,0xFF))
 missing=bytes(font.getmask('\U0010ffff'))

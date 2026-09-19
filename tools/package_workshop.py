@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 integration/build.py 组装好的 Mod 目录打成创意工坊 zip。不发布，不附带 UP。
+"""把 tools/assemble_mod.py 组装好的 Mod 目录打成创意工坊 zip。不发布，不附带 UP。
 
 用法：python tools/package_workshop.py --mod dist/mod-<版本> [--out dist/release]
 """
@@ -17,7 +17,7 @@ FORBIDDEN_NAMES = {'EC2BUnofficialPatch.dll', 'CampusUno.dll', 'CampusMinigames.
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--mod', type=Path, required=True, help='integration/build.py 的输出目录')
+    p.add_argument('--mod', type=Path, required=True, help='tools/assemble_mod.py 的输出目录')
     p.add_argument('--out', type=Path, default=ROOT / 'dist/release')
     a = p.parse_args()
     mod = a.mod.resolve()

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/Games/Sanguosha/CardDrag.cs" />
+    <Compile Include="../../src/Games/Sanguosha/Catalog.cs" />
+    <Compile Include="../../src/Games/Sanguosha/Deck.cs" />
+    <Compile Include="../../src/Games/Sanguosha/Match.cs" />
+    <Compile Include="../../src/Games/Sanguosha/Progress.cs" />
+    <Compile Include="../../src/Games/Sanguosha/TableSelection.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Scenarios.cs" />
+    <Compile Include="DeckScenarios.cs" />
+    <Compile Include="JudgmentScenarios.cs" />
+    <Compile Include="EquipmentScenarios.cs" />
+    <Compile Include="TableSelectionTests.cs" />
+  </ItemGroup>
+</Project>

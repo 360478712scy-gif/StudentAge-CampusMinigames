@@ -18,7 +18,7 @@ for name in ['selfSeatCountdownBg','selfSeatCountdownBar','selfSeatCountdownLigh
 for name in ['gameActionBg','operate_tips_bg','gameBaseLine']:region('gameBase',name)
 for name in ['nsOptBarBg','nsOptBarChatBtnNormal','nsOptBarChatBtnOver','nsOptBarConditonNormal','nsOptBarConditionOver','nsOptBarTouXiangBtnNormal','nsOptBarTouXiangBtnOver']:region('nsOptBar',name)
 # The printed card bitmap stays intact; only official rank and suit overlays are added.
-for kind,suit,rank in re.findall(r'new Card\(\d+,"([^"]+)",Suit\.(\w+),(\d+)\)',(root/'sanguosha/Runtime/Deck.cs').read_text()):
+for kind,suit,rank in re.findall(r'new Card\(\d+,"([^"]+)",Suit\.(\w+),(\d+)\)',(root/'src/Games/Sanguosha/Deck.cs').read_text()):
  color='red' if suit in ['Heart','Diamond'] else 'black';face={1:'A',11:'J',12:'Q',13:'K'}.get(int(rank),rank)
  card=Image.open(out/'cards'/f'{kind}.png').convert('RGBA');rankim=Image.open(out/'card'/f'{color}_{face}.png');suitim=Image.open(out/'card'/f'{suit.lower()}.png');card.alpha_composite(rankim,(8+(22-rankim.width)//2,8));card.alpha_composite(suitim,(8+(22-suitim.width)//2,29))
  dest=out/'faces'/f'{kind}-{suit.lower()}-{rank}.png';dest.parent.mkdir(exist_ok=True);card.save(dest)

@@ -17,7 +17,7 @@ def fetch(pair):
 with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:records=list(pool.map(fetch,mapping.split()))
 font='/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf'
 assert Path(font).exists()
-faces=set(re.findall(r'new Card\(\d+,"(\w+)",Suit\.(\w+),(\d+)\)',(root/'sanguosha/Runtime/Deck.cs').read_text()))
+faces=set(re.findall(r'new Card\(\d+,"(\w+)",Suit\.(\w+),(\d+)\)',(root/'src/Games/Sanguosha/Deck.cs').read_text()))
 (out/'faces').mkdir(exist_ok=True)
 for kind,suit,rank in sorted(faces):
  im=Image.open(out/'cards'/f'{kind}.png').convert('RGBA');w,h=im.size;d=ImageDraw.Draw(im);ink=(142,20,15,255) if suit in ('Heart','Diamond') else (35,28,23,255)

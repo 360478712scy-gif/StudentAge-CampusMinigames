@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """从 settings.json 生成：
-1. src/MinigameTuning.cs 里的默认值表（代码内兜底）；
-2. integration/mod/Cfgs/zh-cn/<游戏>Cfg.json 各游戏关卡表（玩家/作者可复制修改）；
-3. integration/mod/Cfgs/zh-cn/CampusMinigameCfg.json 通用项（NDS、Audio、Social）；
-4. integration/CONFIGURATION.md 配置说明。
+1. src/Configuration/MinigameTuning.cs 里的默认值表（代码内兜底）；
+2. mod/Cfgs/zh-cn/<游戏>Cfg.json 各游戏关卡表（玩家/作者可复制修改）；
+3. mod/Cfgs/zh-cn/CampusMinigameCfg.json 通用项（NDS、Audio、Social）；
+4. docs/CONFIGURATION.md 配置说明。
 """
 from pathlib import Path
 import itertools
@@ -14,7 +14,7 @@ root = Path(__file__).resolve().parents[2]
 spec = json.loads((Path(__file__).parent / 'settings.json').read_text(encoding='utf-8'))
 # settings.json 里同一分组可能不相邻（Mario/Contra 分两段），按分组稳定排序后再 groupby
 sorted_spec = sorted(spec, key=lambda s: list(dict.fromkeys(x['section'] for x in spec)).index(s['section']))
-cfg_dir = root / 'integration/mod/Cfgs/zh-cn'
+cfg_dir = root / 'mod/Cfgs/zh-cn'
 cfg_dir.mkdir(parents=True, exist_ok=True)
 
 GAME_IDS = {'UNO': 9101, 'Gomoku': 9102, 'Bubble': 9103, 'Box': 9104, 'TwentyFour': 9105, 'Tetris': 9106,
@@ -38,7 +38,7 @@ def num(v):
 
 
 # 1. C# 默认值
-p = root / 'src/MinigameTuning.cs'
+p = root / 'src/Configuration/MinigameTuning.cs'
 code = p.read_text(encoding='utf-8')
 start = code.index(' public static readonly Setting[] Settings={\n') + len(' public static readonly Setting[] Settings={\n')
 end = code.index('\n };', start)
@@ -101,5 +101,5 @@ doc += ['### Social（' + COMMON + '.json）', '', '| parms 键 | 默认 | 说�
 for k, v in SOCIAL_DEFAULTS.items():
     doc.append(f'| {k} | {v} | {SOCIAL_DESC[k]} |')
 doc.append('')
-(root / 'integration/CONFIGURATION.md').write_text('\n'.join(doc) + '\n', encoding='utf-8')
+(root / 'docs/CONFIGURATION.md').write_text('\n'.join(doc) + '\n', encoding='utf-8')
 print('Generated', len(spec), 'settings into', cfg_dir)

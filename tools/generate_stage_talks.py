@@ -3,8 +3,8 @@
 而不是靠社交事件末尾自动打开。
 
 生成/更新：
-- integration/mod/Cfgs/zh-cn/TalkCfg.json   每阶段三句：开局（带 miniGame）、赢、输
-- integration/mod/Cfgs/zh-cn/MinigameActionCfg.json  的 startTalk 指向开局句
+- mod/Cfgs/zh-cn/TalkCfg.json   每阶段三句：开局（带 miniGame）、赢、输
+- mod/Cfgs/zh-cn/MinigameActionCfg.json  的 startTalk 指向开局句
 
 对话 id = 阶段 id × 1000 + 序号，例如 910201 → 910201001/910201002/910201003。
 roleIds 里的 -1 表示当前社交对象。想换台词时直接改 TalkCfg.json 里的 content，
@@ -14,7 +14,7 @@ from pathlib import Path
 import json
 
 root = Path(__file__).resolve().parents[1]
-cfg = root / 'integration/mod/Cfgs/zh-cn'
+cfg = root / 'mod/Cfgs/zh-cn'
 games = json.loads((cfg / 'MinigameCfg.json').read_text(encoding='utf-8'))
 actions = json.loads((cfg / 'MinigameActionCfg.json').read_text(encoding='utf-8'))
 

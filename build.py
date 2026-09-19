@@ -13,18 +13,11 @@ import shutil
 import subprocess
 
 ROOT = Path(__file__).resolve().parent
-VERSION = re.search(r'const string Value="([0-9.]+)"', (ROOT / 'src/CampusAutoUpdate.cs').read_text()).group(1)
+VERSION = re.search(r'const string Value="([0-9.]+)"', (ROOT / 'src/Update/CampusAutoUpdate.cs').read_text()).group(1)
 DEFAULT_GAME = Path.home() / 'Library/Application Support/CrossOver/Bottles/Steam/drive_c/Program Files (x86)/Steam/steamapps/common/StudentAge'
 ASSEMBLY = 'CampusMinigames'
 
-# 合并前的两批源码：src/ 是原 CampusUno.dll，其余是原 CampusMinigames.UP.dll。
-SOURCE_DIRS = [
-    'src', 'updater/Core',
-    'integration/src', 'bubble/Runtime', 'shared/Runtime', 'shared/Unity',
-    'retro/Runtime', 'sanguosha/Runtime', 'mahjong/Runtime', 'mahjong/Unity',
-]
-EXTRA_SOURCES = ['retro/Unity/PixelCanvas.cs']
-
+# 所有运行时代码统一编入同一个 DLL；UNO 与其他游戏一样位于 src/Games。
 
 def find_csc(dotnet):
     sdks = subprocess.check_output([dotnet, '--list-sdks'], text=True).strip().splitlines()
@@ -33,11 +26,7 @@ def find_csc(dotnet):
 
 
 def sources():
-    files = []
-    for d in SOURCE_DIRS:
-        files += sorted((ROOT / d).glob('*.cs'))
-    files += [ROOT / f for f in EXTRA_SOURCES]
-    return files
+    return sorted((ROOT / 'src').rglob('*.cs'))
 
 
 def main():
@@ -47,6 +36,7 @@ def main():
     p.add_argument('--up', type=Path, required=True, help='用于编译引用的 EC2BUnofficialPatch.dll（不会被打包）')
     p.add_argument('--out', type=Path, default=ROOT / 'dist/build')
     p.add_argument('--helper', type=Path, default=None, help='已编译好的 CampusMinigames.Updater.exe；给出时跳过 dotnet build')
+    p.add_argument('--deploy', type=Path, default=None, help='将 DLL 复制进指定目录；工坊填 Mod/plugins，手动安装填 BepInEx/plugins/CampusMinigames')
     args = p.parse_args()
 
     managed = args.game / 'StudentAge_Data/Managed'
@@ -58,8 +48,8 @@ def main():
     dotnet = shutil.which('dotnet') or '/usr/local/share/dotnet/dotnet'
     helper = args.helper
     if helper is None:
-        subprocess.run([dotnet, 'build', str(ROOT / 'updater/Helper/Updater.csproj'), '-c', 'Release', '--nologo'], check=True)
-        helper = ROOT / 'updater/Helper/bin/Release/net472/CampusMinigames.Updater.exe'
+        subprocess.run([dotnet, 'build', str(ROOT / 'tools/updater/Updater.csproj'), '-c', 'Release', '--nologo'], check=True)
+        helper = ROOT / 'tools/updater/bin/Release/net472/CampusMinigames.Updater.exe'
     assert helper.is_file(), 'Updater helper missing: ' + str(helper)
 
     out = args.out.resolve()
@@ -83,6 +73,18 @@ def main():
     }
     (out / 'build-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
     print('Built', dll)
+
+    if args.deploy is not None:
+        target_dir = args.deploy
+        target_dir.mkdir(parents=True, exist_ok=True)
+        target = target_dir / (ASSEMBLY + '.dll')
+        shutil.copy2(dll, target)
+        print('Deployed', target)
+        manifest['deployedTo'] = str(target)
+        manifest['deployedSHA256'] = hashlib.sha256(target.read_bytes()).hexdigest()
+        (out / 'build-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
+        if manifest['deployedSHA256'] != manifest['pluginSHA256']:
+            raise SystemExit('Deploy verification failed: hash mismatch')
 
 
 if __name__ == '__main__':

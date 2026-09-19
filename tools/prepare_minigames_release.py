@@ -41,7 +41,7 @@ def build_manual_tree(mod: Path, target: Path):
     (plugin / 'CustomMinigamecfg.json').write_text(json.dumps(registry, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     shutil.copytree(mod / 'Cfgs', plugin / 'Cfgs')
     shutil.copytree(mod / 'readme', plugin / 'readme')
-    shutil.copy2(ROOT / 'updater/AUTO_UPDATE.md', plugin / 'readme' / '自动更新说明.md')
+    shutil.copy2(ROOT / 'docs/AUTO_UPDATE.md', plugin / 'readme' / '自动更新说明.md')
     return plugin
 
 
@@ -53,7 +53,7 @@ def main():
     mod = a.mod.resolve()
     out = a.out.resolve()
     out.mkdir(parents=True, exist_ok=True)
-    source = (ROOT / 'src/CampusAutoUpdate.cs').read_text()
+    source = (ROOT / 'src/Update/CampusAutoUpdate.cs').read_text()
     version = re.search(r'const string Value="([0-9.]+)"', source).group(1)
     repo = re.search(r'const string Repository="([^"]+)"', source).group(1)
     assert json.loads((mod / 'manifest.json').read_text(encoding='utf-8'))['version'] == version, 'Mod 目录版本与源码不一致'

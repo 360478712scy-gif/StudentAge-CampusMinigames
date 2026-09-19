@@ -11,16 +11,22 @@ jobs:
         with:
           dotnet-version: '10.0.x'
       - name: Build Windows update helper
-        run: dotnet build updater/Helper/Updater.csproj -c Release
+        run: dotnet build tools/updater/Updater.csproj -c Release
+      - name: Check repository and plugin layout
+        run: python3 tools/check_layout.py
+      - name: Verify Workshop and manual package contracts
+        run: |
+          python3 -m pip install Pillow==12.3.0
+          python3 -m unittest discover -s tests/Layout -v
       - name: Run independent rule and update tests
         run: |
-          dotnet run --project tests/EngineTests.csproj
-          dotnet run --project shared/tests/SharedTests.csproj
-          dotnet run --project shared/second-tests/SecondTests.csproj
-          dotnet run --project integration/tests/GomokuTests.csproj
-          dotnet run --project bubble/tests/BubbleTests.csproj
-          dotnet run --project retro/tests/RetroTests.csproj
-          dotnet run --project mahjong/tests/MahjongTests.csproj
-          dotnet run --project integration/tuning-tests/TuningTests.csproj
-          dotnet run --project updater/tests/UpdateTests.csproj
-          dotnet run --project sanguosha/tests/Sanguosha.Tests.csproj
+          dotnet run --project tests/Uno/EngineTests.csproj
+          dotnet run --project tests/Shared/SharedTests.csproj
+          dotnet run --project tests/CardAndArcade/SecondTests.csproj
+          dotnet run --project tests/Gomoku/GomokuTests.csproj
+          dotnet run --project tests/Bubble/BubbleTests.csproj
+          dotnet run --project tests/Retro/RetroTests.csproj
+          dotnet run --project tests/Mahjong/MahjongTests.csproj
+          dotnet run --project tests/Tuning/TuningTests.csproj
+          dotnet run --project tests/Updater/UpdateTests.csproj
+          dotnet run --project tests/Sanguosha/Sanguosha.Tests.csproj
