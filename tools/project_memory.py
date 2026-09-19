@@ -12,6 +12,7 @@ import shutil
 import sqlite3
 import struct
 import subprocess
+import sys
 import tempfile
 import time
 
@@ -32,7 +33,7 @@ def stamp(path):
 
 
 def sources():
-    cfg = json.loads(CONFIG.read_text())
+    cfg = json.loads(CONFIG.read_text(encoding='utf-8'))
     result = {}
     for name, scope in cfg['sources'].items():
         p = Path(name)
@@ -98,7 +99,7 @@ def embed(texts):
             target = Path(tmp) / 'embedding'
             subprocess.run([compiler, '-O', str(swift), '-o', str(target)], check=True, capture_output=True, timeout=60)
             target.replace(binary)
-    p = subprocess.run([str(binary)], input=json.dumps({'texts': texts}), text=True,
+    p = subprocess.run([str(binary)], input=json.dumps({'texts': texts}), text=True, encoding='utf-8',
                        capture_output=True, check=True, timeout=60)
     data = json.loads(p.stdout)
     if len(data['vectors']) != len(texts):
@@ -376,6 +377,9 @@ def status(db, check=False):
 
 
 def main():
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(encoding='utf-8')
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('command', choices=('search', 'index', 'status', 'compact'))
     p.add_argument('query', nargs='?', default='')

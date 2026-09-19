@@ -24,6 +24,8 @@ CASES = [
 
 
 def main():
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--mode', choices=('auto', 'hybrid', 'lexical'), default='auto')
     args = parser.parse_args()
@@ -42,7 +44,7 @@ def main():
         for repeat in range(2):
             start = time.perf_counter()
             raw = subprocess.check_output([sys.executable, '-B', str(Path(__file__).with_name('project_memory.py')),
-                                           'search', query, '--mode', args.mode], text=True)
+                                           'search', query, '--mode', args.mode], text=True, encoding='utf-8')
             result = json.loads(raw)
             timings.append({'wall_ms': round((time.perf_counter()-start)*1000, 2),
                             'search_ms': result['search_ms'], 'cache_hit': result['cache_hit']})
