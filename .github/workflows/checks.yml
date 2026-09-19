@@ -14,6 +14,11 @@ jobs:
         run: dotnet build tools/updater/Updater.csproj -c Release
       - name: Check repository and plugin layout
         run: python3 tools/check_layout.py
+      - name: Test and rebuild portable project memory
+        run: |
+          python3 -m unittest discover -s tests/Memory -v
+          python3 -B tools/project_memory.py index --backend lexical
+          python3 -B tools/benchmark_project_memory.py --mode lexical
       - name: Verify Workshop and manual package contracts
         run: |
           python3 -m pip install Pillow==12.3.0

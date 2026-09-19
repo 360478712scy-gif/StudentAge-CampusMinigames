@@ -1,0 +1,502 @@
+{
+  "date": "2026-09-19",
+  "scope": "Project knowledge index only; no game CFG, saves or runtime code changes.",
+  "before": {
+    "files": 7,
+    "chunks": 93,
+    "text_characters": 34617,
+    "database_bytes": 2281472,
+    "compacted_database_bytes": 2039808
+  },
+  "after": {
+    "files": 8,
+    "chunks": 39,
+    "text_characters": 10058,
+    "database_bytes": 458752,
+    "model": "apple-natural-language-zh-Hans-sentence-r1",
+    "dimensions": "640"
+  },
+  "integrity_check": "ok",
+  "foreign_key_errors": 0,
+  "storage_regression_tests": 18,
+  "clean_portable_rebuild": {
+    "backend": "lexical-only",
+    "top3_hits": 10,
+    "queries": 10
+  },
+  "hybrid_benchmark": {
+    "model": "apple-natural-language-zh-Hans-sentence-r1",
+    "dimensions": 640,
+    "mode": "auto",
+    "files": 8,
+    "chunks": 39,
+    "text_characters": 10058,
+    "queries": 10,
+    "top3_hits": 10,
+    "cold_median_wall_ms": 60.68,
+    "cached_median_wall_ms": 39.985,
+    "cold_median_search_ms": 19.695,
+    "cached_median_search_ms": 0.14,
+    "source_files_read_per_search": 0,
+    "rows": [
+      {
+        "query": "UNO 是否独立 DLL 安装目录",
+        "expected": "UNO 与其他小游戏统一",
+        "top3": [
+          "UNO 与其他小游戏统一",
+          "结构与兼容",
+          "构建、手动包与更新"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 64.9,
+            "search_ms": 23.19,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 40.16,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "Steam 发布包目录 UP 前置",
+        "expected": "Steam 单 DLL 布局与 UP 前置",
+        "top3": [
+          "Steam 单 DLL 布局与 UP 前置",
+          "仓库与发布结构",
+          "Steam 发布包（保持不变）"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 62.12,
+            "search_ms": 20.17,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 41.6,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "JSON 参数表 作者模组覆盖",
+        "expected": "JSON 配置与作者覆盖",
+        "top3": [
+          "JSON 配置与作者覆盖",
+          "结构与兼容",
+          "UP 社交阶段与剧情 miniGame"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 59.83,
+            "search_ms": 18.62,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.88,
+            "search_ms": 0.13,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "完工审计 UI 玩法 稳定性 三个子任务",
+        "expected": "三个并行子任务",
+        "top3": [
+          "接近完工的多 agent 审计",
+          "接近完工时的多 agent 审计（必须执行）",
+          "三个并行子任务"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 60.61,
+            "search_ms": 19.68,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 40.19,
+            "search_ms": 0.13,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "审计复核停止 避免重复整轮审查",
+        "expected": "复核与停止",
+        "top3": [
+          "接近完工时的多 agent 审计（必须执行）",
+          "复核与停止",
+          "接近完工的多 agent 审计"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 60.6,
+            "search_ms": 19.87,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.57,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "UNO 摸牌摸光 洗牌 牌数",
+        "expected": "姓名头像、剩余牌数与摸光洗牌",
+        "top3": [
+          "姓名头像、剩余牌数与摸光洗牌",
+          "UNO 与其他小游戏统一",
+          "共用 UI 与音频"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 60.63,
+            "search_ms": 19.55,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 40.15,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "原生 Windows CrossOver 验收区别",
+        "expected": "不能混淆的证据",
+        "top3": [
+          "不能混淆的证据",
+          "整理验收",
+          "结构与兼容"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 60.36,
+            "search_ms": 19.68,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.99,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "源码导航 游戏规则与画面在哪",
+        "expected": "游戏规则与画面",
+        "top3": [
+          "游戏规则与画面",
+          "仓库",
+          "原版 UI 与视觉例外"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 63.56,
+            "search_ms": 19.96,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.96,
+            "search_ms": 0.13,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "防止重复扣费 奖励 会话结算",
+        "expected": "防止重复扣费与奖励",
+        "top3": [
+          "防止重复扣费与奖励",
+          "暂停、音频与释放",
+          "三个并行子任务"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 61.06,
+            "search_ms": 19.71,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.98,
+            "search_ms": 0.13,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "暂停音频 退出释放恢复输入",
+        "expected": "暂停、音频与释放",
+        "top3": [
+          "暂停、音频与释放",
+          "三个并行子任务",
+          "共用 UI 与音频"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 60.73,
+            "search_ms": 19.45,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.68,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      }
+    ]
+  },
+  "lexical_benchmark": {
+    "model": "apple-natural-language-zh-Hans-sentence-r1",
+    "dimensions": 640,
+    "mode": "lexical",
+    "files": 8,
+    "chunks": 39,
+    "text_characters": 10058,
+    "queries": 10,
+    "top3_hits": 10,
+    "cold_median_wall_ms": 41.900000000000006,
+    "cached_median_wall_ms": 40.605000000000004,
+    "cold_median_search_ms": 0.945,
+    "cached_median_search_ms": 0.14,
+    "source_files_read_per_search": 0,
+    "rows": [
+      {
+        "query": "UNO 是否独立 DLL 安装目录",
+        "expected": "UNO 与其他小游戏统一",
+        "top3": [
+          "结构与兼容",
+          "UNO 与其他小游戏统一",
+          "构建、手动包与更新"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 41.58,
+            "search_ms": 0.96,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.49,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "Steam 发布包目录 UP 前置",
+        "expected": "Steam 单 DLL 布局与 UP 前置",
+        "top3": [
+          "Steam 单 DLL 布局与 UP 前置",
+          "仓库与发布结构",
+          "Steam 发布包（保持不变）"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 40.94,
+            "search_ms": 0.94,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.91,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "JSON 参数表 作者模组覆盖",
+        "expected": "JSON 配置与作者覆盖",
+        "top3": [
+          "JSON 配置与作者覆盖",
+          "结构与兼容",
+          "UP 社交阶段与剧情 miniGame"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 42.15,
+            "search_ms": 0.93,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 41.31,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "完工审计 UI 玩法 稳定性 三个子任务",
+        "expected": "三个并行子任务",
+        "top3": [
+          "接近完工的多 agent 审计",
+          "接近完工时的多 agent 审计（必须执行）",
+          "三个并行子任务"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 42.8,
+            "search_ms": 0.95,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 40.86,
+            "search_ms": 0.15,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "审计复核停止 避免重复整轮审查",
+        "expected": "复核与停止",
+        "top3": [
+          "接近完工时的多 agent 审计（必须执行）",
+          "复核与停止",
+          "接近完工的多 agent 审计"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 41.95,
+            "search_ms": 0.95,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 41.0,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "UNO 摸牌摸光 洗牌 牌数",
+        "expected": "姓名头像、剩余牌数与摸光洗牌",
+        "top3": [
+          "姓名头像、剩余牌数与摸光洗牌",
+          "UNO 与其他小游戏统一",
+          "共用 UI 与音频"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 41.85,
+            "search_ms": 0.92,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 40.35,
+            "search_ms": 0.13,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "原生 Windows CrossOver 验收区别",
+        "expected": "不能混淆的证据",
+        "top3": [
+          "不能混淆的证据",
+          "整理验收",
+          "结构与兼容"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 41.17,
+            "search_ms": 0.94,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.95,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "源码导航 游戏规则与画面在哪",
+        "expected": "游戏规则与画面",
+        "top3": [
+          "游戏规则与画面",
+          "仓库",
+          "原版 UI 与视觉例外"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 40.84,
+            "search_ms": 0.95,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 39.89,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "防止重复扣费 奖励 会话结算",
+        "expected": "防止重复扣费与奖励",
+        "top3": [
+          "防止重复扣费与奖励",
+          "暂停、音频与释放",
+          "三个并行子任务"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 42.67,
+            "search_ms": 0.96,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 40.89,
+            "search_ms": 0.14,
+            "cache_hit": true
+          }
+        ]
+      },
+      {
+        "query": "暂停音频 退出释放恢复输入",
+        "expected": "暂停、音频与释放",
+        "top3": [
+          "暂停、音频与释放",
+          "三个并行子任务",
+          "共用 UI 与音频"
+        ],
+        "hit": true,
+        "timings": [
+          {
+            "wall_ms": 42.23,
+            "search_ms": 0.93,
+            "cache_hit": false
+          },
+          {
+            "wall_ms": 41.01,
+            "search_ms": 0.13,
+            "cache_hit": true
+          }
+        ]
+      }
+    ]
+  },
+  "comparison_limits": "Curated corpus differs from legacy corpus. Space and latency reflect the migration, not equal-corpus algorithm performance. Timing includes local machine variability; ten queries do not establish universal accuracy."
+}

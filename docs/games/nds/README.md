@@ -16,7 +16,7 @@
 
 ## 安装
 
-当前发布版本：0.9.4，支持后台下载、退出后安装更新。继续使用BepInEx5与兼容UP，把包内BepInEx合并到游戏根目录；保留CampusUno和StudentAgeCampusMinigames两个插件目录及全部资源，包括新增的Nds目录。无需Unity编辑器、浏览器组件或单独存档数据库。原有角色Mod位置和小游戏绑定保留。
+当前包基线为 0.12.0：NDS 与全部小游戏在单个 CampusMinigames.dll 内。Steam 包使用 plugins/、EC2BUnofficialPatch/Minigame/、Cfgs/zh-cn/ 结构，UP 单独作为前置；工坊更新由 Steam 提供。手动包与自动更新入口见 docs/AUTO_UPDATE.md，不再保留旧双 DLL 安装目录。
 
 仍是本地预览；其中经典游戏素材沿用此前本地参考范围，未作为公开发行包。
 

@@ -63,6 +63,8 @@ python tools/prepare_minigames_release.py --mod dist/mod-<版本>          # 手
 
 仓库目录与 Steam 发布约定见 [仓库与发布结构](docs/REPOSITORY_LAYOUT.md)。Fable 5.1 完成了单 DLL 与 JSON 表配置整合；本次在此基础上统一源码、测试和工具目录。
 
+项目记忆与检索方法见 [知识库说明](docs/PROJECT_MEMORY.md)；每款小游戏接近完工时，按 [多 agent 审计规则](docs/workflow/完工审计.md) 检查 UI、玩法/配置和稳定性。根目录 [AGENTS.md](AGENTS.md) 是后续 agent 的维护入口。
+
 规则验证：
 
 ```sh

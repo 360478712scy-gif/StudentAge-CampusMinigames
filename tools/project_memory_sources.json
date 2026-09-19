@@ -1,0 +1,13 @@
+{
+  "max_file_bytes": 32000,
+  "sources": {
+    "AGENTS.md": "current",
+    "docs/knowledge/项目现状.md": "current",
+    "docs/knowledge/界面约定.md": "current",
+    "docs/knowledge/接入与配置.md": "current",
+    "docs/knowledge/源码导航.md": "navigation",
+    "docs/knowledge/验收边界.md": "evidence",
+    "docs/workflow/完工审计.md": "current",
+    "docs/REPOSITORY_LAYOUT.md": "navigation"
+  }
+}
